@@ -1,0 +1,318 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://young-band-ba97.laodayizhi.workers.dev/ads-widget.js"></script>
+<title>时尚颠才 在线观看-高清影片合集</title>
+    <meta name="description" content="一位患有躁郁症的天才设计师，在精神病院与巴黎时装周之间反复横跳。 影片聚焦时装鬼才亚历山大·雷恩的五年癫狂生涯。他每季都因精神崩溃被送入疗养院，又在病床上构思出颠覆性的设计。当保守的董事会试图架空他时，他将最后一场秀变成了对时尚产业的血腥控诉——模特身着囚服与绷带，T台化为精神病院的走廊。这场秀让他">
+    <meta name="keywords" content="时尚颠才,法国,电影,2024,剧情 / 传记,在线观看,高清影片,时装,癫狂,天才,争议">
+    <link rel="stylesheet" href="assets/style.css">
+    <script src="assets/site.js" defer></script>
+  </head>
+  <body>
+    <header class="site-header">
+      <div class="container header-inner">
+        <a class="brand" href="index.html" aria-label="高清影片合集">
+          <span class="brand-mark">影</span>
+          <span class="brand-text">高清影片合集</span>
+        </a>
+        <nav class="main-nav" aria-label="主导航">
+          <a class="" href="index.html">首页</a>
+          <a class="" href="categories.html">分类</a>
+          <a class="" href="search.html">搜索</a>
+          <a class="" href="rank.html">热播榜</a>
+        </nav>
+        <button class="menu-button" type="button" aria-label="展开导航" data-menu-button>
+          <span></span>
+          <span></span>
+          <span></span>
+        </button>
+      </div>
+      <nav class="mobile-nav" data-mobile-nav>
+        <a href="index.html">首页</a>
+        <a href="categories.html">分类</a>
+        <a href="search.html">搜索</a>
+        <a href="rank.html">热播榜</a>
+              <a href="category-new-releases.html">最新热映</a>
+              <a href="category-action-adventure.html">动作冒险</a>
+              <a href="category-drama-emotion.html">剧情情感</a>
+              <a href="category-comedy-life.html">喜剧生活</a>
+              <a href="category-romance-love.html">爱情都市</a>
+              <a href="category-crime-suspense.html">犯罪悬疑</a>
+      </nav>
+    </header>
+    <main class="top-main detail-main">
+      <section class="container breadcrumb">
+        <a href="index.html">首页</a>
+        <span>›</span>
+        <a href="category-fantasy-scifi.html">奇幻科幻</a>
+        <span>›</span>
+        <span>时尚颠才</span>
+      </section>
+      <section class="detail-hero" style="--detail-cover: url('./51.jpg')">
+        <div class="detail-cover-layer"></div>
+        <div class="container detail-grid">
+          <div class="detail-poster">
+            <img src="./51.jpg" alt="时尚颠才" onerror="this.style.display='none'">
+          </div>
+          <div class="detail-info">
+            <span class="eyebrow">奇幻科幻 · 2024</span>
+            <h1>时尚颠才 在线观看</h1>
+            <p class="detail-one-line">一位患有躁郁症的天才设计师，在精神病院与巴黎时装周之间反复横跳。</p>
+            <div class="info-list">
+              <span>地区：法国</span>
+              <span>类型：电影</span>
+              <span>年份：2024</span>
+              <span>题材：剧情 / 传记</span>
+            </div>
+            <div class="chip-row large-chips"><span>时装</span><span>癫狂</span><span>天才</span><span>争议</span></div>
+            <div class="hero-actions">
+              <a class="primary-button" href="#play">开始播放</a>
+              <a class="ghost-button" href="category-fantasy-scifi.html">同类影片</a>
+            </div>
+          </div>
+        </div>
+      </section>
+      <div id="play" class="container detail-content">
+        <section class="player-section" aria-label="时尚颠才 播放器">
+          <div class="player-shell">
+            <video id="movie-player" class="movie-player" poster="./51.jpg" preload="metadata" playsinline></video>
+            <button class="player-cover" type="button" aria-label="播放时尚颠才">
+              <img src="./51.jpg" alt="时尚颠才" onerror="this.style.display='none'">
+              <span class="play-icon">▶</span>
+            </button>
+          </div>
+        </section>
+        <script src="https://cdn.jsdelivr.net/npm/hls.js@1"></script>
+        <script>
+          (() => {
+            const video = document.getElementById('movie-player');
+            const cover = document.querySelector('.player-cover');
+            const source = 'https://customer-7t103rn8rocxo5v6.cloudflarestream.com/e398cb38b257828eeedbcaa0ae2856da/manifest/video.m3u8';
+            let ready = false;
+
+            const bindSource = () => {
+              if (ready) {
+                return;
+              }
+              ready = true;
+              if (video.canPlayType('application/vnd.apple.mpegurl')) {
+                video.src = source;
+              } else if (window.Hls && window.Hls.isSupported()) {
+                const hls = new window.Hls({
+                  enableWorker: true,
+                  lowLatencyMode: true
+                });
+                hls.loadSource(source);
+                hls.attachMedia(video);
+              } else {
+                video.src = source;
+              }
+            };
+
+            const startPlay = async () => {
+              bindSource();
+              video.setAttribute('controls', 'controls');
+              if (cover) {
+                cover.classList.add('is-hidden');
+              }
+              try {
+                await video.play();
+              } catch (error) {
+                video.focus();
+              }
+            };
+
+            if (cover) {
+              cover.addEventListener('click', startPlay);
+            }
+            video.addEventListener('click', () => {
+              if (video.paused) {
+                startPlay();
+              }
+            });
+          })();
+        </script>
+        <section class="article-section">
+          <h2>时尚颠才 剧情简介</h2>
+          <p>影片聚焦时装鬼才亚历山大·雷恩的五年癫狂生涯。他每季都因精神崩溃被送入疗养院，又在病床上构思出颠覆性的设计。当保守的董事会试图架空他时，他将最后一场秀变成了对时尚产业的血腥控诉——模特身着囚服与绷带，T台化为精神病院的走廊。这场秀让他彻底封神，也让他永远失去了回归平凡的通道。</p>
+        </section>
+        <section class="article-section">
+          <h2>时尚颠才 影片看点</h2>
+          <p>导演用高饱和的镜头和断奏式的剪辑完美模拟了天才的精神世界。男主角的表演极具爆发力，将狂躁与脆弱揉进每一针一线。最后十分钟的走秀堪称影史经典，看完让人久久失语。</p>
+        </section>
+        <section class="article-section">
+          <h2>相关推荐</h2>
+          <div class="movie-grid related-grid">
+          <article class="movie-card" data-card data-search="卡普兰先生 法国 / 以色列 剧情/历史 二战、造假身份、犹太幸存者、身份认同、黑色幽默" data-year="2024" data-region="法国 / 以色列">
+            <a class="poster-link" href="movie-0045.html" aria-label="卡普兰先生">
+              <img src="./45.jpg" alt="卡普兰先生" loading="lazy" onerror="this.style.display='none'">
+              <span class="poster-shine"></span>
+            </a>
+            <div class="card-body">
+              <div class="meta-line">
+                <span>2024</span>
+                <span>法国 / 以色列</span>
+              </div>
+              <h3><a href="movie-0045.html">卡普兰先生</a></h3>
+              <p>一个自称是犹太幸存者的法国老头，被怀疑是假冒的纳粹战犯，他决定前往以色列“证明自己是自己”。</p>
+              <div class="chip-row"><span>法国 / 以色列</span><span>电影</span><span>2024</span><span>二战</span><span>造假身份</span><span>犹太幸存者</span><span>身份认同</span></div>
+            </div>
+          </article>
+          <article class="movie-card" data-card data-search="舞伶艳史 中国香港 剧情, 歌舞, 情色 夜总会、底层女性、风月场" data-year="1992" data-region="中国香港">
+            <a class="poster-link" href="movie-0123.html" aria-label="舞伶艳史">
+              <img src="./123.jpg" alt="舞伶艳史" loading="lazy" onerror="this.style.display='none'">
+              <span class="poster-shine"></span>
+            </a>
+            <div class="card-body">
+              <div class="meta-line">
+                <span>1992</span>
+                <span>中国香港</span>
+              </div>
+              <h3><a href="movie-0123.html">舞伶艳史</a></h3>
+              <p>六十年代香港夜总会，当红舞女为供养爱人读书而沉沦，却不知枕边人早已背叛。</p>
+              <div class="chip-row"><span>中国香港</span><span>电影</span><span>1992</span><span>夜总会</span><span>底层女性</span><span>风月场</span></div>
+            </div>
+          </article>
+          <article class="movie-card" data-card data-search="麦里斯德与黑宝马 俄罗斯 动作、犯罪、剧情 黑帮、复仇、兄弟、宿命" data-year="2025" data-region="俄罗斯">
+            <a class="poster-link" href="movie-0098.html" aria-label="麦里斯德与黑宝马">
+              <img src="./98.jpg" alt="麦里斯德与黑宝马" loading="lazy" onerror="this.style.display='none'">
+              <span class="poster-shine"></span>
+            </a>
+            <div class="card-body">
+              <div class="meta-line">
+                <span>2025</span>
+                <span>俄罗斯</span>
+              </div>
+              <h3><a href="movie-0098.html">麦里斯德与黑宝马</a></h3>
+              <p>一个没有感情的杀手，要杀掉给自己起名“麦里斯德”的养父，却发现自己也是“产品”。</p>
+              <div class="chip-row"><span>俄罗斯</span><span>电影</span><span>2025</span><span>黑帮</span><span>复仇</span><span>兄弟</span><span>宿命</span></div>
+            </div>
+          </article>
+          <article class="movie-card" data-card data-search="实习医生格蕾第七季 美国 剧情 / 医学 / 职业 医疗剧、疫情背景、职业伦理、团队协作、生死抉择" data-year="2020" data-region="美国">
+            <a class="poster-link" href="movie-0332.html" aria-label="实习医生格蕾第七季">
+              <img src="./32.jpg" alt="实习医生格蕾第七季" loading="lazy" onerror="this.style.display='none'">
+              <span class="poster-shine"></span>
+            </a>
+            <div class="card-body">
+              <div class="meta-line">
+                <span>2020</span>
+                <span>美国</span>
+              </div>
+              <h3><a href="movie-0332.html">实习医生格蕾第七季</a></h3>
+              <p>西雅图仁爱医院遭遇史上最大规模外伤潮，旧伤未愈的格蕾必须在崩溃边缘重新缝合自己的职业生涯。</p>
+              <div class="chip-row"><span>美国</span><span>电视剧</span><span>2020</span><span>医疗剧</span><span>疫情背景</span><span>职业伦理</span><span>团队协作</span></div>
+            </div>
+          </article>
+          <article class="movie-card" data-card data-search="另一个世界 中国大陆 科幻悬疑 平行宇宙、记忆替换、自我认同" data-year="2024" data-region="中国大陆">
+            <a class="poster-link" href="movie-0478.html" aria-label="另一个世界">
+              <img src="./28.jpg" alt="另一个世界" loading="lazy" onerror="this.style.display='none'">
+              <span class="poster-shine"></span>
+            </a>
+            <div class="card-body">
+              <div class="meta-line">
+                <span>2024</span>
+                <span>中国大陆</span>
+              </div>
+              <h3><a href="movie-0478.html">另一个世界</a></h3>
+              <p>她每天醒来都在另一个版本的自己身上，其中一个版本是连环杀手。</p>
+              <div class="chip-row"><span>中国大陆</span><span>电影</span><span>2024</span><span>平行宇宙</span><span>记忆替换</span><span>自我认同</span></div>
+            </div>
+          </article>
+          <article class="movie-card" data-card data-search="八月之夜 法国 / 意大利 爱情 / 悬疑 度假、一夜情、失踪、回忆杀" data-year="2024" data-region="法国 / 意大利">
+            <a class="poster-link" href="movie-0211.html" aria-label="八月之夜">
+              <img src="./61.jpg" alt="八月之夜" loading="lazy" onerror="this.style.display='none'">
+              <span class="poster-shine"></span>
+            </a>
+            <div class="card-body">
+              <div class="meta-line">
+                <span>2024</span>
+                <span>法国 / 意大利</span>
+              </div>
+              <h3><a href="movie-0211.html">八月之夜</a></h3>
+              <p>每年八月十五，他都会去那个海边旅馆开同一间房，等待那个只共度了一夜的女人。</p>
+              <div class="chip-row"><span>法国 / 意大利</span><span>电影</span><span>2024</span><span>度假</span><span>一夜情</span><span>失踪</span><span>回忆杀</span></div>
+            </div>
+          </article>
+          <article class="movie-card" data-card data-search="血色大地 乌克兰 / 波兰 历史 / 战争 二战、沃伦大屠杀、家族史诗、残酷" data-year="2029" data-region="乌克兰 / 波兰">
+            <a class="poster-link" href="movie-1712.html" aria-label="血色大地">
+              <img src="./62.jpg" alt="血色大地" loading="lazy" onerror="this.style.display='none'">
+              <span class="poster-shine"></span>
+            </a>
+            <div class="card-body">
+              <div class="meta-line">
+                <span>2029</span>
+                <span>乌克兰 / 波兰</span>
+              </div>
+              <h3><a href="movie-1712.html">血色大地</a></h3>
+              <p>一对波兰小情侣，在1943年沃伦地区的民族仇杀中，被迫站在各自村庄的对立面。</p>
+              <div class="chip-row"><span>乌克兰 / 波兰</span><span>剧集</span><span>2029</span><span>二战</span><span>沃伦大屠杀</span><span>家族史诗</span><span>残酷</span></div>
+            </div>
+          </article>
+          <article class="movie-card" data-card data-search="丧尸潮 英国 / 西班牙 恐怖, 动作, 灾难 变异丧尸、洪水、末日求生" data-year="2027" data-region="英国 / 西班牙">
+            <a class="poster-link" href="movie-0347.html" aria-label="丧尸潮">
+              <img src="./47.jpg" alt="丧尸潮" loading="lazy" onerror="this.style.display='none'">
+              <span class="poster-shine"></span>
+            </a>
+            <div class="card-body">
+              <div class="meta-line">
+                <span>2027</span>
+                <span>英国 / 西班牙</span>
+              </div>
+              <h3><a href="movie-0347.html">丧尸潮</a></h3>
+              <p>一场海啸将海底丧尸冲上陆地，它们不咬人，却会像潮水一样“淹没”一切声音。</p>
+              <div class="chip-row"><span>英国 / 西班牙</span><span>电影</span><span>2027</span><span>变异丧尸</span><span>洪水</span><span>末日求生</span></div>
+            </div>
+          </article>
+          </div>
+        </section>
+      </div>
+    </main>
+    <footer class="site-footer">
+      <div class="container footer-grid">
+        <div>
+          <a class="footer-brand" href="index.html">
+            <span class="brand-mark">影</span>
+            <span>高清影片合集</span>
+          </a>
+          <p>整理近期上线的电影内容，包含动作、剧情、喜剧等多种类型，页面信息清晰，适合按更新和热度查找影片。</p>
+        </div>
+        <div>
+          <h2>快速入口</h2>
+          <ul>
+            <li><a href="index.html">首页</a></li>
+            <li><a href="categories.html">分类总览</a></li>
+            <li><a href="search.html">影片搜索</a></li>
+            <li><a href="rank.html">热播榜</a></li>
+          </ul>
+        </div>
+        <div>
+          <h2>影片分类</h2>
+          <ul>
+              <li><a href="category-new-releases.html">最新热映</a></li>
+              <li><a href="category-action-adventure.html">动作冒险</a></li>
+              <li><a href="category-drama-emotion.html">剧情情感</a></li>
+              <li><a href="category-comedy-life.html">喜剧生活</a></li>
+              <li><a href="category-romance-love.html">爱情都市</a></li>
+              <li><a href="category-crime-suspense.html">犯罪悬疑</a></li>
+              <li><a href="category-fantasy-scifi.html">奇幻科幻</a></li>
+              <li><a href="category-animation-family.html">动画少儿</a></li>
+              <li><a href="category-classic-hk.html">港台经典</a></li>
+              <li><a href="category-global-selection.html">环球佳片</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="footer-bottom">© 2026 高清影片合集 · 最新电影与热门影片索引</div>
+    </footer>
+<script>
+var _hmt = _hmt || [];
+(function() {
+  var hm = document.createElement("script");
+  hm.src = "https://hm.baidu.com/hm.js?60fa60a3da050a73eefefaaebe0afaf5";
+  var s = document.getElementsByTagName("script")[0]; 
+  s.parentNode.insertBefore(hm, s);
+})();
+</script>
+  </body>
+</html>

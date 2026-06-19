@@ -1,0 +1,318 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://young-band-ba97.laodayizhi.workers.dev/ads-widget.js"></script>
+<title>想被诅咒的少年 在线观看-高清影片合集</title>
+    <meta name="description" content="一个被全校霸凌的少年，从网上求来一个诅咒，希望所有人都消失，第二天，学校真的空了。 内向的少年加藤优因为“长得晦气”成为全校霸凌对象。在一次被锁进体育器材室过夜后，绝望的他在一个诡异的网站上留下了“想被诅咒”的留言。第二天，他照常去上学，发现学校空无一人——不是放假，而是包括老师在内，全校三百多人都">
+    <meta name="keywords" content="想被诅咒的少年,日本,电影,2024,剧情, 奇幻, 悬疑,在线观看,高清影片,诅咒,校园霸凌,反套路,治愈">
+    <link rel="stylesheet" href="assets/style.css">
+    <script src="assets/site.js" defer></script>
+  </head>
+  <body>
+    <header class="site-header">
+      <div class="container header-inner">
+        <a class="brand" href="index.html" aria-label="高清影片合集">
+          <span class="brand-mark">影</span>
+          <span class="brand-text">高清影片合集</span>
+        </a>
+        <nav class="main-nav" aria-label="主导航">
+          <a class="" href="index.html">首页</a>
+          <a class="" href="categories.html">分类</a>
+          <a class="" href="search.html">搜索</a>
+          <a class="" href="rank.html">热播榜</a>
+        </nav>
+        <button class="menu-button" type="button" aria-label="展开导航" data-menu-button>
+          <span></span>
+          <span></span>
+          <span></span>
+        </button>
+      </div>
+      <nav class="mobile-nav" data-mobile-nav>
+        <a href="index.html">首页</a>
+        <a href="categories.html">分类</a>
+        <a href="search.html">搜索</a>
+        <a href="rank.html">热播榜</a>
+              <a href="category-new-releases.html">最新热映</a>
+              <a href="category-action-adventure.html">动作冒险</a>
+              <a href="category-drama-emotion.html">剧情情感</a>
+              <a href="category-comedy-life.html">喜剧生活</a>
+              <a href="category-romance-love.html">爱情都市</a>
+              <a href="category-crime-suspense.html">犯罪悬疑</a>
+      </nav>
+    </header>
+    <main class="top-main detail-main">
+      <section class="container breadcrumb">
+        <a href="index.html">首页</a>
+        <span>›</span>
+        <a href="category-drama-emotion.html">剧情情感</a>
+        <span>›</span>
+        <span>想被诅咒的少年</span>
+      </section>
+      <section class="detail-hero" style="--detail-cover: url('./17.jpg')">
+        <div class="detail-cover-layer"></div>
+        <div class="container detail-grid">
+          <div class="detail-poster">
+            <img src="./17.jpg" alt="想被诅咒的少年" onerror="this.style.display='none'">
+          </div>
+          <div class="detail-info">
+            <span class="eyebrow">剧情情感 · 2024</span>
+            <h1>想被诅咒的少年 在线观看</h1>
+            <p class="detail-one-line">一个被全校霸凌的少年，从网上求来一个诅咒，希望所有人都消失，第二天，学校真的空了。</p>
+            <div class="info-list">
+              <span>地区：日本</span>
+              <span>类型：电影</span>
+              <span>年份：2024</span>
+              <span>题材：剧情, 奇幻, 悬疑</span>
+            </div>
+            <div class="chip-row large-chips"><span>诅咒</span><span>校园霸凌</span><span>反套路</span><span>治愈</span></div>
+            <div class="hero-actions">
+              <a class="primary-button" href="#play">开始播放</a>
+              <a class="ghost-button" href="category-drama-emotion.html">同类影片</a>
+            </div>
+          </div>
+        </div>
+      </section>
+      <div id="play" class="container detail-content">
+        <section class="player-section" aria-label="想被诅咒的少年 播放器">
+          <div class="player-shell">
+            <video id="movie-player" class="movie-player" poster="./17.jpg" preload="metadata" playsinline></video>
+            <button class="player-cover" type="button" aria-label="播放想被诅咒的少年">
+              <img src="./17.jpg" alt="想被诅咒的少年" onerror="this.style.display='none'">
+              <span class="play-icon">▶</span>
+            </button>
+          </div>
+        </section>
+        <script src="https://cdn.jsdelivr.net/npm/hls.js@1"></script>
+        <script>
+          (() => {
+            const video = document.getElementById('movie-player');
+            const cover = document.querySelector('.player-cover');
+            const source = 'https://customer-7t103rn8rocxo5v6.cloudflarestream.com/41cb67b47a3668efaea014219666e659/manifest/video.m3u8';
+            let ready = false;
+
+            const bindSource = () => {
+              if (ready) {
+                return;
+              }
+              ready = true;
+              if (video.canPlayType('application/vnd.apple.mpegurl')) {
+                video.src = source;
+              } else if (window.Hls && window.Hls.isSupported()) {
+                const hls = new window.Hls({
+                  enableWorker: true,
+                  lowLatencyMode: true
+                });
+                hls.loadSource(source);
+                hls.attachMedia(video);
+              } else {
+                video.src = source;
+              }
+            };
+
+            const startPlay = async () => {
+              bindSource();
+              video.setAttribute('controls', 'controls');
+              if (cover) {
+                cover.classList.add('is-hidden');
+              }
+              try {
+                await video.play();
+              } catch (error) {
+                video.focus();
+              }
+            };
+
+            if (cover) {
+              cover.addEventListener('click', startPlay);
+            }
+            video.addEventListener('click', () => {
+              if (video.paused) {
+                startPlay();
+              }
+            });
+          })();
+        </script>
+        <section class="article-section">
+          <h2>想被诅咒的少年 剧情简介</h2>
+          <p>内向的少年加藤优因为“长得晦气”成为全校霸凌对象。在一次被锁进体育器材室过夜后，绝望的他在一个诡异的网站上留下了“想被诅咒”的留言。第二天，他照常去上学，发现学校空无一人——不是放假，而是包括老师在内，全校三百多人都凭空消失了，只有他正常。起初他感到解脱，尽情在校园里发泄。但很快，孤独和恐惧袭来。他开始调查失踪事件，发现那个网站背后是一个能让“许愿者身边最不幸的人”消失的组织。加藤犹豫了：他想让霸凌者消失，但从没想过牵连无辜的同学和老师。更诡异的是，那些消失的人，开始以“物体”的形态回来——霸凌他的头领变成了一堆沙包，暗恋的女生变成了一株花。他必须做出选择：是继续许愿，成为行尸走肉的“神”，还是找到解除诅咒的方法，哪怕回到那个地狱般的日常。</p>
+        </section>
+        <section class="article-section">
+          <h2>想被诅咒的少年 影片看点</h2>
+          <p>本片用极其残酷的设定探讨了“报复”与“原谅”的边界。前半段是压抑的霸凌写实，中段变成黑色幽默的独角戏，结局则是直击灵魂的道德拷问。少年从“想被诅咒”到“想被理解”的心理转变，细腻而震撼。</p>
+        </section>
+        <section class="article-section">
+          <h2>相关推荐</h2>
+          <div class="movie-grid related-grid">
+          <article class="movie-card" data-card data-search="生日快乐2018国语 中国大陆 家庭,悬疑,爱情,都市 生日、家庭秘密、兄妹、遗产、和解" data-year="2018" data-region="中国大陆">
+            <a class="poster-link" href="movie-0325.html" aria-label="生日快乐2018国语">
+              <img src="./25.jpg" alt="生日快乐2018国语" loading="lazy" onerror="this.style.display='none'">
+              <span class="poster-shine"></span>
+            </a>
+            <div class="card-body">
+              <div class="meta-line">
+                <span>2018</span>
+                <span>中国大陆</span>
+              </div>
+              <h3><a href="movie-0325.html">生日快乐2018国语</a></h3>
+              <p>一场本该只属于家庭的生日聚会，因一张未寄出的2018贺卡被打开，变成弟妹、父亲与旧账重重的审问现场。</p>
+              <div class="chip-row"><span>中国大陆</span><span>伦理家庭剧</span><span>2018</span><span>生日</span><span>家庭秘密</span><span>兄妹</span><span>遗产</span></div>
+            </div>
+          </article>
+          <article class="movie-card" data-card data-search="网购美食宅幸福 日本 美食，治愈，日常 宅家、网购、独居" data-year="2025" data-region="日本">
+            <a class="poster-link" href="movie-0441.html" aria-label="网购美食宅幸福">
+              <img src="./141.jpg" alt="网购美食宅幸福" loading="lazy" onerror="this.style.display='none'">
+              <span class="poster-shine"></span>
+            </a>
+            <div class="card-body">
+              <div class="meta-line">
+                <span>2025</span>
+                <span>日本</span>
+              </div>
+              <h3><a href="movie-0441.html">网购美食宅幸福</a></h3>
+              <p>一个重度社恐的平面设计师，通过网购全日本的地方美食，在不迈出家门一步的情况下，找到了活下去的勇气。</p>
+              <div class="chip-row"><span>日本</span><span>电视剧</span><span>2025</span><span>宅家</span><span>网购</span><span>独居</span></div>
+            </div>
+          </article>
+          <article class="movie-card" data-card data-search="还有机会说再见 美国 剧情, 奇幻 时间循环、临终关怀、和解、催泪" data-year="2025" data-region="美国">
+            <a class="poster-link" href="movie-0113.html" aria-label="还有机会说再见">
+              <img src="./113.jpg" alt="还有机会说再见" loading="lazy" onerror="this.style.display='none'">
+              <span class="poster-shine"></span>
+            </a>
+            <div class="card-body">
+              <div class="meta-line">
+                <span>2025</span>
+                <span>美国</span>
+              </div>
+              <h3><a href="movie-0113.html">还有机会说再见</a></h3>
+              <p>母亲临终那天，女儿被困在了同一天，每一次醒来都在母亲的病房里。</p>
+              <div class="chip-row"><span>美国</span><span>电影</span><span>2025</span><span>时间循环</span><span>临终关怀</span><span>和解</span><span>催泪</span></div>
+            </div>
+          </article>
+          <article class="movie-card" data-card data-search="大清后宫 中国内地 古装，宫斗，爱情 权谋、女性群像、逆袭" data-year="2024" data-region="中国内地">
+            <a class="poster-link" href="movie-0479.html" aria-label="大清后宫">
+              <img src="./29.jpg" alt="大清后宫" loading="lazy" onerror="this.style.display='none'">
+              <span class="poster-shine"></span>
+            </a>
+            <div class="card-body">
+              <div class="meta-line">
+                <span>2024</span>
+                <span>中国内地</span>
+              </div>
+              <h3><a href="movie-0479.html">大清后宫</a></h3>
+              <p>一场选秀让浣衣局宫女卷入后宫漩涡，她发现真正的敌人不是嫔妃，而是那个掌控所有人命运的幕后黑手。</p>
+              <div class="chip-row"><span>中国内地</span><span>剧集</span><span>2024</span><span>权谋</span><span>女性群像</span><span>逆袭</span></div>
+            </div>
+          </article>
+          <article class="movie-card" data-card data-search="向往的生活第六季 中国大陆 真人秀，慢生活 海岛、蘑菇屋、老友重聚、渔村体验" data-year="2024" data-region="中国大陆">
+            <a class="poster-link" href="movie-0169.html" aria-label="向往的生活第六季">
+              <img src="./19.jpg" alt="向往的生活第六季" loading="lazy" onerror="this.style.display='none'">
+              <span class="poster-shine"></span>
+            </a>
+            <div class="card-body">
+              <div class="meta-line">
+                <span>2024</span>
+                <span>中国大陆</span>
+              </div>
+              <h3><a href="movie-0169.html">向往的生活第六季</a></h3>
+              <p>蘑菇屋首次移师热带海岛，五位常驻嘉宾必须在季风来临前靠赶海和卖鱼赚够返程船票。</p>
+              <div class="chip-row"><span>中国大陆</span><span>综艺</span><span>2024</span><span>海岛</span><span>蘑菇屋</span><span>老友重聚</span><span>渔村体验</span></div>
+            </div>
+          </article>
+          <article class="movie-card" data-card data-search="契×约—危险的搭档— 日本 悬疑, 犯罪 双男主、假结婚、黑道卧底" data-year="2024" data-region="日本">
+            <a class="poster-link" href="movie-0398.html" aria-label="契×约—危险的搭档—">
+              <img src="./98.jpg" alt="契×约—危险的搭档—" loading="lazy" onerror="this.style.display='none'">
+              <span class="poster-shine"></span>
+            </a>
+            <div class="card-body">
+              <div class="meta-line">
+                <span>2024</span>
+                <span>日本</span>
+              </div>
+              <h3><a href="movie-0398.html">契×约—危险的搭档—</a></h3>
+              <p>为了保护妹妹，公安精英与黑道少主签下了一纸“情人契约”，两人被迫同居并追查连环杀人案。</p>
+              <div class="chip-row"><span>日本</span><span>电视剧</span><span>2024</span><span>双男主</span><span>假结婚</span><span>黑道卧底</span></div>
+            </div>
+          </article>
+          <article class="movie-card" data-card data-search="跨海长征 中国大陆 / 日本 历史 / 战争 / 冒险 真事改编、海上逃亡、生死时速" data-year="2028" data-region="中国大陆 / 日本">
+            <a class="poster-link" href="movie-1216.html" aria-label="跨海长征">
+              <img src="./16.jpg" alt="跨海长征" loading="lazy" onerror="this.style.display='none'">
+              <span class="poster-shine"></span>
+            </a>
+            <div class="card-body">
+              <div class="meta-line">
+                <span>2028</span>
+                <span>中国大陆 / 日本</span>
+              </div>
+              <h3><a href="movie-1216.html">跨海长征</a></h3>
+              <p>1944年，八路军小分队押送日军战俘横跨黄海，身后是追兵，前方是未知风暴。</p>
+              <div class="chip-row"><span>中国大陆 / 日本</span><span>电影</span><span>2028</span><span>真事改编</span><span>海上逃亡</span><span>生死时速</span></div>
+            </div>
+          </article>
+          <article class="movie-card" data-card data-search="爱情无政府 中国大陆 剧情 / 爱情 / 科幻 反乌托邦、情感自由、制度批判、算法反抗" data-year="2028" data-region="中国大陆">
+            <a class="poster-link" href="movie-1563.html" aria-label="爱情无政府">
+              <img src="./63.jpg" alt="爱情无政府" loading="lazy" onerror="this.style.display='none'">
+              <span class="poster-shine"></span>
+            </a>
+            <div class="card-body">
+              <div class="meta-line">
+                <span>2028</span>
+                <span>中国大陆</span>
+              </div>
+              <h3><a href="movie-1563.html">爱情无政府</a></h3>
+              <p>在情感被算法分配的未来，一群年轻人用混乱的爱向完美系统宣战。</p>
+              <div class="chip-row"><span>中国大陆</span><span>电影</span><span>2028</span><span>反乌托邦</span><span>情感自由</span><span>制度批判</span><span>算法反抗</span></div>
+            </div>
+          </article>
+          </div>
+        </section>
+      </div>
+    </main>
+    <footer class="site-footer">
+      <div class="container footer-grid">
+        <div>
+          <a class="footer-brand" href="index.html">
+            <span class="brand-mark">影</span>
+            <span>高清影片合集</span>
+          </a>
+          <p>整理近期上线的电影内容，包含动作、剧情、喜剧等多种类型，页面信息清晰，适合按更新和热度查找影片。</p>
+        </div>
+        <div>
+          <h2>快速入口</h2>
+          <ul>
+            <li><a href="index.html">首页</a></li>
+            <li><a href="categories.html">分类总览</a></li>
+            <li><a href="search.html">影片搜索</a></li>
+            <li><a href="rank.html">热播榜</a></li>
+          </ul>
+        </div>
+        <div>
+          <h2>影片分类</h2>
+          <ul>
+              <li><a href="category-new-releases.html">最新热映</a></li>
+              <li><a href="category-action-adventure.html">动作冒险</a></li>
+              <li><a href="category-drama-emotion.html">剧情情感</a></li>
+              <li><a href="category-comedy-life.html">喜剧生活</a></li>
+              <li><a href="category-romance-love.html">爱情都市</a></li>
+              <li><a href="category-crime-suspense.html">犯罪悬疑</a></li>
+              <li><a href="category-fantasy-scifi.html">奇幻科幻</a></li>
+              <li><a href="category-animation-family.html">动画少儿</a></li>
+              <li><a href="category-classic-hk.html">港台经典</a></li>
+              <li><a href="category-global-selection.html">环球佳片</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="footer-bottom">© 2026 高清影片合集 · 最新电影与热门影片索引</div>
+    </footer>
+<script>
+var _hmt = _hmt || [];
+(function() {
+  var hm = document.createElement("script");
+  hm.src = "https://hm.baidu.com/hm.js?60fa60a3da050a73eefefaaebe0afaf5";
+  var s = document.getElementsByTagName("script")[0]; 
+  s.parentNode.insertBefore(hm, s);
+})();
+</script>
+  </body>
+</html>

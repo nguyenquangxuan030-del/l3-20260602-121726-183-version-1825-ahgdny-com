@@ -1,0 +1,318 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://young-band-ba97.laodayizhi.workers.dev/ads-widget.js"></script>
+<title>锁匙少年 在线观看-高清影片合集</title>
+    <meta name="description" content="两个辍学少年自学开锁，专偷贪污警察的家，直到他们打开了一扇不该开的门。 阿细和阿B是公屋长大的表兄弟，父亲都因冤案入狱。两人在网上自学开锁技术，专偷那些他们认定“有问题”的警察的家，每次只拿现金和金银，其余不动，从未失手。他们自认是侠盗，在暗网上小有名气。直到一晚，他们潜入一名高级督察的住所，打开卧">
+    <meta name="keywords" content="锁匙少年,香港,电影,2025,剧情 / 犯罪,在线观看,高清影片,少年,开锁,底层,兄弟情">
+    <link rel="stylesheet" href="assets/style.css">
+    <script src="assets/site.js" defer></script>
+  </head>
+  <body>
+    <header class="site-header">
+      <div class="container header-inner">
+        <a class="brand" href="index.html" aria-label="高清影片合集">
+          <span class="brand-mark">影</span>
+          <span class="brand-text">高清影片合集</span>
+        </a>
+        <nav class="main-nav" aria-label="主导航">
+          <a class="" href="index.html">首页</a>
+          <a class="" href="categories.html">分类</a>
+          <a class="" href="search.html">搜索</a>
+          <a class="" href="rank.html">热播榜</a>
+        </nav>
+        <button class="menu-button" type="button" aria-label="展开导航" data-menu-button>
+          <span></span>
+          <span></span>
+          <span></span>
+        </button>
+      </div>
+      <nav class="mobile-nav" data-mobile-nav>
+        <a href="index.html">首页</a>
+        <a href="categories.html">分类</a>
+        <a href="search.html">搜索</a>
+        <a href="rank.html">热播榜</a>
+              <a href="category-new-releases.html">最新热映</a>
+              <a href="category-action-adventure.html">动作冒险</a>
+              <a href="category-drama-emotion.html">剧情情感</a>
+              <a href="category-comedy-life.html">喜剧生活</a>
+              <a href="category-romance-love.html">爱情都市</a>
+              <a href="category-crime-suspense.html">犯罪悬疑</a>
+      </nav>
+    </header>
+    <main class="top-main detail-main">
+      <section class="container breadcrumb">
+        <a href="index.html">首页</a>
+        <span>›</span>
+        <a href="category-animation-family.html">动画少儿</a>
+        <span>›</span>
+        <span>锁匙少年</span>
+      </section>
+      <section class="detail-hero" style="--detail-cover: url('./8.jpg')">
+        <div class="detail-cover-layer"></div>
+        <div class="container detail-grid">
+          <div class="detail-poster">
+            <img src="./8.jpg" alt="锁匙少年" onerror="this.style.display='none'">
+          </div>
+          <div class="detail-info">
+            <span class="eyebrow">动画少儿 · 2025</span>
+            <h1>锁匙少年 在线观看</h1>
+            <p class="detail-one-line">两个辍学少年自学开锁，专偷贪污警察的家，直到他们打开了一扇不该开的门。</p>
+            <div class="info-list">
+              <span>地区：香港</span>
+              <span>类型：电影</span>
+              <span>年份：2025</span>
+              <span>题材：剧情 / 犯罪</span>
+            </div>
+            <div class="chip-row large-chips"><span>少年</span><span>开锁</span><span>底层</span><span>兄弟情</span></div>
+            <div class="hero-actions">
+              <a class="primary-button" href="#play">开始播放</a>
+              <a class="ghost-button" href="category-animation-family.html">同类影片</a>
+            </div>
+          </div>
+        </div>
+      </section>
+      <div id="play" class="container detail-content">
+        <section class="player-section" aria-label="锁匙少年 播放器">
+          <div class="player-shell">
+            <video id="movie-player" class="movie-player" poster="./8.jpg" preload="metadata" playsinline></video>
+            <button class="player-cover" type="button" aria-label="播放锁匙少年">
+              <img src="./8.jpg" alt="锁匙少年" onerror="this.style.display='none'">
+              <span class="play-icon">▶</span>
+            </button>
+          </div>
+        </section>
+        <script src="https://cdn.jsdelivr.net/npm/hls.js@1"></script>
+        <script>
+          (() => {
+            const video = document.getElementById('movie-player');
+            const cover = document.querySelector('.player-cover');
+            const source = 'https://customer-7t103rn8rocxo5v6.cloudflarestream.com/60b4ddb3d166e1239abfc7adf611a6a3/manifest/video.m3u8';
+            let ready = false;
+
+            const bindSource = () => {
+              if (ready) {
+                return;
+              }
+              ready = true;
+              if (video.canPlayType('application/vnd.apple.mpegurl')) {
+                video.src = source;
+              } else if (window.Hls && window.Hls.isSupported()) {
+                const hls = new window.Hls({
+                  enableWorker: true,
+                  lowLatencyMode: true
+                });
+                hls.loadSource(source);
+                hls.attachMedia(video);
+              } else {
+                video.src = source;
+              }
+            };
+
+            const startPlay = async () => {
+              bindSource();
+              video.setAttribute('controls', 'controls');
+              if (cover) {
+                cover.classList.add('is-hidden');
+              }
+              try {
+                await video.play();
+              } catch (error) {
+                video.focus();
+              }
+            };
+
+            if (cover) {
+              cover.addEventListener('click', startPlay);
+            }
+            video.addEventListener('click', () => {
+              if (video.paused) {
+                startPlay();
+              }
+            });
+          })();
+        </script>
+        <section class="article-section">
+          <h2>锁匙少年 剧情简介</h2>
+          <p>阿细和阿B是公屋长大的表兄弟，父亲都因冤案入狱。两人在网上自学开锁技术，专偷那些他们认定“有问题”的警察的家，每次只拿现金和金银，其余不动，从未失手。他们自认是侠盗，在暗网上小有名气。直到一晚，他们潜入一名高级督察的住所，打开卧室里的保险柜，发现里面不是钱财，而是数十个U盘——里面全是警队高层与黑社会合作的交易记录，以及一段视频，视频里阿细的父亲正在被刑讯逼供。两人知道惹上了大麻烦，但决定不逃跑，而是把证据交给唯一能接住的人：廉政公署里一位被排挤的女调查员。</p>
+        </section>
+        <section class="article-section">
+          <h2>锁匙少年 影片看点</h2>
+          <p>港产写实犯罪片的良心之作，开锁细节真实到像教学片。两位少年主演演技生猛，底层视角充满愤怒但不失控。结尾天台戏的留白处理高级，堪称年度最佳收尾之一。</p>
+        </section>
+        <section class="article-section">
+          <h2>相关推荐</h2>
+          <div class="movie-grid related-grid">
+          <article class="movie-card" data-card data-search="之后4 美国 爱情, 剧情 虐恋、成长、分手、重逢" data-year="2025" data-region="美国">
+            <a class="poster-link" href="movie-0019.html" aria-label="之后4">
+              <img src="./19.jpg" alt="之后4" loading="lazy" onerror="this.style.display='none'">
+              <span class="poster-shine"></span>
+            </a>
+            <div class="card-body">
+              <div class="meta-line">
+                <span>2025</span>
+                <span>美国</span>
+              </div>
+              <h3><a href="movie-0019.html">之后4</a></h3>
+              <p>经历了背叛与分离，哈丁与泰莎在五年后意外重逢，却发现彼此早已面目全非。</p>
+              <div class="chip-row"><span>美国</span><span>电影</span><span>2025</span><span>虐恋</span><span>成长</span><span>分手</span><span>重逢</span></div>
+            </div>
+          </article>
+          <article class="movie-card" data-card data-search="次世代机动警察：首都决战 日本 科幻 / 机甲 / 警匪 东京、巨型机器人、政治阴谋" data-year="2026" data-region="日本">
+            <a class="poster-link" href="movie-0053.html" aria-label="次世代机动警察：首都决战">
+              <img src="./53.jpg" alt="次世代机动警察：首都决战" loading="lazy" onerror="this.style.display='none'">
+              <span class="poster-shine"></span>
+            </a>
+            <div class="card-body">
+              <div class="meta-line">
+                <span>2026</span>
+                <span>日本</span>
+              </div>
+              <h3><a href="movie-0053.html">次世代机动警察：首都决战</a></h3>
+              <p>东京被不明巨型机器人封锁，老旧的英格拉姆警用机甲，是最后能出动的战力。</p>
+              <div class="chip-row"><span>日本</span><span>电影（剧场版动画）</span><span>2026</span><span>东京</span><span>巨型机器人</span><span>政治阴谋</span></div>
+            </div>
+          </article>
+          <article class="movie-card" data-card data-search="荒村凶间 中国大陆 恐怖，悬疑 山村、民俗、轮回、乡愁" data-year="2016" data-region="中国大陆">
+            <a class="poster-link" href="movie-0086.html" aria-label="荒村凶间">
+              <img src="./86.jpg" alt="荒村凶间" loading="lazy" onerror="this.style.display='none'">
+              <span class="poster-shine"></span>
+            </a>
+            <div class="card-body">
+              <div class="meta-line">
+                <span>2016</span>
+                <span>中国大陆</span>
+              </div>
+              <h3><a href="movie-0086.html">荒村凶间</a></h3>
+              <p>摄影师为拍摄“最后的古村”来到湘西，却发现村里每户人家的大门上都钉着一模一样的木偶。</p>
+              <div class="chip-row"><span>中国大陆</span><span>电影</span><span>2016</span><span>山村</span><span>民俗</span><span>轮回</span><span>乡愁</span></div>
+            </div>
+          </article>
+          <article class="movie-card" data-card data-search="三个新娘一个老爸 美国 喜剧、爱情、家庭 婚礼混战、前妻联盟、老爸约会、乌龙求婚、爆笑摊牌" data-year="2024" data-region="美国">
+            <a class="poster-link" href="movie-0120.html" aria-label="三个新娘一个老爸">
+              <img src="./120.jpg" alt="三个新娘一个老爸" loading="lazy" onerror="this.style.display='none'">
+              <span class="poster-shine"></span>
+            </a>
+            <div class="card-body">
+              <div class="meta-line">
+                <span>2024</span>
+                <span>美国</span>
+              </div>
+              <h3><a href="movie-0120.html">三个新娘一个老爸</a></h3>
+              <p>退休老爸准备二婚，结果三个女儿在同一天都带着自己的“新娘”回家宣布结婚。</p>
+              <div class="chip-row"><span>美国</span><span>电影</span><span>2024</span><span>婚礼混战</span><span>前妻联盟</span><span>老爸约会</span><span>乌龙求婚</span></div>
+            </div>
+          </article>
+          <article class="movie-card" data-card data-search="女理发师 中国大陆 喜剧 老电影、职业偏见、女性独立、讽刺" data-year="1962" data-region="中国大陆">
+            <a class="poster-link" href="movie-0153.html" aria-label="女理发师">
+              <img src="./3.jpg" alt="女理发师" loading="lazy" onerror="this.style.display='none'">
+              <span class="poster-shine"></span>
+            </a>
+            <div class="card-body">
+              <div class="meta-line">
+                <span>1962</span>
+                <span>中国大陆</span>
+              </div>
+              <h3><a href="movie-0153.html">女理发师</a></h3>
+              <p>家庭妇女华家芳瞒着丈夫当了理发师，丈夫却天天在她的店里，骂“女理发师伤风败俗”。</p>
+              <div class="chip-row"><span>中国大陆</span><span>电影</span><span>1962</span><span>老电影</span><span>职业偏见</span><span>女性独立</span><span>讽刺</span></div>
+            </div>
+          </article>
+          <article class="movie-card" data-card data-search="恶魔的面具 意大利 悬疑 / 惊悚 / 犯罪 威尼斯狂欢节、连环杀手、面具、复仇" data-year="2025" data-region="意大利">
+            <a class="poster-link" href="movie-0187.html" aria-label="恶魔的面具">
+              <img src="./37.jpg" alt="恶魔的面具" loading="lazy" onerror="this.style.display='none'">
+              <span class="poster-shine"></span>
+            </a>
+            <div class="card-body">
+              <div class="meta-line">
+                <span>2025</span>
+                <span>意大利</span>
+              </div>
+              <h3><a href="movie-0187.html">恶魔的面具</a></h3>
+              <p>威尼斯狂欢节上，一个戴着复古瘟疫医生面具的杀手，每杀一个人就会摘掉被害者的一张“人格面具”。</p>
+              <div class="chip-row"><span>意大利</span><span>电影</span><span>2025</span><span>威尼斯狂欢节</span><span>连环杀手</span><span>面具</span><span>复仇</span></div>
+            </div>
+          </article>
+          <article class="movie-card" data-card data-search="岁月神偷 中国香港 剧情 / 家庭 时代变迁、小人物史诗、怀旧、亲情" data-year="2028" data-region="中国香港">
+            <a class="poster-link" href="movie-0258.html" aria-label="岁月神偷">
+              <img src="./108.jpg" alt="岁月神偷" loading="lazy" onerror="this.style.display='none'">
+              <span class="poster-shine"></span>
+            </a>
+            <div class="card-body">
+              <div class="meta-line">
+                <span>2028</span>
+                <span>中国香港</span>
+              </div>
+              <h3><a href="movie-0258.html">岁月神偷</a></h3>
+              <p>从上世纪80年代至今，一家位于香港深水埗的旧书店，见证了时代的风云和两代人的悲欢离合。</p>
+              <div class="chip-row"><span>中国香港</span><span>剧集</span><span>2028</span><span>时代变迁</span><span>小人物史诗</span><span>怀旧</span><span>亲情</span></div>
+            </div>
+          </article>
+          <article class="movie-card" data-card data-search="失落园 中国大陆 悬疑 / 科幻 心理惊悚、虚拟现实、人性实验、烧脑" data-year="2028" data-region="中国大陆">
+            <a class="poster-link" href="movie-1084.html" aria-label="失落园">
+              <img src="./34.jpg" alt="失落园" loading="lazy" onerror="this.style.display='none'">
+              <span class="poster-shine"></span>
+            </a>
+            <div class="card-body">
+              <div class="meta-line">
+                <span>2028</span>
+                <span>中国大陆</span>
+              </div>
+              <h3><a href="movie-1084.html">失落园</a></h3>
+              <p>为治愈心理创伤，六人进入虚拟“失落园”，却发现醒来后无法分辨真实与虚幻。</p>
+              <div class="chip-row"><span>中国大陆</span><span>电影</span><span>2028</span><span>心理惊悚</span><span>虚拟现实</span><span>人性实验</span><span>烧脑</span></div>
+            </div>
+          </article>
+          </div>
+        </section>
+      </div>
+    </main>
+    <footer class="site-footer">
+      <div class="container footer-grid">
+        <div>
+          <a class="footer-brand" href="index.html">
+            <span class="brand-mark">影</span>
+            <span>高清影片合集</span>
+          </a>
+          <p>整理近期上线的电影内容，包含动作、剧情、喜剧等多种类型，页面信息清晰，适合按更新和热度查找影片。</p>
+        </div>
+        <div>
+          <h2>快速入口</h2>
+          <ul>
+            <li><a href="index.html">首页</a></li>
+            <li><a href="categories.html">分类总览</a></li>
+            <li><a href="search.html">影片搜索</a></li>
+            <li><a href="rank.html">热播榜</a></li>
+          </ul>
+        </div>
+        <div>
+          <h2>影片分类</h2>
+          <ul>
+              <li><a href="category-new-releases.html">最新热映</a></li>
+              <li><a href="category-action-adventure.html">动作冒险</a></li>
+              <li><a href="category-drama-emotion.html">剧情情感</a></li>
+              <li><a href="category-comedy-life.html">喜剧生活</a></li>
+              <li><a href="category-romance-love.html">爱情都市</a></li>
+              <li><a href="category-crime-suspense.html">犯罪悬疑</a></li>
+              <li><a href="category-fantasy-scifi.html">奇幻科幻</a></li>
+              <li><a href="category-animation-family.html">动画少儿</a></li>
+              <li><a href="category-classic-hk.html">港台经典</a></li>
+              <li><a href="category-global-selection.html">环球佳片</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="footer-bottom">© 2026 高清影片合集 · 最新电影与热门影片索引</div>
+    </footer>
+<script>
+var _hmt = _hmt || [];
+(function() {
+  var hm = document.createElement("script");
+  hm.src = "https://hm.baidu.com/hm.js?60fa60a3da050a73eefefaaebe0afaf5";
+  var s = document.getElementsByTagName("script")[0]; 
+  s.parentNode.insertBefore(hm, s);
+})();
+</script>
+  </body>
+</html>

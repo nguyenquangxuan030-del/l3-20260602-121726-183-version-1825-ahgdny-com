@@ -1,0 +1,318 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://young-band-ba97.laodayizhi.workers.dev/ads-widget.js"></script>
+<title>交换记忆 在线观看-高清影片合集</title>
+    <meta name="description" content="为了救回车祸后陷入脑死亡的未婚妻，他同意将她的记忆植入另一个女人的大脑。 脑科学家浅野研发出“记忆移植”技术，未婚妻凉子却在这天遭遇车祸脑死亡。绝望中，他找来了与凉子脑波高度匹配的志愿者——一个身患绝症、想留下“活过证明”的神秘女子琴美。手术成功后，拥有凉子记忆的琴美醒来了，但她的言行举止时而像凉子">
+    <meta name="keywords" content="交换记忆,日本,电影,2025,科幻，悬疑，爱情,在线观看,高清影片,记忆移植,伦理困境,替身爱人">
+    <link rel="stylesheet" href="assets/style.css">
+    <script src="assets/site.js" defer></script>
+  </head>
+  <body>
+    <header class="site-header">
+      <div class="container header-inner">
+        <a class="brand" href="index.html" aria-label="高清影片合集">
+          <span class="brand-mark">影</span>
+          <span class="brand-text">高清影片合集</span>
+        </a>
+        <nav class="main-nav" aria-label="主导航">
+          <a class="" href="index.html">首页</a>
+          <a class="" href="categories.html">分类</a>
+          <a class="" href="search.html">搜索</a>
+          <a class="" href="rank.html">热播榜</a>
+        </nav>
+        <button class="menu-button" type="button" aria-label="展开导航" data-menu-button>
+          <span></span>
+          <span></span>
+          <span></span>
+        </button>
+      </div>
+      <nav class="mobile-nav" data-mobile-nav>
+        <a href="index.html">首页</a>
+        <a href="categories.html">分类</a>
+        <a href="search.html">搜索</a>
+        <a href="rank.html">热播榜</a>
+              <a href="category-new-releases.html">最新热映</a>
+              <a href="category-action-adventure.html">动作冒险</a>
+              <a href="category-drama-emotion.html">剧情情感</a>
+              <a href="category-comedy-life.html">喜剧生活</a>
+              <a href="category-romance-love.html">爱情都市</a>
+              <a href="category-crime-suspense.html">犯罪悬疑</a>
+      </nav>
+    </header>
+    <main class="top-main detail-main">
+      <section class="container breadcrumb">
+        <a href="index.html">首页</a>
+        <span>›</span>
+        <a href="category-new-releases.html">最新热映</a>
+        <span>›</span>
+        <span>交换记忆</span>
+      </section>
+      <section class="detail-hero" style="--detail-cover: url('./94.jpg')">
+        <div class="detail-cover-layer"></div>
+        <div class="container detail-grid">
+          <div class="detail-poster">
+            <img src="./94.jpg" alt="交换记忆" onerror="this.style.display='none'">
+          </div>
+          <div class="detail-info">
+            <span class="eyebrow">最新热映 · 2025</span>
+            <h1>交换记忆 在线观看</h1>
+            <p class="detail-one-line">为了救回车祸后陷入脑死亡的未婚妻，他同意将她的记忆植入另一个女人的大脑。</p>
+            <div class="info-list">
+              <span>地区：日本</span>
+              <span>类型：电影</span>
+              <span>年份：2025</span>
+              <span>题材：科幻，悬疑，爱情</span>
+            </div>
+            <div class="chip-row large-chips"><span>记忆移植</span><span>伦理困境</span><span>替身爱人</span></div>
+            <div class="hero-actions">
+              <a class="primary-button" href="#play">开始播放</a>
+              <a class="ghost-button" href="category-new-releases.html">同类影片</a>
+            </div>
+          </div>
+        </div>
+      </section>
+      <div id="play" class="container detail-content">
+        <section class="player-section" aria-label="交换记忆 播放器">
+          <div class="player-shell">
+            <video id="movie-player" class="movie-player" poster="./94.jpg" preload="metadata" playsinline></video>
+            <button class="player-cover" type="button" aria-label="播放交换记忆">
+              <img src="./94.jpg" alt="交换记忆" onerror="this.style.display='none'">
+              <span class="play-icon">▶</span>
+            </button>
+          </div>
+        </section>
+        <script src="https://cdn.jsdelivr.net/npm/hls.js@1"></script>
+        <script>
+          (() => {
+            const video = document.getElementById('movie-player');
+            const cover = document.querySelector('.player-cover');
+            const source = 'https://customer-7t103rn8rocxo5v6.cloudflarestream.com/77ae15566dde5cfb920bae4712a38399/manifest/video.m3u8';
+            let ready = false;
+
+            const bindSource = () => {
+              if (ready) {
+                return;
+              }
+              ready = true;
+              if (video.canPlayType('application/vnd.apple.mpegurl')) {
+                video.src = source;
+              } else if (window.Hls && window.Hls.isSupported()) {
+                const hls = new window.Hls({
+                  enableWorker: true,
+                  lowLatencyMode: true
+                });
+                hls.loadSource(source);
+                hls.attachMedia(video);
+              } else {
+                video.src = source;
+              }
+            };
+
+            const startPlay = async () => {
+              bindSource();
+              video.setAttribute('controls', 'controls');
+              if (cover) {
+                cover.classList.add('is-hidden');
+              }
+              try {
+                await video.play();
+              } catch (error) {
+                video.focus();
+              }
+            };
+
+            if (cover) {
+              cover.addEventListener('click', startPlay);
+            }
+            video.addEventListener('click', () => {
+              if (video.paused) {
+                startPlay();
+              }
+            });
+          })();
+        </script>
+        <section class="article-section">
+          <h2>交换记忆 剧情简介</h2>
+          <p>脑科学家浅野研发出“记忆移植”技术，未婚妻凉子却在这天遭遇车祸脑死亡。绝望中，他找来了与凉子脑波高度匹配的志愿者——一个身患绝症、想留下“活过证明”的神秘女子琴美。手术成功后，拥有凉子记忆的琴美醒来了，但她的言行举止时而像凉子，时而像另一个陌生人。浅野在享受爱人“复活”的同时，渐渐发现琴美生前曾秘密调查过他的研究，而凉子的车祸，似乎与琴美的绝症有着诡异的联系。</p>
+        </section>
+        <section class="article-section">
+          <h2>交换记忆 影片看点</h2>
+          <p>设定极富哲学思辨，将爱情中“你爱的是灵魂还是肉体”这一命题推向极致。叙事诡计高超，最后三个反转彻底颠覆观众认知。</p>
+        </section>
+        <section class="article-section">
+          <h2>相关推荐</h2>
+          <div class="movie-grid related-grid">
+          <article class="movie-card" data-card data-search="不知不觉诱惑你 意大利 喜剧 / 情色 丁度·巴拉斯、情色喜剧、意大利、欲望、女性凝视" data-year="1998" data-region="意大利">
+            <a class="poster-link" href="movie-0335.html" aria-label="不知不觉诱惑你">
+              <img src="./35.jpg" alt="不知不觉诱惑你" loading="lazy" onerror="this.style.display='none'">
+              <span class="poster-shine"></span>
+            </a>
+            <div class="card-body">
+              <div class="meta-line">
+                <span>1998</span>
+                <span>意大利</span>
+              </div>
+              <h3><a href="movie-0335.html">不知不觉诱惑你</a></h3>
+              <p>一个年轻少妇发现婆婆曾是艳星，决定拍一部“女性视角”的情色电影，让丈夫全家出演。</p>
+              <div class="chip-row"><span>意大利</span><span>电影</span><span>1998</span><span>丁度·巴拉斯</span><span>情色喜剧</span><span>意大利</span><span>欲望</span></div>
+            </div>
+          </article>
+          <article class="movie-card" data-card data-search="巨蛛怪 美国 科幻， 恐怖 B级片、变种生物、血腥、怪物" data-year="2013" data-region="美国">
+            <a class="poster-link" href="movie-0998.html" aria-label="巨蛛怪">
+              <img src="./98.jpg" alt="巨蛛怪" loading="lazy" onerror="this.style.display='none'">
+              <span class="poster-shine"></span>
+            </a>
+            <div class="card-body">
+              <div class="meta-line">
+                <span>2013</span>
+                <span>美国</span>
+              </div>
+              <h3><a href="movie-0998.html">巨蛛怪</a></h3>
+              <p>核废料泄露导致普通蜘蛛变异成摩天大楼般巨大的怪物，整个洛杉矶成为它捕食的蛛网。</p>
+              <div class="chip-row"><span>美国</span><span>电影</span><span>2013</span><span>B级片</span><span>变种生物</span><span>血腥</span><span>怪物</span></div>
+            </div>
+          </article>
+          <article class="movie-card" data-card data-search="惊慌夜谈 日本 恐怖 / 悬疑 深夜电台、连环杀人、直播、心理恐怖、闭环叙事" data-year="2019" data-region="日本">
+            <a class="poster-link" href="movie-0144.html" aria-label="惊慌夜谈">
+              <img src="./144.jpg" alt="惊慌夜谈" loading="lazy" onerror="this.style.display='none'">
+              <span class="poster-shine"></span>
+            </a>
+            <div class="card-body">
+              <div class="meta-line">
+                <span>2019</span>
+                <span>日本</span>
+              </div>
+              <h3><a href="movie-0144.html">惊慌夜谈</a></h3>
+              <p>一个深夜电台接听了神秘来电，对方声称正在按照主持人的故事脚本杀人。</p>
+              <div class="chip-row"><span>日本</span><span>电影</span><span>2019</span><span>深夜电台</span><span>连环杀人</span><span>直播</span><span>心理恐怖</span></div>
+            </div>
+          </article>
+          <article class="movie-card" data-card data-search="童军 美国 喜剧 / 冒险 / 家庭 童子军、荒诞喜剧、儿童冒险、环保主题" data-year="2022" data-region="美国">
+            <a class="poster-link" href="movie-0882.html" aria-label="童军">
+              <img src="./132.jpg" alt="童军" loading="lazy" onerror="this.style.display='none'">
+              <span class="poster-shine"></span>
+            </a>
+            <div class="card-body">
+              <div class="meta-line">
+                <span>2022</span>
+                <span>美国</span>
+              </div>
+              <h3><a href="movie-0882.html">童军</a></h3>
+              <p>三个童子军在森林里迷路，却意外发现了一伙盗猎者的惊天阴谋。</p>
+              <div class="chip-row"><span>美国</span><span>电影</span><span>2022</span><span>童子军</span><span>荒诞喜剧</span><span>儿童冒险</span><span>环保主题</span></div>
+            </div>
+          </article>
+          <article class="movie-card" data-card data-search="我曾来过 美国 悬疑, 科幻 时空轮回、谋杀、侦探、低配版信条" data-year="2020" data-region="美国">
+            <a class="poster-link" href="movie-0456.html" aria-label="我曾来过">
+              <img src="./6.jpg" alt="我曾来过" loading="lazy" onerror="this.style.display='none'">
+              <span class="poster-shine"></span>
+            </a>
+            <div class="card-body">
+              <div class="meta-line">
+                <span>2020</span>
+                <span>美国</span>
+              </div>
+              <h3><a href="movie-0456.html">我曾来过</a></h3>
+              <p>一位退休侦探发现自己的老照片里，总有一个神秘的黑影，而他追踪发现，那个黑影正是试图“修正时间线”的未来自己。</p>
+              <div class="chip-row"><span>美国</span><span>电影</span><span>2020</span><span>时空轮回</span><span>谋杀</span><span>侦探</span><span>低配版信条</span></div>
+            </div>
+          </article>
+          <article class="movie-card" data-card data-search="玩偶盒惊魂2 英国 恐怖、惊悚 鬼娃、灵媒、诅咒转移" data-year="2024" data-region="英国">
+            <a class="poster-link" href="movie-0777.html" aria-label="玩偶盒惊魂2">
+              <img src="./27.jpg" alt="玩偶盒惊魂2" loading="lazy" onerror="this.style.display='none'">
+              <span class="poster-shine"></span>
+            </a>
+            <div class="card-body">
+              <div class="meta-line">
+                <span>2024</span>
+                <span>英国</span>
+              </div>
+              <h3><a href="movie-0777.html">玩偶盒惊魂2</a></h3>
+              <p>第一部的幸存者将玩偶盒捐给博物馆，却发现凡是看过它的人，都变成了盒中的玩偶。</p>
+              <div class="chip-row"><span>英国</span><span>电影</span><span>2024</span><span>鬼娃</span><span>灵媒</span><span>诅咒转移</span></div>
+            </div>
+          </article>
+          <article class="movie-card" data-card data-search="悲兮魔兽 中国大陆 剧情 / 奇幻 / 社会 煤矿、怪兽、现实、寓言" data-year="2027" data-region="中国大陆">
+            <a class="poster-link" href="movie-0493.html" aria-label="悲兮魔兽">
+              <img src="./43.jpg" alt="悲兮魔兽" loading="lazy" onerror="this.style.display='none'">
+              <span class="poster-shine"></span>
+            </a>
+            <div class="card-body">
+              <div class="meta-line">
+                <span>2027</span>
+                <span>中国大陆</span>
+              </div>
+              <h3><a href="movie-0493.html">悲兮魔兽</a></h3>
+              <p>在一片资源枯竭的矿区，一名矿工的儿子画出了一只“魔兽”，它吞噬垃圾，却吐出有毒的黄金。</p>
+              <div class="chip-row"><span>中国大陆</span><span>电影</span><span>2027</span><span>煤矿</span><span>怪兽</span><span>现实</span><span>寓言</span></div>
+            </div>
+          </article>
+          <article class="movie-card" data-card data-search="啦啦队的反击 美国 喜剧 / 运动 女力觉醒、校园逆袭、爽快复仇、热舞竞技" data-year="2027" data-region="美国">
+            <a class="poster-link" href="movie-0985.html" aria-label="啦啦队的反击">
+              <img src="./85.jpg" alt="啦啦队的反击" loading="lazy" onerror="this.style.display='none'">
+              <span class="poster-shine"></span>
+            </a>
+            <div class="card-body">
+              <div class="meta-line">
+                <span>2027</span>
+                <span>美国</span>
+              </div>
+              <h3><a href="movie-0985.html">啦啦队的反击</a></h3>
+              <p>被精英啦啦队开除后，一群“怪咖”女生组建了一支史上最“不齐”的啦啦队，向冠军发起冲击。</p>
+              <div class="chip-row"><span>美国</span><span>电影</span><span>2027</span><span>女力觉醒</span><span>校园逆袭</span><span>爽快复仇</span><span>热舞竞技</span></div>
+            </div>
+          </article>
+          </div>
+        </section>
+      </div>
+    </main>
+    <footer class="site-footer">
+      <div class="container footer-grid">
+        <div>
+          <a class="footer-brand" href="index.html">
+            <span class="brand-mark">影</span>
+            <span>高清影片合集</span>
+          </a>
+          <p>整理近期上线的电影内容，包含动作、剧情、喜剧等多种类型，页面信息清晰，适合按更新和热度查找影片。</p>
+        </div>
+        <div>
+          <h2>快速入口</h2>
+          <ul>
+            <li><a href="index.html">首页</a></li>
+            <li><a href="categories.html">分类总览</a></li>
+            <li><a href="search.html">影片搜索</a></li>
+            <li><a href="rank.html">热播榜</a></li>
+          </ul>
+        </div>
+        <div>
+          <h2>影片分类</h2>
+          <ul>
+              <li><a href="category-new-releases.html">最新热映</a></li>
+              <li><a href="category-action-adventure.html">动作冒险</a></li>
+              <li><a href="category-drama-emotion.html">剧情情感</a></li>
+              <li><a href="category-comedy-life.html">喜剧生活</a></li>
+              <li><a href="category-romance-love.html">爱情都市</a></li>
+              <li><a href="category-crime-suspense.html">犯罪悬疑</a></li>
+              <li><a href="category-fantasy-scifi.html">奇幻科幻</a></li>
+              <li><a href="category-animation-family.html">动画少儿</a></li>
+              <li><a href="category-classic-hk.html">港台经典</a></li>
+              <li><a href="category-global-selection.html">环球佳片</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="footer-bottom">© 2026 高清影片合集 · 最新电影与热门影片索引</div>
+    </footer>
+<script>
+var _hmt = _hmt || [];
+(function() {
+  var hm = document.createElement("script");
+  hm.src = "https://hm.baidu.com/hm.js?60fa60a3da050a73eefefaaebe0afaf5";
+  var s = document.getElementsByTagName("script")[0]; 
+  s.parentNode.insertBefore(hm, s);
+})();
+</script>
+  </body>
+</html>

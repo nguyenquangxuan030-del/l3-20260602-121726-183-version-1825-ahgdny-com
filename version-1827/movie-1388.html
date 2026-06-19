@@ -1,0 +1,318 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://young-band-ba97.laodayizhi.workers.dev/ads-widget.js"></script>
+<title>黑色东京 在线观看-高清影片合集</title>
+    <meta name="description" content="在近未来的东京，一名失忆杀手在一具尸体口袋里发现了一张自己与目标合影的照片，他开始追杀自己。 2035年，东京，高耸的全息广告牌下是腐朽的贫民窟。杀手“鸦”在一次任务中被电击失忆，醒来时身边只有一具陌生尸体和一张照片：照片上他与目标含笑合影。他开始追寻身份，发现自己属于一个可以随意编辑记忆的“灵魂编">
+    <meta name="keywords" content="黑色东京,日本,电影,2025,犯罪 / 悬疑 / 黑色电影,在线观看,高清影片,黑帮,赛博朋克,杀手,记忆篡改,阴谋">
+    <link rel="stylesheet" href="assets/style.css">
+    <script src="assets/site.js" defer></script>
+  </head>
+  <body>
+    <header class="site-header">
+      <div class="container header-inner">
+        <a class="brand" href="index.html" aria-label="高清影片合集">
+          <span class="brand-mark">影</span>
+          <span class="brand-text">高清影片合集</span>
+        </a>
+        <nav class="main-nav" aria-label="主导航">
+          <a class="" href="index.html">首页</a>
+          <a class="" href="categories.html">分类</a>
+          <a class="" href="search.html">搜索</a>
+          <a class="" href="rank.html">热播榜</a>
+        </nav>
+        <button class="menu-button" type="button" aria-label="展开导航" data-menu-button>
+          <span></span>
+          <span></span>
+          <span></span>
+        </button>
+      </div>
+      <nav class="mobile-nav" data-mobile-nav>
+        <a href="index.html">首页</a>
+        <a href="categories.html">分类</a>
+        <a href="search.html">搜索</a>
+        <a href="rank.html">热播榜</a>
+              <a href="category-new-releases.html">最新热映</a>
+              <a href="category-action-adventure.html">动作冒险</a>
+              <a href="category-drama-emotion.html">剧情情感</a>
+              <a href="category-comedy-life.html">喜剧生活</a>
+              <a href="category-romance-love.html">爱情都市</a>
+              <a href="category-crime-suspense.html">犯罪悬疑</a>
+      </nav>
+    </header>
+    <main class="top-main detail-main">
+      <section class="container breadcrumb">
+        <a href="index.html">首页</a>
+        <span>›</span>
+        <a href="category-classic-hk.html">港台经典</a>
+        <span>›</span>
+        <span>黑色东京</span>
+      </section>
+      <section class="detail-hero" style="--detail-cover: url('./38.jpg')">
+        <div class="detail-cover-layer"></div>
+        <div class="container detail-grid">
+          <div class="detail-poster">
+            <img src="./38.jpg" alt="黑色东京" onerror="this.style.display='none'">
+          </div>
+          <div class="detail-info">
+            <span class="eyebrow">港台经典 · 2025</span>
+            <h1>黑色东京 在线观看</h1>
+            <p class="detail-one-line">在近未来的东京，一名失忆杀手在一具尸体口袋里发现了一张自己与目标合影的照片，他开始追杀自己。</p>
+            <div class="info-list">
+              <span>地区：日本</span>
+              <span>类型：电影</span>
+              <span>年份：2025</span>
+              <span>题材：犯罪 / 悬疑 / 黑色电影</span>
+            </div>
+            <div class="chip-row large-chips"><span>黑帮</span><span>赛博朋克</span><span>杀手</span><span>记忆篡改</span><span>阴谋</span></div>
+            <div class="hero-actions">
+              <a class="primary-button" href="#play">开始播放</a>
+              <a class="ghost-button" href="category-classic-hk.html">同类影片</a>
+            </div>
+          </div>
+        </div>
+      </section>
+      <div id="play" class="container detail-content">
+        <section class="player-section" aria-label="黑色东京 播放器">
+          <div class="player-shell">
+            <video id="movie-player" class="movie-player" poster="./38.jpg" preload="metadata" playsinline></video>
+            <button class="player-cover" type="button" aria-label="播放黑色东京">
+              <img src="./38.jpg" alt="黑色东京" onerror="this.style.display='none'">
+              <span class="play-icon">▶</span>
+            </button>
+          </div>
+        </section>
+        <script src="https://cdn.jsdelivr.net/npm/hls.js@1"></script>
+        <script>
+          (() => {
+            const video = document.getElementById('movie-player');
+            const cover = document.querySelector('.player-cover');
+            const source = 'https://customer-7t103rn8rocxo5v6.cloudflarestream.com/1116997bf50b78f22bbfaced8975a021/manifest/video.m3u8';
+            let ready = false;
+
+            const bindSource = () => {
+              if (ready) {
+                return;
+              }
+              ready = true;
+              if (video.canPlayType('application/vnd.apple.mpegurl')) {
+                video.src = source;
+              } else if (window.Hls && window.Hls.isSupported()) {
+                const hls = new window.Hls({
+                  enableWorker: true,
+                  lowLatencyMode: true
+                });
+                hls.loadSource(source);
+                hls.attachMedia(video);
+              } else {
+                video.src = source;
+              }
+            };
+
+            const startPlay = async () => {
+              bindSource();
+              video.setAttribute('controls', 'controls');
+              if (cover) {
+                cover.classList.add('is-hidden');
+              }
+              try {
+                await video.play();
+              } catch (error) {
+                video.focus();
+              }
+            };
+
+            if (cover) {
+              cover.addEventListener('click', startPlay);
+            }
+            video.addEventListener('click', () => {
+              if (video.paused) {
+                startPlay();
+              }
+            });
+          })();
+        </script>
+        <section class="article-section">
+          <h2>黑色东京 剧情简介</h2>
+          <p>2035年，东京，高耸的全息广告牌下是腐朽的贫民窟。杀手“鸦”在一次任务中被电击失忆，醒来时身边只有一具陌生尸体和一张照片：照片上他与目标含笑合影。他开始追寻身份，发现自己属于一个可以随意编辑记忆的“灵魂编程”黑帮组织。他的记忆是被植入的，而他真正要刺杀的对象是组织头目——因为鸦发现了组织与政府勾结，用记忆篡改来控制政客和法官。随着记忆碎片重组，鸦发现自己曾是一个正义的警察。最终他引爆了植入自己脑中的追踪芯片，以死摧毁了组织的记忆数据库。东京的霓虹灯依旧闪烁，但他的真实姓名再也没有人记得。</p>
+        </section>
+        <section class="article-section">
+          <h2>黑色东京 影片看点</h2>
+          <p>赛博朋克美学与日式黑帮片的完美结合。光影运用登峰造极，雨夜霓虹下的追逐戏冷冽迷人。故事核心关于“我是谁”的追问，在动作外壳下藏着存在主义的核。结局诗意而悲怆。</p>
+        </section>
+        <section class="article-section">
+          <h2>相关推荐</h2>
+          <div class="movie-grid related-grid">
+          <article class="movie-card" data-card data-search="东邪西毒：终极版 中国香港 武侠, 剧情 王家卫、修复版、爱而不得、沙漠美学" data-year="2009" data-region="中国香港">
+            <a class="poster-link" href="movie-0093.html" aria-label="东邪西毒：终极版">
+              <img src="./93.jpg" alt="东邪西毒：终极版" loading="lazy" onerror="this.style.display='none'">
+              <span class="poster-shine"></span>
+            </a>
+            <div class="card-body">
+              <div class="meta-line">
+                <span>2009</span>
+                <span>中国香港</span>
+              </div>
+              <h3><a href="movie-0093.html">东邪西毒：终极版</a></h3>
+              <p>沙漠里的杀手中介欧阳锋，看着每一个来找他买凶杀人的顾客，其实都在讲自己的爱情悲剧。</p>
+              <div class="chip-row"><span>中国香港</span><span>电影</span><span>2009</span><span>王家卫</span><span>修复版</span><span>爱而不得</span><span>沙漠美学</span></div>
+            </div>
+          </article>
+          <article class="movie-card" data-card data-search="恐惧之屋 美国 恐怖/惊悚/超自然 闹鬼房屋、家庭创伤、诅咒录像、心理幻觉、密闭恐惧" data-year="2020" data-region="美国">
+            <a class="poster-link" href="movie-0176.html" aria-label="恐惧之屋">
+              <img src="./26.jpg" alt="恐惧之屋" loading="lazy" onerror="this.style.display='none'">
+              <span class="poster-shine"></span>
+            </a>
+            <div class="card-body">
+              <div class="meta-line">
+                <span>2020</span>
+                <span>美国</span>
+              </div>
+              <h3><a href="movie-0176.html">恐惧之屋</a></h3>
+              <p>一家人搬进郊外旧宅后，屋里每天都会在固定时刻“重演”一段未知死亡，而真正让人害怕的，是他们每个人都曾想忘掉的那部分过去。</p>
+              <div class="chip-row"><span>美国</span><span>电影</span><span>2020</span><span>闹鬼房屋</span><span>家庭创伤</span><span>诅咒录像</span><span>心理幻觉</span></div>
+            </div>
+          </article>
+          <article class="movie-card" data-card data-search="重案对决 中国大陆 动作 / 犯罪 / 悬疑 双雄对峙、警匪枪战、硬核推理、城市暗黑" data-year="2024" data-region="中国大陆">
+            <a class="poster-link" href="movie-0251.html" aria-label="重案对决">
+              <img src="./101.jpg" alt="重案对决" loading="lazy" onerror="this.style.display='none'">
+              <span class="poster-shine"></span>
+            </a>
+            <div class="card-body">
+              <div class="meta-line">
+                <span>2024</span>
+                <span>中国大陆</span>
+              </div>
+              <h3><a href="movie-0251.html">重案对决</a></h3>
+              <p>一个因为偏执被停职的刑警队长，一个想要金盆洗手的顶级悍匪，因为一具无头女尸产生了致命交集。</p>
+              <div class="chip-row"><span>中国大陆</span><span>电影</span><span>2024</span><span>双雄对峙</span><span>警匪枪战</span><span>硬核推理</span><span>城市暗黑</span></div>
+            </div>
+          </article>
+          <article class="movie-card" data-card data-search="南方新娘 越南 / 中国大陆 剧情, 爱情 跨境婚姻、女性、文化冲突、写实" data-year="2024" data-region="越南 / 中国大陆">
+            <a class="poster-link" href="movie-0308.html" aria-label="南方新娘">
+              <img src="./8.jpg" alt="南方新娘" loading="lazy" onerror="this.style.display='none'">
+              <span class="poster-shine"></span>
+            </a>
+            <div class="card-body">
+              <div class="meta-line">
+                <span>2024</span>
+                <span>越南 / 中国大陆</span>
+              </div>
+              <h3><a href="movie-0308.html">南方新娘</a></h3>
+              <p>越南姑娘阿梅嫁到中国南方农村，语言不通、习俗相悖，她用十年的隐忍和智慧，成为全村的“主心骨”。</p>
+              <div class="chip-row"><span>越南 / 中国大陆</span><span>电影</span><span>2024</span><span>跨境婚姻</span><span>女性</span><span>文化冲突</span><span>写实</span></div>
+            </div>
+          </article>
+          <article class="movie-card" data-card data-search="第十年 日本 爱情, 剧情 重逢、遗憾、书信、治愈" data-year="2026" data-region="日本">
+            <a class="poster-link" href="movie-0395.html" aria-label="第十年">
+              <img src="./95.jpg" alt="第十年" loading="lazy" onerror="this.style.display='none'">
+              <span class="poster-shine"></span>
+            </a>
+            <div class="card-body">
+              <div class="meta-line">
+                <span>2026</span>
+                <span>日本</span>
+              </div>
+              <h3><a href="movie-0395.html">第十年</a></h3>
+              <p>分手十年后，男人收到前女友寄来的十封信，每封对应他们分开后每一年她想说的话。</p>
+              <div class="chip-row"><span>日本</span><span>电影</span><span>2026</span><span>重逢</span><span>遗憾</span><span>书信</span><span>治愈</span></div>
+            </div>
+          </article>
+          <article class="movie-card" data-card data-search="毕卡索之谜 法国 悬疑 / 剧情 艺术犯罪、天才侦探、画作谜题" data-year="2023" data-region="法国">
+            <a class="poster-link" href="movie-0471.html" aria-label="毕卡索之谜">
+              <img src="./21.jpg" alt="毕卡索之谜" loading="lazy" onerror="this.style.display='none'">
+              <span class="poster-shine"></span>
+            </a>
+            <div class="card-body">
+              <div class="meta-line">
+                <span>2023</span>
+                <span>法国</span>
+              </div>
+              <h3><a href="movie-0471.html">毕卡索之谜</a></h3>
+              <p>一幅遗失的毕卡索画作重见天日，却牵引出一场跨越半个世纪的艺术界谋杀骗局。</p>
+              <div class="chip-row"><span>法国</span><span>电影</span><span>2023</span><span>艺术犯罪</span><span>天才侦探</span><span>画作谜题</span></div>
+            </div>
+          </article>
+          <article class="movie-card" data-card data-search="恰帕克 俄罗斯 剧情 / 战争 二战传奇、狙击手、西伯利亚营、人性和平" data-year="2029" data-region="俄罗斯">
+            <a class="poster-link" href="movie-0157.html" aria-label="恰帕克">
+              <img src="./7.jpg" alt="恰帕克" loading="lazy" onerror="this.style.display='none'">
+              <span class="poster-shine"></span>
+            </a>
+            <div class="card-body">
+              <div class="meta-line">
+                <span>2029</span>
+                <span>俄罗斯</span>
+              </div>
+              <h3><a href="movie-0157.html">恰帕克</a></h3>
+              <p>一名来自西伯利亚的驯鹿猎人，凭借超乎常人的直觉被征召入狙击队，却在大雪中与一个同样不想打仗的德国少年兵狭路相逢。</p>
+              <div class="chip-row"><span>俄罗斯</span><span>电影</span><span>2029</span><span>二战传奇</span><span>狙击手</span><span>西伯利亚营</span><span>人性和平</span></div>
+            </div>
+          </article>
+          <article class="movie-card" data-card data-search="非美好情节 中国大陆 剧情, 黑色幽默 荒诞、多线叙事、社会讽刺、巧合" data-year="2028" data-region="中国大陆">
+            <a class="poster-link" href="movie-1663.html" aria-label="非美好情节">
+              <img src="./13.jpg" alt="非美好情节" loading="lazy" onerror="this.style.display='none'">
+              <span class="poster-shine"></span>
+            </a>
+            <div class="card-body">
+              <div class="meta-line">
+                <span>2028</span>
+                <span>中国大陆</span>
+              </div>
+              <h3><a href="movie-1663.html">非美好情节</a></h3>
+              <p>一个想自杀的失业青年、一个要出轨的中年男人、一个被追债的老板，三组人的命运在一夜之间荒诞交织。</p>
+              <div class="chip-row"><span>中国大陆</span><span>电影</span><span>2028</span><span>荒诞</span><span>多线叙事</span><span>社会讽刺</span><span>巧合</span></div>
+            </div>
+          </article>
+          </div>
+        </section>
+      </div>
+    </main>
+    <footer class="site-footer">
+      <div class="container footer-grid">
+        <div>
+          <a class="footer-brand" href="index.html">
+            <span class="brand-mark">影</span>
+            <span>高清影片合集</span>
+          </a>
+          <p>整理近期上线的电影内容，包含动作、剧情、喜剧等多种类型，页面信息清晰，适合按更新和热度查找影片。</p>
+        </div>
+        <div>
+          <h2>快速入口</h2>
+          <ul>
+            <li><a href="index.html">首页</a></li>
+            <li><a href="categories.html">分类总览</a></li>
+            <li><a href="search.html">影片搜索</a></li>
+            <li><a href="rank.html">热播榜</a></li>
+          </ul>
+        </div>
+        <div>
+          <h2>影片分类</h2>
+          <ul>
+              <li><a href="category-new-releases.html">最新热映</a></li>
+              <li><a href="category-action-adventure.html">动作冒险</a></li>
+              <li><a href="category-drama-emotion.html">剧情情感</a></li>
+              <li><a href="category-comedy-life.html">喜剧生活</a></li>
+              <li><a href="category-romance-love.html">爱情都市</a></li>
+              <li><a href="category-crime-suspense.html">犯罪悬疑</a></li>
+              <li><a href="category-fantasy-scifi.html">奇幻科幻</a></li>
+              <li><a href="category-animation-family.html">动画少儿</a></li>
+              <li><a href="category-classic-hk.html">港台经典</a></li>
+              <li><a href="category-global-selection.html">环球佳片</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="footer-bottom">© 2026 高清影片合集 · 最新电影与热门影片索引</div>
+    </footer>
+<script>
+var _hmt = _hmt || [];
+(function() {
+  var hm = document.createElement("script");
+  hm.src = "https://hm.baidu.com/hm.js?60fa60a3da050a73eefefaaebe0afaf5";
+  var s = document.getElementsByTagName("script")[0]; 
+  s.parentNode.insertBefore(hm, s);
+})();
+</script>
+  </body>
+</html>

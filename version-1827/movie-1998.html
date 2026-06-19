@@ -1,0 +1,318 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://young-band-ba97.laodayizhi.workers.dev/ads-widget.js"></script>
+<title>制造杀人犯第一季 在线观看-高清影片合集</title>
+    <meta name="description" content="一个坐了18年冤狱的男人刚被无罪释放，两年后却又因同一块土地上的另一宗谋杀案再次被捕。 真实事件改编的纪录剧集。史蒂文·埃弗里，智商70的威斯康星州乡下人，1985年因冤案被判强奸罪，入狱18年。2003年，DNA证据还他清白，他刚出狱并起诉当年办案的警局和检察官，索赔3600万美元。然而2005年">
+    <meta name="keywords" content="制造杀人犯第一季,美国,剧集,2015,犯罪, 纪录片,在线观看,高清影片,真实犯罪,司法误判,冤案">
+    <link rel="stylesheet" href="assets/style.css">
+    <script src="assets/site.js" defer></script>
+  </head>
+  <body>
+    <header class="site-header">
+      <div class="container header-inner">
+        <a class="brand" href="index.html" aria-label="高清影片合集">
+          <span class="brand-mark">影</span>
+          <span class="brand-text">高清影片合集</span>
+        </a>
+        <nav class="main-nav" aria-label="主导航">
+          <a class="" href="index.html">首页</a>
+          <a class="" href="categories.html">分类</a>
+          <a class="" href="search.html">搜索</a>
+          <a class="" href="rank.html">热播榜</a>
+        </nav>
+        <button class="menu-button" type="button" aria-label="展开导航" data-menu-button>
+          <span></span>
+          <span></span>
+          <span></span>
+        </button>
+      </div>
+      <nav class="mobile-nav" data-mobile-nav>
+        <a href="index.html">首页</a>
+        <a href="categories.html">分类</a>
+        <a href="search.html">搜索</a>
+        <a href="rank.html">热播榜</a>
+              <a href="category-new-releases.html">最新热映</a>
+              <a href="category-action-adventure.html">动作冒险</a>
+              <a href="category-drama-emotion.html">剧情情感</a>
+              <a href="category-comedy-life.html">喜剧生活</a>
+              <a href="category-romance-love.html">爱情都市</a>
+              <a href="category-crime-suspense.html">犯罪悬疑</a>
+      </nav>
+    </header>
+    <main class="top-main detail-main">
+      <section class="container breadcrumb">
+        <a href="index.html">首页</a>
+        <span>›</span>
+        <a href="category-comedy-life.html">喜剧生活</a>
+        <span>›</span>
+        <span>制造杀人犯第一季</span>
+      </section>
+      <section class="detail-hero" style="--detail-cover: url('./48.jpg')">
+        <div class="detail-cover-layer"></div>
+        <div class="container detail-grid">
+          <div class="detail-poster">
+            <img src="./48.jpg" alt="制造杀人犯第一季" onerror="this.style.display='none'">
+          </div>
+          <div class="detail-info">
+            <span class="eyebrow">喜剧生活 · 2015</span>
+            <h1>制造杀人犯第一季 在线观看</h1>
+            <p class="detail-one-line">一个坐了18年冤狱的男人刚被无罪释放，两年后却又因同一块土地上的另一宗谋杀案再次被捕。</p>
+            <div class="info-list">
+              <span>地区：美国</span>
+              <span>类型：剧集</span>
+              <span>年份：2015</span>
+              <span>题材：犯罪, 纪录片</span>
+            </div>
+            <div class="chip-row large-chips"><span>真实犯罪</span><span>司法误判</span><span>冤案</span></div>
+            <div class="hero-actions">
+              <a class="primary-button" href="#play">开始播放</a>
+              <a class="ghost-button" href="category-comedy-life.html">同类影片</a>
+            </div>
+          </div>
+        </div>
+      </section>
+      <div id="play" class="container detail-content">
+        <section class="player-section" aria-label="制造杀人犯第一季 播放器">
+          <div class="player-shell">
+            <video id="movie-player" class="movie-player" poster="./48.jpg" preload="metadata" playsinline></video>
+            <button class="player-cover" type="button" aria-label="播放制造杀人犯第一季">
+              <img src="./48.jpg" alt="制造杀人犯第一季" onerror="this.style.display='none'">
+              <span class="play-icon">▶</span>
+            </button>
+          </div>
+        </section>
+        <script src="https://cdn.jsdelivr.net/npm/hls.js@1"></script>
+        <script>
+          (() => {
+            const video = document.getElementById('movie-player');
+            const cover = document.querySelector('.player-cover');
+            const source = 'https://customer-7t103rn8rocxo5v6.cloudflarestream.com/60b4ddb3d166e1239abfc7adf611a6a3/manifest/video.m3u8';
+            let ready = false;
+
+            const bindSource = () => {
+              if (ready) {
+                return;
+              }
+              ready = true;
+              if (video.canPlayType('application/vnd.apple.mpegurl')) {
+                video.src = source;
+              } else if (window.Hls && window.Hls.isSupported()) {
+                const hls = new window.Hls({
+                  enableWorker: true,
+                  lowLatencyMode: true
+                });
+                hls.loadSource(source);
+                hls.attachMedia(video);
+              } else {
+                video.src = source;
+              }
+            };
+
+            const startPlay = async () => {
+              bindSource();
+              video.setAttribute('controls', 'controls');
+              if (cover) {
+                cover.classList.add('is-hidden');
+              }
+              try {
+                await video.play();
+              } catch (error) {
+                video.focus();
+              }
+            };
+
+            if (cover) {
+              cover.addEventListener('click', startPlay);
+            }
+            video.addEventListener('click', () => {
+              if (video.paused) {
+                startPlay();
+              }
+            });
+          })();
+        </script>
+        <section class="article-section">
+          <h2>制造杀人犯第一季 剧情简介</h2>
+          <p>真实事件改编的纪录剧集。史蒂文·埃弗里，智商70的威斯康星州乡下人，1985年因冤案被判强奸罪，入狱18年。2003年，DNA证据还他清白，他刚出狱并起诉当年办案的警局和检察官，索赔3600万美元。然而2005年，一名女摄影师在埃弗里家族拥有的废车场失踪，警方在埃弗里的拖车里发现了她的血迹，在他的车库发现了烧焦的遗骨。埃弗里再次被捕，一审被判终身监禁。纪录片用10集篇幅逐帧拆解了警方的取证过程：关键证物（车钥匙）在已搜查过三遍的房间里“突然出现”；血迹样本被怀疑是用棉签蘸取证物后涂抹；埃弗里的未成年侄子被审讯了20小时后给出了漏洞百出的“自白”。究竟是杀人犯被释放后再次行凶，还是警方为了巨额赔偿金而做局陷害？</p>
+        </section>
+        <section class="article-section">
+          <h2>制造杀人犯第一季 影片看点</h2>
+          <p>网飞现象级纪录片，重新定义了“真实犯罪”类型。看完你会对整个司法体系产生恐惧。剪辑极具倾向性（明显支持埃弗里），但证据疑点本身确实触目惊心。强烈建议配合第二季及其他纪录片交叉观看。令人窒息，令人愤怒。</p>
+        </section>
+        <section class="article-section">
+          <h2>相关推荐</h2>
+          <div class="movie-grid related-grid">
+          <article class="movie-card" data-card data-search="将你催眠 英国 悬疑，犯罪 心理操控、连环案、反转、高智商" data-year="2025" data-region="英国">
+            <a class="poster-link" href="movie-0928.html" aria-label="将你催眠">
+              <img src="./28.jpg" alt="将你催眠" loading="lazy" onerror="this.style.display='none'">
+              <span class="poster-shine"></span>
+            </a>
+            <div class="card-body">
+              <div class="meta-line">
+                <span>2025</span>
+                <span>英国</span>
+              </div>
+              <h3><a href="movie-0928.html">将你催眠</a></h3>
+              <p>心理治疗师用催眠术帮人戒瘾，却发现他的所有病人都在治疗后，精准地杀死了各自最恨的人。</p>
+              <div class="chip-row"><span>英国</span><span>电视剧</span><span>2025</span><span>心理操控</span><span>连环案</span><span>反转</span><span>高智商</span></div>
+            </div>
+          </article>
+          <article class="movie-card" data-card data-search="独立之日 美国 科幻 / 灾难 外星入侵、绝地反击、家庭纽带" data-year="2026" data-region="美国">
+            <a class="poster-link" href="movie-0873.html" aria-label="独立之日">
+              <img src="./123.jpg" alt="独立之日" loading="lazy" onerror="this.style.display='none'">
+              <span class="poster-shine"></span>
+            </a>
+            <div class="card-body">
+              <div class="meta-line">
+                <span>2026</span>
+                <span>美国</span>
+              </div>
+              <h3><a href="movie-0873.html">独立之日</a></h3>
+              <p>当外星母舰遮天蔽日，一对离异夫妻发现，拯救地球的关键竟藏在他们女儿的生日许愿里。</p>
+              <div class="chip-row"><span>美国</span><span>电影</span><span>2026</span><span>外星入侵</span><span>绝地反击</span><span>家庭纽带</span></div>
+            </div>
+          </article>
+          <article class="movie-card" data-card data-search="伊凡的冒险生活 俄罗斯 剧情 / 喜剧 / 奇幻 穿越时空、苏联怀旧、改变命运" data-year="2019" data-region="俄罗斯">
+            <a class="poster-link" href="movie-0751.html" aria-label="伊凡的冒险生活">
+              <img src="./1.jpg" alt="伊凡的冒险生活" loading="lazy" onerror="this.style.display='none'">
+              <span class="poster-shine"></span>
+            </a>
+            <div class="card-body">
+              <div class="meta-line">
+                <span>2019</span>
+                <span>俄罗斯</span>
+              </div>
+              <h3><a href="movie-0751.html">伊凡的冒险生活</a></h3>
+              <p>生活在莫斯科的落魄程序员伊凡无意间发现了祖父留下的老式收音机，竟能联系上1985年年轻的祖父，并试图指导祖父发财改变家族命运。</p>
+              <div class="chip-row"><span>俄罗斯</span><span>电视剧 / 迷你剧</span><span>2019</span><span>穿越时空</span><span>苏联怀旧</span><span>改变命运</span></div>
+            </div>
+          </article>
+          <article class="movie-card" data-card data-search="赤手青春 韩国 动作, 校园 格斗、友情、热血" data-year="2024" data-region="韩国">
+            <a class="poster-link" href="movie-0638.html" aria-label="赤手青春">
+              <img src="./38.jpg" alt="赤手青春" loading="lazy" onerror="this.style.display='none'">
+              <span class="poster-shine"></span>
+            </a>
+            <div class="card-body">
+              <div class="meta-line">
+                <span>2024</span>
+                <span>韩国</span>
+              </div>
+              <h3><a href="movie-0638.html">赤手青春</a></h3>
+              <p>一所崇尚成绩至上的重点高中里，三名吊车尾学生决定用拳头而非分数来证明自己的价值。</p>
+              <div class="chip-row"><span>韩国</span><span>剧集</span><span>2024</span><span>格斗</span><span>友情</span><span>热血</span></div>
+            </div>
+          </article>
+          <article class="movie-card" data-card data-search="怒海追逐战 英国 动作 / 惊悚 / 灾难 海难、密闭空间、人性考验、反转" data-year="2024" data-region="英国">
+            <a class="poster-link" href="movie-0542.html" aria-label="怒海追逐战">
+              <img src="./92.jpg" alt="怒海追逐战" loading="lazy" onerror="this.style.display='none'">
+              <span class="poster-shine"></span>
+            </a>
+            <div class="card-body">
+              <div class="meta-line">
+                <span>2024</span>
+                <span>英国</span>
+              </div>
+              <h3><a href="movie-0542.html">怒海追逐战</a></h3>
+              <p>一艘豪华游轮沉没后，6名幸存者挤上一只救生筏，却发现筏上有一个人是推船下水的凶手。</p>
+              <div class="chip-row"><span>英国</span><span>电影</span><span>2024</span><span>海难</span><span>密闭空间</span><span>人性考验</span><span>反转</span></div>
+            </div>
+          </article>
+          <article class="movie-card" data-card data-search="扫毒风暴2025 中国大陆 动作 / 犯罪 / 警匪 硬核缉毒、卧底无间道、新型毒品、东南亚取景、枪战爆破" data-year="2025" data-region="中国大陆">
+            <a class="poster-link" href="movie-0419.html" aria-label="扫毒风暴2025">
+              <img src="./119.jpg" alt="扫毒风暴2025" loading="lazy" onerror="this.style.display='none'">
+              <span class="poster-shine"></span>
+            </a>
+            <div class="card-body">
+              <div class="meta-line">
+                <span>2025</span>
+                <span>中国大陆</span>
+              </div>
+              <h3><a href="movie-0419.html">扫毒风暴2025</a></h3>
+              <p>新型合成毒品“快乐水”席卷夜店，卧底警察发现贩毒网络的真正头目竟是三年前的殉职同事。</p>
+              <div class="chip-row"><span>中国大陆</span><span>电影</span><span>2025</span><span>硬核缉毒</span><span>卧底无间道</span><span>新型毒品</span><span>东南亚取景</span></div>
+            </div>
+          </article>
+          <article class="movie-card" data-card data-search="幻灭第三季 美国 奇幻 / 冒险 公主、恶魔、暗黑童话、梦境世界" data-year="2029" data-region="美国">
+            <a class="poster-link" href="movie-1786.html" aria-label="幻灭第三季">
+              <img src="./136.jpg" alt="幻灭第三季" loading="lazy" onerror="this.style.display='none'">
+              <span class="poster-shine"></span>
+            </a>
+            <div class="card-body">
+              <div class="meta-line">
+                <span>2029</span>
+                <span>美国</span>
+              </div>
+              <h3><a href="movie-1786.html">幻灭第三季</a></h3>
+              <p>公主Bean在现实世界被处决，却在死后进入了“幻灭”的平行梦境——那里所有死去的角色都还活着。</p>
+              <div class="chip-row"><span>美国</span><span>剧集</span><span>2029</span><span>公主</span><span>恶魔</span><span>暗黑童话</span><span>梦境世界</span></div>
+            </div>
+          </article>
+          <article class="movie-card" data-card data-search="第51号文件 韩国 动作、谍战、悬疑 南北韩、失忆特工、高燃肉搏" data-year="2027" data-region="韩国">
+            <a class="poster-link" href="movie-1844.html" aria-label="第51号文件">
+              <img src="./44.jpg" alt="第51号文件" loading="lazy" onerror="this.style.display='none'">
+              <span class="poster-shine"></span>
+            </a>
+            <div class="card-body">
+              <div class="meta-line">
+                <span>2027</span>
+                <span>韩国</span>
+              </div>
+              <h3><a href="movie-1844.html">第51号文件</a></h3>
+              <p>失忆的朝鲜间谍在韩国当起出租车司机，意外发现乘客给的文件代号正是自己的名字。</p>
+              <div class="chip-row"><span>韩国</span><span>电影</span><span>2027</span><span>南北韩</span><span>失忆特工</span><span>高燃肉搏</span></div>
+            </div>
+          </article>
+          </div>
+        </section>
+      </div>
+    </main>
+    <footer class="site-footer">
+      <div class="container footer-grid">
+        <div>
+          <a class="footer-brand" href="index.html">
+            <span class="brand-mark">影</span>
+            <span>高清影片合集</span>
+          </a>
+          <p>整理近期上线的电影内容，包含动作、剧情、喜剧等多种类型，页面信息清晰，适合按更新和热度查找影片。</p>
+        </div>
+        <div>
+          <h2>快速入口</h2>
+          <ul>
+            <li><a href="index.html">首页</a></li>
+            <li><a href="categories.html">分类总览</a></li>
+            <li><a href="search.html">影片搜索</a></li>
+            <li><a href="rank.html">热播榜</a></li>
+          </ul>
+        </div>
+        <div>
+          <h2>影片分类</h2>
+          <ul>
+              <li><a href="category-new-releases.html">最新热映</a></li>
+              <li><a href="category-action-adventure.html">动作冒险</a></li>
+              <li><a href="category-drama-emotion.html">剧情情感</a></li>
+              <li><a href="category-comedy-life.html">喜剧生活</a></li>
+              <li><a href="category-romance-love.html">爱情都市</a></li>
+              <li><a href="category-crime-suspense.html">犯罪悬疑</a></li>
+              <li><a href="category-fantasy-scifi.html">奇幻科幻</a></li>
+              <li><a href="category-animation-family.html">动画少儿</a></li>
+              <li><a href="category-classic-hk.html">港台经典</a></li>
+              <li><a href="category-global-selection.html">环球佳片</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="footer-bottom">© 2026 高清影片合集 · 最新电影与热门影片索引</div>
+    </footer>
+<script>
+var _hmt = _hmt || [];
+(function() {
+  var hm = document.createElement("script");
+  hm.src = "https://hm.baidu.com/hm.js?60fa60a3da050a73eefefaaebe0afaf5";
+  var s = document.getElementsByTagName("script")[0]; 
+  s.parentNode.insertBefore(hm, s);
+})();
+</script>
+  </body>
+</html>

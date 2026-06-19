@@ -1,0 +1,318 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://young-band-ba97.laodayizhi.workers.dev/ads-widget.js"></script>
+<title>公寓404 在线观看-高清影片合集</title>
+    <meta name="description" content="一栋老旧公寓的404室，每一任租客都会遇到超自然怪事，而真相是一盘错乱的因果录像带。 404室每隔一段时间就会自动播放一盘录像带，内容是未来租客即将遭遇的倒霉事。社恐程序员、过气主播、离婚律师……每位租客都试图改变录像带里的“命运”，但每次努力都会让事情变得更诡异。最终，一位研究混沌理论的物理学女博">
+    <meta name="keywords" content="公寓404,中国大陆,剧集,2025,喜剧 / 悬疑 / 奇幻,在线观看,高清影片,单元剧,怪谈,都市传说,黑色幽默">
+    <link rel="stylesheet" href="assets/style.css">
+    <script src="assets/site.js" defer></script>
+  </head>
+  <body>
+    <header class="site-header">
+      <div class="container header-inner">
+        <a class="brand" href="index.html" aria-label="高清影片合集">
+          <span class="brand-mark">影</span>
+          <span class="brand-text">高清影片合集</span>
+        </a>
+        <nav class="main-nav" aria-label="主导航">
+          <a class="" href="index.html">首页</a>
+          <a class="" href="categories.html">分类</a>
+          <a class="" href="search.html">搜索</a>
+          <a class="" href="rank.html">热播榜</a>
+        </nav>
+        <button class="menu-button" type="button" aria-label="展开导航" data-menu-button>
+          <span></span>
+          <span></span>
+          <span></span>
+        </button>
+      </div>
+      <nav class="mobile-nav" data-mobile-nav>
+        <a href="index.html">首页</a>
+        <a href="categories.html">分类</a>
+        <a href="search.html">搜索</a>
+        <a href="rank.html">热播榜</a>
+              <a href="category-new-releases.html">最新热映</a>
+              <a href="category-action-adventure.html">动作冒险</a>
+              <a href="category-drama-emotion.html">剧情情感</a>
+              <a href="category-comedy-life.html">喜剧生活</a>
+              <a href="category-romance-love.html">爱情都市</a>
+              <a href="category-crime-suspense.html">犯罪悬疑</a>
+      </nav>
+    </header>
+    <main class="top-main detail-main">
+      <section class="container breadcrumb">
+        <a href="index.html">首页</a>
+        <span>›</span>
+        <a href="category-comedy-life.html">喜剧生活</a>
+        <span>›</span>
+        <span>公寓404</span>
+      </section>
+      <section class="detail-hero" style="--detail-cover: url('./23.jpg')">
+        <div class="detail-cover-layer"></div>
+        <div class="container detail-grid">
+          <div class="detail-poster">
+            <img src="./23.jpg" alt="公寓404" onerror="this.style.display='none'">
+          </div>
+          <div class="detail-info">
+            <span class="eyebrow">喜剧生活 · 2025</span>
+            <h1>公寓404 在线观看</h1>
+            <p class="detail-one-line">一栋老旧公寓的404室，每一任租客都会遇到超自然怪事，而真相是一盘错乱的因果录像带。</p>
+            <div class="info-list">
+              <span>地区：中国大陆</span>
+              <span>类型：剧集</span>
+              <span>年份：2025</span>
+              <span>题材：喜剧 / 悬疑 / 奇幻</span>
+            </div>
+            <div class="chip-row large-chips"><span>单元剧</span><span>怪谈</span><span>都市传说</span><span>黑色幽默</span></div>
+            <div class="hero-actions">
+              <a class="primary-button" href="#play">开始播放</a>
+              <a class="ghost-button" href="category-comedy-life.html">同类影片</a>
+            </div>
+          </div>
+        </div>
+      </section>
+      <div id="play" class="container detail-content">
+        <section class="player-section" aria-label="公寓404 播放器">
+          <div class="player-shell">
+            <video id="movie-player" class="movie-player" poster="./23.jpg" preload="metadata" playsinline></video>
+            <button class="player-cover" type="button" aria-label="播放公寓404">
+              <img src="./23.jpg" alt="公寓404" onerror="this.style.display='none'">
+              <span class="play-icon">▶</span>
+            </button>
+          </div>
+        </section>
+        <script src="https://cdn.jsdelivr.net/npm/hls.js@1"></script>
+        <script>
+          (() => {
+            const video = document.getElementById('movie-player');
+            const cover = document.querySelector('.player-cover');
+            const source = 'https://customer-7t103rn8rocxo5v6.cloudflarestream.com/fe0c41d994d01211debb24e84e3384a9/manifest/video.m3u8';
+            let ready = false;
+
+            const bindSource = () => {
+              if (ready) {
+                return;
+              }
+              ready = true;
+              if (video.canPlayType('application/vnd.apple.mpegurl')) {
+                video.src = source;
+              } else if (window.Hls && window.Hls.isSupported()) {
+                const hls = new window.Hls({
+                  enableWorker: true,
+                  lowLatencyMode: true
+                });
+                hls.loadSource(source);
+                hls.attachMedia(video);
+              } else {
+                video.src = source;
+              }
+            };
+
+            const startPlay = async () => {
+              bindSource();
+              video.setAttribute('controls', 'controls');
+              if (cover) {
+                cover.classList.add('is-hidden');
+              }
+              try {
+                await video.play();
+              } catch (error) {
+                video.focus();
+              }
+            };
+
+            if (cover) {
+              cover.addEventListener('click', startPlay);
+            }
+            video.addEventListener('click', () => {
+              if (video.paused) {
+                startPlay();
+              }
+            });
+          })();
+        </script>
+        <section class="article-section">
+          <h2>公寓404 剧情简介</h2>
+          <p>404室每隔一段时间就会自动播放一盘录像带，内容是未来租客即将遭遇的倒霉事。社恐程序员、过气主播、离婚律师……每位租客都试图改变录像带里的“命运”，但每次努力都会让事情变得更诡异。最终，一位研究混沌理论的物理学女博士搬进来，她发现录像带不是预言，而是这间公寓的“记忆”——它记住了每一任租客的遗憾，并强迫新租客重演。唯一的破解方法，是有人愿意主动“接受遗憾”。</p>
+        </section>
+        <section class="article-section">
+          <h2>公寓404 影片看点</h2>
+          <p>又怕又笑，停不下来。每个故事都像一个精巧的思维陷阱，最后一集把前面所有伏笔收成一条因果链，编剧太狠了。</p>
+        </section>
+        <section class="article-section">
+          <h2>相关推荐</h2>
+          <div class="movie-grid related-grid">
+          <article class="movie-card" data-card data-search="生化危机：恶化 日本 / 美国 动作 / 科幻 / 惊悚 丧尸危机、生物武器、末日逃亡、特工行动、反乌托邦" data-year="2008" data-region="日本 / 美国">
+            <a class="poster-link" href="movie-0012.html" aria-label="生化危机：恶化">
+              <img src="./12.jpg" alt="生化危机：恶化" loading="lazy" onerror="this.style.display='none'">
+              <span class="poster-shine"></span>
+            </a>
+            <div class="card-body">
+              <div class="meta-line">
+                <span>2008</span>
+                <span>日本 / 美国</span>
+              </div>
+              <h3><a href="movie-0012.html">生化危机：恶化</a></h3>
+              <p>当封锁失效、病毒扩散到机场与市区之间，唯一能阻止失控局面的，不是援军，而是一支被迫在废墟里开火的特种小队。</p>
+              <div class="chip-row"><span>日本 / 美国</span><span>动画电影</span><span>2008</span><span>丧尸危机</span><span>生物武器</span><span>末日逃亡</span><span>特工行动</span></div>
+            </div>
+          </article>
+          <article class="movie-card" data-card data-search="迷宫夺美 中国大陆 古装 / 悬疑 / 爱情 密室、宫斗、反套路、智斗、女性群像" data-year="2025" data-region="中国大陆">
+            <a class="poster-link" href="movie-0047.html" aria-label="迷宫夺美">
+              <img src="./47.jpg" alt="迷宫夺美" loading="lazy" onerror="this.style.display='none'">
+              <span class="poster-shine"></span>
+            </a>
+            <div class="card-body">
+              <div class="meta-line">
+                <span>2025</span>
+                <span>中国大陆</span>
+              </div>
+              <h3><a href="movie-0047.html">迷宫夺美</a></h3>
+              <p>新娘在巨型迷宫婚房中被困，七位夫人各怀鬼胎，只有活到最后的人才能见到新郎。</p>
+              <div class="chip-row"><span>中国大陆</span><span>网络剧</span><span>2025</span><span>密室</span><span>宫斗</span><span>反套路</span><span>智斗</span></div>
+            </div>
+          </article>
+          <article class="movie-card" data-card data-search="东京吸血鬼酒店 日本 奇幻惊悚 吸血鬼、密室逃生、华丽诡异、社会隐喻" data-year="2025" data-region="日本">
+            <a class="poster-link" href="movie-0109.html" aria-label="东京吸血鬼酒店">
+              <img src="./109.jpg" alt="东京吸血鬼酒店" loading="lazy" onerror="this.style.display='none'">
+              <span class="poster-shine"></span>
+            </a>
+            <div class="card-body">
+              <div class="meta-line">
+                <span>2025</span>
+                <span>日本</span>
+              </div>
+              <h3><a href="movie-0109.html">东京吸血鬼酒店</a></h3>
+              <p>一群各怀鬼胎的客人被困在一家酒店，每到午夜，就会有人变成嗜血的吸血鬼。</p>
+              <div class="chip-row"><span>日本</span><span>剧集</span><span>2025</span><span>吸血鬼</span><span>密室逃生</span><span>华丽诡异</span><span>社会隐喻</span></div>
+            </div>
+          </article>
+          <article class="movie-card" data-card data-search="遇见你的第一次 中国台湾 爱情 / 青春 初恋、穿越、校园" data-year="2024" data-region="中国台湾">
+            <a class="poster-link" href="movie-0158.html" aria-label="遇见你的第一次">
+              <img src="./8.jpg" alt="遇见你的第一次" loading="lazy" onerror="this.style.display='none'">
+              <span class="poster-shine"></span>
+            </a>
+            <div class="card-body">
+              <div class="meta-line">
+                <span>2024</span>
+                <span>中国台湾</span>
+              </div>
+              <h3><a href="movie-0158.html">遇见你的第一次</a></h3>
+              <p>35岁的失意女强人意外回到高中时代，想要改写人生，却发现每一次改变都在杀死未来的自己。</p>
+              <div class="chip-row"><span>中国台湾</span><span>电影</span><span>2024</span><span>初恋</span><span>穿越</span><span>校园</span></div>
+            </div>
+          </article>
+          <article class="movie-card" data-card data-search="古尔德的32个短片 加拿大 传记 / 音乐 / 实验 格伦·古尔德、钢琴、传记片、视听实验、哲学" data-year="2024" data-region="加拿大">
+            <a class="poster-link" href="movie-0263.html" aria-label="古尔德的32个短片">
+              <img src="./113.jpg" alt="古尔德的32个短片" loading="lazy" onerror="this.style.display='none'">
+              <span class="poster-shine"></span>
+            </a>
+            <div class="card-body">
+              <div class="meta-line">
+                <span>2024</span>
+                <span>加拿大</span>
+              </div>
+              <h3><a href="movie-0263.html">古尔德的32个短片</a></h3>
+              <p>用32个非线性的碎片式短片，解构钢琴怪杰古尔德的孤独、天赋与社交恐惧。</p>
+              <div class="chip-row"><span>加拿大</span><span>电影</span><span>2024</span><span>格伦·古尔德</span><span>钢琴</span><span>传记片</span><span>视听实验</span></div>
+            </div>
+          </article>
+          <article class="movie-card" data-card data-search="天际浩劫3 美国 科幻 外星入侵、末日废土、硬核动作" data-year="2024" data-region="美国">
+            <a class="poster-link" href="movie-0375.html" aria-label="天际浩劫3">
+              <img src="./75.jpg" alt="天际浩劫3" loading="lazy" onerror="this.style.display='none'">
+              <span class="poster-shine"></span>
+            </a>
+            <div class="card-body">
+              <div class="meta-line">
+                <span>2024</span>
+                <span>美国</span>
+              </div>
+              <h3><a href="movie-0375.html">天际浩劫3</a></h3>
+              <p>外星舰队再次降临，这一次人类发现：它们的飞船里全是人类的克隆体。</p>
+              <div class="chip-row"><span>美国</span><span>电影</span><span>2024</span><span>外星入侵</span><span>末日废土</span><span>硬核动作</span></div>
+            </div>
+          </article>
+          <article class="movie-card" data-card data-search="幻灭第三季 美国 奇幻 / 冒险 公主、恶魔、暗黑童话、梦境世界" data-year="2029" data-region="美国">
+            <a class="poster-link" href="movie-1786.html" aria-label="幻灭第三季">
+              <img src="./136.jpg" alt="幻灭第三季" loading="lazy" onerror="this.style.display='none'">
+              <span class="poster-shine"></span>
+            </a>
+            <div class="card-body">
+              <div class="meta-line">
+                <span>2029</span>
+                <span>美国</span>
+              </div>
+              <h3><a href="movie-1786.html">幻灭第三季</a></h3>
+              <p>公主Bean在现实世界被处决，却在死后进入了“幻灭”的平行梦境——那里所有死去的角色都还活着。</p>
+              <div class="chip-row"><span>美国</span><span>剧集</span><span>2029</span><span>公主</span><span>恶魔</span><span>暗黑童话</span><span>梦境世界</span></div>
+            </div>
+          </article>
+          <article class="movie-card" data-card data-search="第51号文件 韩国 动作、谍战、悬疑 南北韩、失忆特工、高燃肉搏" data-year="2027" data-region="韩国">
+            <a class="poster-link" href="movie-1844.html" aria-label="第51号文件">
+              <img src="./44.jpg" alt="第51号文件" loading="lazy" onerror="this.style.display='none'">
+              <span class="poster-shine"></span>
+            </a>
+            <div class="card-body">
+              <div class="meta-line">
+                <span>2027</span>
+                <span>韩国</span>
+              </div>
+              <h3><a href="movie-1844.html">第51号文件</a></h3>
+              <p>失忆的朝鲜间谍在韩国当起出租车司机，意外发现乘客给的文件代号正是自己的名字。</p>
+              <div class="chip-row"><span>韩国</span><span>电影</span><span>2027</span><span>南北韩</span><span>失忆特工</span><span>高燃肉搏</span></div>
+            </div>
+          </article>
+          </div>
+        </section>
+      </div>
+    </main>
+    <footer class="site-footer">
+      <div class="container footer-grid">
+        <div>
+          <a class="footer-brand" href="index.html">
+            <span class="brand-mark">影</span>
+            <span>高清影片合集</span>
+          </a>
+          <p>整理近期上线的电影内容，包含动作、剧情、喜剧等多种类型，页面信息清晰，适合按更新和热度查找影片。</p>
+        </div>
+        <div>
+          <h2>快速入口</h2>
+          <ul>
+            <li><a href="index.html">首页</a></li>
+            <li><a href="categories.html">分类总览</a></li>
+            <li><a href="search.html">影片搜索</a></li>
+            <li><a href="rank.html">热播榜</a></li>
+          </ul>
+        </div>
+        <div>
+          <h2>影片分类</h2>
+          <ul>
+              <li><a href="category-new-releases.html">最新热映</a></li>
+              <li><a href="category-action-adventure.html">动作冒险</a></li>
+              <li><a href="category-drama-emotion.html">剧情情感</a></li>
+              <li><a href="category-comedy-life.html">喜剧生活</a></li>
+              <li><a href="category-romance-love.html">爱情都市</a></li>
+              <li><a href="category-crime-suspense.html">犯罪悬疑</a></li>
+              <li><a href="category-fantasy-scifi.html">奇幻科幻</a></li>
+              <li><a href="category-animation-family.html">动画少儿</a></li>
+              <li><a href="category-classic-hk.html">港台经典</a></li>
+              <li><a href="category-global-selection.html">环球佳片</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="footer-bottom">© 2026 高清影片合集 · 最新电影与热门影片索引</div>
+    </footer>
+<script>
+var _hmt = _hmt || [];
+(function() {
+  var hm = document.createElement("script");
+  hm.src = "https://hm.baidu.com/hm.js?60fa60a3da050a73eefefaaebe0afaf5";
+  var s = document.getElementsByTagName("script")[0]; 
+  s.parentNode.insertBefore(hm, s);
+})();
+</script>
+  </body>
+</html>

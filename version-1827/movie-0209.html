@@ -1,0 +1,318 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://young-band-ba97.laodayizhi.workers.dev/ads-widget.js"></script>
+<title>朋友之间 在线观看-高清影片合集</title>
+    <meta name="description" content="五位大学死党在别墅聚会，一本十年前记录彼此秘密的“真心话日记”突然出现，游戏开始，无人幸免。 大学毕业后各奔东西的五个好友，在富豪老张的海边别墅重聚。酒过三巡，一本被锁在保险柜里的旧日记突然出现，里面详细记录了他们大学时期彼此说过的坏话、偷过的钱、背叛过的感情。为了找出是谁把日记带到这里，众人开始了">
+    <meta name="keywords" content="朋友之间,中国大陆,电影,2025,剧情 / 悬疑,在线观看,高清影片,塑料友情,同学聚会,密室推理,人性考验">
+    <link rel="stylesheet" href="assets/style.css">
+    <script src="assets/site.js" defer></script>
+  </head>
+  <body>
+    <header class="site-header">
+      <div class="container header-inner">
+        <a class="brand" href="index.html" aria-label="高清影片合集">
+          <span class="brand-mark">影</span>
+          <span class="brand-text">高清影片合集</span>
+        </a>
+        <nav class="main-nav" aria-label="主导航">
+          <a class="" href="index.html">首页</a>
+          <a class="" href="categories.html">分类</a>
+          <a class="" href="search.html">搜索</a>
+          <a class="" href="rank.html">热播榜</a>
+        </nav>
+        <button class="menu-button" type="button" aria-label="展开导航" data-menu-button>
+          <span></span>
+          <span></span>
+          <span></span>
+        </button>
+      </div>
+      <nav class="mobile-nav" data-mobile-nav>
+        <a href="index.html">首页</a>
+        <a href="categories.html">分类</a>
+        <a href="search.html">搜索</a>
+        <a href="rank.html">热播榜</a>
+              <a href="category-new-releases.html">最新热映</a>
+              <a href="category-action-adventure.html">动作冒险</a>
+              <a href="category-drama-emotion.html">剧情情感</a>
+              <a href="category-comedy-life.html">喜剧生活</a>
+              <a href="category-romance-love.html">爱情都市</a>
+              <a href="category-crime-suspense.html">犯罪悬疑</a>
+      </nav>
+    </header>
+    <main class="top-main detail-main">
+      <section class="container breadcrumb">
+        <a href="index.html">首页</a>
+        <span>›</span>
+        <a href="category-new-releases.html">最新热映</a>
+        <span>›</span>
+        <span>朋友之间</span>
+      </section>
+      <section class="detail-hero" style="--detail-cover: url('./59.jpg')">
+        <div class="detail-cover-layer"></div>
+        <div class="container detail-grid">
+          <div class="detail-poster">
+            <img src="./59.jpg" alt="朋友之间" onerror="this.style.display='none'">
+          </div>
+          <div class="detail-info">
+            <span class="eyebrow">最新热映 · 2025</span>
+            <h1>朋友之间 在线观看</h1>
+            <p class="detail-one-line">五位大学死党在别墅聚会，一本十年前记录彼此秘密的“真心话日记”突然出现，游戏开始，无人幸免。</p>
+            <div class="info-list">
+              <span>地区：中国大陆</span>
+              <span>类型：电影</span>
+              <span>年份：2025</span>
+              <span>题材：剧情 / 悬疑</span>
+            </div>
+            <div class="chip-row large-chips"><span>塑料友情</span><span>同学聚会</span><span>密室推理</span><span>人性考验</span></div>
+            <div class="hero-actions">
+              <a class="primary-button" href="#play">开始播放</a>
+              <a class="ghost-button" href="category-new-releases.html">同类影片</a>
+            </div>
+          </div>
+        </div>
+      </section>
+      <div id="play" class="container detail-content">
+        <section class="player-section" aria-label="朋友之间 播放器">
+          <div class="player-shell">
+            <video id="movie-player" class="movie-player" poster="./59.jpg" preload="metadata" playsinline></video>
+            <button class="player-cover" type="button" aria-label="播放朋友之间">
+              <img src="./59.jpg" alt="朋友之间" onerror="this.style.display='none'">
+              <span class="play-icon">▶</span>
+            </button>
+          </div>
+        </section>
+        <script src="https://cdn.jsdelivr.net/npm/hls.js@1"></script>
+        <script>
+          (() => {
+            const video = document.getElementById('movie-player');
+            const cover = document.querySelector('.player-cover');
+            const source = 'https://customer-7t103rn8rocxo5v6.cloudflarestream.com/86ea18f9954dbaf22eff5e16c41b4a25/manifest/video.m3u8';
+            let ready = false;
+
+            const bindSource = () => {
+              if (ready) {
+                return;
+              }
+              ready = true;
+              if (video.canPlayType('application/vnd.apple.mpegurl')) {
+                video.src = source;
+              } else if (window.Hls && window.Hls.isSupported()) {
+                const hls = new window.Hls({
+                  enableWorker: true,
+                  lowLatencyMode: true
+                });
+                hls.loadSource(source);
+                hls.attachMedia(video);
+              } else {
+                video.src = source;
+              }
+            };
+
+            const startPlay = async () => {
+              bindSource();
+              video.setAttribute('controls', 'controls');
+              if (cover) {
+                cover.classList.add('is-hidden');
+              }
+              try {
+                await video.play();
+              } catch (error) {
+                video.focus();
+              }
+            };
+
+            if (cover) {
+              cover.addEventListener('click', startPlay);
+            }
+            video.addEventListener('click', () => {
+              if (video.paused) {
+                startPlay();
+              }
+            });
+          })();
+        </script>
+        <section class="article-section">
+          <h2>朋友之间 剧情简介</h2>
+          <p>大学毕业后各奔东西的五个好友，在富豪老张的海边别墅重聚。酒过三巡，一本被锁在保险柜里的旧日记突然出现，里面详细记录了他们大学时期彼此说过的坏话、偷过的钱、背叛过的感情。为了找出是谁把日记带到这里，众人开始了一场互相指认的“杀人游戏”。随着回忆被揭开，原本完美的友情假象开始崩塌：原来老张的妻子曾和老李有过一夜情；原来当年创业失败是有人恶意泄密；甚至有人曾经差点害死另一个朋友。就在众人即将大打出手时，别墅突然断电，一声枪响，有人倒在了血泊中。而那个始终沉默的人，露出了诡异的微笑。</p>
+        </section>
+        <section class="article-section">
+          <h2>朋友之间 影片看点</h2>
+          <p>国产版《完美陌生人》，虽然情节设定的戏剧性强了一些，但对话极其精彩，五个演员的飚戏火花四溅。最后的反转虽然能猜到一点，但执行得非常漂亮，看完想把自己的日记本烧掉。</p>
+        </section>
+        <section class="article-section">
+          <h2>相关推荐</h2>
+          <div class="movie-grid related-grid">
+          <article class="movie-card" data-card data-search="黑冢 日本 奇幻，暴力，历史 吸血鬼、武士、源平合战、永生、悲剧" data-year="2008" data-region="日本">
+            <a class="poster-link" href="movie-0256.html" aria-label="黑冢">
+              <img src="./106.jpg" alt="黑冢" loading="lazy" onerror="this.style.display='none'">
+              <span class="poster-shine"></span>
+            </a>
+            <div class="card-body">
+              <div class="meta-line">
+                <span>2008</span>
+                <span>日本</span>
+              </div>
+              <h3><a href="movie-0256.html">黑冢</a></h3>
+              <p>源平合战中的一名逃兵误入深山的黑冢，救了一个女人，也换来了一千年的诅咒。</p>
+              <div class="chip-row"><span>日本</span><span>动画电影</span><span>2008</span><span>吸血鬼</span><span>武士</span><span>源平合战</span><span>永生</span></div>
+            </div>
+          </article>
+          <article class="movie-card" data-card data-search="巴黎小情人 法国 爱情 / 喜剧 异国艳遇、身份误解、浪漫轻喜、巴黎风光" data-year="2024" data-region="法国">
+            <a class="poster-link" href="movie-0358.html" aria-label="巴黎小情人">
+              <img src="./58.jpg" alt="巴黎小情人" loading="lazy" onerror="this.style.display='none'">
+              <span class="poster-shine"></span>
+            </a>
+            <div class="card-body">
+              <div class="meta-line">
+                <span>2024</span>
+                <span>法国</span>
+              </div>
+              <h3><a href="movie-0358.html">巴黎小情人</a></h3>
+              <p>保守的越南女孩为应付父母假装在巴黎有男友，却意外爱上雇佣的“假男友”本人。</p>
+              <div class="chip-row"><span>法国</span><span>电影</span><span>2024</span><span>异国艳遇</span><span>身份误解</span><span>浪漫轻喜</span><span>巴黎风光</span></div>
+            </div>
+          </article>
+          <article class="movie-card" data-card data-search="诊疗中第一季 美国 剧情，喜剧 心理治疗、中年危机、丧、治愈、HBO" data-year="2023" data-region="美国">
+            <a class="poster-link" href="movie-0180.html" aria-label="诊疗中第一季">
+              <img src="./30.jpg" alt="诊疗中第一季" loading="lazy" onerror="this.style.display='none'">
+              <span class="poster-shine"></span>
+            </a>
+            <div class="card-body">
+              <div class="meta-line">
+                <span>2023</span>
+                <span>美国</span>
+              </div>
+              <h3><a href="movie-0180.html">诊疗中第一季</a></h3>
+              <p>一个刚经历丧妻之痛的心理医生，自己每天都在崩溃边缘，却还要在诊室里假装正常人治愈病人。</p>
+              <div class="chip-row"><span>美国</span><span>剧集</span><span>2023</span><span>心理治疗</span><span>中年危机</span><span>丧</span><span>治愈</span></div>
+            </div>
+          </article>
+          <article class="movie-card" data-card data-search="小小飞虎队2011 中国大陆 儿童、战争、喜剧 抗日神剧（儿童版）、童趣、铁道、冒险" data-year="2011" data-region="中国大陆">
+            <a class="poster-link" href="movie-0464.html" aria-label="小小飞虎队2011">
+              <img src="./14.jpg" alt="小小飞虎队2011" loading="lazy" onerror="this.style.display='none'">
+              <span class="poster-shine"></span>
+            </a>
+            <div class="card-body">
+              <div class="meta-line">
+                <span>2011</span>
+                <span>中国大陆</span>
+              </div>
+              <h3><a href="movie-0464.html">小小飞虎队2011</a></h3>
+              <p>三个山村小孩想组建“飞虎队”打鬼子，却阴差阳错成了真情报员，闹出一连串乌龙。</p>
+              <div class="chip-row"><span>中国大陆</span><span>电影</span><span>2011</span><span>抗日神剧（儿童版）</span><span>童趣</span><span>铁道</span><span>冒险</span></div>
+            </div>
+          </article>
+          <article class="movie-card" data-card data-search="爆烈之城 中国香港 动作 / 犯罪 爆破、警匪、记忆植入、末日都市、独行侠" data-year="2024" data-region="中国香港">
+            <a class="poster-link" href="movie-0083.html" aria-label="爆烈之城">
+              <img src="./83.jpg" alt="爆烈之城" loading="lazy" onerror="this.style.display='none'">
+              <span class="poster-shine"></span>
+            </a>
+            <div class="card-body">
+              <div class="meta-line">
+                <span>2024</span>
+                <span>中国香港</span>
+              </div>
+              <h3><a href="movie-0083.html">爆烈之城</a></h3>
+              <p>被抹去记忆的拆弹专家发现，整座城市的地基下埋着他的过去。</p>
+              <div class="chip-row"><span>中国香港</span><span>电影</span><span>2024</span><span>爆破</span><span>警匪</span><span>记忆植入</span><span>末日都市</span></div>
+            </div>
+          </article>
+          <article class="movie-card" data-card data-search="赛格描绘天空 西班牙 剧情, 奇幻 街头艺术、记忆、城市变迁、浪漫" data-year="2025" data-region="西班牙">
+            <a class="poster-link" href="movie-0319.html" aria-label="赛格描绘天空">
+              <img src="./19.jpg" alt="赛格描绘天空" loading="lazy" onerror="this.style.display='none'">
+              <span class="poster-shine"></span>
+            </a>
+            <div class="card-body">
+              <div class="meta-line">
+                <span>2025</span>
+                <span>西班牙</span>
+              </div>
+              <h3><a href="movie-0319.html">赛格描绘天空</a></h3>
+              <p>一位即将失明的涂鸦艺术家决定在失去视力前，画出他见过的最美天空——而这片天空只存在于他的记忆中。</p>
+              <div class="chip-row"><span>西班牙</span><span>电影</span><span>2025</span><span>街头艺术</span><span>记忆</span><span>城市变迁</span><span>浪漫</span></div>
+            </div>
+          </article>
+          <article class="movie-card" data-card data-search="悲兮魔兽 中国大陆 剧情 / 奇幻 / 社会 煤矿、怪兽、现实、寓言" data-year="2027" data-region="中国大陆">
+            <a class="poster-link" href="movie-0493.html" aria-label="悲兮魔兽">
+              <img src="./43.jpg" alt="悲兮魔兽" loading="lazy" onerror="this.style.display='none'">
+              <span class="poster-shine"></span>
+            </a>
+            <div class="card-body">
+              <div class="meta-line">
+                <span>2027</span>
+                <span>中国大陆</span>
+              </div>
+              <h3><a href="movie-0493.html">悲兮魔兽</a></h3>
+              <p>在一片资源枯竭的矿区，一名矿工的儿子画出了一只“魔兽”，它吞噬垃圾，却吐出有毒的黄金。</p>
+              <div class="chip-row"><span>中国大陆</span><span>电影</span><span>2027</span><span>煤矿</span><span>怪兽</span><span>现实</span><span>寓言</span></div>
+            </div>
+          </article>
+          <article class="movie-card" data-card data-search="啦啦队的反击 美国 喜剧 / 运动 女力觉醒、校园逆袭、爽快复仇、热舞竞技" data-year="2027" data-region="美国">
+            <a class="poster-link" href="movie-0985.html" aria-label="啦啦队的反击">
+              <img src="./85.jpg" alt="啦啦队的反击" loading="lazy" onerror="this.style.display='none'">
+              <span class="poster-shine"></span>
+            </a>
+            <div class="card-body">
+              <div class="meta-line">
+                <span>2027</span>
+                <span>美国</span>
+              </div>
+              <h3><a href="movie-0985.html">啦啦队的反击</a></h3>
+              <p>被精英啦啦队开除后，一群“怪咖”女生组建了一支史上最“不齐”的啦啦队，向冠军发起冲击。</p>
+              <div class="chip-row"><span>美国</span><span>电影</span><span>2027</span><span>女力觉醒</span><span>校园逆袭</span><span>爽快复仇</span><span>热舞竞技</span></div>
+            </div>
+          </article>
+          </div>
+        </section>
+      </div>
+    </main>
+    <footer class="site-footer">
+      <div class="container footer-grid">
+        <div>
+          <a class="footer-brand" href="index.html">
+            <span class="brand-mark">影</span>
+            <span>高清影片合集</span>
+          </a>
+          <p>整理近期上线的电影内容，包含动作、剧情、喜剧等多种类型，页面信息清晰，适合按更新和热度查找影片。</p>
+        </div>
+        <div>
+          <h2>快速入口</h2>
+          <ul>
+            <li><a href="index.html">首页</a></li>
+            <li><a href="categories.html">分类总览</a></li>
+            <li><a href="search.html">影片搜索</a></li>
+            <li><a href="rank.html">热播榜</a></li>
+          </ul>
+        </div>
+        <div>
+          <h2>影片分类</h2>
+          <ul>
+              <li><a href="category-new-releases.html">最新热映</a></li>
+              <li><a href="category-action-adventure.html">动作冒险</a></li>
+              <li><a href="category-drama-emotion.html">剧情情感</a></li>
+              <li><a href="category-comedy-life.html">喜剧生活</a></li>
+              <li><a href="category-romance-love.html">爱情都市</a></li>
+              <li><a href="category-crime-suspense.html">犯罪悬疑</a></li>
+              <li><a href="category-fantasy-scifi.html">奇幻科幻</a></li>
+              <li><a href="category-animation-family.html">动画少儿</a></li>
+              <li><a href="category-classic-hk.html">港台经典</a></li>
+              <li><a href="category-global-selection.html">环球佳片</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="footer-bottom">© 2026 高清影片合集 · 最新电影与热门影片索引</div>
+    </footer>
+<script>
+var _hmt = _hmt || [];
+(function() {
+  var hm = document.createElement("script");
+  hm.src = "https://hm.baidu.com/hm.js?60fa60a3da050a73eefefaaebe0afaf5";
+  var s = document.getElementsByTagName("script")[0]; 
+  s.parentNode.insertBefore(hm, s);
+})();
+</script>
+  </body>
+</html>

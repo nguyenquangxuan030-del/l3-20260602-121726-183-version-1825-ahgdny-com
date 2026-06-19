@@ -1,0 +1,318 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://young-band-ba97.laodayizhi.workers.dev/ads-widget.js"></script>
+<title>青之箱 在线观看-高清影片合集</title>
+    <meta name="description" content="高中羽毛球社的王牌选手，因一场意外与同社团女生开始了奇怪的同居生活。 高二学生羽田真一曾是全国青少年羽毛球赛的亚军，目标是带领校队打进全国大赛。某天，他的父亲突然带回家一个女孩——同校羽毛球社的王牌选手早濑青。由于早濑家遭遇火灾，父亲让她暂时借住。真一和早濑在学校里是竞争对手，关系微妙。如今共处一室">
+    <meta name="keywords" content="青之箱,日本,电视剧,2016,青春 / 运动 / 爱情,在线观看,高清影片,羽毛球,校园,暗恋,成长">
+    <link rel="stylesheet" href="assets/style.css">
+    <script src="assets/site.js" defer></script>
+  </head>
+  <body>
+    <header class="site-header">
+      <div class="container header-inner">
+        <a class="brand" href="index.html" aria-label="高清影片合集">
+          <span class="brand-mark">影</span>
+          <span class="brand-text">高清影片合集</span>
+        </a>
+        <nav class="main-nav" aria-label="主导航">
+          <a class="" href="index.html">首页</a>
+          <a class="" href="categories.html">分类</a>
+          <a class="" href="search.html">搜索</a>
+          <a class="" href="rank.html">热播榜</a>
+        </nav>
+        <button class="menu-button" type="button" aria-label="展开导航" data-menu-button>
+          <span></span>
+          <span></span>
+          <span></span>
+        </button>
+      </div>
+      <nav class="mobile-nav" data-mobile-nav>
+        <a href="index.html">首页</a>
+        <a href="categories.html">分类</a>
+        <a href="search.html">搜索</a>
+        <a href="rank.html">热播榜</a>
+              <a href="category-new-releases.html">最新热映</a>
+              <a href="category-action-adventure.html">动作冒险</a>
+              <a href="category-drama-emotion.html">剧情情感</a>
+              <a href="category-comedy-life.html">喜剧生活</a>
+              <a href="category-romance-love.html">爱情都市</a>
+              <a href="category-crime-suspense.html">犯罪悬疑</a>
+      </nav>
+    </header>
+    <main class="top-main detail-main">
+      <section class="container breadcrumb">
+        <a href="index.html">首页</a>
+        <span>›</span>
+        <a href="category-animation-family.html">动画少儿</a>
+        <span>›</span>
+        <span>青之箱</span>
+      </section>
+      <section class="detail-hero" style="--detail-cover: url('./139.jpg')">
+        <div class="detail-cover-layer"></div>
+        <div class="container detail-grid">
+          <div class="detail-poster">
+            <img src="./139.jpg" alt="青之箱" onerror="this.style.display='none'">
+          </div>
+          <div class="detail-info">
+            <span class="eyebrow">动画少儿 · 2016</span>
+            <h1>青之箱 在线观看</h1>
+            <p class="detail-one-line">高中羽毛球社的王牌选手，因一场意外与同社团女生开始了奇怪的同居生活。</p>
+            <div class="info-list">
+              <span>地区：日本</span>
+              <span>类型：电视剧</span>
+              <span>年份：2016</span>
+              <span>题材：青春 / 运动 / 爱情</span>
+            </div>
+            <div class="chip-row large-chips"><span>羽毛球</span><span>校园</span><span>暗恋</span><span>成长</span></div>
+            <div class="hero-actions">
+              <a class="primary-button" href="#play">开始播放</a>
+              <a class="ghost-button" href="category-animation-family.html">同类影片</a>
+            </div>
+          </div>
+        </div>
+      </section>
+      <div id="play" class="container detail-content">
+        <section class="player-section" aria-label="青之箱 播放器">
+          <div class="player-shell">
+            <video id="movie-player" class="movie-player" poster="./139.jpg" preload="metadata" playsinline></video>
+            <button class="player-cover" type="button" aria-label="播放青之箱">
+              <img src="./139.jpg" alt="青之箱" onerror="this.style.display='none'">
+              <span class="play-icon">▶</span>
+            </button>
+          </div>
+        </section>
+        <script src="https://cdn.jsdelivr.net/npm/hls.js@1"></script>
+        <script>
+          (() => {
+            const video = document.getElementById('movie-player');
+            const cover = document.querySelector('.player-cover');
+            const source = 'https://customer-7t103rn8rocxo5v6.cloudflarestream.com/fbc04ae173a0e633458658e80ee78c2a/manifest/video.m3u8';
+            let ready = false;
+
+            const bindSource = () => {
+              if (ready) {
+                return;
+              }
+              ready = true;
+              if (video.canPlayType('application/vnd.apple.mpegurl')) {
+                video.src = source;
+              } else if (window.Hls && window.Hls.isSupported()) {
+                const hls = new window.Hls({
+                  enableWorker: true,
+                  lowLatencyMode: true
+                });
+                hls.loadSource(source);
+                hls.attachMedia(video);
+              } else {
+                video.src = source;
+              }
+            };
+
+            const startPlay = async () => {
+              bindSource();
+              video.setAttribute('controls', 'controls');
+              if (cover) {
+                cover.classList.add('is-hidden');
+              }
+              try {
+                await video.play();
+              } catch (error) {
+                video.focus();
+              }
+            };
+
+            if (cover) {
+              cover.addEventListener('click', startPlay);
+            }
+            video.addEventListener('click', () => {
+              if (video.paused) {
+                startPlay();
+              }
+            });
+          })();
+        </script>
+        <section class="article-section">
+          <h2>青之箱 剧情简介</h2>
+          <p>高二学生羽田真一曾是全国青少年羽毛球赛的亚军，目标是带领校队打进全国大赛。某天，他的父亲突然带回家一个女孩——同校羽毛球社的王牌选手早濑青。由于早濑家遭遇火灾，父亲让她暂时借住。真一和早濑在学校里是竞争对手，关系微妙。如今共处一室，两人约定互不干扰。但随着日常训练和生活重叠，真一发现早濑表面上冷静强大，私底下却会因为紧张而偷偷吃糖果，会因为比赛失利躲在天台哭泣。青之箱既是存放羽毛球装备的箱子，也象征着被青春封存的心事。全国大赛预选赛前夜，早濑在箱子里留下一张纸条：“打败我，我就告诉你我的秘密。”</p>
+        </section>
+        <section class="article-section">
+          <h2>青之箱 影片看点</h2>
+          <p>这部青春运动剧把赛场上的热血与生活中的细腻情感平衡得很好。男女主角之间的化学反应自然动人，羽毛球比赛场面拍摄流畅扎实。没有狗血情节，反而更显真诚。</p>
+        </section>
+        <section class="article-section">
+          <h2>相关推荐</h2>
+          <div class="movie-grid related-grid">
+          <article class="movie-card" data-card data-search="舞伶艳史 中国香港 剧情, 歌舞, 情色 夜总会、底层女性、风月场" data-year="1992" data-region="中国香港">
+            <a class="poster-link" href="movie-0123.html" aria-label="舞伶艳史">
+              <img src="./123.jpg" alt="舞伶艳史" loading="lazy" onerror="this.style.display='none'">
+              <span class="poster-shine"></span>
+            </a>
+            <div class="card-body">
+              <div class="meta-line">
+                <span>1992</span>
+                <span>中国香港</span>
+              </div>
+              <h3><a href="movie-0123.html">舞伶艳史</a></h3>
+              <p>六十年代香港夜总会，当红舞女为供养爱人读书而沉沦，却不知枕边人早已背叛。</p>
+              <div class="chip-row"><span>中国香港</span><span>电影</span><span>1992</span><span>夜总会</span><span>底层女性</span><span>风月场</span></div>
+            </div>
+          </article>
+          <article class="movie-card" data-card data-search="手机见鬼 中国香港 恐怖, 悬疑, 惊悚 灵异、手机APP、都市传说、伪纪录片" data-year="2019" data-region="中国香港">
+            <a class="poster-link" href="movie-0117.html" aria-label="手机见鬼">
+              <img src="./117.jpg" alt="手机见鬼" loading="lazy" onerror="this.style.display='none'">
+              <span class="poster-shine"></span>
+            </a>
+            <div class="card-body">
+              <div class="meta-line">
+                <span>2019</span>
+                <span>中国香港</span>
+              </div>
+              <h3><a href="movie-0117.html">手机见鬼</a></h3>
+              <p>一款号称能拍到鬼的修图APP风靡全网，用户却发现拍到的“鬼”会在24小时内找上门。</p>
+              <div class="chip-row"><span>中国香港</span><span>电影</span><span>2019</span><span>灵异</span><span>手机APP</span><span>都市传说</span><span>伪纪录片</span></div>
+            </div>
+          </article>
+          <article class="movie-card" data-card data-search="啊！摇篮 中国大陆 剧情, 家庭 保育院、长征、孩子、女性" data-year="2024" data-region="中国大陆">
+            <a class="poster-link" href="movie-0130.html" aria-label="啊！摇篮">
+              <img src="./130.jpg" alt="啊！摇篮" loading="lazy" onerror="this.style.display='none'">
+              <span class="poster-shine"></span>
+            </a>
+            <div class="card-body">
+              <div class="meta-line">
+                <span>2024</span>
+                <span>中国大陆</span>
+              </div>
+              <h3><a href="movie-0130.html">啊！摇篮</a></h3>
+              <p>1935年红军长征路上，四个被留在后方保育院的女战士，带着三十多个孩子追赶大部队。</p>
+              <div class="chip-row"><span>中国大陆</span><span>电影</span><span>2024</span><span>保育院</span><span>长征</span><span>孩子</span><span>女性</span></div>
+            </div>
+          </article>
+          <article class="movie-card" data-card data-search="画魂缠身 泰国 恐怖 古曼童、人体彩绘、诅咒、纹身、巫术" data-year="2024" data-region="泰国">
+            <a class="poster-link" href="movie-0108.html" aria-label="画魂缠身">
+              <img src="./108.jpg" alt="画魂缠身" loading="lazy" onerror="this.style.display='none'">
+              <span class="poster-shine"></span>
+            </a>
+            <div class="card-body">
+              <div class="meta-line">
+                <span>2024</span>
+                <span>泰国</span>
+              </div>
+              <h3><a href="movie-0108.html">画魂缠身</a></h3>
+              <p>一名叛逆少女纹了一副神秘的壁画在身上，每当深夜，画中的鬼魂便会从她的皮肤里爬出来。</p>
+              <div class="chip-row"><span>泰国</span><span>电影</span><span>2024</span><span>古曼童</span><span>人体彩绘</span><span>诅咒</span><span>纹身</span></div>
+            </div>
+          </article>
+          <article class="movie-card" data-card data-search="逆鳞 中国大陆 剧情 / 犯罪 / 悬疑 反腐、卧底、暗网、城市、人性" data-year="2025" data-region="中国大陆">
+            <a class="poster-link" href="movie-0111.html" aria-label="逆鳞">
+              <img src="./111.jpg" alt="逆鳞" loading="lazy" onerror="this.style.display='none'">
+              <span class="poster-shine"></span>
+            </a>
+            <div class="card-body">
+              <div class="meta-line">
+                <span>2025</span>
+                <span>中国大陆</span>
+              </div>
+              <h3><a href="movie-0111.html">逆鳞</a></h3>
+              <p>他花了八年把自己活成了坏人，直到女儿在新闻里指着通缉令上的他喊“爸爸”。</p>
+              <div class="chip-row"><span>中国大陆</span><span>电视剧</span><span>2025</span><span>反腐</span><span>卧底</span><span>暗网</span><span>城市</span></div>
+            </div>
+          </article>
+          <article class="movie-card" data-card data-search="非死不可 美国 惊悚/恐怖 社交网络、都市传说、复仇" data-year="2024" data-region="美国">
+            <a class="poster-link" href="movie-0129.html" aria-label="非死不可">
+              <img src="./129.jpg" alt="非死不可" loading="lazy" onerror="this.style.display='none'">
+              <span class="poster-shine"></span>
+            </a>
+            <div class="card-body">
+              <div class="meta-line">
+                <span>2024</span>
+                <span>美国</span>
+              </div>
+              <h3><a href="movie-0129.html">非死不可</a></h3>
+              <p>六个网友组建了“自杀群”，约定同时直播自杀，却发现群主是一个诱骗人“死亡表演”的变态网红。</p>
+              <div class="chip-row"><span>美国</span><span>电影</span><span>2024</span><span>社交网络</span><span>都市传说</span><span>复仇</span></div>
+            </div>
+          </article>
+          <article class="movie-card" data-card data-search="岁月神偷 中国香港 剧情 / 家庭 时代变迁、小人物史诗、怀旧、亲情" data-year="2028" data-region="中国香港">
+            <a class="poster-link" href="movie-0258.html" aria-label="岁月神偷">
+              <img src="./108.jpg" alt="岁月神偷" loading="lazy" onerror="this.style.display='none'">
+              <span class="poster-shine"></span>
+            </a>
+            <div class="card-body">
+              <div class="meta-line">
+                <span>2028</span>
+                <span>中国香港</span>
+              </div>
+              <h3><a href="movie-0258.html">岁月神偷</a></h3>
+              <p>从上世纪80年代至今，一家位于香港深水埗的旧书店，见证了时代的风云和两代人的悲欢离合。</p>
+              <div class="chip-row"><span>中国香港</span><span>剧集</span><span>2028</span><span>时代变迁</span><span>小人物史诗</span><span>怀旧</span><span>亲情</span></div>
+            </div>
+          </article>
+          <article class="movie-card" data-card data-search="失落园 中国大陆 悬疑 / 科幻 心理惊悚、虚拟现实、人性实验、烧脑" data-year="2028" data-region="中国大陆">
+            <a class="poster-link" href="movie-1084.html" aria-label="失落园">
+              <img src="./34.jpg" alt="失落园" loading="lazy" onerror="this.style.display='none'">
+              <span class="poster-shine"></span>
+            </a>
+            <div class="card-body">
+              <div class="meta-line">
+                <span>2028</span>
+                <span>中国大陆</span>
+              </div>
+              <h3><a href="movie-1084.html">失落园</a></h3>
+              <p>为治愈心理创伤，六人进入虚拟“失落园”，却发现醒来后无法分辨真实与虚幻。</p>
+              <div class="chip-row"><span>中国大陆</span><span>电影</span><span>2028</span><span>心理惊悚</span><span>虚拟现实</span><span>人性实验</span><span>烧脑</span></div>
+            </div>
+          </article>
+          </div>
+        </section>
+      </div>
+    </main>
+    <footer class="site-footer">
+      <div class="container footer-grid">
+        <div>
+          <a class="footer-brand" href="index.html">
+            <span class="brand-mark">影</span>
+            <span>高清影片合集</span>
+          </a>
+          <p>整理近期上线的电影内容，包含动作、剧情、喜剧等多种类型，页面信息清晰，适合按更新和热度查找影片。</p>
+        </div>
+        <div>
+          <h2>快速入口</h2>
+          <ul>
+            <li><a href="index.html">首页</a></li>
+            <li><a href="categories.html">分类总览</a></li>
+            <li><a href="search.html">影片搜索</a></li>
+            <li><a href="rank.html">热播榜</a></li>
+          </ul>
+        </div>
+        <div>
+          <h2>影片分类</h2>
+          <ul>
+              <li><a href="category-new-releases.html">最新热映</a></li>
+              <li><a href="category-action-adventure.html">动作冒险</a></li>
+              <li><a href="category-drama-emotion.html">剧情情感</a></li>
+              <li><a href="category-comedy-life.html">喜剧生活</a></li>
+              <li><a href="category-romance-love.html">爱情都市</a></li>
+              <li><a href="category-crime-suspense.html">犯罪悬疑</a></li>
+              <li><a href="category-fantasy-scifi.html">奇幻科幻</a></li>
+              <li><a href="category-animation-family.html">动画少儿</a></li>
+              <li><a href="category-classic-hk.html">港台经典</a></li>
+              <li><a href="category-global-selection.html">环球佳片</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="footer-bottom">© 2026 高清影片合集 · 最新电影与热门影片索引</div>
+    </footer>
+<script>
+var _hmt = _hmt || [];
+(function() {
+  var hm = document.createElement("script");
+  hm.src = "https://hm.baidu.com/hm.js?60fa60a3da050a73eefefaaebe0afaf5";
+  var s = document.getElementsByTagName("script")[0]; 
+  s.parentNode.insertBefore(hm, s);
+})();
+</script>
+  </body>
+</html>

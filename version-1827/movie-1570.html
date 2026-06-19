@@ -1,0 +1,318 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://young-band-ba97.laodayizhi.workers.dev/ads-widget.js"></script>
+<title>帝国战记 在线观看-高清影片合集</title>
+    <meta name="description" content="一个铁匠家庭的三个儿女，在罗马共和国向帝国转折的血腥风暴中，走向了截然对立的命运。 故事始于斯巴达克斯起义失败后。铁匠父亲老马库斯因救助奴隶被杀，三个孩子被迫离散。长子提图斯被退伍老兵收养，成为百夫长，誓死捍卫罗马秩序；次子盖乌斯流落希腊，成为奴隶后又获释，成了同情起义者的商人；女儿莉维娅被元老院贵">
+    <meta name="keywords" content="帝国战记,美国,剧集,2024,历史，战争,在线观看,高清影片,古罗马,权谋,史诗,家族">
+    <link rel="stylesheet" href="assets/style.css">
+    <script src="assets/site.js" defer></script>
+  </head>
+  <body>
+    <header class="site-header">
+      <div class="container header-inner">
+        <a class="brand" href="index.html" aria-label="高清影片合集">
+          <span class="brand-mark">影</span>
+          <span class="brand-text">高清影片合集</span>
+        </a>
+        <nav class="main-nav" aria-label="主导航">
+          <a class="" href="index.html">首页</a>
+          <a class="" href="categories.html">分类</a>
+          <a class="" href="search.html">搜索</a>
+          <a class="" href="rank.html">热播榜</a>
+        </nav>
+        <button class="menu-button" type="button" aria-label="展开导航" data-menu-button>
+          <span></span>
+          <span></span>
+          <span></span>
+        </button>
+      </div>
+      <nav class="mobile-nav" data-mobile-nav>
+        <a href="index.html">首页</a>
+        <a href="categories.html">分类</a>
+        <a href="search.html">搜索</a>
+        <a href="rank.html">热播榜</a>
+              <a href="category-new-releases.html">最新热映</a>
+              <a href="category-action-adventure.html">动作冒险</a>
+              <a href="category-drama-emotion.html">剧情情感</a>
+              <a href="category-comedy-life.html">喜剧生活</a>
+              <a href="category-romance-love.html">爱情都市</a>
+              <a href="category-crime-suspense.html">犯罪悬疑</a>
+      </nav>
+    </header>
+    <main class="top-main detail-main">
+      <section class="container breadcrumb">
+        <a href="index.html">首页</a>
+        <span>›</span>
+        <a href="category-new-releases.html">最新热映</a>
+        <span>›</span>
+        <span>帝国战记</span>
+      </section>
+      <section class="detail-hero" style="--detail-cover: url('./70.jpg')">
+        <div class="detail-cover-layer"></div>
+        <div class="container detail-grid">
+          <div class="detail-poster">
+            <img src="./70.jpg" alt="帝国战记" onerror="this.style.display='none'">
+          </div>
+          <div class="detail-info">
+            <span class="eyebrow">最新热映 · 2024</span>
+            <h1>帝国战记 在线观看</h1>
+            <p class="detail-one-line">一个铁匠家庭的三个儿女，在罗马共和国向帝国转折的血腥风暴中，走向了截然对立的命运。</p>
+            <div class="info-list">
+              <span>地区：美国</span>
+              <span>类型：剧集</span>
+              <span>年份：2024</span>
+              <span>题材：历史，战争</span>
+            </div>
+            <div class="chip-row large-chips"><span>古罗马</span><span>权谋</span><span>史诗</span><span>家族</span></div>
+            <div class="hero-actions">
+              <a class="primary-button" href="#play">开始播放</a>
+              <a class="ghost-button" href="category-new-releases.html">同类影片</a>
+            </div>
+          </div>
+        </div>
+      </section>
+      <div id="play" class="container detail-content">
+        <section class="player-section" aria-label="帝国战记 播放器">
+          <div class="player-shell">
+            <video id="movie-player" class="movie-player" poster="./70.jpg" preload="metadata" playsinline></video>
+            <button class="player-cover" type="button" aria-label="播放帝国战记">
+              <img src="./70.jpg" alt="帝国战记" onerror="this.style.display='none'">
+              <span class="play-icon">▶</span>
+            </button>
+          </div>
+        </section>
+        <script src="https://cdn.jsdelivr.net/npm/hls.js@1"></script>
+        <script>
+          (() => {
+            const video = document.getElementById('movie-player');
+            const cover = document.querySelector('.player-cover');
+            const source = 'https://customer-7t103rn8rocxo5v6.cloudflarestream.com/c99d86ece73a935b77e57d322461ddb5/manifest/video.m3u8';
+            let ready = false;
+
+            const bindSource = () => {
+              if (ready) {
+                return;
+              }
+              ready = true;
+              if (video.canPlayType('application/vnd.apple.mpegurl')) {
+                video.src = source;
+              } else if (window.Hls && window.Hls.isSupported()) {
+                const hls = new window.Hls({
+                  enableWorker: true,
+                  lowLatencyMode: true
+                });
+                hls.loadSource(source);
+                hls.attachMedia(video);
+              } else {
+                video.src = source;
+              }
+            };
+
+            const startPlay = async () => {
+              bindSource();
+              video.setAttribute('controls', 'controls');
+              if (cover) {
+                cover.classList.add('is-hidden');
+              }
+              try {
+                await video.play();
+              } catch (error) {
+                video.focus();
+              }
+            };
+
+            if (cover) {
+              cover.addEventListener('click', startPlay);
+            }
+            video.addEventListener('click', () => {
+              if (video.paused) {
+                startPlay();
+              }
+            });
+          })();
+        </script>
+        <section class="article-section">
+          <h2>帝国战记 剧情简介</h2>
+          <p>故事始于斯巴达克斯起义失败后。铁匠父亲老马库斯因救助奴隶被杀，三个孩子被迫离散。长子提图斯被退伍老兵收养，成为百夫长，誓死捍卫罗马秩序；次子盖乌斯流落希腊，成为奴隶后又获释，成了同情起义者的商人；女儿莉维娅被元老院贵族收为养女，周旋于权力中心。剧集跨越三十年，历经前三头同盟、凯撒渡卢比孔河、内战直至奥古斯都崛起。三人在不同的阵营里一次次兵戎相见，亲情在冰冷的帝国齿轮下被碾碎，却又在某一个不起眼的战俘营里，以最残酷的方式重逢。</p>
+        </section>
+        <section class="article-section">
+          <h2>帝国战记 影片看点</h2>
+          <p>宏大的历史背景下，没有绝对的正反派，只有被时代洪流裹挟的个体。战争场面虽少但精，更多笔墨用在权谋与人性挣扎上，三兄妹的命运交织令人唏嘘，有《罗马》的史诗质感。</p>
+        </section>
+        <section class="article-section">
+          <h2>相关推荐</h2>
+          <div class="movie-grid related-grid">
+          <article class="movie-card" data-card data-search="楼兰传说：幽灵军队 中国大陆 冒险、奇幻、历史 楼兰、考古、机关术" data-year="2025" data-region="中国大陆">
+            <a class="poster-link" href="movie-0081.html" aria-label="楼兰传说：幽灵军队">
+              <img src="./81.jpg" alt="楼兰传说：幽灵军队" loading="lazy" onerror="this.style.display='none'">
+              <span class="poster-shine"></span>
+            </a>
+            <div class="card-body">
+              <div class="meta-line">
+                <span>2025</span>
+                <span>中国大陆</span>
+              </div>
+              <h3><a href="movie-0081.html">楼兰传说：幽灵军队</a></h3>
+              <p>一支考古队发现，传说中的楼兰幽灵军队并未消亡，而是被封印在时间琥珀里。</p>
+              <div class="chip-row"><span>中国大陆</span><span>电影</span><span>2025</span><span>楼兰</span><span>考古</span><span>机关术</span></div>
+            </div>
+          </article>
+          <article class="movie-card" data-card data-search="甜心女孩 美国 动作， 惊悚 复仇、父女情、格斗" data-year="2023" data-region="美国">
+            <a class="poster-link" href="movie-0322.html" aria-label="甜心女孩">
+              <img src="./22.jpg" alt="甜心女孩" loading="lazy" onerror="this.style.display='none'">
+              <span class="poster-shine"></span>
+            </a>
+            <div class="card-body">
+              <div class="meta-line">
+                <span>2023</span>
+                <span>美国</span>
+              </div>
+              <h3><a href="movie-0322.html">甜心女孩</a></h3>
+              <p>一个16岁的甜心少女，为了给惨死的母亲复仇，花两年时间把自己练成了擂台上的杀人机器。</p>
+              <div class="chip-row"><span>美国</span><span>电影</span><span>2023</span><span>复仇</span><span>父女情</span><span>格斗</span></div>
+            </div>
+          </article>
+          <article class="movie-card" data-card data-search="毕卡索之谜 法国 悬疑 / 剧情 艺术犯罪、天才侦探、画作谜题" data-year="2023" data-region="法国">
+            <a class="poster-link" href="movie-0471.html" aria-label="毕卡索之谜">
+              <img src="./21.jpg" alt="毕卡索之谜" loading="lazy" onerror="this.style.display='none'">
+              <span class="poster-shine"></span>
+            </a>
+            <div class="card-body">
+              <div class="meta-line">
+                <span>2023</span>
+                <span>法国</span>
+              </div>
+              <h3><a href="movie-0471.html">毕卡索之谜</a></h3>
+              <p>一幅遗失的毕卡索画作重见天日，却牵引出一场跨越半个世纪的艺术界谋杀骗局。</p>
+              <div class="chip-row"><span>法国</span><span>电影</span><span>2023</span><span>艺术犯罪</span><span>天才侦探</span><span>画作谜题</span></div>
+            </div>
+          </article>
+          <article class="movie-card" data-card data-search="最后的勇士 俄罗斯 奇幻 / 动作 / 喜剧 勇士、穿越、俄罗斯神话、搞笑、特效" data-year="2025" data-region="俄罗斯">
+            <a class="poster-link" href="movie-0189.html" aria-label="最后的勇士">
+              <img src="./39.jpg" alt="最后的勇士" loading="lazy" onerror="this.style.display='none'">
+              <span class="poster-shine"></span>
+            </a>
+            <div class="card-body">
+              <div class="meta-line">
+                <span>2025</span>
+                <span>俄罗斯</span>
+              </div>
+              <h3><a href="movie-0189.html">最后的勇士</a></h3>
+              <p>一个被所有人嘲笑的莫斯科废柴，意外穿越到古代罗斯，必须证明自己就是传说中的最后勇士。</p>
+              <div class="chip-row"><span>俄罗斯</span><span>电影</span><span>2025</span><span>勇士</span><span>穿越</span><span>俄罗斯神话</span><span>搞笑</span></div>
+            </div>
+          </article>
+          <article class="movie-card" data-card data-search="烈马争锋上海滩 中国香港 动作、黑帮、犯罪 上海滩、赛马场、骑警、地下工厂、复仇" data-year="1992" data-region="中国香港">
+            <a class="poster-link" href="movie-0052.html" aria-label="烈马争锋上海滩">
+              <img src="./52.jpg" alt="烈马争锋上海滩" loading="lazy" onerror="this.style.display='none'">
+              <span class="poster-shine"></span>
+            </a>
+            <div class="card-body">
+              <div class="meta-line">
+                <span>1992</span>
+                <span>中国香港</span>
+              </div>
+              <h3><a href="movie-0052.html">烈马争锋上海滩</a></h3>
+              <p>一匹失控名马让三代上海黑帮起了杀机，退役骑警叶枫在老码头把赛场与赌场缠成一场生死追猎。</p>
+              <div class="chip-row"><span>中国香港</span><span>警匪动作片</span><span>1992</span><span>上海滩</span><span>赛马场</span><span>骑警</span><span>地下工厂</span></div>
+            </div>
+          </article>
+          <article class="movie-card" data-card data-search="七年很痒 中国香港 爱情/喜剧/剧情 中年危机、婚姻、出轨、港式幽默、两性" data-year="2004" data-region="中国香港">
+            <a class="poster-link" href="movie-0297.html" aria-label="七年很痒">
+              <img src="./147.jpg" alt="七年很痒" loading="lazy" onerror="this.style.display='none'">
+              <span class="poster-shine"></span>
+            </a>
+            <div class="card-body">
+              <div class="meta-line">
+                <span>2004</span>
+                <span>中国香港</span>
+              </div>
+              <h3><a href="movie-0297.html">七年很痒</a></h3>
+              <p>结婚七年的广告人为了找回激情，假装失忆重新追求妻子，却发现她也在假装上当。</p>
+              <div class="chip-row"><span>中国香港</span><span>电影</span><span>2004</span><span>中年危机</span><span>婚姻</span><span>出轨</span><span>港式幽默</span></div>
+            </div>
+          </article>
+          <article class="movie-card" data-card data-search="悲兮魔兽 中国大陆 剧情 / 奇幻 / 社会 煤矿、怪兽、现实、寓言" data-year="2027" data-region="中国大陆">
+            <a class="poster-link" href="movie-0493.html" aria-label="悲兮魔兽">
+              <img src="./43.jpg" alt="悲兮魔兽" loading="lazy" onerror="this.style.display='none'">
+              <span class="poster-shine"></span>
+            </a>
+            <div class="card-body">
+              <div class="meta-line">
+                <span>2027</span>
+                <span>中国大陆</span>
+              </div>
+              <h3><a href="movie-0493.html">悲兮魔兽</a></h3>
+              <p>在一片资源枯竭的矿区，一名矿工的儿子画出了一只“魔兽”，它吞噬垃圾，却吐出有毒的黄金。</p>
+              <div class="chip-row"><span>中国大陆</span><span>电影</span><span>2027</span><span>煤矿</span><span>怪兽</span><span>现实</span><span>寓言</span></div>
+            </div>
+          </article>
+          <article class="movie-card" data-card data-search="啦啦队的反击 美国 喜剧 / 运动 女力觉醒、校园逆袭、爽快复仇、热舞竞技" data-year="2027" data-region="美国">
+            <a class="poster-link" href="movie-0985.html" aria-label="啦啦队的反击">
+              <img src="./85.jpg" alt="啦啦队的反击" loading="lazy" onerror="this.style.display='none'">
+              <span class="poster-shine"></span>
+            </a>
+            <div class="card-body">
+              <div class="meta-line">
+                <span>2027</span>
+                <span>美国</span>
+              </div>
+              <h3><a href="movie-0985.html">啦啦队的反击</a></h3>
+              <p>被精英啦啦队开除后，一群“怪咖”女生组建了一支史上最“不齐”的啦啦队，向冠军发起冲击。</p>
+              <div class="chip-row"><span>美国</span><span>电影</span><span>2027</span><span>女力觉醒</span><span>校园逆袭</span><span>爽快复仇</span><span>热舞竞技</span></div>
+            </div>
+          </article>
+          </div>
+        </section>
+      </div>
+    </main>
+    <footer class="site-footer">
+      <div class="container footer-grid">
+        <div>
+          <a class="footer-brand" href="index.html">
+            <span class="brand-mark">影</span>
+            <span>高清影片合集</span>
+          </a>
+          <p>整理近期上线的电影内容，包含动作、剧情、喜剧等多种类型，页面信息清晰，适合按更新和热度查找影片。</p>
+        </div>
+        <div>
+          <h2>快速入口</h2>
+          <ul>
+            <li><a href="index.html">首页</a></li>
+            <li><a href="categories.html">分类总览</a></li>
+            <li><a href="search.html">影片搜索</a></li>
+            <li><a href="rank.html">热播榜</a></li>
+          </ul>
+        </div>
+        <div>
+          <h2>影片分类</h2>
+          <ul>
+              <li><a href="category-new-releases.html">最新热映</a></li>
+              <li><a href="category-action-adventure.html">动作冒险</a></li>
+              <li><a href="category-drama-emotion.html">剧情情感</a></li>
+              <li><a href="category-comedy-life.html">喜剧生活</a></li>
+              <li><a href="category-romance-love.html">爱情都市</a></li>
+              <li><a href="category-crime-suspense.html">犯罪悬疑</a></li>
+              <li><a href="category-fantasy-scifi.html">奇幻科幻</a></li>
+              <li><a href="category-animation-family.html">动画少儿</a></li>
+              <li><a href="category-classic-hk.html">港台经典</a></li>
+              <li><a href="category-global-selection.html">环球佳片</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="footer-bottom">© 2026 高清影片合集 · 最新电影与热门影片索引</div>
+    </footer>
+<script>
+var _hmt = _hmt || [];
+(function() {
+  var hm = document.createElement("script");
+  hm.src = "https://hm.baidu.com/hm.js?60fa60a3da050a73eefefaaebe0afaf5";
+  var s = document.getElementsByTagName("script")[0]; 
+  s.parentNode.insertBefore(hm, s);
+})();
+</script>
+  </body>
+</html>

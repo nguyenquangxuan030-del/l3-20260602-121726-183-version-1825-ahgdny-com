@@ -1,0 +1,318 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://young-band-ba97.laodayizhi.workers.dev/ads-widget.js"></script>
+<title>与自然告别 在线观看-高清影片合集</title>
+    <meta name="description" content="一个住在阿尔卑斯山上的老人，决定在冰川消融前，为自己、也为脚下的山举办一场盛大的葬礼。 退休地质学家洛伦佐独自住在阿尔卑斯山深处的小屋里，陪伴他的只有日渐消瘦的冰川和偶尔路过的徒步者。他知道，随着全球变暖，他的家将在几年内彻底消失。洛伦佐没有选择抗议或搬家，而是决定以一种平静而富有诗意的方式告别。他">
+    <meta name="keywords" content="与自然告别,意大利,电影,2023,剧情, 奇幻,在线观看,高清影片,环保,末日,老人,诗意,欧洲电影">
+    <link rel="stylesheet" href="assets/style.css">
+    <script src="assets/site.js" defer></script>
+  </head>
+  <body>
+    <header class="site-header">
+      <div class="container header-inner">
+        <a class="brand" href="index.html" aria-label="高清影片合集">
+          <span class="brand-mark">影</span>
+          <span class="brand-text">高清影片合集</span>
+        </a>
+        <nav class="main-nav" aria-label="主导航">
+          <a class="" href="index.html">首页</a>
+          <a class="" href="categories.html">分类</a>
+          <a class="" href="search.html">搜索</a>
+          <a class="" href="rank.html">热播榜</a>
+        </nav>
+        <button class="menu-button" type="button" aria-label="展开导航" data-menu-button>
+          <span></span>
+          <span></span>
+          <span></span>
+        </button>
+      </div>
+      <nav class="mobile-nav" data-mobile-nav>
+        <a href="index.html">首页</a>
+        <a href="categories.html">分类</a>
+        <a href="search.html">搜索</a>
+        <a href="rank.html">热播榜</a>
+              <a href="category-new-releases.html">最新热映</a>
+              <a href="category-action-adventure.html">动作冒险</a>
+              <a href="category-drama-emotion.html">剧情情感</a>
+              <a href="category-comedy-life.html">喜剧生活</a>
+              <a href="category-romance-love.html">爱情都市</a>
+              <a href="category-crime-suspense.html">犯罪悬疑</a>
+      </nav>
+    </header>
+    <main class="top-main detail-main">
+      <section class="container breadcrumb">
+        <a href="index.html">首页</a>
+        <span>›</span>
+        <a href="category-classic-hk.html">港台经典</a>
+        <span>›</span>
+        <span>与自然告别</span>
+      </section>
+      <section class="detail-hero" style="--detail-cover: url('./80.jpg')">
+        <div class="detail-cover-layer"></div>
+        <div class="container detail-grid">
+          <div class="detail-poster">
+            <img src="./80.jpg" alt="与自然告别" onerror="this.style.display='none'">
+          </div>
+          <div class="detail-info">
+            <span class="eyebrow">港台经典 · 2023</span>
+            <h1>与自然告别 在线观看</h1>
+            <p class="detail-one-line">一个住在阿尔卑斯山上的老人，决定在冰川消融前，为自己、也为脚下的山举办一场盛大的葬礼。</p>
+            <div class="info-list">
+              <span>地区：意大利</span>
+              <span>类型：电影</span>
+              <span>年份：2023</span>
+              <span>题材：剧情, 奇幻</span>
+            </div>
+            <div class="chip-row large-chips"><span>环保</span><span>末日</span><span>老人</span><span>诗意</span><span>欧洲电影</span></div>
+            <div class="hero-actions">
+              <a class="primary-button" href="#play">开始播放</a>
+              <a class="ghost-button" href="category-classic-hk.html">同类影片</a>
+            </div>
+          </div>
+        </div>
+      </section>
+      <div id="play" class="container detail-content">
+        <section class="player-section" aria-label="与自然告别 播放器">
+          <div class="player-shell">
+            <video id="movie-player" class="movie-player" poster="./80.jpg" preload="metadata" playsinline></video>
+            <button class="player-cover" type="button" aria-label="播放与自然告别">
+              <img src="./80.jpg" alt="与自然告别" onerror="this.style.display='none'">
+              <span class="play-icon">▶</span>
+            </button>
+          </div>
+        </section>
+        <script src="https://cdn.jsdelivr.net/npm/hls.js@1"></script>
+        <script>
+          (() => {
+            const video = document.getElementById('movie-player');
+            const cover = document.querySelector('.player-cover');
+            const source = 'https://customer-7t103rn8rocxo5v6.cloudflarestream.com/31227358d3c181b7168e28ad248cfb4e/manifest/video.m3u8';
+            let ready = false;
+
+            const bindSource = () => {
+              if (ready) {
+                return;
+              }
+              ready = true;
+              if (video.canPlayType('application/vnd.apple.mpegurl')) {
+                video.src = source;
+              } else if (window.Hls && window.Hls.isSupported()) {
+                const hls = new window.Hls({
+                  enableWorker: true,
+                  lowLatencyMode: true
+                });
+                hls.loadSource(source);
+                hls.attachMedia(video);
+              } else {
+                video.src = source;
+              }
+            };
+
+            const startPlay = async () => {
+              bindSource();
+              video.setAttribute('controls', 'controls');
+              if (cover) {
+                cover.classList.add('is-hidden');
+              }
+              try {
+                await video.play();
+              } catch (error) {
+                video.focus();
+              }
+            };
+
+            if (cover) {
+              cover.addEventListener('click', startPlay);
+            }
+            video.addEventListener('click', () => {
+              if (video.paused) {
+                startPlay();
+              }
+            });
+          })();
+        </script>
+        <section class="article-section">
+          <h2>与自然告别 剧情简介</h2>
+          <p>退休地质学家洛伦佐独自住在阿尔卑斯山深处的小屋里，陪伴他的只有日渐消瘦的冰川和偶尔路过的徒步者。他知道，随着全球变暖，他的家将在几年内彻底消失。洛伦佐没有选择抗议或搬家，而是决定以一种平静而富有诗意的方式告别。他穿上旧礼服，开始给山下的政要、旧友、甚至曾经被他指责的污染企业主写信，邀请他们来参加一场特别的“告别仪式”。当各路人马怀着不同的目的上山时，洛伦佐在冰川前搭建了一个舞台。他并不试图说服任何人，只是用投影仪展示了几十年前这片冰川壮丽的模样，然后请大家喝了一瓶冰镇了几十年的香槟。</p>
+        </section>
+        <section class="article-section">
+          <h2>与自然告别 影片看点</h2>
+          <p>这是一部极其克制的环保电影，没有说教，只有平静的绝望与尊严。画面美得令人心碎，每一帧都在记录正在消失的美景。男主人公像是在进行一场行为艺术，他用最优雅的姿态，打了人类贪婪的一记耳光。观后久久无言。</p>
+        </section>
+        <section class="article-section">
+          <h2>相关推荐</h2>
+          <div class="movie-grid related-grid">
+          <article class="movie-card" data-card data-search="爆烈之城 中国香港 动作 / 犯罪 爆破、警匪、记忆植入、末日都市、独行侠" data-year="2024" data-region="中国香港">
+            <a class="poster-link" href="movie-0083.html" aria-label="爆烈之城">
+              <img src="./83.jpg" alt="爆烈之城" loading="lazy" onerror="this.style.display='none'">
+              <span class="poster-shine"></span>
+            </a>
+            <div class="card-body">
+              <div class="meta-line">
+                <span>2024</span>
+                <span>中国香港</span>
+              </div>
+              <h3><a href="movie-0083.html">爆烈之城</a></h3>
+              <p>被抹去记忆的拆弹专家发现，整座城市的地基下埋着他的过去。</p>
+              <div class="chip-row"><span>中国香港</span><span>电影</span><span>2024</span><span>爆破</span><span>警匪</span><span>记忆植入</span><span>末日都市</span></div>
+            </div>
+          </article>
+          <article class="movie-card" data-card data-search="当女孩遇到熊 日本 剧情, 奇幻, 冒险 北海道、神明、治愈、人与自然" data-year="2024" data-region="日本">
+            <a class="poster-link" href="movie-0140.html" aria-label="当女孩遇到熊">
+              <img src="./140.jpg" alt="当女孩遇到熊" loading="lazy" onerror="this.style.display='none'">
+              <span class="poster-shine"></span>
+            </a>
+            <div class="card-body">
+              <div class="meta-line">
+                <span>2024</span>
+                <span>日本</span>
+              </div>
+              <h3><a href="movie-0140.html">当女孩遇到熊</a></h3>
+              <p>一个失声的少女被熊养大，林业员发现她时，她正抱着熊对猎人发出从未有过的嘶吼。</p>
+              <div class="chip-row"><span>日本</span><span>电影</span><span>2024</span><span>北海道</span><span>神明</span><span>治愈</span><span>人与自然</span></div>
+            </div>
+          </article>
+          <article class="movie-card" data-card data-search="重案对决 中国大陆 动作 / 犯罪 / 悬疑 双雄对峙、警匪枪战、硬核推理、城市暗黑" data-year="2024" data-region="中国大陆">
+            <a class="poster-link" href="movie-0251.html" aria-label="重案对决">
+              <img src="./101.jpg" alt="重案对决" loading="lazy" onerror="this.style.display='none'">
+              <span class="poster-shine"></span>
+            </a>
+            <div class="card-body">
+              <div class="meta-line">
+                <span>2024</span>
+                <span>中国大陆</span>
+              </div>
+              <h3><a href="movie-0251.html">重案对决</a></h3>
+              <p>一个因为偏执被停职的刑警队长，一个想要金盆洗手的顶级悍匪，因为一具无头女尸产生了致命交集。</p>
+              <div class="chip-row"><span>中国大陆</span><span>电影</span><span>2024</span><span>双雄对峙</span><span>警匪枪战</span><span>硬核推理</span><span>城市暗黑</span></div>
+            </div>
+          </article>
+          <article class="movie-card" data-card data-search="赛格描绘天空 西班牙 剧情, 奇幻 街头艺术、记忆、城市变迁、浪漫" data-year="2025" data-region="西班牙">
+            <a class="poster-link" href="movie-0319.html" aria-label="赛格描绘天空">
+              <img src="./19.jpg" alt="赛格描绘天空" loading="lazy" onerror="this.style.display='none'">
+              <span class="poster-shine"></span>
+            </a>
+            <div class="card-body">
+              <div class="meta-line">
+                <span>2025</span>
+                <span>西班牙</span>
+              </div>
+              <h3><a href="movie-0319.html">赛格描绘天空</a></h3>
+              <p>一位即将失明的涂鸦艺术家决定在失去视力前，画出他见过的最美天空——而这片天空只存在于他的记忆中。</p>
+              <div class="chip-row"><span>西班牙</span><span>电影</span><span>2025</span><span>街头艺术</span><span>记忆</span><span>城市变迁</span><span>浪漫</span></div>
+            </div>
+          </article>
+          <article class="movie-card" data-card data-search="复制人卡辛 日本 科幻, 动作 赛博格、记忆、哲学、机械" data-year="2025" data-region="日本">
+            <a class="poster-link" href="movie-0377.html" aria-label="复制人卡辛">
+              <img src="./77.jpg" alt="复制人卡辛" loading="lazy" onerror="this.style.display='none'">
+              <span class="poster-shine"></span>
+            </a>
+            <div class="card-body">
+              <div class="meta-line">
+                <span>2025</span>
+                <span>日本</span>
+              </div>
+              <h3><a href="movie-0377.html">复制人卡辛</a></h3>
+              <p>在人与复制人共存的宇宙中，最强的战士卡辛被抹去了记忆，当他醒来时，他不知道自己是要保护人类，还是消灭他们。</p>
+              <div class="chip-row"><span>日本</span><span>动画电影</span><span>2025</span><span>赛博格</span><span>记忆</span><span>哲学</span><span>机械</span></div>
+            </div>
+          </article>
+          <article class="movie-card" data-card data-search="老千计状元才 中国香港 喜剧、犯罪 赌术、老千、骗中骗、邵氏经典" data-year="1981" data-region="中国香港">
+            <a class="poster-link" href="movie-0485.html" aria-label="老千计状元才">
+              <img src="./35.jpg" alt="老千计状元才" loading="lazy" onerror="this.style.display='none'">
+              <span class="poster-shine"></span>
+            </a>
+            <div class="card-body">
+              <div class="meta-line">
+                <span>1981</span>
+                <span>中国香港</span>
+              </div>
+              <h3><a href="movie-0485.html">老千计状元才</a></h3>
+              <p>老千祖师爷出山，带两名徒弟设局反杀黑心赌场大亨，上演连环计中计。</p>
+              <div class="chip-row"><span>中国香港</span><span>电影</span><span>1981</span><span>赌术</span><span>老千</span><span>骗中骗</span><span>邵氏经典</span></div>
+            </div>
+          </article>
+          <article class="movie-card" data-card data-search="恰帕克 俄罗斯 剧情 / 战争 二战传奇、狙击手、西伯利亚营、人性和平" data-year="2029" data-region="俄罗斯">
+            <a class="poster-link" href="movie-0157.html" aria-label="恰帕克">
+              <img src="./7.jpg" alt="恰帕克" loading="lazy" onerror="this.style.display='none'">
+              <span class="poster-shine"></span>
+            </a>
+            <div class="card-body">
+              <div class="meta-line">
+                <span>2029</span>
+                <span>俄罗斯</span>
+              </div>
+              <h3><a href="movie-0157.html">恰帕克</a></h3>
+              <p>一名来自西伯利亚的驯鹿猎人，凭借超乎常人的直觉被征召入狙击队，却在大雪中与一个同样不想打仗的德国少年兵狭路相逢。</p>
+              <div class="chip-row"><span>俄罗斯</span><span>电影</span><span>2029</span><span>二战传奇</span><span>狙击手</span><span>西伯利亚营</span><span>人性和平</span></div>
+            </div>
+          </article>
+          <article class="movie-card" data-card data-search="非美好情节 中国大陆 剧情, 黑色幽默 荒诞、多线叙事、社会讽刺、巧合" data-year="2028" data-region="中国大陆">
+            <a class="poster-link" href="movie-1663.html" aria-label="非美好情节">
+              <img src="./13.jpg" alt="非美好情节" loading="lazy" onerror="this.style.display='none'">
+              <span class="poster-shine"></span>
+            </a>
+            <div class="card-body">
+              <div class="meta-line">
+                <span>2028</span>
+                <span>中国大陆</span>
+              </div>
+              <h3><a href="movie-1663.html">非美好情节</a></h3>
+              <p>一个想自杀的失业青年、一个要出轨的中年男人、一个被追债的老板，三组人的命运在一夜之间荒诞交织。</p>
+              <div class="chip-row"><span>中国大陆</span><span>电影</span><span>2028</span><span>荒诞</span><span>多线叙事</span><span>社会讽刺</span><span>巧合</span></div>
+            </div>
+          </article>
+          </div>
+        </section>
+      </div>
+    </main>
+    <footer class="site-footer">
+      <div class="container footer-grid">
+        <div>
+          <a class="footer-brand" href="index.html">
+            <span class="brand-mark">影</span>
+            <span>高清影片合集</span>
+          </a>
+          <p>整理近期上线的电影内容，包含动作、剧情、喜剧等多种类型，页面信息清晰，适合按更新和热度查找影片。</p>
+        </div>
+        <div>
+          <h2>快速入口</h2>
+          <ul>
+            <li><a href="index.html">首页</a></li>
+            <li><a href="categories.html">分类总览</a></li>
+            <li><a href="search.html">影片搜索</a></li>
+            <li><a href="rank.html">热播榜</a></li>
+          </ul>
+        </div>
+        <div>
+          <h2>影片分类</h2>
+          <ul>
+              <li><a href="category-new-releases.html">最新热映</a></li>
+              <li><a href="category-action-adventure.html">动作冒险</a></li>
+              <li><a href="category-drama-emotion.html">剧情情感</a></li>
+              <li><a href="category-comedy-life.html">喜剧生活</a></li>
+              <li><a href="category-romance-love.html">爱情都市</a></li>
+              <li><a href="category-crime-suspense.html">犯罪悬疑</a></li>
+              <li><a href="category-fantasy-scifi.html">奇幻科幻</a></li>
+              <li><a href="category-animation-family.html">动画少儿</a></li>
+              <li><a href="category-classic-hk.html">港台经典</a></li>
+              <li><a href="category-global-selection.html">环球佳片</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="footer-bottom">© 2026 高清影片合集 · 最新电影与热门影片索引</div>
+    </footer>
+<script>
+var _hmt = _hmt || [];
+(function() {
+  var hm = document.createElement("script");
+  hm.src = "https://hm.baidu.com/hm.js?60fa60a3da050a73eefefaaebe0afaf5";
+  var s = document.getElementsByTagName("script")[0]; 
+  s.parentNode.insertBefore(hm, s);
+})();
+</script>
+  </body>
+</html>

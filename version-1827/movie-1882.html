@@ -1,0 +1,318 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://young-band-ba97.laodayizhi.workers.dev/ads-widget.js"></script>
+<title>球王比利 在线观看-高清影片合集</title>
+    <meta name="description" content="从擦鞋童到足球之王，比利如何在1958年世界杯让全场瑞典球迷为对手起立鼓掌。 本片聚焦比利1958年瑞典世界杯前后的关键时期。17岁的比利还叫埃德森，从包鲁贫民窟被选入国家队时因“任加”踢法被教练称为“原始人”。他因训练方式老派而不被重用，在首场比赛受伤后几乎告别世界杯。然而在半决赛对阵法国前，老队">
+    <meta name="keywords" content="球王比利,巴西/美国,电影,2025,传记/运动/剧情,在线观看,高清影片,足球,贫民窟,逆袭,桑巴足球,真实人生">
+    <link rel="stylesheet" href="assets/style.css">
+    <script src="assets/site.js" defer></script>
+  </head>
+  <body>
+    <header class="site-header">
+      <div class="container header-inner">
+        <a class="brand" href="index.html" aria-label="高清影片合集">
+          <span class="brand-mark">影</span>
+          <span class="brand-text">高清影片合集</span>
+        </a>
+        <nav class="main-nav" aria-label="主导航">
+          <a class="" href="index.html">首页</a>
+          <a class="" href="categories.html">分类</a>
+          <a class="" href="search.html">搜索</a>
+          <a class="" href="rank.html">热播榜</a>
+        </nav>
+        <button class="menu-button" type="button" aria-label="展开导航" data-menu-button>
+          <span></span>
+          <span></span>
+          <span></span>
+        </button>
+      </div>
+      <nav class="mobile-nav" data-mobile-nav>
+        <a href="index.html">首页</a>
+        <a href="categories.html">分类</a>
+        <a href="search.html">搜索</a>
+        <a href="rank.html">热播榜</a>
+              <a href="category-new-releases.html">最新热映</a>
+              <a href="category-action-adventure.html">动作冒险</a>
+              <a href="category-drama-emotion.html">剧情情感</a>
+              <a href="category-comedy-life.html">喜剧生活</a>
+              <a href="category-romance-love.html">爱情都市</a>
+              <a href="category-crime-suspense.html">犯罪悬疑</a>
+      </nav>
+    </header>
+    <main class="top-main detail-main">
+      <section class="container breadcrumb">
+        <a href="index.html">首页</a>
+        <span>›</span>
+        <a href="category-action-adventure.html">动作冒险</a>
+        <span>›</span>
+        <span>球王比利</span>
+      </section>
+      <section class="detail-hero" style="--detail-cover: url('./82.jpg')">
+        <div class="detail-cover-layer"></div>
+        <div class="container detail-grid">
+          <div class="detail-poster">
+            <img src="./82.jpg" alt="球王比利" onerror="this.style.display='none'">
+          </div>
+          <div class="detail-info">
+            <span class="eyebrow">动作冒险 · 2025</span>
+            <h1>球王比利 在线观看</h1>
+            <p class="detail-one-line">从擦鞋童到足球之王，比利如何在1958年世界杯让全场瑞典球迷为对手起立鼓掌。</p>
+            <div class="info-list">
+              <span>地区：巴西/美国</span>
+              <span>类型：电影</span>
+              <span>年份：2025</span>
+              <span>题材：传记/运动/剧情</span>
+            </div>
+            <div class="chip-row large-chips"><span>足球</span><span>贫民窟</span><span>逆袭</span><span>桑巴足球</span><span>真实人生</span></div>
+            <div class="hero-actions">
+              <a class="primary-button" href="#play">开始播放</a>
+              <a class="ghost-button" href="category-action-adventure.html">同类影片</a>
+            </div>
+          </div>
+        </div>
+      </section>
+      <div id="play" class="container detail-content">
+        <section class="player-section" aria-label="球王比利 播放器">
+          <div class="player-shell">
+            <video id="movie-player" class="movie-player" poster="./82.jpg" preload="metadata" playsinline></video>
+            <button class="player-cover" type="button" aria-label="播放球王比利">
+              <img src="./82.jpg" alt="球王比利" onerror="this.style.display='none'">
+              <span class="play-icon">▶</span>
+            </button>
+          </div>
+        </section>
+        <script src="https://cdn.jsdelivr.net/npm/hls.js@1"></script>
+        <script>
+          (() => {
+            const video = document.getElementById('movie-player');
+            const cover = document.querySelector('.player-cover');
+            const source = 'https://customer-7t103rn8rocxo5v6.cloudflarestream.com/0ba4f146b0e6ea192526706f495d460f/manifest/video.m3u8';
+            let ready = false;
+
+            const bindSource = () => {
+              if (ready) {
+                return;
+              }
+              ready = true;
+              if (video.canPlayType('application/vnd.apple.mpegurl')) {
+                video.src = source;
+              } else if (window.Hls && window.Hls.isSupported()) {
+                const hls = new window.Hls({
+                  enableWorker: true,
+                  lowLatencyMode: true
+                });
+                hls.loadSource(source);
+                hls.attachMedia(video);
+              } else {
+                video.src = source;
+              }
+            };
+
+            const startPlay = async () => {
+              bindSource();
+              video.setAttribute('controls', 'controls');
+              if (cover) {
+                cover.classList.add('is-hidden');
+              }
+              try {
+                await video.play();
+              } catch (error) {
+                video.focus();
+              }
+            };
+
+            if (cover) {
+              cover.addEventListener('click', startPlay);
+            }
+            video.addEventListener('click', () => {
+              if (video.paused) {
+                startPlay();
+              }
+            });
+          })();
+        </script>
+        <section class="article-section">
+          <h2>球王比利 剧情简介</h2>
+          <p>本片聚焦比利1958年瑞典世界杯前后的关键时期。17岁的比利还叫埃德森，从包鲁贫民窟被选入国家队时因“任加”踢法被教练称为“原始人”。他因训练方式老派而不被重用，在首场比赛受伤后几乎告别世界杯。然而在半决赛对阵法国前，老队员济托受伤，比利临危受命，用桑巴街头式的“任加过人”连进三球。决赛面对东道主瑞典，他在一次倒钩射门后，全场瑞典球迷起立鼓掌。影片最后回到他幼年擦鞋时仰望收音机听到巴西队失利的画面，形成闭环。</p>
+        </section>
+        <section class="article-section">
+          <h2>球王比利 影片看点</h2>
+          <p>足球场面拍出了真实的魔力，比利用脚说话的时刻比任何台词都动人。不回避巴西当时的种族歧视，把“任加”被禁止又用胜利赎回来的过程拍得荡气回肠。</p>
+        </section>
+        <section class="article-section">
+          <h2>相关推荐</h2>
+          <div class="movie-grid related-grid">
+          <article class="movie-card" data-card data-search="迷失真相 英国 悬疑，心理 记忆篡改、小镇谋杀、不可靠叙述、罗生门" data-year="2026" data-region="英国">
+            <a class="poster-link" href="movie-0069.html" aria-label="迷失真相">
+              <img src="./69.jpg" alt="迷失真相" loading="lazy" onerror="this.style.display='none'">
+              <span class="poster-shine"></span>
+            </a>
+            <div class="card-body">
+              <div class="meta-line">
+                <span>2026</span>
+                <span>英国</span>
+              </div>
+              <h3><a href="movie-0069.html">迷失真相</a></h3>
+              <p>一个失忆男人声称自己是小镇连环杀手的唯一幸存者，但警方发现他手臂上的“伤口”其实是纹身。</p>
+              <div class="chip-row"><span>英国</span><span>电视剧</span><span>2026</span><span>记忆篡改</span><span>小镇谋杀</span><span>不可靠叙述</span><span>罗生门</span></div>
+            </div>
+          </article>
+          <article class="movie-card" data-card data-search="回到家乡 意大利 家庭 / 文艺 故乡、移民、时间、橄榄树" data-year="2022" data-region="意大利">
+            <a class="poster-link" href="movie-0152.html" aria-label="回到家乡">
+              <img src="./2.jpg" alt="回到家乡" loading="lazy" onerror="this.style.display='none'">
+              <span class="poster-shine"></span>
+            </a>
+            <div class="card-body">
+              <div class="meta-line">
+                <span>2022</span>
+                <span>意大利</span>
+              </div>
+              <h3><a href="movie-0152.html">回到家乡</a></h3>
+              <p>一位功成名就的米兰建筑师回到西西里老家，发现母亲正在秘密变卖所有家产，包括他的童年卧室。</p>
+              <div class="chip-row"><span>意大利</span><span>电影</span><span>2022</span><span>故乡</span><span>移民</span><span>时间</span><span>橄榄树</span></div>
+            </div>
+          </article>
+          <article class="movie-card" data-card data-search="白夜宸缘起三生 中国大陆 古装，仙侠，爱情 三世虐恋、战神、帝女、失忆轮回" data-year="2026" data-region="中国大陆">
+            <a class="poster-link" href="movie-0239.html" aria-label="白夜宸缘起三生">
+              <img src="./89.jpg" alt="白夜宸缘起三生" loading="lazy" onerror="this.style.display='none'">
+              <span class="poster-shine"></span>
+            </a>
+            <div class="card-body">
+              <div class="meta-line">
+                <span>2026</span>
+                <span>中国大陆</span>
+              </div>
+              <h3><a href="movie-0239.html">白夜宸缘起三生</a></h3>
+              <p>天界战神与魔族帝女因禁忌之恋被贬下凡，每一世都会重逢，每一世都是死别。</p>
+              <div class="chip-row"><span>中国大陆</span><span>电视剧</span><span>2026</span><span>三世虐恋</span><span>战神</span><span>帝女</span><span>失忆轮回</span></div>
+            </div>
+          </article>
+          <article class="movie-card" data-card data-search="被迫结婚 泰国 喜剧, 爱情 先婚后爱、欢喜冤家、家庭、沙雕" data-year="2026" data-region="泰国">
+            <a class="poster-link" href="movie-0337.html" aria-label="被迫结婚">
+              <img src="./37.jpg" alt="被迫结婚" loading="lazy" onerror="this.style.display='none'">
+              <span class="poster-shine"></span>
+            </a>
+            <div class="card-body">
+              <div class="meta-line">
+                <span>2026</span>
+                <span>泰国</span>
+              </div>
+              <h3><a href="movie-0337.html">被迫结婚</a></h3>
+              <p>为了保住家族农场，都市毒舌女高管被迫与乡下憨厚兽医闪婚，两人从互扔拖鞋开始，上演“鸡同鸭讲”的同居生活。</p>
+              <div class="chip-row"><span>泰国</span><span>电视剧</span><span>2026</span><span>先婚后爱</span><span>欢喜冤家</span><span>家庭</span><span>沙雕</span></div>
+            </div>
+          </article>
+          <article class="movie-card" data-card data-search="爱情合作社 韩国 爱情 / 喜剧 契约婚姻、办公室恋情、甜宠、搞笑、年下" data-year="2024" data-region="韩国">
+            <a class="poster-link" href="movie-0409.html" aria-label="爱情合作社">
+              <img src="./109.jpg" alt="爱情合作社" loading="lazy" onerror="this.style.display='none'">
+              <span class="poster-shine"></span>
+            </a>
+            <div class="card-body">
+              <div class="meta-line">
+                <span>2024</span>
+                <span>韩国</span>
+              </div>
+              <h3><a href="movie-0409.html">爱情合作社</a></h3>
+              <p>为了获得公司“已婚员工海外派遣”名额，女上司对男下属说：“和我结婚，半年后离。”</p>
+              <div class="chip-row"><span>韩国</span><span>剧集</span><span>2024</span><span>契约婚姻</span><span>办公室恋情</span><span>甜宠</span><span>搞笑</span></div>
+            </div>
+          </article>
+          <article class="movie-card" data-card data-search="辣手保姆 美国 喜剧 / 恐怖 / 动作 保姆、邪教、反差、血腥、黑色幽默" data-year="2024" data-region="美国">
+            <a class="poster-link" href="movie-0467.html" aria-label="辣手保姆">
+              <img src="./17.jpg" alt="辣手保姆" loading="lazy" onerror="this.style.display='none'">
+              <span class="poster-shine"></span>
+            </a>
+            <div class="card-body">
+              <div class="meta-line">
+                <span>2024</span>
+                <span>美国</span>
+              </div>
+              <h3><a href="movie-0467.html">辣手保姆</a></h3>
+              <p>弱鸡男孩发现当晚看护他的性感保姆竟然是邪教杀手，为了活命他必须在家用日用品中找出“武器”。</p>
+              <div class="chip-row"><span>美国</span><span>电影</span><span>2024</span><span>保姆</span><span>邪教</span><span>反差</span><span>血腥</span></div>
+            </div>
+          </article>
+          <article class="movie-card" data-card data-search="无野之城 香港 科幻,反乌托邦,动作冒险,社会寓言 漂浮都市、阶级隔离、黑客、系统治理、空中地铁" data-year="2042" data-region="香港">
+            <a class="poster-link" href="movie-1206.html" aria-label="无野之城">
+              <img src="./6.jpg" alt="无野之城" loading="lazy" onerror="this.style.display='none'">
+              <span class="poster-shine"></span>
+            </a>
+            <div class="card-body">
+              <div class="meta-line">
+                <span>2042</span>
+                <span>香港</span>
+              </div>
+              <h3><a href="movie-1206.html">无野之城</a></h3>
+              <p>这座名为“无野城”的立体城市没有边界，却每个居民都被规定只能走一条固定轨道，逃离轨道的人将被系统判定为越界者。</p>
+              <div class="chip-row"><span>香港</span><span>反乌托邦科幻片</span><span>2042</span><span>漂浮都市</span><span>阶级隔离</span><span>黑客</span><span>系统治理</span></div>
+            </div>
+          </article>
+          <article class="movie-card" data-card data-search="黑色宇宙 美国 科幻、惊悚 平行宇宙、意识入侵、黑暗实体、硬科幻" data-year="2028" data-region="美国">
+            <a class="poster-link" href="movie-0195.html" aria-label="黑色宇宙">
+              <img src="./45.jpg" alt="黑色宇宙" loading="lazy" onerror="this.style.display='none'">
+              <span class="poster-shine"></span>
+            </a>
+            <div class="card-body">
+              <div class="meta-line">
+                <span>2028</span>
+                <span>美国</span>
+              </div>
+              <h3><a href="movie-0195.html">黑色宇宙</a></h3>
+              <p>物理学家打开通往平行宇宙的通道，却发现每个宇宙中的自己都被同一个黑暗实体追杀。</p>
+              <div class="chip-row"><span>美国</span><span>电影</span><span>2028</span><span>平行宇宙</span><span>意识入侵</span><span>黑暗实体</span><span>硬科幻</span></div>
+            </div>
+          </article>
+          </div>
+        </section>
+      </div>
+    </main>
+    <footer class="site-footer">
+      <div class="container footer-grid">
+        <div>
+          <a class="footer-brand" href="index.html">
+            <span class="brand-mark">影</span>
+            <span>高清影片合集</span>
+          </a>
+          <p>整理近期上线的电影内容，包含动作、剧情、喜剧等多种类型，页面信息清晰，适合按更新和热度查找影片。</p>
+        </div>
+        <div>
+          <h2>快速入口</h2>
+          <ul>
+            <li><a href="index.html">首页</a></li>
+            <li><a href="categories.html">分类总览</a></li>
+            <li><a href="search.html">影片搜索</a></li>
+            <li><a href="rank.html">热播榜</a></li>
+          </ul>
+        </div>
+        <div>
+          <h2>影片分类</h2>
+          <ul>
+              <li><a href="category-new-releases.html">最新热映</a></li>
+              <li><a href="category-action-adventure.html">动作冒险</a></li>
+              <li><a href="category-drama-emotion.html">剧情情感</a></li>
+              <li><a href="category-comedy-life.html">喜剧生活</a></li>
+              <li><a href="category-romance-love.html">爱情都市</a></li>
+              <li><a href="category-crime-suspense.html">犯罪悬疑</a></li>
+              <li><a href="category-fantasy-scifi.html">奇幻科幻</a></li>
+              <li><a href="category-animation-family.html">动画少儿</a></li>
+              <li><a href="category-classic-hk.html">港台经典</a></li>
+              <li><a href="category-global-selection.html">环球佳片</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="footer-bottom">© 2026 高清影片合集 · 最新电影与热门影片索引</div>
+    </footer>
+<script>
+var _hmt = _hmt || [];
+(function() {
+  var hm = document.createElement("script");
+  hm.src = "https://hm.baidu.com/hm.js?60fa60a3da050a73eefefaaebe0afaf5";
+  var s = document.getElementsByTagName("script")[0]; 
+  s.parentNode.insertBefore(hm, s);
+})();
+</script>
+  </body>
+</html>

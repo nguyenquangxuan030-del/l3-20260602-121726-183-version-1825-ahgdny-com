@@ -1,0 +1,318 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://young-band-ba97.laodayizhi.workers.dev/ads-widget.js"></script>
+<title>飞越危墙 在线观看-高清影片合集</title>
+    <meta name="description" content="被冤枉入狱的前飞虎队队长策划惊天越狱，却发现典狱长正是当年陷害他的亲哥哥，而哥哥已成为监狱土皇帝。 前飞虎队队长程辉被亲哥哥程耀陷害私吞赃款，被判终身监禁于赤柱监狱。入狱后程辉发现，程耀早已买通典狱长，在监狱内建立了一套独立王国，囚犯被分为三六九等，程耀则坐享“监狱皇帝”之位。程辉在狱中结识了老囚犯">
+    <meta name="keywords" content="飞越危墙,中国香港,电影,1989,动作, 犯罪,在线观看,高清影片,越狱,兄弟情,吴宇森式,枪战">
+    <link rel="stylesheet" href="assets/style.css">
+    <script src="assets/site.js" defer></script>
+  </head>
+  <body>
+    <header class="site-header">
+      <div class="container header-inner">
+        <a class="brand" href="index.html" aria-label="高清影片合集">
+          <span class="brand-mark">影</span>
+          <span class="brand-text">高清影片合集</span>
+        </a>
+        <nav class="main-nav" aria-label="主导航">
+          <a class="" href="index.html">首页</a>
+          <a class="" href="categories.html">分类</a>
+          <a class="" href="search.html">搜索</a>
+          <a class="" href="rank.html">热播榜</a>
+        </nav>
+        <button class="menu-button" type="button" aria-label="展开导航" data-menu-button>
+          <span></span>
+          <span></span>
+          <span></span>
+        </button>
+      </div>
+      <nav class="mobile-nav" data-mobile-nav>
+        <a href="index.html">首页</a>
+        <a href="categories.html">分类</a>
+        <a href="search.html">搜索</a>
+        <a href="rank.html">热播榜</a>
+              <a href="category-new-releases.html">最新热映</a>
+              <a href="category-action-adventure.html">动作冒险</a>
+              <a href="category-drama-emotion.html">剧情情感</a>
+              <a href="category-comedy-life.html">喜剧生活</a>
+              <a href="category-romance-love.html">爱情都市</a>
+              <a href="category-crime-suspense.html">犯罪悬疑</a>
+      </nav>
+    </header>
+    <main class="top-main detail-main">
+      <section class="container breadcrumb">
+        <a href="index.html">首页</a>
+        <span>›</span>
+        <a href="category-animation-family.html">动画少儿</a>
+        <span>›</span>
+        <span>飞越危墙</span>
+      </section>
+      <section class="detail-hero" style="--detail-cover: url('./129.jpg')">
+        <div class="detail-cover-layer"></div>
+        <div class="container detail-grid">
+          <div class="detail-poster">
+            <img src="./129.jpg" alt="飞越危墙" onerror="this.style.display='none'">
+          </div>
+          <div class="detail-info">
+            <span class="eyebrow">动画少儿 · 1989</span>
+            <h1>飞越危墙 在线观看</h1>
+            <p class="detail-one-line">被冤枉入狱的前飞虎队队长策划惊天越狱，却发现典狱长正是当年陷害他的亲哥哥，而哥哥已成为监狱土皇帝。</p>
+            <div class="info-list">
+              <span>地区：中国香港</span>
+              <span>类型：电影</span>
+              <span>年份：1989</span>
+              <span>题材：动作, 犯罪</span>
+            </div>
+            <div class="chip-row large-chips"><span>越狱</span><span>兄弟情</span><span>吴宇森式</span><span>枪战</span></div>
+            <div class="hero-actions">
+              <a class="primary-button" href="#play">开始播放</a>
+              <a class="ghost-button" href="category-animation-family.html">同类影片</a>
+            </div>
+          </div>
+        </div>
+      </section>
+      <div id="play" class="container detail-content">
+        <section class="player-section" aria-label="飞越危墙 播放器">
+          <div class="player-shell">
+            <video id="movie-player" class="movie-player" poster="./129.jpg" preload="metadata" playsinline></video>
+            <button class="player-cover" type="button" aria-label="播放飞越危墙">
+              <img src="./129.jpg" alt="飞越危墙" onerror="this.style.display='none'">
+              <span class="play-icon">▶</span>
+            </button>
+          </div>
+        </section>
+        <script src="https://cdn.jsdelivr.net/npm/hls.js@1"></script>
+        <script>
+          (() => {
+            const video = document.getElementById('movie-player');
+            const cover = document.querySelector('.player-cover');
+            const source = 'https://customer-7t103rn8rocxo5v6.cloudflarestream.com/86ea18f9954dbaf22eff5e16c41b4a25/manifest/video.m3u8';
+            let ready = false;
+
+            const bindSource = () => {
+              if (ready) {
+                return;
+              }
+              ready = true;
+              if (video.canPlayType('application/vnd.apple.mpegurl')) {
+                video.src = source;
+              } else if (window.Hls && window.Hls.isSupported()) {
+                const hls = new window.Hls({
+                  enableWorker: true,
+                  lowLatencyMode: true
+                });
+                hls.loadSource(source);
+                hls.attachMedia(video);
+              } else {
+                video.src = source;
+              }
+            };
+
+            const startPlay = async () => {
+              bindSource();
+              video.setAttribute('controls', 'controls');
+              if (cover) {
+                cover.classList.add('is-hidden');
+              }
+              try {
+                await video.play();
+              } catch (error) {
+                video.focus();
+              }
+            };
+
+            if (cover) {
+              cover.addEventListener('click', startPlay);
+            }
+            video.addEventListener('click', () => {
+              if (video.paused) {
+                startPlay();
+              }
+            });
+          })();
+        </script>
+        <section class="article-section">
+          <h2>飞越危墙 剧情简介</h2>
+          <p>前飞虎队队长程辉被亲哥哥程耀陷害私吞赃款，被判终身监禁于赤柱监狱。入狱后程辉发现，程耀早已买通典狱长，在监狱内建立了一套独立王国，囚犯被分为三六九等，程耀则坐享“监狱皇帝”之位。程辉在狱中结识了老囚犯“飞机”和数学家“四眼”，三人策划用监狱洗衣房的通风管道越狱。行动当晚，程耀截获情报，将程辉吊在绞刑架上公开鞭打。程辉在濒死之际被其他囚犯救下——原来程耀的暴政早已激起公愤。最终程辉联合所有囚犯暴动，在枪林弹雨中与程耀对峙。程耀举枪对准程辉，程辉说：“你开枪吧，反正我已经死过一次了。”程耀扣动扳机，却是空枪——子弹早已被老囚犯“飞机”偷走。</p>
+        </section>
+        <section class="article-section">
+          <h2>飞越危墙 影片看点</h2>
+          <p>港产越狱片天花板，将监狱拍成丛林社会的隐喻。兄弟相残的戏剧冲突张力十足，程耀这个反派的复杂性（既是恶人又是可怜虫）令人唏嘘。结尾兄弟对峙时“空枪”的设定堪称神来之笔，枪战戏虽粗糙但热血沸腾。</p>
+        </section>
+        <section class="article-section">
+          <h2>相关推荐</h2>
+          <div class="movie-grid related-grid">
+          <article class="movie-card" data-card data-search="飘雪六月天 中国大陆 文艺 / 爱情 / 家庭 飘雪、夏天、记忆、北方小城、母女、旧照片" data-year="2009" data-region="中国大陆">
+            <a class="poster-link" href="movie-0554.html" aria-label="飘雪六月天">
+              <img src="./104.jpg" alt="飘雪六月天" loading="lazy" onerror="this.style.display='none'">
+              <span class="poster-shine"></span>
+            </a>
+            <div class="card-body">
+              <div class="meta-line">
+                <span>2009</span>
+                <span>中国大陆</span>
+              </div>
+              <h3><a href="movie-0554.html">飘雪六月天</a></h3>
+              <p>在六月突然飘起大雪的小城里，一封迟到二十年的信，把离散的母女、消失的恋人和被封存的往事重新连在一起。</p>
+              <div class="chip-row"><span>中国大陆</span><span>电影</span><span>2009</span><span>飘雪</span><span>夏天</span><span>记忆</span><span>北方小城</span></div>
+            </div>
+          </article>
+          <article class="movie-card" data-card data-search="猛鬼寻仇 马来西亚 恐怖、惊悚、民俗 东南亚鬼片、降头、复仇、巫术、因果报应" data-year="2024" data-region="马来西亚">
+            <a class="poster-link" href="movie-0876.html" aria-label="猛鬼寻仇">
+              <img src="./126.jpg" alt="猛鬼寻仇" loading="lazy" onerror="this.style.display='none'">
+              <span class="poster-shine"></span>
+            </a>
+            <div class="card-body">
+              <div class="meta-line">
+                <span>2024</span>
+                <span>马来西亚</span>
+              </div>
+              <h3><a href="movie-0876.html">猛鬼寻仇</a></h3>
+              <p>一名女子被残忍杀害后化身厉鬼，却发现要杀她的仇人都戴着佛牌护身。</p>
+              <div class="chip-row"><span>马来西亚</span><span>电影</span><span>2024</span><span>东南亚鬼片</span><span>降头</span><span>复仇</span><span>巫术</span></div>
+            </div>
+          </article>
+          <article class="movie-card" data-card data-search="女子的生活 日本 剧情 / 生活 职场女性、不婚主义、都市、女性互助" data-year="2023" data-region="日本">
+            <a class="poster-link" href="movie-0229.html" aria-label="女子的生活">
+              <img src="./79.jpg" alt="女子的生活" loading="lazy" onerror="this.style.display='none'">
+              <span class="poster-shine"></span>
+            </a>
+            <div class="card-body">
+              <div class="meta-line">
+                <span>2023</span>
+                <span>日本</span>
+              </div>
+              <h3><a href="movie-0229.html">女子的生活</a></h3>
+              <p>三个合租的单身女子约定永不结婚，却接连陷入爱情、孩子与病魔的三重考验。</p>
+              <div class="chip-row"><span>日本</span><span>剧集</span><span>2023</span><span>职场女性</span><span>不婚主义</span><span>都市</span><span>女性互助</span></div>
+            </div>
+          </article>
+          <article class="movie-card" data-card data-search="金玉盟 中国内地 爱情, 喜剧 相亲骗局、假戏真做、都市男女" data-year="2023" data-region="中国内地">
+            <a class="poster-link" href="movie-0983.html" aria-label="金玉盟">
+              <img src="./83.jpg" alt="金玉盟" loading="lazy" onerror="this.style.display='none'">
+              <span class="poster-shine"></span>
+            </a>
+            <div class="card-body">
+              <div class="meta-line">
+                <span>2023</span>
+                <span>中国内地</span>
+              </div>
+              <h3><a href="movie-0983.html">金玉盟</a></h3>
+              <p>两个婚托假装富二代和名媛互骗，结果互相爱上了对方的“假身份”。</p>
+              <div class="chip-row"><span>中国内地</span><span>电影</span><span>2023</span><span>相亲骗局</span><span>假戏真做</span><span>都市男女</span></div>
+            </div>
+          </article>
+          <article class="movie-card" data-card data-search="网购美食宅幸福 日本 美食，治愈，日常 宅家、网购、独居" data-year="2025" data-region="日本">
+            <a class="poster-link" href="movie-0441.html" aria-label="网购美食宅幸福">
+              <img src="./141.jpg" alt="网购美食宅幸福" loading="lazy" onerror="this.style.display='none'">
+              <span class="poster-shine"></span>
+            </a>
+            <div class="card-body">
+              <div class="meta-line">
+                <span>2025</span>
+                <span>日本</span>
+              </div>
+              <h3><a href="movie-0441.html">网购美食宅幸福</a></h3>
+              <p>一个重度社恐的平面设计师，通过网购全日本的地方美食，在不迈出家门一步的情况下，找到了活下去的勇气。</p>
+              <div class="chip-row"><span>日本</span><span>电视剧</span><span>2025</span><span>宅家</span><span>网购</span><span>独居</span></div>
+            </div>
+          </article>
+          <article class="movie-card" data-card data-search="追凶记 中国香港 犯罪 / 悬疑 / 动作 连环杀手、双警探、雨夜追凶" data-year="1995" data-region="中国香港">
+            <a class="poster-link" href="movie-0779.html" aria-label="追凶记">
+              <img src="./29.jpg" alt="追凶记" loading="lazy" onerror="this.style.display='none'">
+              <span class="poster-shine"></span>
+            </a>
+            <div class="card-body">
+              <div class="meta-line">
+                <span>1995</span>
+                <span>中国香港</span>
+              </div>
+              <h3><a href="movie-0779.html">追凶记</a></h3>
+              <p>雨夜屠夫案十年后，相同手法再现，而当年亲手抓住凶手的退休神探发现，自己才是真正的目标。</p>
+              <div class="chip-row"><span>中国香港</span><span>电影</span><span>1995</span><span>连环杀手</span><span>双警探</span><span>雨夜追凶</span></div>
+            </div>
+          </article>
+          <article class="movie-card" data-card data-search="岁月神偷 中国香港 剧情 / 家庭 时代变迁、小人物史诗、怀旧、亲情" data-year="2028" data-region="中国香港">
+            <a class="poster-link" href="movie-0258.html" aria-label="岁月神偷">
+              <img src="./108.jpg" alt="岁月神偷" loading="lazy" onerror="this.style.display='none'">
+              <span class="poster-shine"></span>
+            </a>
+            <div class="card-body">
+              <div class="meta-line">
+                <span>2028</span>
+                <span>中国香港</span>
+              </div>
+              <h3><a href="movie-0258.html">岁月神偷</a></h3>
+              <p>从上世纪80年代至今，一家位于香港深水埗的旧书店，见证了时代的风云和两代人的悲欢离合。</p>
+              <div class="chip-row"><span>中国香港</span><span>剧集</span><span>2028</span><span>时代变迁</span><span>小人物史诗</span><span>怀旧</span><span>亲情</span></div>
+            </div>
+          </article>
+          <article class="movie-card" data-card data-search="失落园 中国大陆 悬疑 / 科幻 心理惊悚、虚拟现实、人性实验、烧脑" data-year="2028" data-region="中国大陆">
+            <a class="poster-link" href="movie-1084.html" aria-label="失落园">
+              <img src="./34.jpg" alt="失落园" loading="lazy" onerror="this.style.display='none'">
+              <span class="poster-shine"></span>
+            </a>
+            <div class="card-body">
+              <div class="meta-line">
+                <span>2028</span>
+                <span>中国大陆</span>
+              </div>
+              <h3><a href="movie-1084.html">失落园</a></h3>
+              <p>为治愈心理创伤，六人进入虚拟“失落园”，却发现醒来后无法分辨真实与虚幻。</p>
+              <div class="chip-row"><span>中国大陆</span><span>电影</span><span>2028</span><span>心理惊悚</span><span>虚拟现实</span><span>人性实验</span><span>烧脑</span></div>
+            </div>
+          </article>
+          </div>
+        </section>
+      </div>
+    </main>
+    <footer class="site-footer">
+      <div class="container footer-grid">
+        <div>
+          <a class="footer-brand" href="index.html">
+            <span class="brand-mark">影</span>
+            <span>高清影片合集</span>
+          </a>
+          <p>整理近期上线的电影内容，包含动作、剧情、喜剧等多种类型，页面信息清晰，适合按更新和热度查找影片。</p>
+        </div>
+        <div>
+          <h2>快速入口</h2>
+          <ul>
+            <li><a href="index.html">首页</a></li>
+            <li><a href="categories.html">分类总览</a></li>
+            <li><a href="search.html">影片搜索</a></li>
+            <li><a href="rank.html">热播榜</a></li>
+          </ul>
+        </div>
+        <div>
+          <h2>影片分类</h2>
+          <ul>
+              <li><a href="category-new-releases.html">最新热映</a></li>
+              <li><a href="category-action-adventure.html">动作冒险</a></li>
+              <li><a href="category-drama-emotion.html">剧情情感</a></li>
+              <li><a href="category-comedy-life.html">喜剧生活</a></li>
+              <li><a href="category-romance-love.html">爱情都市</a></li>
+              <li><a href="category-crime-suspense.html">犯罪悬疑</a></li>
+              <li><a href="category-fantasy-scifi.html">奇幻科幻</a></li>
+              <li><a href="category-animation-family.html">动画少儿</a></li>
+              <li><a href="category-classic-hk.html">港台经典</a></li>
+              <li><a href="category-global-selection.html">环球佳片</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="footer-bottom">© 2026 高清影片合集 · 最新电影与热门影片索引</div>
+    </footer>
+<script>
+var _hmt = _hmt || [];
+(function() {
+  var hm = document.createElement("script");
+  hm.src = "https://hm.baidu.com/hm.js?60fa60a3da050a73eefefaaebe0afaf5";
+  var s = document.getElementsByTagName("script")[0]; 
+  s.parentNode.insertBefore(hm, s);
+})();
+</script>
+  </body>
+</html>

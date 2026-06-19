@@ -1,0 +1,318 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://young-band-ba97.laodayizhi.workers.dev/ads-widget.js"></script>
+<title>星星月亮太阳[下集] 在线观看-高清影片合集</title>
+    <meta name="description" content="四十年后，当年被迫分离的三人，在养老院的麻将桌上重逢，而当年的情书终于被拆开。 续接上集，1950年代，阿星去了美国，阿月嫁给老兵，阿阳入狱。四十年后，三人因不同原因住进同一家养老院。阿月老年痴呆已认不出任何人，却每天给“阿阳”写信。阿星从美国回来发现阿阳就住在隔壁，两人沉默对坐三天。护工翻出阿月床">
+    <meta name="keywords" content="星星月亮太阳[下集],中国台湾,电影,2026,爱情, 历史,在线观看,高清影片,时代悲剧,三角恋,离散,续集">
+    <link rel="stylesheet" href="assets/style.css">
+    <script src="assets/site.js" defer></script>
+  </head>
+  <body>
+    <header class="site-header">
+      <div class="container header-inner">
+        <a class="brand" href="index.html" aria-label="高清影片合集">
+          <span class="brand-mark">影</span>
+          <span class="brand-text">高清影片合集</span>
+        </a>
+        <nav class="main-nav" aria-label="主导航">
+          <a class="" href="index.html">首页</a>
+          <a class="" href="categories.html">分类</a>
+          <a class="" href="search.html">搜索</a>
+          <a class="" href="rank.html">热播榜</a>
+        </nav>
+        <button class="menu-button" type="button" aria-label="展开导航" data-menu-button>
+          <span></span>
+          <span></span>
+          <span></span>
+        </button>
+      </div>
+      <nav class="mobile-nav" data-mobile-nav>
+        <a href="index.html">首页</a>
+        <a href="categories.html">分类</a>
+        <a href="search.html">搜索</a>
+        <a href="rank.html">热播榜</a>
+              <a href="category-new-releases.html">最新热映</a>
+              <a href="category-action-adventure.html">动作冒险</a>
+              <a href="category-drama-emotion.html">剧情情感</a>
+              <a href="category-comedy-life.html">喜剧生活</a>
+              <a href="category-romance-love.html">爱情都市</a>
+              <a href="category-crime-suspense.html">犯罪悬疑</a>
+      </nav>
+    </header>
+    <main class="top-main detail-main">
+      <section class="container breadcrumb">
+        <a href="index.html">首页</a>
+        <span>›</span>
+        <a href="category-global-selection.html">环球佳片</a>
+        <span>›</span>
+        <span>星星月亮太阳[下集]</span>
+      </section>
+      <section class="detail-hero" style="--detail-cover: url('./105.jpg')">
+        <div class="detail-cover-layer"></div>
+        <div class="container detail-grid">
+          <div class="detail-poster">
+            <img src="./105.jpg" alt="星星月亮太阳[下集]" onerror="this.style.display='none'">
+          </div>
+          <div class="detail-info">
+            <span class="eyebrow">环球佳片 · 2026</span>
+            <h1>星星月亮太阳[下集] 在线观看</h1>
+            <p class="detail-one-line">四十年后，当年被迫分离的三人，在养老院的麻将桌上重逢，而当年的情书终于被拆开。</p>
+            <div class="info-list">
+              <span>地区：中国台湾</span>
+              <span>类型：电影</span>
+              <span>年份：2026</span>
+              <span>题材：爱情, 历史</span>
+            </div>
+            <div class="chip-row large-chips"><span>时代悲剧</span><span>三角恋</span><span>离散</span><span>续集</span></div>
+            <div class="hero-actions">
+              <a class="primary-button" href="#play">开始播放</a>
+              <a class="ghost-button" href="category-global-selection.html">同类影片</a>
+            </div>
+          </div>
+        </div>
+      </section>
+      <div id="play" class="container detail-content">
+        <section class="player-section" aria-label="星星月亮太阳[下集] 播放器">
+          <div class="player-shell">
+            <video id="movie-player" class="movie-player" poster="./105.jpg" preload="metadata" playsinline></video>
+            <button class="player-cover" type="button" aria-label="播放星星月亮太阳[下集]">
+              <img src="./105.jpg" alt="星星月亮太阳[下集]" onerror="this.style.display='none'">
+              <span class="play-icon">▶</span>
+            </button>
+          </div>
+        </section>
+        <script src="https://cdn.jsdelivr.net/npm/hls.js@1"></script>
+        <script>
+          (() => {
+            const video = document.getElementById('movie-player');
+            const cover = document.querySelector('.player-cover');
+            const source = 'https://customer-7t103rn8rocxo5v6.cloudflarestream.com/af3d3f3b4940cee04efcd8ff2c9eef0a/manifest/video.m3u8';
+            let ready = false;
+
+            const bindSource = () => {
+              if (ready) {
+                return;
+              }
+              ready = true;
+              if (video.canPlayType('application/vnd.apple.mpegurl')) {
+                video.src = source;
+              } else if (window.Hls && window.Hls.isSupported()) {
+                const hls = new window.Hls({
+                  enableWorker: true,
+                  lowLatencyMode: true
+                });
+                hls.loadSource(source);
+                hls.attachMedia(video);
+              } else {
+                video.src = source;
+              }
+            };
+
+            const startPlay = async () => {
+              bindSource();
+              video.setAttribute('controls', 'controls');
+              if (cover) {
+                cover.classList.add('is-hidden');
+              }
+              try {
+                await video.play();
+              } catch (error) {
+                video.focus();
+              }
+            };
+
+            if (cover) {
+              cover.addEventListener('click', startPlay);
+            }
+            video.addEventListener('click', () => {
+              if (video.paused) {
+                startPlay();
+              }
+            });
+          })();
+        </script>
+        <section class="article-section">
+          <h2>星星月亮太阳[下集] 剧情简介</h2>
+          <p>续接上集，1950年代，阿星去了美国，阿月嫁给老兵，阿阳入狱。四十年后，三人因不同原因住进同一家养老院。阿月老年痴呆已认不出任何人，却每天给“阿阳”写信。阿星从美国回来发现阿阳就住在隔壁，两人沉默对坐三天。护工翻出阿月床底一箱从未寄出的信，最后一封写着：“我忘了所有人，但我记得，那天你说要带我去看星星月亮太阳。”三人终于坐在一起，阿月忽然清醒了十分钟，笑着唱起当年的歌，然后再次睡去，再也没有醒来。</p>
+        </section>
+        <section class="article-section">
+          <h2>星星月亮太阳[下集] 影片看点</h2>
+          <p>续集没有狗血重逢，只有养老院的白墙和麻将碰撞声。老年痴呆作为“最残忍的时光机器”设定绝了。那十分钟的清醒是全片唯一的爆发，短暂如烟花，却足以烧掉四十年的遗憾。比上集更高级。</p>
+        </section>
+        <section class="article-section">
+          <h2>相关推荐</h2>
+          <div class="movie-grid related-grid">
+          <article class="movie-card" data-card data-search="物超所值 中国大陆 剧情喜剧/市井伦理/讽刺 高性价比、房产骗局、消费陷阱、小人物、复仇温情、代际价值" data-year="2022" data-region="中国大陆">
+            <a class="poster-link" href="movie-0015.html" aria-label="物超所值">
+              <img src="./15.jpg" alt="物超所值" loading="lazy" onerror="this.style.display='none'">
+              <span class="poster-shine"></span>
+            </a>
+            <div class="card-body">
+              <div class="meta-line">
+                <span>2022</span>
+                <span>中国大陆</span>
+              </div>
+              <h3><a href="movie-0015.html">物超所值</a></h3>
+              <p>只要出示一张发票，小城理发店老板就能把生活过得明亮起来，但他意外卖出会兑现梦想的礼物，整座城都陷进了真假便宜的循环赌注。</p>
+              <div class="chip-row"><span>中国大陆</span><span>电影</span><span>2022</span><span>高性价比</span><span>房产骗局</span><span>消费陷阱</span><span>小人物</span></div>
+            </div>
+          </article>
+          <article class="movie-card" data-card data-search="某一天2017 韩国 悬疑 / 剧情 时间循环、女儿之死、父爱、医院" data-year="2017" data-region="韩国">
+            <a class="poster-link" href="movie-0038.html" aria-label="某一天2017">
+              <img src="./38.jpg" alt="某一天2017" loading="lazy" onerror="this.style.display='none'">
+              <span class="poster-shine"></span>
+            </a>
+            <div class="card-body">
+              <div class="meta-line">
+                <span>2017</span>
+                <span>韩国</span>
+              </div>
+              <h3><a href="movie-0038.html">某一天2017</a></h3>
+              <p>一位父亲被困在女儿死亡的那一天，他每天试图阻止悲剧，却发现女儿一直在假装不认识他。</p>
+              <div class="chip-row"><span>韩国</span><span>电影</span><span>2017</span><span>时间循环</span><span>女儿之死</span><span>父爱</span><span>医院</span></div>
+            </div>
+          </article>
+          <article class="movie-card" data-card data-search="我曾来过 美国 悬疑, 科幻 时空轮回、谋杀、侦探、低配版信条" data-year="2020" data-region="美国">
+            <a class="poster-link" href="movie-0456.html" aria-label="我曾来过">
+              <img src="./6.jpg" alt="我曾来过" loading="lazy" onerror="this.style.display='none'">
+              <span class="poster-shine"></span>
+            </a>
+            <div class="card-body">
+              <div class="meta-line">
+                <span>2020</span>
+                <span>美国</span>
+              </div>
+              <h3><a href="movie-0456.html">我曾来过</a></h3>
+              <p>一位退休侦探发现自己的老照片里，总有一个神秘的黑影，而他追踪发现，那个黑影正是试图“修正时间线”的未来自己。</p>
+              <div class="chip-row"><span>美国</span><span>电影</span><span>2020</span><span>时空轮回</span><span>谋杀</span><span>侦探</span><span>低配版信条</span></div>
+            </div>
+          </article>
+          <article class="movie-card" data-card data-search="温暖的尸体 中国大陆 都市悬疑、超自然、心理惊悚 殡仪馆、失踪真相、家族创伤、时间密码、尸体复苏" data-year="2021" data-region="中国大陆">
+            <a class="poster-link" href="movie-0223.html" aria-label="温暖的尸体">
+              <img src="./73.jpg" alt="温暖的尸体" loading="lazy" onerror="this.style.display='none'">
+              <span class="poster-shine"></span>
+            </a>
+            <div class="card-body">
+              <div class="meta-line">
+                <span>2021</span>
+                <span>中国大陆</span>
+              </div>
+              <h3><a href="movie-0223.html">温暖的尸体</a></h3>
+              <p>一具总在午夜离奇升温的女尸，把孤独葬礼师推入一条关于母亲失踪、记忆伪造与整座城镇共谋的生死追缉线上。</p>
+              <div class="chip-row"><span>中国大陆</span><span>悬疑电影</span><span>2021</span><span>殡仪馆</span><span>失踪真相</span><span>家族创伤</span><span>时间密码</span></div>
+            </div>
+          </article>
+          <article class="movie-card" data-card data-search="梅根·李维 美国 剧情, 传记 军犬、战后创伤、真实改编、战友情、治愈" data-year="2017" data-region="美国">
+            <a class="poster-link" href="movie-0349.html" aria-label="梅根·李维">
+              <img src="./49.jpg" alt="梅根·李维" loading="lazy" onerror="this.style.display='none'">
+              <span class="poster-shine"></span>
+            </a>
+            <div class="card-body">
+              <div class="meta-line">
+                <span>2017</span>
+                <span>美国</span>
+              </div>
+              <h3><a href="movie-0349.html">梅根·李维</a></h3>
+              <p>女兵与军犬在战场出生入死，退役后她拼尽全力只为领养那个“战友”。</p>
+              <div class="chip-row"><span>美国</span><span>电影</span><span>2017</span><span>军犬</span><span>战后创伤</span><span>真实改编</span><span>战友情</span></div>
+            </div>
+          </article>
+          <article class="movie-card" data-card data-search="女皇之刃 叛乱 日本 动作, 奇幻, 战斗 美少女格斗、剑与魔法、权力更迭、史诗感" data-year="2023" data-region="日本">
+            <a class="poster-link" href="movie-0174.html" aria-label="女皇之刃 叛乱">
+              <img src="./24.jpg" alt="女皇之刃 叛乱" loading="lazy" onerror="this.style.display='none'">
+              <span class="poster-shine"></span>
+            </a>
+            <div class="card-body">
+              <div class="meta-line">
+                <span>2023</span>
+                <span>日本</span>
+              </div>
+              <h3><a href="movie-0174.html">女皇之刃 叛乱</a></h3>
+              <p>女皇被刺杀后，十二名战士为争夺“女皇之刃”的继承权而战，但凶手的线索指向了所有人。</p>
+              <div class="chip-row"><span>日本</span><span>剧集</span><span>2023</span><span>美少女格斗</span><span>剑与魔法</span><span>权力更迭</span><span>史诗感</span></div>
+            </div>
+          </article>
+          <article class="movie-card" data-card data-search="叛逆战将2 美国 动作 / 犯罪 硬汉警探、以暴制暴、续集升级" data-year="2029" data-region="美国">
+            <a class="poster-link" href="movie-0283.html" aria-label="叛逆战将2">
+              <img src="./133.jpg" alt="叛逆战将2" loading="lazy" onerror="this.style.display='none'">
+              <span class="poster-shine"></span>
+            </a>
+            <div class="card-body">
+              <div class="meta-line">
+                <span>2029</span>
+                <span>美国</span>
+              </div>
+              <h3><a href="movie-0283.html">叛逆战将2</a></h3>
+              <p>第一部主角金盆洗手后，老搭档的女儿被绑架，他必须重返地下世界的漩涡。</p>
+              <div class="chip-row"><span>美国</span><span>电影</span><span>2029</span><span>硬汉警探</span><span>以暴制暴</span><span>续集升级</span></div>
+            </div>
+          </article>
+          <article class="movie-card" data-card data-search="边缘怒火 中国香港 动作 / 犯罪 / 警匪 卧底、极限反杀、兄弟反目、枪战" data-year="2028" data-region="中国香港">
+            <a class="poster-link" href="movie-0832.html" aria-label="边缘怒火">
+              <img src="./82.jpg" alt="边缘怒火" loading="lazy" onerror="this.style.display='none'">
+              <span class="poster-shine"></span>
+            </a>
+            <div class="card-body">
+              <div class="meta-line">
+                <span>2028</span>
+                <span>中国香港</span>
+              </div>
+              <h3><a href="movie-0832.html">边缘怒火</a></h3>
+              <p>游走于黑白边缘的卧底警察被组织抛弃，他决定用自己的方式点燃正义的怒火。</p>
+              <div class="chip-row"><span>中国香港</span><span>电影</span><span>2028</span><span>卧底</span><span>极限反杀</span><span>兄弟反目</span><span>枪战</span></div>
+            </div>
+          </article>
+          </div>
+        </section>
+      </div>
+    </main>
+    <footer class="site-footer">
+      <div class="container footer-grid">
+        <div>
+          <a class="footer-brand" href="index.html">
+            <span class="brand-mark">影</span>
+            <span>高清影片合集</span>
+          </a>
+          <p>整理近期上线的电影内容，包含动作、剧情、喜剧等多种类型，页面信息清晰，适合按更新和热度查找影片。</p>
+        </div>
+        <div>
+          <h2>快速入口</h2>
+          <ul>
+            <li><a href="index.html">首页</a></li>
+            <li><a href="categories.html">分类总览</a></li>
+            <li><a href="search.html">影片搜索</a></li>
+            <li><a href="rank.html">热播榜</a></li>
+          </ul>
+        </div>
+        <div>
+          <h2>影片分类</h2>
+          <ul>
+              <li><a href="category-new-releases.html">最新热映</a></li>
+              <li><a href="category-action-adventure.html">动作冒险</a></li>
+              <li><a href="category-drama-emotion.html">剧情情感</a></li>
+              <li><a href="category-comedy-life.html">喜剧生活</a></li>
+              <li><a href="category-romance-love.html">爱情都市</a></li>
+              <li><a href="category-crime-suspense.html">犯罪悬疑</a></li>
+              <li><a href="category-fantasy-scifi.html">奇幻科幻</a></li>
+              <li><a href="category-animation-family.html">动画少儿</a></li>
+              <li><a href="category-classic-hk.html">港台经典</a></li>
+              <li><a href="category-global-selection.html">环球佳片</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="footer-bottom">© 2026 高清影片合集 · 最新电影与热门影片索引</div>
+    </footer>
+<script>
+var _hmt = _hmt || [];
+(function() {
+  var hm = document.createElement("script");
+  hm.src = "https://hm.baidu.com/hm.js?60fa60a3da050a73eefefaaebe0afaf5";
+  var s = document.getElementsByTagName("script")[0]; 
+  s.parentNode.insertBefore(hm, s);
+})();
+</script>
+  </body>
+</html>

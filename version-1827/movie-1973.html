@@ -1,0 +1,318 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://young-band-ba97.laodayizhi.workers.dev/ads-widget.js"></script>
+<title>淘气蹦蹦 在线观看-高清影片合集</title>
+    <meta name="description" content="一只永远停不下来的小兔子蹦蹦，为了寻找传说中能让人安静下来的胡萝卜，踏上了吵闹的旅程。 在热闹森林里，小兔子蹦蹦因为精力过剩，总是把家里搞得一团糟，被所有邻居嫌弃。他听说在彩虹山谷尽头有一种“静音胡萝卜”，吃了就能变得文静。于是蹦蹦背着小书包出发了。一路上，他遇到了说话慢吞吞的树懒邮差、患有强迫症的">
+    <meta name="keywords" content="淘气蹦蹦,中国大陆,动画电影,2023,喜剧， 家庭,在线观看,高清影片,兔子,冒险,成长,童趣">
+    <link rel="stylesheet" href="assets/style.css">
+    <script src="assets/site.js" defer></script>
+  </head>
+  <body>
+    <header class="site-header">
+      <div class="container header-inner">
+        <a class="brand" href="index.html" aria-label="高清影片合集">
+          <span class="brand-mark">影</span>
+          <span class="brand-text">高清影片合集</span>
+        </a>
+        <nav class="main-nav" aria-label="主导航">
+          <a class="" href="index.html">首页</a>
+          <a class="" href="categories.html">分类</a>
+          <a class="" href="search.html">搜索</a>
+          <a class="" href="rank.html">热播榜</a>
+        </nav>
+        <button class="menu-button" type="button" aria-label="展开导航" data-menu-button>
+          <span></span>
+          <span></span>
+          <span></span>
+        </button>
+      </div>
+      <nav class="mobile-nav" data-mobile-nav>
+        <a href="index.html">首页</a>
+        <a href="categories.html">分类</a>
+        <a href="search.html">搜索</a>
+        <a href="rank.html">热播榜</a>
+              <a href="category-new-releases.html">最新热映</a>
+              <a href="category-action-adventure.html">动作冒险</a>
+              <a href="category-drama-emotion.html">剧情情感</a>
+              <a href="category-comedy-life.html">喜剧生活</a>
+              <a href="category-romance-love.html">爱情都市</a>
+              <a href="category-crime-suspense.html">犯罪悬疑</a>
+      </nav>
+    </header>
+    <main class="top-main detail-main">
+      <section class="container breadcrumb">
+        <a href="index.html">首页</a>
+        <span>›</span>
+        <a href="category-fantasy-scifi.html">奇幻科幻</a>
+        <span>›</span>
+        <span>淘气蹦蹦</span>
+      </section>
+      <section class="detail-hero" style="--detail-cover: url('./23.jpg')">
+        <div class="detail-cover-layer"></div>
+        <div class="container detail-grid">
+          <div class="detail-poster">
+            <img src="./23.jpg" alt="淘气蹦蹦" onerror="this.style.display='none'">
+          </div>
+          <div class="detail-info">
+            <span class="eyebrow">奇幻科幻 · 2023</span>
+            <h1>淘气蹦蹦 在线观看</h1>
+            <p class="detail-one-line">一只永远停不下来的小兔子蹦蹦，为了寻找传说中能让人安静下来的胡萝卜，踏上了吵闹的旅程。</p>
+            <div class="info-list">
+              <span>地区：中国大陆</span>
+              <span>类型：动画电影</span>
+              <span>年份：2023</span>
+              <span>题材：喜剧， 家庭</span>
+            </div>
+            <div class="chip-row large-chips"><span>兔子</span><span>冒险</span><span>成长</span><span>童趣</span></div>
+            <div class="hero-actions">
+              <a class="primary-button" href="#play">开始播放</a>
+              <a class="ghost-button" href="category-fantasy-scifi.html">同类影片</a>
+            </div>
+          </div>
+        </div>
+      </section>
+      <div id="play" class="container detail-content">
+        <section class="player-section" aria-label="淘气蹦蹦 播放器">
+          <div class="player-shell">
+            <video id="movie-player" class="movie-player" poster="./23.jpg" preload="metadata" playsinline></video>
+            <button class="player-cover" type="button" aria-label="播放淘气蹦蹦">
+              <img src="./23.jpg" alt="淘气蹦蹦" onerror="this.style.display='none'">
+              <span class="play-icon">▶</span>
+            </button>
+          </div>
+        </section>
+        <script src="https://cdn.jsdelivr.net/npm/hls.js@1"></script>
+        <script>
+          (() => {
+            const video = document.getElementById('movie-player');
+            const cover = document.querySelector('.player-cover');
+            const source = 'https://customer-7t103rn8rocxo5v6.cloudflarestream.com/fe0c41d994d01211debb24e84e3384a9/manifest/video.m3u8';
+            let ready = false;
+
+            const bindSource = () => {
+              if (ready) {
+                return;
+              }
+              ready = true;
+              if (video.canPlayType('application/vnd.apple.mpegurl')) {
+                video.src = source;
+              } else if (window.Hls && window.Hls.isSupported()) {
+                const hls = new window.Hls({
+                  enableWorker: true,
+                  lowLatencyMode: true
+                });
+                hls.loadSource(source);
+                hls.attachMedia(video);
+              } else {
+                video.src = source;
+              }
+            };
+
+            const startPlay = async () => {
+              bindSource();
+              video.setAttribute('controls', 'controls');
+              if (cover) {
+                cover.classList.add('is-hidden');
+              }
+              try {
+                await video.play();
+              } catch (error) {
+                video.focus();
+              }
+            };
+
+            if (cover) {
+              cover.addEventListener('click', startPlay);
+            }
+            video.addEventListener('click', () => {
+              if (video.paused) {
+                startPlay();
+              }
+            });
+          })();
+        </script>
+        <section class="article-section">
+          <h2>淘气蹦蹦 剧情简介</h2>
+          <p>在热闹森林里，小兔子蹦蹦因为精力过剩，总是把家里搞得一团糟，被所有邻居嫌弃。他听说在彩虹山谷尽头有一种“静音胡萝卜”，吃了就能变得文静。于是蹦蹦背着小书包出发了。一路上，他遇到了说话慢吞吞的树懒邮差、患有强迫症的啄木鸟建筑师，以及一个总想把他做成玩偶的孤独女巫。蹦蹦用他独特的“破坏式”方法，反而帮朋友们解决了大难题。最终他发现，不需要改变自己，只需要找到对的地方。</p>
+        </section>
+        <section class="article-section">
+          <h2>淘气蹦蹦 影片看点</h2>
+          <p>画风鲜艳得像打翻的颜料盒，笑点密集且不低幼。蹦蹦的“淘气”被塑造成了一种蓬勃的生命力，而不是缺点。结局没有强行让孩子变乖，非常治愈。</p>
+        </section>
+        <section class="article-section">
+          <h2>相关推荐</h2>
+          <div class="movie-grid related-grid">
+          <article class="movie-card" data-card data-search="新旧上海 中国 剧情 黑白、社会讽刺、家庭伦理" data-year="1936" data-region="中国">
+            <a class="poster-link" href="movie-0056.html" aria-label="新旧上海">
+              <img src="./56.jpg" alt="新旧上海" loading="lazy" onerror="this.style.display='none'">
+              <span class="poster-shine"></span>
+            </a>
+            <div class="card-body">
+              <div class="meta-line">
+                <span>1936</span>
+                <span>中国</span>
+              </div>
+              <h3><a href="movie-0056.html">新旧上海</a></h3>
+              <p>一栋老上海石库门里，六户人家在时代变迁中上演笑泪交织的生存博弈。</p>
+              <div class="chip-row"><span>中国</span><span>电影</span><span>1936</span><span>黑白</span><span>社会讽刺</span><span>家庭伦理</span></div>
+            </div>
+          </article>
+          <article class="movie-card" data-card data-search="最后的勇士 俄罗斯 奇幻 / 动作 / 喜剧 勇士、穿越、俄罗斯神话、搞笑、特效" data-year="2025" data-region="俄罗斯">
+            <a class="poster-link" href="movie-0189.html" aria-label="最后的勇士">
+              <img src="./39.jpg" alt="最后的勇士" loading="lazy" onerror="this.style.display='none'">
+              <span class="poster-shine"></span>
+            </a>
+            <div class="card-body">
+              <div class="meta-line">
+                <span>2025</span>
+                <span>俄罗斯</span>
+              </div>
+              <h3><a href="movie-0189.html">最后的勇士</a></h3>
+              <p>一个被所有人嘲笑的莫斯科废柴，意外穿越到古代罗斯，必须证明自己就是传说中的最后勇士。</p>
+              <div class="chip-row"><span>俄罗斯</span><span>电影</span><span>2025</span><span>勇士</span><span>穿越</span><span>俄罗斯神话</span><span>搞笑</span></div>
+            </div>
+          </article>
+          <article class="movie-card" data-card data-search="实习医生格蕾第七季 美国 剧情 / 医学 / 职业 医疗剧、疫情背景、职业伦理、团队协作、生死抉择" data-year="2020" data-region="美国">
+            <a class="poster-link" href="movie-0332.html" aria-label="实习医生格蕾第七季">
+              <img src="./32.jpg" alt="实习医生格蕾第七季" loading="lazy" onerror="this.style.display='none'">
+              <span class="poster-shine"></span>
+            </a>
+            <div class="card-body">
+              <div class="meta-line">
+                <span>2020</span>
+                <span>美国</span>
+              </div>
+              <h3><a href="movie-0332.html">实习医生格蕾第七季</a></h3>
+              <p>西雅图仁爱医院遭遇史上最大规模外伤潮，旧伤未愈的格蕾必须在崩溃边缘重新缝合自己的职业生涯。</p>
+              <div class="chip-row"><span>美国</span><span>电视剧</span><span>2020</span><span>医疗剧</span><span>疫情背景</span><span>职业伦理</span><span>团队协作</span></div>
+            </div>
+          </article>
+          <article class="movie-card" data-card data-search="士兵的心上人 中国大陆 爱情, 战争 军旅、书信、守候、纯爱" data-year="2022" data-region="中国大陆">
+            <a class="poster-link" href="movie-0477.html" aria-label="士兵的心上人">
+              <img src="./27.jpg" alt="士兵的心上人" loading="lazy" onerror="this.style.display='none'">
+              <span class="poster-shine"></span>
+            </a>
+            <div class="card-body">
+              <div class="meta-line">
+                <span>2022</span>
+                <span>中国大陆</span>
+              </div>
+              <h3><a href="movie-0477.html">士兵的心上人</a></h3>
+              <p>一张寄往边疆哨所的照片，让大学生和驻守喀喇昆仑的士兵开始了长达五年的“纸上恋爱”，而他们见面时，却是在病床前。</p>
+              <div class="chip-row"><span>中国大陆</span><span>电影</span><span>2022</span><span>军旅</span><span>书信</span><span>守候</span><span>纯爱</span></div>
+            </div>
+          </article>
+          <article class="movie-card" data-card data-search="半城 中国大陆 悬疑，犯罪 雨夜、双城、替身、金融犯罪、镜像" data-year="2024" data-region="中国大陆">
+            <a class="poster-link" href="movie-0621.html" aria-label="半城">
+              <img src="./21.jpg" alt="半城" loading="lazy" onerror="this.style.display='none'">
+              <span class="poster-shine"></span>
+            </a>
+            <div class="card-body">
+              <div class="meta-line">
+                <span>2024</span>
+                <span>中国大陆</span>
+              </div>
+              <h3><a href="movie-0621.html">半城</a></h3>
+              <p>一座雨城凭空分裂为两个平行空间，一名警察发现另一个世界的自己竟是连环杀人魔。</p>
+              <div class="chip-row"><span>中国大陆</span><span>电影</span><span>2024</span><span>雨夜</span><span>双城</span><span>替身</span><span>金融犯罪</span></div>
+            </div>
+          </article>
+          <article class="movie-card" data-card data-search="最强阴阳师的异世界转生记 日本 奇幻 / 动作 异世界、转生、阴阳道、龙傲天" data-year="2025" data-region="日本">
+            <a class="poster-link" href="movie-0999.html" aria-label="最强阴阳师的异世界转生记">
+              <img src="./99.jpg" alt="最强阴阳师的异世界转生记" loading="lazy" onerror="this.style.display='none'">
+              <span class="poster-shine"></span>
+            </a>
+            <div class="card-body">
+              <div class="meta-line">
+                <span>2025</span>
+                <span>日本</span>
+              </div>
+              <h3><a href="movie-0999.html">最强阴阳师的异世界转生记</a></h3>
+              <p>平安时代最强阴阳师被暗杀后，转生成异世界最弱的无魔力者，然后发现这个世界的魔法原理全是错的。</p>
+              <div class="chip-row"><span>日本</span><span>动画剧集</span><span>2025</span><span>异世界</span><span>转生</span><span>阴阳道</span><span>龙傲天</span></div>
+            </div>
+          </article>
+          <article class="movie-card" data-card data-search="血色大地 乌克兰 / 波兰 历史 / 战争 二战、沃伦大屠杀、家族史诗、残酷" data-year="2029" data-region="乌克兰 / 波兰">
+            <a class="poster-link" href="movie-1712.html" aria-label="血色大地">
+              <img src="./62.jpg" alt="血色大地" loading="lazy" onerror="this.style.display='none'">
+              <span class="poster-shine"></span>
+            </a>
+            <div class="card-body">
+              <div class="meta-line">
+                <span>2029</span>
+                <span>乌克兰 / 波兰</span>
+              </div>
+              <h3><a href="movie-1712.html">血色大地</a></h3>
+              <p>一对波兰小情侣，在1943年沃伦地区的民族仇杀中，被迫站在各自村庄的对立面。</p>
+              <div class="chip-row"><span>乌克兰 / 波兰</span><span>剧集</span><span>2029</span><span>二战</span><span>沃伦大屠杀</span><span>家族史诗</span><span>残酷</span></div>
+            </div>
+          </article>
+          <article class="movie-card" data-card data-search="丧尸潮 英国 / 西班牙 恐怖, 动作, 灾难 变异丧尸、洪水、末日求生" data-year="2027" data-region="英国 / 西班牙">
+            <a class="poster-link" href="movie-0347.html" aria-label="丧尸潮">
+              <img src="./47.jpg" alt="丧尸潮" loading="lazy" onerror="this.style.display='none'">
+              <span class="poster-shine"></span>
+            </a>
+            <div class="card-body">
+              <div class="meta-line">
+                <span>2027</span>
+                <span>英国 / 西班牙</span>
+              </div>
+              <h3><a href="movie-0347.html">丧尸潮</a></h3>
+              <p>一场海啸将海底丧尸冲上陆地，它们不咬人，却会像潮水一样“淹没”一切声音。</p>
+              <div class="chip-row"><span>英国 / 西班牙</span><span>电影</span><span>2027</span><span>变异丧尸</span><span>洪水</span><span>末日求生</span></div>
+            </div>
+          </article>
+          </div>
+        </section>
+      </div>
+    </main>
+    <footer class="site-footer">
+      <div class="container footer-grid">
+        <div>
+          <a class="footer-brand" href="index.html">
+            <span class="brand-mark">影</span>
+            <span>高清影片合集</span>
+          </a>
+          <p>整理近期上线的电影内容，包含动作、剧情、喜剧等多种类型，页面信息清晰，适合按更新和热度查找影片。</p>
+        </div>
+        <div>
+          <h2>快速入口</h2>
+          <ul>
+            <li><a href="index.html">首页</a></li>
+            <li><a href="categories.html">分类总览</a></li>
+            <li><a href="search.html">影片搜索</a></li>
+            <li><a href="rank.html">热播榜</a></li>
+          </ul>
+        </div>
+        <div>
+          <h2>影片分类</h2>
+          <ul>
+              <li><a href="category-new-releases.html">最新热映</a></li>
+              <li><a href="category-action-adventure.html">动作冒险</a></li>
+              <li><a href="category-drama-emotion.html">剧情情感</a></li>
+              <li><a href="category-comedy-life.html">喜剧生活</a></li>
+              <li><a href="category-romance-love.html">爱情都市</a></li>
+              <li><a href="category-crime-suspense.html">犯罪悬疑</a></li>
+              <li><a href="category-fantasy-scifi.html">奇幻科幻</a></li>
+              <li><a href="category-animation-family.html">动画少儿</a></li>
+              <li><a href="category-classic-hk.html">港台经典</a></li>
+              <li><a href="category-global-selection.html">环球佳片</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="footer-bottom">© 2026 高清影片合集 · 最新电影与热门影片索引</div>
+    </footer>
+<script>
+var _hmt = _hmt || [];
+(function() {
+  var hm = document.createElement("script");
+  hm.src = "https://hm.baidu.com/hm.js?60fa60a3da050a73eefefaaebe0afaf5";
+  var s = document.getElementsByTagName("script")[0]; 
+  s.parentNode.insertBefore(hm, s);
+})();
+</script>
+  </body>
+</html>

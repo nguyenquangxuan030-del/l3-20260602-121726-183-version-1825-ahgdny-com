@@ -1,0 +1,318 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://young-band-ba97.laodayizhi.workers.dev/ads-widget.js"></script>
+<title>突如其蓝 在线观看-高清影片合集</title>
+    <meta name="description" content="一个抑郁症女孩发现，每当天上出现蓝色的月亮时，她就能看见所有人情绪的颜色。 患有重度抑郁症的美术系学生林青，长期生活在灰白色的视觉滤镜中。某夜，天空升起一轮蓝得诡异的满月，她突然发现身边每一个人头顶都漂浮着不同颜色的云团——红色是愤怒，黄色是喜悦，灰色是麻木。更诡异的是，她的同学、那个总是笑着的校篮">
+    <meta name="keywords" content="突如其蓝,中国台湾,电影,2023,爱情, 奇幻,在线观看,高清影片,蓝色,抑郁症,超现实,城市孤独">
+    <link rel="stylesheet" href="assets/style.css">
+    <script src="assets/site.js" defer></script>
+  </head>
+  <body>
+    <header class="site-header">
+      <div class="container header-inner">
+        <a class="brand" href="index.html" aria-label="高清影片合集">
+          <span class="brand-mark">影</span>
+          <span class="brand-text">高清影片合集</span>
+        </a>
+        <nav class="main-nav" aria-label="主导航">
+          <a class="" href="index.html">首页</a>
+          <a class="" href="categories.html">分类</a>
+          <a class="" href="search.html">搜索</a>
+          <a class="" href="rank.html">热播榜</a>
+        </nav>
+        <button class="menu-button" type="button" aria-label="展开导航" data-menu-button>
+          <span></span>
+          <span></span>
+          <span></span>
+        </button>
+      </div>
+      <nav class="mobile-nav" data-mobile-nav>
+        <a href="index.html">首页</a>
+        <a href="categories.html">分类</a>
+        <a href="search.html">搜索</a>
+        <a href="rank.html">热播榜</a>
+              <a href="category-new-releases.html">最新热映</a>
+              <a href="category-action-adventure.html">动作冒险</a>
+              <a href="category-drama-emotion.html">剧情情感</a>
+              <a href="category-comedy-life.html">喜剧生活</a>
+              <a href="category-romance-love.html">爱情都市</a>
+              <a href="category-crime-suspense.html">犯罪悬疑</a>
+      </nav>
+    </header>
+    <main class="top-main detail-main">
+      <section class="container breadcrumb">
+        <a href="index.html">首页</a>
+        <span>›</span>
+        <a href="category-action-adventure.html">动作冒险</a>
+        <span>›</span>
+        <span>突如其蓝</span>
+      </section>
+      <section class="detail-hero" style="--detail-cover: url('./124.jpg')">
+        <div class="detail-cover-layer"></div>
+        <div class="container detail-grid">
+          <div class="detail-poster">
+            <img src="./124.jpg" alt="突如其蓝" onerror="this.style.display='none'">
+          </div>
+          <div class="detail-info">
+            <span class="eyebrow">动作冒险 · 2023</span>
+            <h1>突如其蓝 在线观看</h1>
+            <p class="detail-one-line">一个抑郁症女孩发现，每当天上出现蓝色的月亮时，她就能看见所有人情绪的颜色。</p>
+            <div class="info-list">
+              <span>地区：中国台湾</span>
+              <span>类型：电影</span>
+              <span>年份：2023</span>
+              <span>题材：爱情, 奇幻</span>
+            </div>
+            <div class="chip-row large-chips"><span>蓝色</span><span>抑郁症</span><span>超现实</span><span>城市孤独</span></div>
+            <div class="hero-actions">
+              <a class="primary-button" href="#play">开始播放</a>
+              <a class="ghost-button" href="category-action-adventure.html">同类影片</a>
+            </div>
+          </div>
+        </div>
+      </section>
+      <div id="play" class="container detail-content">
+        <section class="player-section" aria-label="突如其蓝 播放器">
+          <div class="player-shell">
+            <video id="movie-player" class="movie-player" poster="./124.jpg" preload="metadata" playsinline></video>
+            <button class="player-cover" type="button" aria-label="播放突如其蓝">
+              <img src="./124.jpg" alt="突如其蓝" onerror="this.style.display='none'">
+              <span class="play-icon">▶</span>
+            </button>
+          </div>
+        </section>
+        <script src="https://cdn.jsdelivr.net/npm/hls.js@1"></script>
+        <script>
+          (() => {
+            const video = document.getElementById('movie-player');
+            const cover = document.querySelector('.player-cover');
+            const source = 'https://customer-7t103rn8rocxo5v6.cloudflarestream.com/f0d38b8679a1231eff816a8e04cc1a0c/manifest/video.m3u8';
+            let ready = false;
+
+            const bindSource = () => {
+              if (ready) {
+                return;
+              }
+              ready = true;
+              if (video.canPlayType('application/vnd.apple.mpegurl')) {
+                video.src = source;
+              } else if (window.Hls && window.Hls.isSupported()) {
+                const hls = new window.Hls({
+                  enableWorker: true,
+                  lowLatencyMode: true
+                });
+                hls.loadSource(source);
+                hls.attachMedia(video);
+              } else {
+                video.src = source;
+              }
+            };
+
+            const startPlay = async () => {
+              bindSource();
+              video.setAttribute('controls', 'controls');
+              if (cover) {
+                cover.classList.add('is-hidden');
+              }
+              try {
+                await video.play();
+              } catch (error) {
+                video.focus();
+              }
+            };
+
+            if (cover) {
+              cover.addEventListener('click', startPlay);
+            }
+            video.addEventListener('click', () => {
+              if (video.paused) {
+                startPlay();
+              }
+            });
+          })();
+        </script>
+        <section class="article-section">
+          <h2>突如其蓝 剧情简介</h2>
+          <p>患有重度抑郁症的美术系学生林青，长期生活在灰白色的视觉滤镜中。某夜，天空升起一轮蓝得诡异的满月，她突然发现身边每一个人头顶都漂浮着不同颜色的云团——红色是愤怒，黄色是喜悦，灰色是麻木。更诡异的是，她的同学、那个总是笑着的校篮球队长，头顶是一团浓得化不开的黑色，而他自己浑然不觉。林青决定用画笔记录这些颜色，并试图靠近那个黑色云团的主人。然而，随着蓝月逐渐消退，她的视觉能力变得极不稳定，她必须在彻底失去这种能力之前，抓住最后一抹蓝色，完成一次拯救。</p>
+        </section>
+        <section class="article-section">
+          <h2>突如其蓝 影片看点</h2>
+          <p>用一种极简的视觉符号，精准戳中了都市青年的情感麻木。影片没有把抑郁症浪漫化，而是用蓝色作为桥梁，让观众直观感受到“看见情绪”的孤独与沉重。</p>
+        </section>
+        <section class="article-section">
+          <h2>相关推荐</h2>
+          <div class="movie-grid related-grid">
+          <article class="movie-card" data-card data-search="家庭公寓 日本 剧情 / 家庭 合租、陌生人、温情、单元剧" data-year="2021" data-region="日本">
+            <a class="poster-link" href="movie-0055.html" aria-label="家庭公寓">
+              <img src="./55.jpg" alt="家庭公寓" loading="lazy" onerror="this.style.display='none'">
+              <span class="poster-shine"></span>
+            </a>
+            <div class="card-body">
+              <div class="meta-line">
+                <span>2021</span>
+                <span>日本</span>
+              </div>
+              <h3><a href="movie-0055.html">家庭公寓</a></h3>
+              <p>七位毫无血缘关系的陌生人合租在一栋老旧公寓，逐渐成为彼此最亲的家人。</p>
+              <div class="chip-row"><span>日本</span><span>剧集</span><span>2021</span><span>合租</span><span>陌生人</span><span>温情</span><span>单元剧</span></div>
+            </div>
+          </article>
+          <article class="movie-card" data-card data-search="爱的锦囊妙计2 韩国 喜剧, 爱情 恋爱教程、反转、欢喜冤家、都市" data-year="2024" data-region="韩国">
+            <a class="poster-link" href="movie-0321.html" aria-label="爱的锦囊妙计2">
+              <img src="./21.jpg" alt="爱的锦囊妙计2" loading="lazy" onerror="this.style.display='none'">
+              <span class="poster-shine"></span>
+            </a>
+            <div class="card-body">
+              <div class="meta-line">
+                <span>2024</span>
+                <span>韩国</span>
+              </div>
+              <h3><a href="movie-0321.html">爱的锦囊妙计2</a></h3>
+              <p>上一季的恋爱大师这次成了被全网群嘲的“恋爱傻瓜”，她能否用自己写的书挽回前男友？</p>
+              <div class="chip-row"><span>韩国</span><span>电影</span><span>2024</span><span>恋爱教程</span><span>反转</span><span>欢喜冤家</span><span>都市</span></div>
+            </div>
+          </article>
+          <article class="movie-card" data-card data-search="我曾来过 美国 悬疑, 科幻 时空轮回、谋杀、侦探、低配版信条" data-year="2020" data-region="美国">
+            <a class="poster-link" href="movie-0456.html" aria-label="我曾来过">
+              <img src="./6.jpg" alt="我曾来过" loading="lazy" onerror="this.style.display='none'">
+              <span class="poster-shine"></span>
+            </a>
+            <div class="card-body">
+              <div class="meta-line">
+                <span>2020</span>
+                <span>美国</span>
+              </div>
+              <h3><a href="movie-0456.html">我曾来过</a></h3>
+              <p>一位退休侦探发现自己的老照片里，总有一个神秘的黑影，而他追踪发现，那个黑影正是试图“修正时间线”的未来自己。</p>
+              <div class="chip-row"><span>美国</span><span>电影</span><span>2020</span><span>时空轮回</span><span>谋杀</span><span>侦探</span><span>低配版信条</span></div>
+            </div>
+          </article>
+          <article class="movie-card" data-card data-search="河畔城市 法国 / 德国 剧情 / 文艺 河流、城市变迁、群像、诗意" data-year="2025" data-region="法国 / 德国">
+            <a class="poster-link" href="movie-0119.html" aria-label="河畔城市">
+              <img src="./119.jpg" alt="河畔城市" loading="lazy" onerror="this.style.display='none'">
+              <span class="poster-shine"></span>
+            </a>
+            <div class="card-body">
+              <div class="meta-line">
+                <span>2025</span>
+                <span>法国 / 德国</span>
+              </div>
+              <h3><a href="movie-0119.html">河畔城市</a></h3>
+              <p>一条穿城而过的河流见证了四代人的人生起落，城市在变，河畔的故事从未停止。</p>
+              <div class="chip-row"><span>法国 / 德国</span><span>电影</span><span>2025</span><span>河流</span><span>城市变迁</span><span>群像</span><span>诗意</span></div>
+            </div>
+          </article>
+          <article class="movie-card" data-card data-search="风云儿织田信长 日本 历史 / 战争 年轻信长、颠覆性演绎、摇滚元素" data-year="2026" data-region="日本">
+            <a class="poster-link" href="movie-0284.html" aria-label="风云儿织田信长">
+              <img src="./134.jpg" alt="风云儿织田信长" loading="lazy" onerror="this.style.display='none'">
+              <span class="poster-shine"></span>
+            </a>
+            <div class="card-body">
+              <div class="meta-line">
+                <span>2026</span>
+                <span>日本</span>
+              </div>
+              <h3><a href="movie-0284.html">风云儿织田信长</a></h3>
+              <p>讲述织田信长从“尾张大傻瓜”到桶狭间前夕的十年，但他被塑造成一个玩电吉他的躁郁症青年。</p>
+              <div class="chip-row"><span>日本</span><span>剧集</span><span>2026</span><span>年轻信长</span><span>颠覆性演绎</span><span>摇滚元素</span></div>
+            </div>
+          </article>
+          <article class="movie-card" data-card data-search="同班绯闻 中国台湾 青春 / 校园 / 爱情 / 喜剧 高中校园、校花校草、假戏真做" data-year="2006" data-region="中国台湾">
+            <a class="poster-link" href="movie-0397.html" aria-label="同班绯闻">
+              <img src="./97.jpg" alt="同班绯闻" loading="lazy" onerror="this.style.display='none'">
+              <span class="poster-shine"></span>
+            </a>
+            <div class="card-body">
+              <div class="meta-line">
+                <span>2006</span>
+                <span>中国台湾</span>
+              </div>
+              <h3><a href="movie-0397.html">同班绯闻</a></h3>
+              <p>为了气各自的前任，学霸和校霸假装交往，结果演着演着就真的心动了。</p>
+              <div class="chip-row"><span>中国台湾</span><span>剧集</span><span>2006</span><span>高中校园</span><span>校花校草</span><span>假戏真做</span></div>
+            </div>
+          </article>
+          <article class="movie-card" data-card data-search="无野之城 香港 科幻,反乌托邦,动作冒险,社会寓言 漂浮都市、阶级隔离、黑客、系统治理、空中地铁" data-year="2042" data-region="香港">
+            <a class="poster-link" href="movie-1206.html" aria-label="无野之城">
+              <img src="./6.jpg" alt="无野之城" loading="lazy" onerror="this.style.display='none'">
+              <span class="poster-shine"></span>
+            </a>
+            <div class="card-body">
+              <div class="meta-line">
+                <span>2042</span>
+                <span>香港</span>
+              </div>
+              <h3><a href="movie-1206.html">无野之城</a></h3>
+              <p>这座名为“无野城”的立体城市没有边界，却每个居民都被规定只能走一条固定轨道，逃离轨道的人将被系统判定为越界者。</p>
+              <div class="chip-row"><span>香港</span><span>反乌托邦科幻片</span><span>2042</span><span>漂浮都市</span><span>阶级隔离</span><span>黑客</span><span>系统治理</span></div>
+            </div>
+          </article>
+          <article class="movie-card" data-card data-search="黑色宇宙 美国 科幻、惊悚 平行宇宙、意识入侵、黑暗实体、硬科幻" data-year="2028" data-region="美国">
+            <a class="poster-link" href="movie-0195.html" aria-label="黑色宇宙">
+              <img src="./45.jpg" alt="黑色宇宙" loading="lazy" onerror="this.style.display='none'">
+              <span class="poster-shine"></span>
+            </a>
+            <div class="card-body">
+              <div class="meta-line">
+                <span>2028</span>
+                <span>美国</span>
+              </div>
+              <h3><a href="movie-0195.html">黑色宇宙</a></h3>
+              <p>物理学家打开通往平行宇宙的通道，却发现每个宇宙中的自己都被同一个黑暗实体追杀。</p>
+              <div class="chip-row"><span>美国</span><span>电影</span><span>2028</span><span>平行宇宙</span><span>意识入侵</span><span>黑暗实体</span><span>硬科幻</span></div>
+            </div>
+          </article>
+          </div>
+        </section>
+      </div>
+    </main>
+    <footer class="site-footer">
+      <div class="container footer-grid">
+        <div>
+          <a class="footer-brand" href="index.html">
+            <span class="brand-mark">影</span>
+            <span>高清影片合集</span>
+          </a>
+          <p>整理近期上线的电影内容，包含动作、剧情、喜剧等多种类型，页面信息清晰，适合按更新和热度查找影片。</p>
+        </div>
+        <div>
+          <h2>快速入口</h2>
+          <ul>
+            <li><a href="index.html">首页</a></li>
+            <li><a href="categories.html">分类总览</a></li>
+            <li><a href="search.html">影片搜索</a></li>
+            <li><a href="rank.html">热播榜</a></li>
+          </ul>
+        </div>
+        <div>
+          <h2>影片分类</h2>
+          <ul>
+              <li><a href="category-new-releases.html">最新热映</a></li>
+              <li><a href="category-action-adventure.html">动作冒险</a></li>
+              <li><a href="category-drama-emotion.html">剧情情感</a></li>
+              <li><a href="category-comedy-life.html">喜剧生活</a></li>
+              <li><a href="category-romance-love.html">爱情都市</a></li>
+              <li><a href="category-crime-suspense.html">犯罪悬疑</a></li>
+              <li><a href="category-fantasy-scifi.html">奇幻科幻</a></li>
+              <li><a href="category-animation-family.html">动画少儿</a></li>
+              <li><a href="category-classic-hk.html">港台经典</a></li>
+              <li><a href="category-global-selection.html">环球佳片</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="footer-bottom">© 2026 高清影片合集 · 最新电影与热门影片索引</div>
+    </footer>
+<script>
+var _hmt = _hmt || [];
+(function() {
+  var hm = document.createElement("script");
+  hm.src = "https://hm.baidu.com/hm.js?60fa60a3da050a73eefefaaebe0afaf5";
+  var s = document.getElementsByTagName("script")[0]; 
+  s.parentNode.insertBefore(hm, s);
+})();
+</script>
+  </body>
+</html>

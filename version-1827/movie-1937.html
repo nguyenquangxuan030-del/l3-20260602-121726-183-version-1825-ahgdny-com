@@ -1,0 +1,318 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://young-band-ba97.laodayizhi.workers.dev/ads-widget.js"></script>
+<title>奇异的激情 在线观看-高清影片合集</title>
+    <meta name="description" content="美术馆女保安爱上了一个每天来看画的男子，却发现他是一幅画里走出来的人。 女保安索莱达在马德里普拉多美术馆工作，她注意到一个男子每天闭馆前都会站在戈雅的《裸体的玛哈》前，一动不动看十分钟。索莱达开始跟踪他，发现自己无法控制地爱上他。但诡异的是，监控里从来没有这个男人的影像。她翻查画作资料，发现画中女子">
+    <meta name="keywords" content="奇异的激情,西班牙,电影,2026,惊悚、心理、情色,在线观看,高清影片,病态迷恋,身份吞噬,美术馆迷局">
+    <link rel="stylesheet" href="assets/style.css">
+    <script src="assets/site.js" defer></script>
+  </head>
+  <body>
+    <header class="site-header">
+      <div class="container header-inner">
+        <a class="brand" href="index.html" aria-label="高清影片合集">
+          <span class="brand-mark">影</span>
+          <span class="brand-text">高清影片合集</span>
+        </a>
+        <nav class="main-nav" aria-label="主导航">
+          <a class="" href="index.html">首页</a>
+          <a class="" href="categories.html">分类</a>
+          <a class="" href="search.html">搜索</a>
+          <a class="" href="rank.html">热播榜</a>
+        </nav>
+        <button class="menu-button" type="button" aria-label="展开导航" data-menu-button>
+          <span></span>
+          <span></span>
+          <span></span>
+        </button>
+      </div>
+      <nav class="mobile-nav" data-mobile-nav>
+        <a href="index.html">首页</a>
+        <a href="categories.html">分类</a>
+        <a href="search.html">搜索</a>
+        <a href="rank.html">热播榜</a>
+              <a href="category-new-releases.html">最新热映</a>
+              <a href="category-action-adventure.html">动作冒险</a>
+              <a href="category-drama-emotion.html">剧情情感</a>
+              <a href="category-comedy-life.html">喜剧生活</a>
+              <a href="category-romance-love.html">爱情都市</a>
+              <a href="category-crime-suspense.html">犯罪悬疑</a>
+      </nav>
+    </header>
+    <main class="top-main detail-main">
+      <section class="container breadcrumb">
+        <a href="index.html">首页</a>
+        <span>›</span>
+        <a href="category-new-releases.html">最新热映</a>
+        <span>›</span>
+        <span>奇异的激情</span>
+      </section>
+      <section class="detail-hero" style="--detail-cover: url('./137.jpg')">
+        <div class="detail-cover-layer"></div>
+        <div class="container detail-grid">
+          <div class="detail-poster">
+            <img src="./137.jpg" alt="奇异的激情" onerror="this.style.display='none'">
+          </div>
+          <div class="detail-info">
+            <span class="eyebrow">最新热映 · 2026</span>
+            <h1>奇异的激情 在线观看</h1>
+            <p class="detail-one-line">美术馆女保安爱上了一个每天来看画的男子，却发现他是一幅画里走出来的人。</p>
+            <div class="info-list">
+              <span>地区：西班牙</span>
+              <span>类型：电影</span>
+              <span>年份：2026</span>
+              <span>题材：惊悚、心理、情色</span>
+            </div>
+            <div class="chip-row large-chips"><span>病态迷恋</span><span>身份吞噬</span><span>美术馆迷局</span></div>
+            <div class="hero-actions">
+              <a class="primary-button" href="#play">开始播放</a>
+              <a class="ghost-button" href="category-new-releases.html">同类影片</a>
+            </div>
+          </div>
+        </div>
+      </section>
+      <div id="play" class="container detail-content">
+        <section class="player-section" aria-label="奇异的激情 播放器">
+          <div class="player-shell">
+            <video id="movie-player" class="movie-player" poster="./137.jpg" preload="metadata" playsinline></video>
+            <button class="player-cover" type="button" aria-label="播放奇异的激情">
+              <img src="./137.jpg" alt="奇异的激情" onerror="this.style.display='none'">
+              <span class="play-icon">▶</span>
+            </button>
+          </div>
+        </section>
+        <script src="https://cdn.jsdelivr.net/npm/hls.js@1"></script>
+        <script>
+          (() => {
+            const video = document.getElementById('movie-player');
+            const cover = document.querySelector('.player-cover');
+            const source = 'https://customer-7t103rn8rocxo5v6.cloudflarestream.com/41cb67b47a3668efaea014219666e659/manifest/video.m3u8';
+            let ready = false;
+
+            const bindSource = () => {
+              if (ready) {
+                return;
+              }
+              ready = true;
+              if (video.canPlayType('application/vnd.apple.mpegurl')) {
+                video.src = source;
+              } else if (window.Hls && window.Hls.isSupported()) {
+                const hls = new window.Hls({
+                  enableWorker: true,
+                  lowLatencyMode: true
+                });
+                hls.loadSource(source);
+                hls.attachMedia(video);
+              } else {
+                video.src = source;
+              }
+            };
+
+            const startPlay = async () => {
+              bindSource();
+              video.setAttribute('controls', 'controls');
+              if (cover) {
+                cover.classList.add('is-hidden');
+              }
+              try {
+                await video.play();
+              } catch (error) {
+                video.focus();
+              }
+            };
+
+            if (cover) {
+              cover.addEventListener('click', startPlay);
+            }
+            video.addEventListener('click', () => {
+              if (video.paused) {
+                startPlay();
+              }
+            });
+          })();
+        </script>
+        <section class="article-section">
+          <h2>奇异的激情 剧情简介</h2>
+          <p>女保安索莱达在马德里普拉多美术馆工作，她注意到一个男子每天闭馆前都会站在戈雅的《裸体的玛哈》前，一动不动看十分钟。索莱达开始跟踪他，发现自己无法控制地爱上他。但诡异的是，监控里从来没有这个男人的影像。她翻查画作资料，发现画中女子的脸，与她极其相似。更可怕的是，每多看他一眼，她的现实生活就开始消失——同事不记得她、公寓变成别人的家。最终她意识到，不是男人从画里走出来，而是她正在被拉进画里。最后一个镜头：美术馆里，《裸体的玛哈》旁边多了一幅《穿衣的玛哈》，那张脸，是索莱达。</p>
+        </section>
+        <section class="article-section">
+          <h2>奇异的激情 影片看点</h2>
+          <p>阿莫多瓦监制，惊艳至极。把“凝视”与“被凝视”的关系拍成了心理恐怖片。美术、摄影、配乐完美统一。结局让人倒吸一口凉气，后劲持续三天。</p>
+        </section>
+        <section class="article-section">
+          <h2>相关推荐</h2>
+          <div class="movie-grid related-grid">
+          <article class="movie-card" data-card data-search="之后4 美国 爱情, 剧情 虐恋、成长、分手、重逢" data-year="2025" data-region="美国">
+            <a class="poster-link" href="movie-0019.html" aria-label="之后4">
+              <img src="./19.jpg" alt="之后4" loading="lazy" onerror="this.style.display='none'">
+              <span class="poster-shine"></span>
+            </a>
+            <div class="card-body">
+              <div class="meta-line">
+                <span>2025</span>
+                <span>美国</span>
+              </div>
+              <h3><a href="movie-0019.html">之后4</a></h3>
+              <p>经历了背叛与分离，哈丁与泰莎在五年后意外重逢，却发现彼此早已面目全非。</p>
+              <div class="chip-row"><span>美国</span><span>电影</span><span>2025</span><span>虐恋</span><span>成长</span><span>分手</span><span>重逢</span></div>
+            </div>
+          </article>
+          <article class="movie-card" data-card data-search="希瑞与非凡的公主们第二季 美国 动画 / 奇幻 公主、变身英雄、友谊魔法" data-year="2019" data-region="美国">
+            <a class="poster-link" href="movie-0048.html" aria-label="希瑞与非凡的公主们第二季">
+              <img src="./48.jpg" alt="希瑞与非凡的公主们第二季" loading="lazy" onerror="this.style.display='none'">
+              <span class="poster-shine"></span>
+            </a>
+            <div class="card-body">
+              <div class="meta-line">
+                <span>2019</span>
+                <span>美国</span>
+              </div>
+              <h3><a href="movie-0048.html">希瑞与非凡的公主们第二季</a></h3>
+              <p>希瑞与起义军要面对一个更危险的敌人——霍德王的神秘女儿，以及她自己黑暗力量的觉醒。</p>
+              <div class="chip-row"><span>美国</span><span>剧集</span><span>2019</span><span>公主</span><span>变身英雄</span><span>友谊魔法</span></div>
+            </div>
+          </article>
+          <article class="movie-card" data-card data-search="女佣变凤凰 中国大陆 喜剧 / 爱情 错位、豪门、逆袭、职场、轻喜" data-year="2024" data-region="中国大陆">
+            <a class="poster-link" href="movie-0163.html" aria-label="女佣变凤凰">
+              <img src="./13.jpg" alt="女佣变凤凰" loading="lazy" onerror="this.style.display='none'">
+              <span class="poster-shine"></span>
+            </a>
+            <div class="card-body">
+              <div class="meta-line">
+                <span>2024</span>
+                <span>中国大陆</span>
+              </div>
+              <h3><a href="movie-0163.html">女佣变凤凰</a></h3>
+              <p>因为喝醉了穿上女主人的晚礼服，我被当成神秘千金混进顶流酒会，还被集团总裁盯上了。</p>
+              <div class="chip-row"><span>中国大陆</span><span>电影</span><span>2024</span><span>错位</span><span>豪门</span><span>逆袭</span><span>职场</span></div>
+            </div>
+          </article>
+          <article class="movie-card" data-card data-search="女子的生活 日本 剧情 / 生活 职场女性、不婚主义、都市、女性互助" data-year="2023" data-region="日本">
+            <a class="poster-link" href="movie-0229.html" aria-label="女子的生活">
+              <img src="./79.jpg" alt="女子的生活" loading="lazy" onerror="this.style.display='none'">
+              <span class="poster-shine"></span>
+            </a>
+            <div class="card-body">
+              <div class="meta-line">
+                <span>2023</span>
+                <span>日本</span>
+              </div>
+              <h3><a href="movie-0229.html">女子的生活</a></h3>
+              <p>三个合租的单身女子约定永不结婚，却接连陷入爱情、孩子与病魔的三重考验。</p>
+              <div class="chip-row"><span>日本</span><span>剧集</span><span>2023</span><span>职场女性</span><span>不婚主义</span><span>都市</span><span>女性互助</span></div>
+            </div>
+          </article>
+          <article class="movie-card" data-card data-search="豺狼之吻 美国 惊悚犯罪 雇佣兵、救赎、硬汉、绝境求生" data-year="2024" data-region="美国">
+            <a class="poster-link" href="movie-0355.html" aria-label="豺狼之吻">
+              <img src="./55.jpg" alt="豺狼之吻" loading="lazy" onerror="this.style.display='none'">
+              <span class="poster-shine"></span>
+            </a>
+            <div class="card-body">
+              <div class="meta-line">
+                <span>2024</span>
+                <span>美国</span>
+              </div>
+              <h3><a href="movie-0355.html">豺狼之吻</a></h3>
+              <p>一名退役雇佣兵为了保护小镇少女，与昔日同门豺狼小队展开殊死对决。</p>
+              <div class="chip-row"><span>美国</span><span>电影</span><span>2024</span><span>雇佣兵</span><span>救赎</span><span>硬汉</span><span>绝境求生</span></div>
+            </div>
+          </article>
+          <article class="movie-card" data-card data-search="拿扫把的男人 中国大陆 喜剧 / 奇幻 轻喜、职场、神仙" data-year="2024" data-region="中国大陆">
+            <a class="poster-link" href="movie-0412.html" aria-label="拿扫把的男人">
+              <img src="./112.jpg" alt="拿扫把的男人" loading="lazy" onerror="this.style.display='none'">
+              <span class="poster-shine"></span>
+            </a>
+            <div class="card-body">
+              <div class="meta-line">
+                <span>2024</span>
+                <span>中国大陆</span>
+              </div>
+              <h3><a href="movie-0412.html">拿扫把的男人</a></h3>
+              <p>天庭环卫工李扫把被贬下凡，发现自己的扫帚拥有“扫除一切负面情绪”的神力，成了全网最贵心理咨询师。</p>
+              <div class="chip-row"><span>中国大陆</span><span>电视剧</span><span>2024</span><span>轻喜</span><span>职场</span><span>神仙</span></div>
+            </div>
+          </article>
+          <article class="movie-card" data-card data-search="悲兮魔兽 中国大陆 剧情 / 奇幻 / 社会 煤矿、怪兽、现实、寓言" data-year="2027" data-region="中国大陆">
+            <a class="poster-link" href="movie-0493.html" aria-label="悲兮魔兽">
+              <img src="./43.jpg" alt="悲兮魔兽" loading="lazy" onerror="this.style.display='none'">
+              <span class="poster-shine"></span>
+            </a>
+            <div class="card-body">
+              <div class="meta-line">
+                <span>2027</span>
+                <span>中国大陆</span>
+              </div>
+              <h3><a href="movie-0493.html">悲兮魔兽</a></h3>
+              <p>在一片资源枯竭的矿区，一名矿工的儿子画出了一只“魔兽”，它吞噬垃圾，却吐出有毒的黄金。</p>
+              <div class="chip-row"><span>中国大陆</span><span>电影</span><span>2027</span><span>煤矿</span><span>怪兽</span><span>现实</span><span>寓言</span></div>
+            </div>
+          </article>
+          <article class="movie-card" data-card data-search="啦啦队的反击 美国 喜剧 / 运动 女力觉醒、校园逆袭、爽快复仇、热舞竞技" data-year="2027" data-region="美国">
+            <a class="poster-link" href="movie-0985.html" aria-label="啦啦队的反击">
+              <img src="./85.jpg" alt="啦啦队的反击" loading="lazy" onerror="this.style.display='none'">
+              <span class="poster-shine"></span>
+            </a>
+            <div class="card-body">
+              <div class="meta-line">
+                <span>2027</span>
+                <span>美国</span>
+              </div>
+              <h3><a href="movie-0985.html">啦啦队的反击</a></h3>
+              <p>被精英啦啦队开除后，一群“怪咖”女生组建了一支史上最“不齐”的啦啦队，向冠军发起冲击。</p>
+              <div class="chip-row"><span>美国</span><span>电影</span><span>2027</span><span>女力觉醒</span><span>校园逆袭</span><span>爽快复仇</span><span>热舞竞技</span></div>
+            </div>
+          </article>
+          </div>
+        </section>
+      </div>
+    </main>
+    <footer class="site-footer">
+      <div class="container footer-grid">
+        <div>
+          <a class="footer-brand" href="index.html">
+            <span class="brand-mark">影</span>
+            <span>高清影片合集</span>
+          </a>
+          <p>整理近期上线的电影内容，包含动作、剧情、喜剧等多种类型，页面信息清晰，适合按更新和热度查找影片。</p>
+        </div>
+        <div>
+          <h2>快速入口</h2>
+          <ul>
+            <li><a href="index.html">首页</a></li>
+            <li><a href="categories.html">分类总览</a></li>
+            <li><a href="search.html">影片搜索</a></li>
+            <li><a href="rank.html">热播榜</a></li>
+          </ul>
+        </div>
+        <div>
+          <h2>影片分类</h2>
+          <ul>
+              <li><a href="category-new-releases.html">最新热映</a></li>
+              <li><a href="category-action-adventure.html">动作冒险</a></li>
+              <li><a href="category-drama-emotion.html">剧情情感</a></li>
+              <li><a href="category-comedy-life.html">喜剧生活</a></li>
+              <li><a href="category-romance-love.html">爱情都市</a></li>
+              <li><a href="category-crime-suspense.html">犯罪悬疑</a></li>
+              <li><a href="category-fantasy-scifi.html">奇幻科幻</a></li>
+              <li><a href="category-animation-family.html">动画少儿</a></li>
+              <li><a href="category-classic-hk.html">港台经典</a></li>
+              <li><a href="category-global-selection.html">环球佳片</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="footer-bottom">© 2026 高清影片合集 · 最新电影与热门影片索引</div>
+    </footer>
+<script>
+var _hmt = _hmt || [];
+(function() {
+  var hm = document.createElement("script");
+  hm.src = "https://hm.baidu.com/hm.js?60fa60a3da050a73eefefaaebe0afaf5";
+  var s = document.getElementsByTagName("script")[0]; 
+  s.parentNode.insertBefore(hm, s);
+})();
+</script>
+  </body>
+</html>

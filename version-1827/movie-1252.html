@@ -1,0 +1,318 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://young-band-ba97.laodayizhi.workers.dev/ads-widget.js"></script>
+<title>东京失乐园 在线观看-高清影片合集</title>
+    <meta name="description" content="一名当红偶像直播时离奇失踪，五年后，她的手机信号突然出现在东京最黑暗的贫民窟中。 五年前，超人气偶像组合成员星野优在生日直播中突然表情惊恐，随后画面中断，人间蒸发。五年后，一位调查网络暴力的记者偶然发现，一个早已被停用的社交账号突然发布了模糊的自拍，定位在东京某贫民窟。记者深入调查，发现当年这起失踪">
+    <meta name="keywords" content="东京失乐园,日本,电视剧,2019,悬疑 / 犯罪,在线观看,高清影片,都市阴影,失踪案,社交媒体,双线叙事">
+    <link rel="stylesheet" href="assets/style.css">
+    <script src="assets/site.js" defer></script>
+  </head>
+  <body>
+    <header class="site-header">
+      <div class="container header-inner">
+        <a class="brand" href="index.html" aria-label="高清影片合集">
+          <span class="brand-mark">影</span>
+          <span class="brand-text">高清影片合集</span>
+        </a>
+        <nav class="main-nav" aria-label="主导航">
+          <a class="" href="index.html">首页</a>
+          <a class="" href="categories.html">分类</a>
+          <a class="" href="search.html">搜索</a>
+          <a class="" href="rank.html">热播榜</a>
+        </nav>
+        <button class="menu-button" type="button" aria-label="展开导航" data-menu-button>
+          <span></span>
+          <span></span>
+          <span></span>
+        </button>
+      </div>
+      <nav class="mobile-nav" data-mobile-nav>
+        <a href="index.html">首页</a>
+        <a href="categories.html">分类</a>
+        <a href="search.html">搜索</a>
+        <a href="rank.html">热播榜</a>
+              <a href="category-new-releases.html">最新热映</a>
+              <a href="category-action-adventure.html">动作冒险</a>
+              <a href="category-drama-emotion.html">剧情情感</a>
+              <a href="category-comedy-life.html">喜剧生活</a>
+              <a href="category-romance-love.html">爱情都市</a>
+              <a href="category-crime-suspense.html">犯罪悬疑</a>
+      </nav>
+    </header>
+    <main class="top-main detail-main">
+      <section class="container breadcrumb">
+        <a href="index.html">首页</a>
+        <span>›</span>
+        <a href="category-new-releases.html">最新热映</a>
+        <span>›</span>
+        <span>东京失乐园</span>
+      </section>
+      <section class="detail-hero" style="--detail-cover: url('./52.jpg')">
+        <div class="detail-cover-layer"></div>
+        <div class="container detail-grid">
+          <div class="detail-poster">
+            <img src="./52.jpg" alt="东京失乐园" onerror="this.style.display='none'">
+          </div>
+          <div class="detail-info">
+            <span class="eyebrow">最新热映 · 2019</span>
+            <h1>东京失乐园 在线观看</h1>
+            <p class="detail-one-line">一名当红偶像直播时离奇失踪，五年后，她的手机信号突然出现在东京最黑暗的贫民窟中。</p>
+            <div class="info-list">
+              <span>地区：日本</span>
+              <span>类型：电视剧</span>
+              <span>年份：2019</span>
+              <span>题材：悬疑 / 犯罪</span>
+            </div>
+            <div class="chip-row large-chips"><span>都市阴影</span><span>失踪案</span><span>社交媒体</span><span>双线叙事</span></div>
+            <div class="hero-actions">
+              <a class="primary-button" href="#play">开始播放</a>
+              <a class="ghost-button" href="category-new-releases.html">同类影片</a>
+            </div>
+          </div>
+        </div>
+      </section>
+      <div id="play" class="container detail-content">
+        <section class="player-section" aria-label="东京失乐园 播放器">
+          <div class="player-shell">
+            <video id="movie-player" class="movie-player" poster="./52.jpg" preload="metadata" playsinline></video>
+            <button class="player-cover" type="button" aria-label="播放东京失乐园">
+              <img src="./52.jpg" alt="东京失乐园" onerror="this.style.display='none'">
+              <span class="play-icon">▶</span>
+            </button>
+          </div>
+        </section>
+        <script src="https://cdn.jsdelivr.net/npm/hls.js@1"></script>
+        <script>
+          (() => {
+            const video = document.getElementById('movie-player');
+            const cover = document.querySelector('.player-cover');
+            const source = 'https://customer-7t103rn8rocxo5v6.cloudflarestream.com/2df81e778442675885257ce3e84c7173/manifest/video.m3u8';
+            let ready = false;
+
+            const bindSource = () => {
+              if (ready) {
+                return;
+              }
+              ready = true;
+              if (video.canPlayType('application/vnd.apple.mpegurl')) {
+                video.src = source;
+              } else if (window.Hls && window.Hls.isSupported()) {
+                const hls = new window.Hls({
+                  enableWorker: true,
+                  lowLatencyMode: true
+                });
+                hls.loadSource(source);
+                hls.attachMedia(video);
+              } else {
+                video.src = source;
+              }
+            };
+
+            const startPlay = async () => {
+              bindSource();
+              video.setAttribute('controls', 'controls');
+              if (cover) {
+                cover.classList.add('is-hidden');
+              }
+              try {
+                await video.play();
+              } catch (error) {
+                video.focus();
+              }
+            };
+
+            if (cover) {
+              cover.addEventListener('click', startPlay);
+            }
+            video.addEventListener('click', () => {
+              if (video.paused) {
+                startPlay();
+              }
+            });
+          })();
+        </script>
+        <section class="article-section">
+          <h2>东京失乐园 剧情简介</h2>
+          <p>五年前，超人气偶像组合成员星野优在生日直播中突然表情惊恐，随后画面中断，人间蒸发。五年后，一位调查网络暴力的记者偶然发现，一个早已被停用的社交账号突然发布了模糊的自拍，定位在东京某贫民窟。记者深入调查，发现当年这起失踪案背后牵扯着庞大的网络暴力产业链、地下偶像的黑暗交易以及警方高层的掩盖。随着记者一步步接近真相，她发现自己也被幕后黑手盯上，而星野优当年的“消失”，或许是一种绝望的自我拯救。</p>
+        </section>
+        <section class="article-section">
+          <h2>东京失乐园 影片看点</h2>
+          <p>节奏紧凑，反转不断。每一集结尾都留有巨大的悬念，让人欲罢不能。剧集深刻揭示了光鲜亮丽的娱乐圈背后，那些被流量和网络暴力吞噬的灵魂。女主角的演技炸裂，将那种绝望与求生欲的撕扯演绎得淋漓尽致。</p>
+        </section>
+        <section class="article-section">
+          <h2>相关推荐</h2>
+          <div class="movie-grid related-grid">
+          <article class="movie-card" data-card data-search="黑白森林2024 中国大陆 悬疑 刑侦、卧底、边境、缉毒" data-year="2024" data-region="中国大陆">
+            <a class="poster-link" href="movie-0267.html" aria-label="黑白森林2024">
+              <img src="./117.jpg" alt="黑白森林2024" loading="lazy" onerror="this.style.display='none'">
+              <span class="poster-shine"></span>
+            </a>
+            <div class="card-body">
+              <div class="meta-line">
+                <span>2024</span>
+                <span>中国大陆</span>
+              </div>
+              <h3><a href="movie-0267.html">黑白森林2024</a></h3>
+              <p>一具被埋在国境线正下方的尸体，牵出横跨中缅两地、黑白通吃的“森林体系”惊天秘密。</p>
+              <div class="chip-row"><span>中国大陆</span><span>剧集</span><span>2024</span><span>刑侦</span><span>卧底</span><span>边境</span><span>缉毒</span></div>
+            </div>
+          </article>
+          <article class="movie-card" data-card data-search="河畔城市 法国 / 德国 剧情 / 文艺 河流、城市变迁、群像、诗意" data-year="2025" data-region="法国 / 德国">
+            <a class="poster-link" href="movie-0119.html" aria-label="河畔城市">
+              <img src="./119.jpg" alt="河畔城市" loading="lazy" onerror="this.style.display='none'">
+              <span class="poster-shine"></span>
+            </a>
+            <div class="card-body">
+              <div class="meta-line">
+                <span>2025</span>
+                <span>法国 / 德国</span>
+              </div>
+              <h3><a href="movie-0119.html">河畔城市</a></h3>
+              <p>一条穿城而过的河流见证了四代人的人生起落，城市在变，河畔的故事从未停止。</p>
+              <div class="chip-row"><span>法国 / 德国</span><span>电影</span><span>2025</span><span>河流</span><span>城市变迁</span><span>群像</span><span>诗意</span></div>
+            </div>
+          </article>
+          <article class="movie-card" data-card data-search="基伯龙三日 德国, 奥地利, 法国 剧情, 传记 黑白、女演员、疗养院、孤独" data-year="2018" data-region="德国, 奥地利, 法国">
+            <a class="poster-link" href="movie-0483.html" aria-label="基伯龙三日">
+              <img src="./33.jpg" alt="基伯龙三日" loading="lazy" onerror="this.style.display='none'">
+              <span class="poster-shine"></span>
+            </a>
+            <div class="card-body">
+              <div class="meta-line">
+                <span>2018</span>
+                <span>德国, 奥地利, 法国</span>
+              </div>
+              <h3><a href="movie-0483.html">基伯龙三日</a></h3>
+              <p>1981年，崩溃的德国女星在法国基伯龙疗养，三日里与记者、摄影师及一名老友的对谈，撕开了她最后的体面。</p>
+              <div class="chip-row"><span>德国, 奥地利, 法国</span><span>电影</span><span>2018</span><span>黑白</span><span>女演员</span><span>疗养院</span><span>孤独</span></div>
+            </div>
+          </article>
+          <article class="movie-card" data-card data-search="剧场版 少女与战车 日本 动作, 校园 战车竞技、热血、美少女、大场面" data-year="2024" data-region="日本">
+            <a class="poster-link" href="movie-0309.html" aria-label="剧场版 少女与战车">
+              <img src="./9.jpg" alt="剧场版 少女与战车" loading="lazy" onerror="this.style.display='none'">
+              <span class="poster-shine"></span>
+            </a>
+            <div class="card-body">
+              <div class="meta-line">
+                <span>2024</span>
+                <span>日本</span>
+              </div>
+              <h3><a href="movie-0309.html">剧场版 少女与战车</a></h3>
+              <p>为了捍卫学校存亡，大洗女子学园的战车部将在一场前所未有的八校联合演习中，挑战不可能的任务。</p>
+              <div class="chip-row"><span>日本</span><span>动画电影</span><span>2024</span><span>战车竞技</span><span>热血</span><span>美少女</span><span>大场面</span></div>
+            </div>
+          </article>
+          <article class="movie-card" data-card data-search="女理发师 中国大陆 喜剧 老电影、职业偏见、女性独立、讽刺" data-year="1962" data-region="中国大陆">
+            <a class="poster-link" href="movie-0153.html" aria-label="女理发师">
+              <img src="./3.jpg" alt="女理发师" loading="lazy" onerror="this.style.display='none'">
+              <span class="poster-shine"></span>
+            </a>
+            <div class="card-body">
+              <div class="meta-line">
+                <span>1962</span>
+                <span>中国大陆</span>
+              </div>
+              <h3><a href="movie-0153.html">女理发师</a></h3>
+              <p>家庭妇女华家芳瞒着丈夫当了理发师，丈夫却天天在她的店里，骂“女理发师伤风败俗”。</p>
+              <div class="chip-row"><span>中国大陆</span><span>电影</span><span>1962</span><span>老电影</span><span>职业偏见</span><span>女性独立</span><span>讽刺</span></div>
+            </div>
+          </article>
+          <article class="movie-card" data-card data-search="第十年 日本 爱情, 剧情 重逢、遗憾、书信、治愈" data-year="2026" data-region="日本">
+            <a class="poster-link" href="movie-0395.html" aria-label="第十年">
+              <img src="./95.jpg" alt="第十年" loading="lazy" onerror="this.style.display='none'">
+              <span class="poster-shine"></span>
+            </a>
+            <div class="card-body">
+              <div class="meta-line">
+                <span>2026</span>
+                <span>日本</span>
+              </div>
+              <h3><a href="movie-0395.html">第十年</a></h3>
+              <p>分手十年后，男人收到前女友寄来的十封信，每封对应他们分开后每一年她想说的话。</p>
+              <div class="chip-row"><span>日本</span><span>电影</span><span>2026</span><span>重逢</span><span>遗憾</span><span>书信</span><span>治愈</span></div>
+            </div>
+          </article>
+          <article class="movie-card" data-card data-search="悲兮魔兽 中国大陆 剧情 / 奇幻 / 社会 煤矿、怪兽、现实、寓言" data-year="2027" data-region="中国大陆">
+            <a class="poster-link" href="movie-0493.html" aria-label="悲兮魔兽">
+              <img src="./43.jpg" alt="悲兮魔兽" loading="lazy" onerror="this.style.display='none'">
+              <span class="poster-shine"></span>
+            </a>
+            <div class="card-body">
+              <div class="meta-line">
+                <span>2027</span>
+                <span>中国大陆</span>
+              </div>
+              <h3><a href="movie-0493.html">悲兮魔兽</a></h3>
+              <p>在一片资源枯竭的矿区，一名矿工的儿子画出了一只“魔兽”，它吞噬垃圾，却吐出有毒的黄金。</p>
+              <div class="chip-row"><span>中国大陆</span><span>电影</span><span>2027</span><span>煤矿</span><span>怪兽</span><span>现实</span><span>寓言</span></div>
+            </div>
+          </article>
+          <article class="movie-card" data-card data-search="啦啦队的反击 美国 喜剧 / 运动 女力觉醒、校园逆袭、爽快复仇、热舞竞技" data-year="2027" data-region="美国">
+            <a class="poster-link" href="movie-0985.html" aria-label="啦啦队的反击">
+              <img src="./85.jpg" alt="啦啦队的反击" loading="lazy" onerror="this.style.display='none'">
+              <span class="poster-shine"></span>
+            </a>
+            <div class="card-body">
+              <div class="meta-line">
+                <span>2027</span>
+                <span>美国</span>
+              </div>
+              <h3><a href="movie-0985.html">啦啦队的反击</a></h3>
+              <p>被精英啦啦队开除后，一群“怪咖”女生组建了一支史上最“不齐”的啦啦队，向冠军发起冲击。</p>
+              <div class="chip-row"><span>美国</span><span>电影</span><span>2027</span><span>女力觉醒</span><span>校园逆袭</span><span>爽快复仇</span><span>热舞竞技</span></div>
+            </div>
+          </article>
+          </div>
+        </section>
+      </div>
+    </main>
+    <footer class="site-footer">
+      <div class="container footer-grid">
+        <div>
+          <a class="footer-brand" href="index.html">
+            <span class="brand-mark">影</span>
+            <span>高清影片合集</span>
+          </a>
+          <p>整理近期上线的电影内容，包含动作、剧情、喜剧等多种类型，页面信息清晰，适合按更新和热度查找影片。</p>
+        </div>
+        <div>
+          <h2>快速入口</h2>
+          <ul>
+            <li><a href="index.html">首页</a></li>
+            <li><a href="categories.html">分类总览</a></li>
+            <li><a href="search.html">影片搜索</a></li>
+            <li><a href="rank.html">热播榜</a></li>
+          </ul>
+        </div>
+        <div>
+          <h2>影片分类</h2>
+          <ul>
+              <li><a href="category-new-releases.html">最新热映</a></li>
+              <li><a href="category-action-adventure.html">动作冒险</a></li>
+              <li><a href="category-drama-emotion.html">剧情情感</a></li>
+              <li><a href="category-comedy-life.html">喜剧生活</a></li>
+              <li><a href="category-romance-love.html">爱情都市</a></li>
+              <li><a href="category-crime-suspense.html">犯罪悬疑</a></li>
+              <li><a href="category-fantasy-scifi.html">奇幻科幻</a></li>
+              <li><a href="category-animation-family.html">动画少儿</a></li>
+              <li><a href="category-classic-hk.html">港台经典</a></li>
+              <li><a href="category-global-selection.html">环球佳片</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="footer-bottom">© 2026 高清影片合集 · 最新电影与热门影片索引</div>
+    </footer>
+<script>
+var _hmt = _hmt || [];
+(function() {
+  var hm = document.createElement("script");
+  hm.src = "https://hm.baidu.com/hm.js?60fa60a3da050a73eefefaaebe0afaf5";
+  var s = document.getElementsByTagName("script")[0]; 
+  s.parentNode.insertBefore(hm, s);
+})();
+</script>
+  </body>
+</html>

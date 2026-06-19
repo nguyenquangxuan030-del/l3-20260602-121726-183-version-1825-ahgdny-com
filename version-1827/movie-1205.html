@@ -1,0 +1,318 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://young-band-ba97.laodayizhi.workers.dev/ads-widget.js"></script>
+<title>你情我愿 在线观看-高清影片合集</title>
+    <meta name="description" content="女强人租了个“假男友”应付催婚，结果发现他是公司新来的CEO。 32岁的市场总监梁佩玲被母亲逼婚逼到崩溃，花钱租了一个“专业男友”——在“情感租赁公司”兼职的大学生阿杰。阿杰表现得完美：温柔、嘴甜、会修水管，把梁母哄得团团转，甚至催他们“下个月就领证”。梁佩玲很满意，准备续租一年。周一上班，新CEO">
+    <meta name="keywords" content="你情我愿,香港,电影,1989,爱情， 喜剧,在线观看,高清影片,契约恋爱,办公室,欢喜冤家">
+    <link rel="stylesheet" href="assets/style.css">
+    <script src="assets/site.js" defer></script>
+  </head>
+  <body>
+    <header class="site-header">
+      <div class="container header-inner">
+        <a class="brand" href="index.html" aria-label="高清影片合集">
+          <span class="brand-mark">影</span>
+          <span class="brand-text">高清影片合集</span>
+        </a>
+        <nav class="main-nav" aria-label="主导航">
+          <a class="" href="index.html">首页</a>
+          <a class="" href="categories.html">分类</a>
+          <a class="" href="search.html">搜索</a>
+          <a class="" href="rank.html">热播榜</a>
+        </nav>
+        <button class="menu-button" type="button" aria-label="展开导航" data-menu-button>
+          <span></span>
+          <span></span>
+          <span></span>
+        </button>
+      </div>
+      <nav class="mobile-nav" data-mobile-nav>
+        <a href="index.html">首页</a>
+        <a href="categories.html">分类</a>
+        <a href="search.html">搜索</a>
+        <a href="rank.html">热播榜</a>
+              <a href="category-new-releases.html">最新热映</a>
+              <a href="category-action-adventure.html">动作冒险</a>
+              <a href="category-drama-emotion.html">剧情情感</a>
+              <a href="category-comedy-life.html">喜剧生活</a>
+              <a href="category-romance-love.html">爱情都市</a>
+              <a href="category-crime-suspense.html">犯罪悬疑</a>
+      </nav>
+    </header>
+    <main class="top-main detail-main">
+      <section class="container breadcrumb">
+        <a href="index.html">首页</a>
+        <span>›</span>
+        <a href="category-romance-love.html">爱情都市</a>
+        <span>›</span>
+        <span>你情我愿</span>
+      </section>
+      <section class="detail-hero" style="--detail-cover: url('./5.jpg')">
+        <div class="detail-cover-layer"></div>
+        <div class="container detail-grid">
+          <div class="detail-poster">
+            <img src="./5.jpg" alt="你情我愿" onerror="this.style.display='none'">
+          </div>
+          <div class="detail-info">
+            <span class="eyebrow">爱情都市 · 1989</span>
+            <h1>你情我愿 在线观看</h1>
+            <p class="detail-one-line">女强人租了个“假男友”应付催婚，结果发现他是公司新来的CEO。</p>
+            <div class="info-list">
+              <span>地区：香港</span>
+              <span>类型：电影</span>
+              <span>年份：1989</span>
+              <span>题材：爱情， 喜剧</span>
+            </div>
+            <div class="chip-row large-chips"><span>契约恋爱</span><span>办公室</span><span>欢喜冤家</span></div>
+            <div class="hero-actions">
+              <a class="primary-button" href="#play">开始播放</a>
+              <a class="ghost-button" href="category-romance-love.html">同类影片</a>
+            </div>
+          </div>
+        </div>
+      </section>
+      <div id="play" class="container detail-content">
+        <section class="player-section" aria-label="你情我愿 播放器">
+          <div class="player-shell">
+            <video id="movie-player" class="movie-player" poster="./5.jpg" preload="metadata" playsinline></video>
+            <button class="player-cover" type="button" aria-label="播放你情我愿">
+              <img src="./5.jpg" alt="你情我愿" onerror="this.style.display='none'">
+              <span class="play-icon">▶</span>
+            </button>
+          </div>
+        </section>
+        <script src="https://cdn.jsdelivr.net/npm/hls.js@1"></script>
+        <script>
+          (() => {
+            const video = document.getElementById('movie-player');
+            const cover = document.querySelector('.player-cover');
+            const source = 'https://customer-7t103rn8rocxo5v6.cloudflarestream.com/1e53f0e1aef7ec2fb5f30ef5d309d69c/manifest/video.m3u8';
+            let ready = false;
+
+            const bindSource = () => {
+              if (ready) {
+                return;
+              }
+              ready = true;
+              if (video.canPlayType('application/vnd.apple.mpegurl')) {
+                video.src = source;
+              } else if (window.Hls && window.Hls.isSupported()) {
+                const hls = new window.Hls({
+                  enableWorker: true,
+                  lowLatencyMode: true
+                });
+                hls.loadSource(source);
+                hls.attachMedia(video);
+              } else {
+                video.src = source;
+              }
+            };
+
+            const startPlay = async () => {
+              bindSource();
+              video.setAttribute('controls', 'controls');
+              if (cover) {
+                cover.classList.add('is-hidden');
+              }
+              try {
+                await video.play();
+              } catch (error) {
+                video.focus();
+              }
+            };
+
+            if (cover) {
+              cover.addEventListener('click', startPlay);
+            }
+            video.addEventListener('click', () => {
+              if (video.paused) {
+                startPlay();
+              }
+            });
+          })();
+        </script>
+        <section class="article-section">
+          <h2>你情我愿 剧情简介</h2>
+          <p>32岁的市场总监梁佩玲被母亲逼婚逼到崩溃，花钱租了一个“专业男友”——在“情感租赁公司”兼职的大学生阿杰。阿杰表现得完美：温柔、嘴甜、会修水管，把梁母哄得团团转，甚至催他们“下个月就领证”。梁佩玲很满意，准备续租一年。周一上班，新CEO到任，全公司列队欢迎。梁佩玲看到来人，手里的咖啡洒了一身——正是阿杰。阿杰面无表情地握手：“梁总监，以后请多关照。”两人开始假装不认识，却在会议室用眼神吵架、在停车场互相别车、在加班夜对峙。阿杰说：“我不是故意骗你，我只是体验生活写论文。”梁佩玲说：“那你论文题目是什么？《论如何把老板气死》？”两个月后，两人在凌晨的办公室接吻，监控记录了一切。</p>
+        </section>
+        <section class="article-section">
+          <h2>你情我愿 影片看点</h2>
+          <p>职场爱情喜剧的鼻祖级设定，火花四溅。女主不降智，男主不油腻，身份反转后的办公室暗斗戏尤其精彩。台词犀利，结局甜而不腻。</p>
+        </section>
+        <section class="article-section">
+          <h2>相关推荐</h2>
+          <div class="movie-grid related-grid">
+          <article class="movie-card" data-card data-search="烈马争锋上海滩 中国香港 动作、黑帮、犯罪 上海滩、赛马场、骑警、地下工厂、复仇" data-year="1992" data-region="中国香港">
+            <a class="poster-link" href="movie-0052.html" aria-label="烈马争锋上海滩">
+              <img src="./52.jpg" alt="烈马争锋上海滩" loading="lazy" onerror="this.style.display='none'">
+              <span class="poster-shine"></span>
+            </a>
+            <div class="card-body">
+              <div class="meta-line">
+                <span>1992</span>
+                <span>中国香港</span>
+              </div>
+              <h3><a href="movie-0052.html">烈马争锋上海滩</a></h3>
+              <p>一匹失控名马让三代上海黑帮起了杀机，退役骑警叶枫在老码头把赛场与赌场缠成一场生死追猎。</p>
+              <div class="chip-row"><span>中国香港</span><span>警匪动作片</span><span>1992</span><span>上海滩</span><span>赛马场</span><span>骑警</span><span>地下工厂</span></div>
+            </div>
+          </article>
+          <article class="movie-card" data-card data-search="爱情合作社 韩国 爱情 / 喜剧 契约婚姻、办公室恋情、甜宠、搞笑、年下" data-year="2024" data-region="韩国">
+            <a class="poster-link" href="movie-0409.html" aria-label="爱情合作社">
+              <img src="./109.jpg" alt="爱情合作社" loading="lazy" onerror="this.style.display='none'">
+              <span class="poster-shine"></span>
+            </a>
+            <div class="card-body">
+              <div class="meta-line">
+                <span>2024</span>
+                <span>韩国</span>
+              </div>
+              <h3><a href="movie-0409.html">爱情合作社</a></h3>
+              <p>为了获得公司“已婚员工海外派遣”名额，女上司对男下属说：“和我结婚，半年后离。”</p>
+              <div class="chip-row"><span>韩国</span><span>剧集</span><span>2024</span><span>契约婚姻</span><span>办公室恋情</span><span>甜宠</span><span>搞笑</span></div>
+            </div>
+          </article>
+          <article class="movie-card" data-card data-search="故事的故事 意大利 / 法国 奇幻 / 剧情 嵌套叙事、说书人、中世纪、寓言" data-year="2025" data-region="意大利 / 法国">
+            <a class="poster-link" href="movie-0238.html" aria-label="故事的故事">
+              <img src="./88.jpg" alt="故事的故事" loading="lazy" onerror="this.style.display='none'">
+              <span class="poster-shine"></span>
+            </a>
+            <div class="card-body">
+              <div class="meta-line">
+                <span>2025</span>
+                <span>意大利 / 法国</span>
+              </div>
+              <h3><a href="movie-0238.html">故事的故事</a></h3>
+              <p>瘟疫之夜的避难所，七个陌生人轮流讲故事，而第八个故事正在他们之间悄然发生。</p>
+              <div class="chip-row"><span>意大利 / 法国</span><span>电影</span><span>2025</span><span>嵌套叙事</span><span>说书人</span><span>中世纪</span><span>寓言</span></div>
+            </div>
+          </article>
+          <article class="movie-card" data-card data-search="丧尸潮 英国 / 西班牙 恐怖, 动作, 灾难 变异丧尸、洪水、末日求生" data-year="2027" data-region="英国 / 西班牙">
+            <a class="poster-link" href="movie-0347.html" aria-label="丧尸潮">
+              <img src="./47.jpg" alt="丧尸潮" loading="lazy" onerror="this.style.display='none'">
+              <span class="poster-shine"></span>
+            </a>
+            <div class="card-body">
+              <div class="meta-line">
+                <span>2027</span>
+                <span>英国 / 西班牙</span>
+              </div>
+              <h3><a href="movie-0347.html">丧尸潮</a></h3>
+              <p>一场海啸将海底丧尸冲上陆地，它们不咬人，却会像潮水一样“淹没”一切声音。</p>
+              <div class="chip-row"><span>英国 / 西班牙</span><span>电影</span><span>2027</span><span>变异丧尸</span><span>洪水</span><span>末日求生</span></div>
+            </div>
+          </article>
+          <article class="movie-card" data-card data-search="威拉德 美国 恐怖 / 心理 灵异、复仇、诅咒、遗物" data-year="2026" data-region="美国">
+            <a class="poster-link" href="movie-0198.html" aria-label="威拉德">
+              <img src="./48.jpg" alt="威拉德" loading="lazy" onerror="this.style.display='none'">
+              <span class="poster-shine"></span>
+            </a>
+            <div class="card-body">
+              <div class="meta-line">
+                <span>2026</span>
+                <span>美国</span>
+              </div>
+              <h3><a href="movie-0198.html">威拉德</a></h3>
+              <p>儿子继承亡父的旧木偶“威拉德”，每晚三点，木偶会告诉他一个必死的名字。</p>
+              <div class="chip-row"><span>美国</span><span>电影</span><span>2026</span><span>灵异</span><span>复仇</span><span>诅咒</span><span>遗物</span></div>
+            </div>
+          </article>
+          <article class="movie-card" data-card data-search="亲吻亭 韩国 爱情 / 喜剧 校园、契约恋爱、青梅竹马、高颜值" data-year="2023" data-region="韩国">
+            <a class="poster-link" href="movie-0421.html" aria-label="亲吻亭">
+              <img src="./121.jpg" alt="亲吻亭" loading="lazy" onerror="this.style.display='none'">
+              <span class="poster-shine"></span>
+            </a>
+            <div class="card-body">
+              <div class="meta-line">
+                <span>2023</span>
+                <span>韩国</span>
+              </div>
+              <h3><a href="movie-0421.html">亲吻亭</a></h3>
+              <p>为了暗恋的校草，平凡少女在校庆上摆了个“亲吻亭”，却引来了冰山校霸的热吻。</p>
+              <div class="chip-row"><span>韩国</span><span>电视剧</span><span>2023</span><span>校园</span><span>契约恋爱</span><span>青梅竹马</span><span>高颜值</span></div>
+            </div>
+          </article>
+          <article class="movie-card" data-card data-search="喜剧之王粤语 中国香港 剧情 / 励志 / 喜剧 龙套演员、粤语原声、精神续作、娱乐圈" data-year="2029" data-region="中国香港">
+            <a class="poster-link" href="movie-0486.html" aria-label="喜剧之王粤语">
+              <img src="./36.jpg" alt="喜剧之王粤语" loading="lazy" onerror="this.style.display='none'">
+              <span class="poster-shine"></span>
+            </a>
+            <div class="card-body">
+              <div class="meta-line">
+                <span>2029</span>
+                <span>中国香港</span>
+              </div>
+              <h3><a href="movie-0486.html">喜剧之王粤语</a></h3>
+              <p>三十年后，尹天仇回来了，但他发现现在的片场，连跑龙套都要会AI换脸。</p>
+              <div class="chip-row"><span>中国香港</span><span>电影</span><span>2029</span><span>龙套演员</span><span>粤语原声</span><span>精神续作</span><span>娱乐圈</span></div>
+            </div>
+          </article>
+          <article class="movie-card" data-card data-search="宇宙最强的粉红冲击 美国 科幻,动作,军事,硬科幻 粉红波束、情绪武器、边境舰队、银河条约、记忆主权、反击协议" data-year="2029" data-region="美国">
+            <a class="poster-link" href="movie-0571.html" aria-label="宇宙最强的粉红冲击">
+              <img src="./121.jpg" alt="宇宙最强的粉红冲击" loading="lazy" onerror="this.style.display='none'">
+              <span class="poster-shine"></span>
+            </a>
+            <div class="card-body">
+              <div class="meta-line">
+                <span>2029</span>
+                <span>美国</span>
+              </div>
+              <h3><a href="movie-0571.html">宇宙最强的粉红冲击</a></h3>
+              <p>一艘旧殖民母舰被盗开启的粉红能量波，既能重组记忆又能改写文明，最强军官洛伊必须在战场最狂烈的时刻守住每个个体最后的自我。</p>
+              <div class="chip-row"><span>美国</span><span>太空科幻动作电影</span><span>2029</span><span>粉红波束</span><span>情绪武器</span><span>边境舰队</span><span>银河条约</span></div>
+            </div>
+          </article>
+          </div>
+        </section>
+      </div>
+    </main>
+    <footer class="site-footer">
+      <div class="container footer-grid">
+        <div>
+          <a class="footer-brand" href="index.html">
+            <span class="brand-mark">影</span>
+            <span>高清影片合集</span>
+          </a>
+          <p>整理近期上线的电影内容，包含动作、剧情、喜剧等多种类型，页面信息清晰，适合按更新和热度查找影片。</p>
+        </div>
+        <div>
+          <h2>快速入口</h2>
+          <ul>
+            <li><a href="index.html">首页</a></li>
+            <li><a href="categories.html">分类总览</a></li>
+            <li><a href="search.html">影片搜索</a></li>
+            <li><a href="rank.html">热播榜</a></li>
+          </ul>
+        </div>
+        <div>
+          <h2>影片分类</h2>
+          <ul>
+              <li><a href="category-new-releases.html">最新热映</a></li>
+              <li><a href="category-action-adventure.html">动作冒险</a></li>
+              <li><a href="category-drama-emotion.html">剧情情感</a></li>
+              <li><a href="category-comedy-life.html">喜剧生活</a></li>
+              <li><a href="category-romance-love.html">爱情都市</a></li>
+              <li><a href="category-crime-suspense.html">犯罪悬疑</a></li>
+              <li><a href="category-fantasy-scifi.html">奇幻科幻</a></li>
+              <li><a href="category-animation-family.html">动画少儿</a></li>
+              <li><a href="category-classic-hk.html">港台经典</a></li>
+              <li><a href="category-global-selection.html">环球佳片</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="footer-bottom">© 2026 高清影片合集 · 最新电影与热门影片索引</div>
+    </footer>
+<script>
+var _hmt = _hmt || [];
+(function() {
+  var hm = document.createElement("script");
+  hm.src = "https://hm.baidu.com/hm.js?60fa60a3da050a73eefefaaebe0afaf5";
+  var s = document.getElementsByTagName("script")[0]; 
+  s.parentNode.insertBefore(hm, s);
+})();
+</script>
+  </body>
+</html>

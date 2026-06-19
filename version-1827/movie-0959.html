@@ -1,0 +1,318 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://young-band-ba97.laodayizhi.workers.dev/ads-widget.js"></script>
+<title>大象席地而坐 在线观看-高清影片合集</title>
+    <meta name="description" content="四个被生活逼入绝境的小人物，决定一起去满洲里看那只“一直坐在地上”的大象。 这是一个灰暗的北方小城。高中生韦布为朋友出头误伤了恶霸，被迫逃亡；他的同学黄玲与教导主任的暧昧视频曝光，无家可归；混混头目于城杀了朋友的朋友，内心挣扎；邻居老头王金被儿女赶去养老院。四人的命运因一只传说中的大象交织在一起——">
+    <meta name="keywords" content="大象席地而坐,中国大陆,电影,2018,剧情、文艺,在线观看,高清影片,现实主义,绝望,满洲里,长镜头">
+    <link rel="stylesheet" href="assets/style.css">
+    <script src="assets/site.js" defer></script>
+  </head>
+  <body>
+    <header class="site-header">
+      <div class="container header-inner">
+        <a class="brand" href="index.html" aria-label="高清影片合集">
+          <span class="brand-mark">影</span>
+          <span class="brand-text">高清影片合集</span>
+        </a>
+        <nav class="main-nav" aria-label="主导航">
+          <a class="" href="index.html">首页</a>
+          <a class="" href="categories.html">分类</a>
+          <a class="" href="search.html">搜索</a>
+          <a class="" href="rank.html">热播榜</a>
+        </nav>
+        <button class="menu-button" type="button" aria-label="展开导航" data-menu-button>
+          <span></span>
+          <span></span>
+          <span></span>
+        </button>
+      </div>
+      <nav class="mobile-nav" data-mobile-nav>
+        <a href="index.html">首页</a>
+        <a href="categories.html">分类</a>
+        <a href="search.html">搜索</a>
+        <a href="rank.html">热播榜</a>
+              <a href="category-new-releases.html">最新热映</a>
+              <a href="category-action-adventure.html">动作冒险</a>
+              <a href="category-drama-emotion.html">剧情情感</a>
+              <a href="category-comedy-life.html">喜剧生活</a>
+              <a href="category-romance-love.html">爱情都市</a>
+              <a href="category-crime-suspense.html">犯罪悬疑</a>
+      </nav>
+    </header>
+    <main class="top-main detail-main">
+      <section class="container breadcrumb">
+        <a href="index.html">首页</a>
+        <span>›</span>
+        <a href="category-comedy-life.html">喜剧生活</a>
+        <span>›</span>
+        <span>大象席地而坐</span>
+      </section>
+      <section class="detail-hero" style="--detail-cover: url('./59.jpg')">
+        <div class="detail-cover-layer"></div>
+        <div class="container detail-grid">
+          <div class="detail-poster">
+            <img src="./59.jpg" alt="大象席地而坐" onerror="this.style.display='none'">
+          </div>
+          <div class="detail-info">
+            <span class="eyebrow">喜剧生活 · 2018</span>
+            <h1>大象席地而坐 在线观看</h1>
+            <p class="detail-one-line">四个被生活逼入绝境的小人物，决定一起去满洲里看那只“一直坐在地上”的大象。</p>
+            <div class="info-list">
+              <span>地区：中国大陆</span>
+              <span>类型：电影</span>
+              <span>年份：2018</span>
+              <span>题材：剧情、文艺</span>
+            </div>
+            <div class="chip-row large-chips"><span>现实主义</span><span>绝望</span><span>满洲里</span><span>长镜头</span></div>
+            <div class="hero-actions">
+              <a class="primary-button" href="#play">开始播放</a>
+              <a class="ghost-button" href="category-comedy-life.html">同类影片</a>
+            </div>
+          </div>
+        </div>
+      </section>
+      <div id="play" class="container detail-content">
+        <section class="player-section" aria-label="大象席地而坐 播放器">
+          <div class="player-shell">
+            <video id="movie-player" class="movie-player" poster="./59.jpg" preload="metadata" playsinline></video>
+            <button class="player-cover" type="button" aria-label="播放大象席地而坐">
+              <img src="./59.jpg" alt="大象席地而坐" onerror="this.style.display='none'">
+              <span class="play-icon">▶</span>
+            </button>
+          </div>
+        </section>
+        <script src="https://cdn.jsdelivr.net/npm/hls.js@1"></script>
+        <script>
+          (() => {
+            const video = document.getElementById('movie-player');
+            const cover = document.querySelector('.player-cover');
+            const source = 'https://customer-7t103rn8rocxo5v6.cloudflarestream.com/fbc04ae173a0e633458658e80ee78c2a/manifest/video.m3u8';
+            let ready = false;
+
+            const bindSource = () => {
+              if (ready) {
+                return;
+              }
+              ready = true;
+              if (video.canPlayType('application/vnd.apple.mpegurl')) {
+                video.src = source;
+              } else if (window.Hls && window.Hls.isSupported()) {
+                const hls = new window.Hls({
+                  enableWorker: true,
+                  lowLatencyMode: true
+                });
+                hls.loadSource(source);
+                hls.attachMedia(video);
+              } else {
+                video.src = source;
+              }
+            };
+
+            const startPlay = async () => {
+              bindSource();
+              video.setAttribute('controls', 'controls');
+              if (cover) {
+                cover.classList.add('is-hidden');
+              }
+              try {
+                await video.play();
+              } catch (error) {
+                video.focus();
+              }
+            };
+
+            if (cover) {
+              cover.addEventListener('click', startPlay);
+            }
+            video.addEventListener('click', () => {
+              if (video.paused) {
+                startPlay();
+              }
+            });
+          })();
+        </script>
+        <section class="article-section">
+          <h2>大象席地而坐 剧情简介</h2>
+          <p>这是一个灰暗的北方小城。高中生韦布为朋友出头误伤了恶霸，被迫逃亡；他的同学黄玲与教导主任的暧昧视频曝光，无家可归；混混头目于城杀了朋友的朋友，内心挣扎；邻居老头王金被儿女赶去养老院。四人的命运因一只传说中的大象交织在一起——满洲里的动物园里有一只大象，它什么都不做，只是整天坐在地上。他们觉得那只大象很懂自己。韦布偷了钱，黄玲砸了家，于城举起了枪，老王卖掉了房子。所有人踏上了去往满洲里的绿皮火车。当车窗外变得一片漆黑时，远方传来了大象震耳欲聋的嘶鸣声，没有人知道那是不是幻觉。</p>
+        </section>
+        <section class="article-section">
+          <h2>大象席地而坐 影片看点</h2>
+          <p>长达四小时的压抑，看完却像被救赎。每一个长镜头都像一声叹息。影片没有给出答案，那只席地而坐的大象就是生活的荒诞本身。它不是催泪弹，是钝刀子割肉，后劲大到无法呼吸。</p>
+        </section>
+        <section class="article-section">
+          <h2>相关推荐</h2>
+          <div class="movie-grid related-grid">
+          <article class="movie-card" data-card data-search="基伯龙三日 德国, 奥地利, 法国 剧情, 传记 黑白、女演员、疗养院、孤独" data-year="2018" data-region="德国, 奥地利, 法国">
+            <a class="poster-link" href="movie-0483.html" aria-label="基伯龙三日">
+              <img src="./33.jpg" alt="基伯龙三日" loading="lazy" onerror="this.style.display='none'">
+              <span class="poster-shine"></span>
+            </a>
+            <div class="card-body">
+              <div class="meta-line">
+                <span>2018</span>
+                <span>德国, 奥地利, 法国</span>
+              </div>
+              <h3><a href="movie-0483.html">基伯龙三日</a></h3>
+              <p>1981年，崩溃的德国女星在法国基伯龙疗养，三日里与记者、摄影师及一名老友的对谈，撕开了她最后的体面。</p>
+              <div class="chip-row"><span>德国, 奥地利, 法国</span><span>电影</span><span>2018</span><span>黑白</span><span>女演员</span><span>疗养院</span><span>孤独</span></div>
+            </div>
+          </article>
+          <article class="movie-card" data-card data-search="黑洞拦截 美国 科幻、动作、惊悚 太空、黑洞、硬科幻、绝地求生" data-year="2026" data-region="美国">
+            <a class="poster-link" href="movie-0368.html" aria-label="黑洞拦截">
+              <img src="./68.jpg" alt="黑洞拦截" loading="lazy" onerror="this.style.display='none'">
+              <span class="poster-shine"></span>
+            </a>
+            <div class="card-body">
+              <div class="meta-line">
+                <span>2026</span>
+                <span>美国</span>
+              </div>
+              <h3><a href="movie-0368.html">黑洞拦截</a></h3>
+              <p>一艘科研飞船被意外抛向正在形成的黑洞，船员们必须在视界边缘与时间赛跑。</p>
+              <div class="chip-row"><span>美国</span><span>电影</span><span>2026</span><span>太空</span><span>黑洞</span><span>硬科幻</span><span>绝地求生</span></div>
+            </div>
+          </article>
+          <article class="movie-card" data-card data-search="魔卡行动 中国大陆 / 香港 动作, 犯罪, 悬疑 黑客、信用卡、跨国、高科技、反转" data-year="2025" data-region="中国大陆 / 香港">
+            <a class="poster-link" href="movie-0247.html" aria-label="魔卡行动">
+              <img src="./97.jpg" alt="魔卡行动" loading="lazy" onerror="this.style.display='none'">
+              <span class="poster-shine"></span>
+            </a>
+            <div class="card-body">
+              <div class="meta-line">
+                <span>2025</span>
+                <span>中国大陆 / 香港</span>
+              </div>
+              <h3><a href="movie-0247.html">魔卡行动</a></h3>
+              <p>一名天才黑客配合国际刑警，潜入全球最大的信用卡诈骗集团，却发现自己父亲是创始人。</p>
+              <div class="chip-row"><span>中国大陆 / 香港</span><span>电影</span><span>2025</span><span>黑客</span><span>信用卡</span><span>跨国</span><span>高科技</span></div>
+            </div>
+          </article>
+          <article class="movie-card" data-card data-search="军火之王 美国 犯罪剧情 走私、讽刺、战争、发家史" data-year="2025" data-region="美国">
+            <a class="poster-link" href="movie-0181.html" aria-label="军火之王">
+              <img src="./31.jpg" alt="军火之王" loading="lazy" onerror="this.style.display='none'">
+              <span class="poster-shine"></span>
+            </a>
+            <div class="card-body">
+              <div class="meta-line">
+                <span>2025</span>
+                <span>美国</span>
+              </div>
+              <h3><a href="movie-0181.html">军火之王</a></h3>
+              <p>私人军火贩子为了追逐利益，把武器卖给交战双方，直到他发现自己正在追杀自己的亲弟弟。</p>
+              <div class="chip-row"><span>美国</span><span>电影</span><span>2025</span><span>走私</span><span>讽刺</span><span>战争</span><span>发家史</span></div>
+            </div>
+          </article>
+          <article class="movie-card" data-card data-search="使用下方 20 个影片名，按顺序一一对应，不要改动片名文字，只根据片名和括号内类型提示来虚构全新的故事内容： 形影不离 名门暗战粤语 素媛 恐惧街3 少林寺 云雨情花 黑狱驿站 “去你的”清单 会长是女仆 排球少年 成人派对 当好孕来敲门 老陶工 一条道走到亮 怪兽在巴黎 演播时刻第一季 爸爸别杀我 包拯之双鱼诡事 镖行天下之牡丹阁 莫奈的光影岁月 根据片名判断 根据片名判断 根据片名判断" data-year="根据片名判断" data-region="根据片名判断">
+            <a class="poster-link" href="movie-0091.html" aria-label="使用下方 20 个影片名，按顺序一一对应，不要改动片名文字，只根据片名和括号内类型提示来虚构全新的故事内容： 形影不离 名门暗战粤语 素媛 恐惧街3 少林寺 云雨情花 黑狱驿站 “去你的”清单 会长是女仆 排球少年 成人派对 当好孕来敲门 老陶工 一条道走到亮 怪兽在巴黎 演播时刻第一季 爸爸别杀我 包拯之双鱼诡事 镖行天下之牡丹阁 莫奈的光影岁月">
+              <img src="./91.jpg" alt="使用下方 20 个影片名，按顺序一一对应，不要改动片名文字，只根据片名和括号内类型提示来虚构全新的故事内容： 形影不离 名门暗战粤语 素媛 恐惧街3 少林寺 云雨情花 黑狱驿站 “去你的”清单 会长是女仆 排球少年 成人派对 当好孕来敲门 老陶工 一条道走到亮 怪兽在巴黎 演播时刻第一季 爸爸别杀我 包拯之双鱼诡事 镖行天下之牡丹阁 莫奈的光影岁月" loading="lazy" onerror="this.style.display='none'">
+              <span class="poster-shine"></span>
+            </a>
+            <div class="card-body">
+              <div class="meta-line">
+                <span>根据片名判断</span>
+                <span>根据片名判断</span>
+              </div>
+              <h3><a href="movie-0091.html">使用下方 20 个影片名，按顺序一一对应，不要改动片名文字，只根据片名和括号内类型提示来虚构全新的故事内容： 形影不离 名门暗战粤语 素媛 恐惧街3 少林寺 云雨情花 黑狱驿站 “去你的”清单 会长是女仆 排球少年 成人派对 当好孕来敲门 老陶工 一条道走到亮 怪兽在巴黎 演播时刻第一季 爸爸别杀我 包拯之双鱼诡事 镖行天下之牡丹阁 莫奈的光影岁月</a></h3>
+              <p>（一句话剧情钩子，20~40 字左右，简洁但有记忆点）</p>
+              <div class="chip-row"><span>根据片名判断</span><span>根据片名判断</span><span>根据片名判断</span><span>根据片名判断</span></div>
+            </div>
+          </article>
+          <article class="movie-card" data-card data-search="大宋探案局 中国 悬疑 / 古装 推理、宋朝、少年团体" data-year="2024" data-region="中国">
+            <a class="poster-link" href="movie-0425.html" aria-label="大宋探案局">
+              <img src="./125.jpg" alt="大宋探案局" loading="lazy" onerror="this.style.display='none'">
+              <span class="poster-shine"></span>
+            </a>
+            <div class="card-body">
+              <div class="meta-line">
+                <span>2024</span>
+                <span>中国</span>
+              </div>
+              <h3><a href="movie-0425.html">大宋探案局</a></h3>
+              <p>五位身怀绝技的北宋少年，在开封府外组建了一个探案社团。</p>
+              <div class="chip-row"><span>中国</span><span>剧集</span><span>2024</span><span>推理</span><span>宋朝</span><span>少年团体</span></div>
+            </div>
+          </article>
+          <article class="movie-card" data-card data-search="幻灭第三季 美国 奇幻 / 冒险 公主、恶魔、暗黑童话、梦境世界" data-year="2029" data-region="美国">
+            <a class="poster-link" href="movie-1786.html" aria-label="幻灭第三季">
+              <img src="./136.jpg" alt="幻灭第三季" loading="lazy" onerror="this.style.display='none'">
+              <span class="poster-shine"></span>
+            </a>
+            <div class="card-body">
+              <div class="meta-line">
+                <span>2029</span>
+                <span>美国</span>
+              </div>
+              <h3><a href="movie-1786.html">幻灭第三季</a></h3>
+              <p>公主Bean在现实世界被处决，却在死后进入了“幻灭”的平行梦境——那里所有死去的角色都还活着。</p>
+              <div class="chip-row"><span>美国</span><span>剧集</span><span>2029</span><span>公主</span><span>恶魔</span><span>暗黑童话</span><span>梦境世界</span></div>
+            </div>
+          </article>
+          <article class="movie-card" data-card data-search="第51号文件 韩国 动作、谍战、悬疑 南北韩、失忆特工、高燃肉搏" data-year="2027" data-region="韩国">
+            <a class="poster-link" href="movie-1844.html" aria-label="第51号文件">
+              <img src="./44.jpg" alt="第51号文件" loading="lazy" onerror="this.style.display='none'">
+              <span class="poster-shine"></span>
+            </a>
+            <div class="card-body">
+              <div class="meta-line">
+                <span>2027</span>
+                <span>韩国</span>
+              </div>
+              <h3><a href="movie-1844.html">第51号文件</a></h3>
+              <p>失忆的朝鲜间谍在韩国当起出租车司机，意外发现乘客给的文件代号正是自己的名字。</p>
+              <div class="chip-row"><span>韩国</span><span>电影</span><span>2027</span><span>南北韩</span><span>失忆特工</span><span>高燃肉搏</span></div>
+            </div>
+          </article>
+          </div>
+        </section>
+      </div>
+    </main>
+    <footer class="site-footer">
+      <div class="container footer-grid">
+        <div>
+          <a class="footer-brand" href="index.html">
+            <span class="brand-mark">影</span>
+            <span>高清影片合集</span>
+          </a>
+          <p>整理近期上线的电影内容，包含动作、剧情、喜剧等多种类型，页面信息清晰，适合按更新和热度查找影片。</p>
+        </div>
+        <div>
+          <h2>快速入口</h2>
+          <ul>
+            <li><a href="index.html">首页</a></li>
+            <li><a href="categories.html">分类总览</a></li>
+            <li><a href="search.html">影片搜索</a></li>
+            <li><a href="rank.html">热播榜</a></li>
+          </ul>
+        </div>
+        <div>
+          <h2>影片分类</h2>
+          <ul>
+              <li><a href="category-new-releases.html">最新热映</a></li>
+              <li><a href="category-action-adventure.html">动作冒险</a></li>
+              <li><a href="category-drama-emotion.html">剧情情感</a></li>
+              <li><a href="category-comedy-life.html">喜剧生活</a></li>
+              <li><a href="category-romance-love.html">爱情都市</a></li>
+              <li><a href="category-crime-suspense.html">犯罪悬疑</a></li>
+              <li><a href="category-fantasy-scifi.html">奇幻科幻</a></li>
+              <li><a href="category-animation-family.html">动画少儿</a></li>
+              <li><a href="category-classic-hk.html">港台经典</a></li>
+              <li><a href="category-global-selection.html">环球佳片</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="footer-bottom">© 2026 高清影片合集 · 最新电影与热门影片索引</div>
+    </footer>
+<script>
+var _hmt = _hmt || [];
+(function() {
+  var hm = document.createElement("script");
+  hm.src = "https://hm.baidu.com/hm.js?60fa60a3da050a73eefefaaebe0afaf5";
+  var s = document.getElementsByTagName("script")[0]; 
+  s.parentNode.insertBefore(hm, s);
+})();
+</script>
+  </body>
+</html>

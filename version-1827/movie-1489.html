@@ -1,0 +1,318 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://young-band-ba97.laodayizhi.workers.dev/ads-widget.js"></script>
+<title>风云战国之列国 在线观看-高清影片合集</title>
+    <meta name="description" content="从三家分晋到秦灭六国，每一集聚焦一个诸侯国灭亡的致命弱点，揭开隐藏在史书背后的权力游戏。 这是一部大型历史连续剧，以战国七雄为核心，每三集讲述一个国家的兴衰史。不同于传统帝王戏，该剧聚焦于每个国家灭亡的“基因缺陷”：赵国的尚武轻文、魏国的人才流失、楚国的贵族分治、齐国的安逸守成、韩国的技术依赖、燕国">
+    <meta name="keywords" content="风云战国之列国,中国大陆,剧集,2025,历史 / 战争,在线观看,高清影片,史诗巨制,权谋,考古还原">
+    <link rel="stylesheet" href="assets/style.css">
+    <script src="assets/site.js" defer></script>
+  </head>
+  <body>
+    <header class="site-header">
+      <div class="container header-inner">
+        <a class="brand" href="index.html" aria-label="高清影片合集">
+          <span class="brand-mark">影</span>
+          <span class="brand-text">高清影片合集</span>
+        </a>
+        <nav class="main-nav" aria-label="主导航">
+          <a class="" href="index.html">首页</a>
+          <a class="" href="categories.html">分类</a>
+          <a class="" href="search.html">搜索</a>
+          <a class="" href="rank.html">热播榜</a>
+        </nav>
+        <button class="menu-button" type="button" aria-label="展开导航" data-menu-button>
+          <span></span>
+          <span></span>
+          <span></span>
+        </button>
+      </div>
+      <nav class="mobile-nav" data-mobile-nav>
+        <a href="index.html">首页</a>
+        <a href="categories.html">分类</a>
+        <a href="search.html">搜索</a>
+        <a href="rank.html">热播榜</a>
+              <a href="category-new-releases.html">最新热映</a>
+              <a href="category-action-adventure.html">动作冒险</a>
+              <a href="category-drama-emotion.html">剧情情感</a>
+              <a href="category-comedy-life.html">喜剧生活</a>
+              <a href="category-romance-love.html">爱情都市</a>
+              <a href="category-crime-suspense.html">犯罪悬疑</a>
+      </nav>
+    </header>
+    <main class="top-main detail-main">
+      <section class="container breadcrumb">
+        <a href="index.html">首页</a>
+        <span>›</span>
+        <a href="category-drama-emotion.html">剧情情感</a>
+        <span>›</span>
+        <span>风云战国之列国</span>
+      </section>
+      <section class="detail-hero" style="--detail-cover: url('./139.jpg')">
+        <div class="detail-cover-layer"></div>
+        <div class="container detail-grid">
+          <div class="detail-poster">
+            <img src="./139.jpg" alt="风云战国之列国" onerror="this.style.display='none'">
+          </div>
+          <div class="detail-info">
+            <span class="eyebrow">剧情情感 · 2025</span>
+            <h1>风云战国之列国 在线观看</h1>
+            <p class="detail-one-line">从三家分晋到秦灭六国，每一集聚焦一个诸侯国灭亡的致命弱点，揭开隐藏在史书背后的权力游戏。</p>
+            <div class="info-list">
+              <span>地区：中国大陆</span>
+              <span>类型：剧集</span>
+              <span>年份：2025</span>
+              <span>题材：历史 / 战争</span>
+            </div>
+            <div class="chip-row large-chips"><span>史诗巨制</span><span>权谋</span><span>考古还原</span></div>
+            <div class="hero-actions">
+              <a class="primary-button" href="#play">开始播放</a>
+              <a class="ghost-button" href="category-drama-emotion.html">同类影片</a>
+            </div>
+          </div>
+        </div>
+      </section>
+      <div id="play" class="container detail-content">
+        <section class="player-section" aria-label="风云战国之列国 播放器">
+          <div class="player-shell">
+            <video id="movie-player" class="movie-player" poster="./139.jpg" preload="metadata" playsinline></video>
+            <button class="player-cover" type="button" aria-label="播放风云战国之列国">
+              <img src="./139.jpg" alt="风云战国之列国" onerror="this.style.display='none'">
+              <span class="play-icon">▶</span>
+            </button>
+          </div>
+        </section>
+        <script src="https://cdn.jsdelivr.net/npm/hls.js@1"></script>
+        <script>
+          (() => {
+            const video = document.getElementById('movie-player');
+            const cover = document.querySelector('.player-cover');
+            const source = 'https://customer-7t103rn8rocxo5v6.cloudflarestream.com/86ea18f9954dbaf22eff5e16c41b4a25/manifest/video.m3u8';
+            let ready = false;
+
+            const bindSource = () => {
+              if (ready) {
+                return;
+              }
+              ready = true;
+              if (video.canPlayType('application/vnd.apple.mpegurl')) {
+                video.src = source;
+              } else if (window.Hls && window.Hls.isSupported()) {
+                const hls = new window.Hls({
+                  enableWorker: true,
+                  lowLatencyMode: true
+                });
+                hls.loadSource(source);
+                hls.attachMedia(video);
+              } else {
+                video.src = source;
+              }
+            };
+
+            const startPlay = async () => {
+              bindSource();
+              video.setAttribute('controls', 'controls');
+              if (cover) {
+                cover.classList.add('is-hidden');
+              }
+              try {
+                await video.play();
+              } catch (error) {
+                video.focus();
+              }
+            };
+
+            if (cover) {
+              cover.addEventListener('click', startPlay);
+            }
+            video.addEventListener('click', () => {
+              if (video.paused) {
+                startPlay();
+              }
+            });
+          })();
+        </script>
+        <section class="article-section">
+          <h2>风云战国之列国 剧情简介</h2>
+          <p>这是一部大型历史连续剧，以战国七雄为核心，每三集讲述一个国家的兴衰史。不同于传统帝王戏，该剧聚焦于每个国家灭亡的“基因缺陷”：赵国的尚武轻文、魏国的人才流失、楚国的贵族分治、齐国的安逸守成、韩国的技术依赖、燕国的迂腐仁政、以及秦国的法治暴政。剧中重现了大量考古发现的细节，如云梦秦简、侯马盟书，用现代视角解读古代中国的统一与分裂。</p>
+        </section>
+        <section class="article-section">
+          <h2>风云战国之列国 影片看点</h2>
+          <p>历史剧的新标杆。没有戏说，只有对地缘政治和人性的深刻剖析。战争场面宏大且符合史实，服化道精美绝伦，尤其是对战国时期士兵单兵装备的还原，令历史迷狂喜。</p>
+        </section>
+        <section class="article-section">
+          <h2>相关推荐</h2>
+          <div class="movie-grid related-grid">
+          <article class="movie-card" data-card data-search="三楼的陌生人 日本 悬疑 / 剧情 / 心理 密闭空间、身份错位、社会隐喻" data-year="2023" data-region="日本">
+            <a class="poster-link" href="movie-0148.html" aria-label="三楼的陌生人">
+              <img src="./148.jpg" alt="三楼的陌生人" loading="lazy" onerror="this.style.display='none'">
+              <span class="poster-shine"></span>
+            </a>
+            <div class="card-body">
+              <div class="meta-line">
+                <span>2023</span>
+                <span>日本</span>
+              </div>
+              <h3><a href="movie-0148.html">三楼的陌生人</a></h3>
+              <p>公寓三楼发现一具无名男尸，而楼里所有住户都声称自己才是那个“最了解他的人”。</p>
+              <div class="chip-row"><span>日本</span><span>电影</span><span>2023</span><span>密闭空间</span><span>身份错位</span><span>社会隐喻</span></div>
+            </div>
+          </article>
+          <article class="movie-card" data-card data-search="天际浩劫3 美国 科幻 外星入侵、末日废土、硬核动作" data-year="2024" data-region="美国">
+            <a class="poster-link" href="movie-0375.html" aria-label="天际浩劫3">
+              <img src="./75.jpg" alt="天际浩劫3" loading="lazy" onerror="this.style.display='none'">
+              <span class="poster-shine"></span>
+            </a>
+            <div class="card-body">
+              <div class="meta-line">
+                <span>2024</span>
+                <span>美国</span>
+              </div>
+              <h3><a href="movie-0375.html">天际浩劫3</a></h3>
+              <p>外星舰队再次降临，这一次人类发现：它们的飞船里全是人类的克隆体。</p>
+              <div class="chip-row"><span>美国</span><span>电影</span><span>2024</span><span>外星入侵</span><span>末日废土</span><span>硬核动作</span></div>
+            </div>
+          </article>
+          <article class="movie-card" data-card data-search="嫁我吧，哥们 中国台湾 喜剧、爱情、剧情 假结婚、兄弟情、乌龙、逼婚、彩虹友好" data-year="2023" data-region="中国台湾">
+            <a class="poster-link" href="movie-0277.html" aria-label="嫁我吧，哥们">
+              <img src="./127.jpg" alt="嫁我吧，哥们" loading="lazy" onerror="this.style.display='none'">
+              <span class="poster-shine"></span>
+            </a>
+            <div class="card-body">
+              <div class="meta-line">
+                <span>2023</span>
+                <span>中国台湾</span>
+              </div>
+              <h3><a href="movie-0277.html">嫁我吧，哥们</a></h3>
+              <p>钢铁直男为继承家业，竟被逼无奈向自己最好的同性兄弟求婚，不料对方却当场答应。</p>
+              <div class="chip-row"><span>中国台湾</span><span>电影</span><span>2023</span><span>假结婚</span><span>兄弟情</span><span>乌龙</span><span>逼婚</span></div>
+            </div>
+          </article>
+          <article class="movie-card" data-card data-search="精神领袖 香港 惊悚, 心理, 社会批判, 科幻, 人物 认知操控、虚拟信仰、群体心理、网络直播、权力结构、反洗脑" data-year="2027" data-region="香港">
+            <a class="poster-link" href="movie-0488.html" aria-label="精神领袖">
+              <img src="./38.jpg" alt="精神领袖" loading="lazy" onerror="this.style.display='none'">
+              <span class="poster-shine"></span>
+            </a>
+            <div class="card-body">
+              <div class="meta-line">
+                <span>2027</span>
+                <span>香港</span>
+              </div>
+              <h3><a href="movie-0488.html">精神领袖</a></h3>
+              <p>超人气冥想主播“叶无量”宣称能治愈一切创伤，越是人群越多，越多人开始丢失记忆边界，苏筠踏上的不是追星之旅而是一场心智危机。</p>
+              <div class="chip-row"><span>香港</span><span>心理悬疑剧</span><span>2027</span><span>认知操控</span><span>虚拟信仰</span><span>群体心理</span><span>网络直播</span></div>
+            </div>
+          </article>
+          <article class="movie-card" data-card data-search="第三类房客粤语 中国香港 喜剧, 恐怖, 奇幻 合租、鬼魂、乌龙、港式搞笑" data-year="1990" data-region="中国香港">
+            <a class="poster-link" href="movie-0033.html" aria-label="第三类房客粤语">
+              <img src="./33.jpg" alt="第三类房客粤语" loading="lazy" onerror="this.style.display='none'">
+              <span class="poster-shine"></span>
+            </a>
+            <div class="card-body">
+              <div class="meta-line">
+                <span>1990</span>
+                <span>中国香港</span>
+              </div>
+              <h3><a href="movie-0033.html">第三类房客粤语</a></h3>
+              <p>一对情侣租了一间凶宅，发现屋里住着三个鬼，但鬼比人还怕事，求他们不要报警。</p>
+              <div class="chip-row"><span>中国香港</span><span>电影</span><span>1990</span><span>合租</span><span>鬼魂</span><span>乌龙</span><span>港式搞笑</span></div>
+            </div>
+          </article>
+          <article class="movie-card" data-card data-search="爱情合作社 韩国 爱情 / 喜剧 契约婚姻、办公室恋情、甜宠、搞笑、年下" data-year="2024" data-region="韩国">
+            <a class="poster-link" href="movie-0409.html" aria-label="爱情合作社">
+              <img src="./109.jpg" alt="爱情合作社" loading="lazy" onerror="this.style.display='none'">
+              <span class="poster-shine"></span>
+            </a>
+            <div class="card-body">
+              <div class="meta-line">
+                <span>2024</span>
+                <span>韩国</span>
+              </div>
+              <h3><a href="movie-0409.html">爱情合作社</a></h3>
+              <p>为了获得公司“已婚员工海外派遣”名额，女上司对男下属说：“和我结婚，半年后离。”</p>
+              <div class="chip-row"><span>韩国</span><span>剧集</span><span>2024</span><span>契约婚姻</span><span>办公室恋情</span><span>甜宠</span><span>搞笑</span></div>
+            </div>
+          </article>
+          <article class="movie-card" data-card data-search="跨海长征 中国大陆 / 日本 历史 / 战争 / 冒险 真事改编、海上逃亡、生死时速" data-year="2028" data-region="中国大陆 / 日本">
+            <a class="poster-link" href="movie-1216.html" aria-label="跨海长征">
+              <img src="./16.jpg" alt="跨海长征" loading="lazy" onerror="this.style.display='none'">
+              <span class="poster-shine"></span>
+            </a>
+            <div class="card-body">
+              <div class="meta-line">
+                <span>2028</span>
+                <span>中国大陆 / 日本</span>
+              </div>
+              <h3><a href="movie-1216.html">跨海长征</a></h3>
+              <p>1944年，八路军小分队押送日军战俘横跨黄海，身后是追兵，前方是未知风暴。</p>
+              <div class="chip-row"><span>中国大陆 / 日本</span><span>电影</span><span>2028</span><span>真事改编</span><span>海上逃亡</span><span>生死时速</span></div>
+            </div>
+          </article>
+          <article class="movie-card" data-card data-search="爱情无政府 中国大陆 剧情 / 爱情 / 科幻 反乌托邦、情感自由、制度批判、算法反抗" data-year="2028" data-region="中国大陆">
+            <a class="poster-link" href="movie-1563.html" aria-label="爱情无政府">
+              <img src="./63.jpg" alt="爱情无政府" loading="lazy" onerror="this.style.display='none'">
+              <span class="poster-shine"></span>
+            </a>
+            <div class="card-body">
+              <div class="meta-line">
+                <span>2028</span>
+                <span>中国大陆</span>
+              </div>
+              <h3><a href="movie-1563.html">爱情无政府</a></h3>
+              <p>在情感被算法分配的未来，一群年轻人用混乱的爱向完美系统宣战。</p>
+              <div class="chip-row"><span>中国大陆</span><span>电影</span><span>2028</span><span>反乌托邦</span><span>情感自由</span><span>制度批判</span><span>算法反抗</span></div>
+            </div>
+          </article>
+          </div>
+        </section>
+      </div>
+    </main>
+    <footer class="site-footer">
+      <div class="container footer-grid">
+        <div>
+          <a class="footer-brand" href="index.html">
+            <span class="brand-mark">影</span>
+            <span>高清影片合集</span>
+          </a>
+          <p>整理近期上线的电影内容，包含动作、剧情、喜剧等多种类型，页面信息清晰，适合按更新和热度查找影片。</p>
+        </div>
+        <div>
+          <h2>快速入口</h2>
+          <ul>
+            <li><a href="index.html">首页</a></li>
+            <li><a href="categories.html">分类总览</a></li>
+            <li><a href="search.html">影片搜索</a></li>
+            <li><a href="rank.html">热播榜</a></li>
+          </ul>
+        </div>
+        <div>
+          <h2>影片分类</h2>
+          <ul>
+              <li><a href="category-new-releases.html">最新热映</a></li>
+              <li><a href="category-action-adventure.html">动作冒险</a></li>
+              <li><a href="category-drama-emotion.html">剧情情感</a></li>
+              <li><a href="category-comedy-life.html">喜剧生活</a></li>
+              <li><a href="category-romance-love.html">爱情都市</a></li>
+              <li><a href="category-crime-suspense.html">犯罪悬疑</a></li>
+              <li><a href="category-fantasy-scifi.html">奇幻科幻</a></li>
+              <li><a href="category-animation-family.html">动画少儿</a></li>
+              <li><a href="category-classic-hk.html">港台经典</a></li>
+              <li><a href="category-global-selection.html">环球佳片</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="footer-bottom">© 2026 高清影片合集 · 最新电影与热门影片索引</div>
+    </footer>
+<script>
+var _hmt = _hmt || [];
+(function() {
+  var hm = document.createElement("script");
+  hm.src = "https://hm.baidu.com/hm.js?60fa60a3da050a73eefefaaebe0afaf5";
+  var s = document.getElementsByTagName("script")[0]; 
+  s.parentNode.insertBefore(hm, s);
+})();
+</script>
+  </body>
+</html>

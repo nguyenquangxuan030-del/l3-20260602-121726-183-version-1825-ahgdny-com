@@ -1,0 +1,318 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://young-band-ba97.laodayizhi.workers.dev/ads-widget.js"></script>
+<title>刀 在线观看-高清影片合集</title>
+    <meta name="description" content="一把被折断的刀，牵出一场跨越十年的门派血债，而真正想杀死过去的人，反而是那个握刀最稳的传人。 十年前，刀客段无涯为替师门护镖，与叛徒一战中断去右臂筋脉，从此退出江湖，只靠替人修刀为生。十年后，一名黑衣刺客带着半截残刃上门，留下三具尸体和一句话：当年的血债该还了。段无涯这才知道，曾经销声匿迹的“断潮门">
+    <meta name="keywords" content="刀,中国香港,电影,1995,武侠 / 动作 / 剧情,在线观看,高清影片,断刃重铸,门派恩怨,江湖追杀,以刀证道,复仇与放下">
+    <link rel="stylesheet" href="assets/style.css">
+    <script src="assets/site.js" defer></script>
+  </head>
+  <body>
+    <header class="site-header">
+      <div class="container header-inner">
+        <a class="brand" href="index.html" aria-label="高清影片合集">
+          <span class="brand-mark">影</span>
+          <span class="brand-text">高清影片合集</span>
+        </a>
+        <nav class="main-nav" aria-label="主导航">
+          <a class="" href="index.html">首页</a>
+          <a class="" href="categories.html">分类</a>
+          <a class="" href="search.html">搜索</a>
+          <a class="" href="rank.html">热播榜</a>
+        </nav>
+        <button class="menu-button" type="button" aria-label="展开导航" data-menu-button>
+          <span></span>
+          <span></span>
+          <span></span>
+        </button>
+      </div>
+      <nav class="mobile-nav" data-mobile-nav>
+        <a href="index.html">首页</a>
+        <a href="categories.html">分类</a>
+        <a href="search.html">搜索</a>
+        <a href="rank.html">热播榜</a>
+              <a href="category-new-releases.html">最新热映</a>
+              <a href="category-action-adventure.html">动作冒险</a>
+              <a href="category-drama-emotion.html">剧情情感</a>
+              <a href="category-comedy-life.html">喜剧生活</a>
+              <a href="category-romance-love.html">爱情都市</a>
+              <a href="category-crime-suspense.html">犯罪悬疑</a>
+      </nav>
+    </header>
+    <main class="top-main detail-main">
+      <section class="container breadcrumb">
+        <a href="index.html">首页</a>
+        <span>›</span>
+        <a href="category-global-selection.html">环球佳片</a>
+        <span>›</span>
+        <span>刀</span>
+      </section>
+      <section class="detail-hero" style="--detail-cover: url('./124.jpg')">
+        <div class="detail-cover-layer"></div>
+        <div class="container detail-grid">
+          <div class="detail-poster">
+            <img src="./124.jpg" alt="刀" onerror="this.style.display='none'">
+          </div>
+          <div class="detail-info">
+            <span class="eyebrow">环球佳片 · 1995</span>
+            <h1>刀 在线观看</h1>
+            <p class="detail-one-line">一把被折断的刀，牵出一场跨越十年的门派血债，而真正想杀死过去的人，反而是那个握刀最稳的传人。</p>
+            <div class="info-list">
+              <span>地区：中国香港</span>
+              <span>类型：电影</span>
+              <span>年份：1995</span>
+              <span>题材：武侠 / 动作 / 剧情</span>
+            </div>
+            <div class="chip-row large-chips"><span>断刃重铸</span><span>门派恩怨</span><span>江湖追杀</span><span>以刀证道</span><span>复仇与放下</span></div>
+            <div class="hero-actions">
+              <a class="primary-button" href="#play">开始播放</a>
+              <a class="ghost-button" href="category-global-selection.html">同类影片</a>
+            </div>
+          </div>
+        </div>
+      </section>
+      <div id="play" class="container detail-content">
+        <section class="player-section" aria-label="刀 播放器">
+          <div class="player-shell">
+            <video id="movie-player" class="movie-player" poster="./124.jpg" preload="metadata" playsinline></video>
+            <button class="player-cover" type="button" aria-label="播放刀">
+              <img src="./124.jpg" alt="刀" onerror="this.style.display='none'">
+              <span class="play-icon">▶</span>
+            </button>
+          </div>
+        </section>
+        <script src="https://cdn.jsdelivr.net/npm/hls.js@1"></script>
+        <script>
+          (() => {
+            const video = document.getElementById('movie-player');
+            const cover = document.querySelector('.player-cover');
+            const source = 'https://customer-7t103rn8rocxo5v6.cloudflarestream.com/f0d38b8679a1231eff816a8e04cc1a0c/manifest/video.m3u8';
+            let ready = false;
+
+            const bindSource = () => {
+              if (ready) {
+                return;
+              }
+              ready = true;
+              if (video.canPlayType('application/vnd.apple.mpegurl')) {
+                video.src = source;
+              } else if (window.Hls && window.Hls.isSupported()) {
+                const hls = new window.Hls({
+                  enableWorker: true,
+                  lowLatencyMode: true
+                });
+                hls.loadSource(source);
+                hls.attachMedia(video);
+              } else {
+                video.src = source;
+              }
+            };
+
+            const startPlay = async () => {
+              bindSource();
+              video.setAttribute('controls', 'controls');
+              if (cover) {
+                cover.classList.add('is-hidden');
+              }
+              try {
+                await video.play();
+              } catch (error) {
+                video.focus();
+              }
+            };
+
+            if (cover) {
+              cover.addEventListener('click', startPlay);
+            }
+            video.addEventListener('click', () => {
+              if (video.paused) {
+                startPlay();
+              }
+            });
+          })();
+        </script>
+        <section class="article-section">
+          <h2>刀 剧情简介</h2>
+          <p>十年前，刀客段无涯为替师门护镖，与叛徒一战中断去右臂筋脉，从此退出江湖，只靠替人修刀为生。十年后，一名黑衣刺客带着半截残刃上门，留下三具尸体和一句话：当年的血债该还了。段无涯这才知道，曾经销声匿迹的“断潮门”又重新现身，昔日被屠灭的门派并未真正死绝，而是有人在暗中聚拢旧部，准备向所有曾参与那场血案的人讨回公道。与此同时，一位年轻女子阿雁带着一柄传闻中能斩断宿命的古刀出现，声称自己是旧门派唯一幸存者，要求段无涯带她找到当年真正下令屠门的人。段无涯起初只想自保，却在追查中发现自己并非完全无辜：那场所谓的“护镖”其实掩盖了一次被权力操纵的清洗，师门高层与朝廷密探都有份参与。阿雁一心复仇，段无涯则在一次次交手中意识到，刀可以替人杀人，也可以替人斩断谎言。影片的武打极具力量感，招式简洁、狠准、留白多，尤其强调兵器与身体的关系。最后，段无涯在废弃祠堂里面对真正的仇首，没有选择同归于尽，而是将手中重铸后的刀插回供案，逼对方在众目睽睽下认罪。刀不是为了证明杀戮有多漂亮，而是为了回答：若武者终究要面对血债，是否还能给自己留一条不被仇恨吞掉的路。影片名字极短，但主题锋利，余味很长。</p>
+        </section>
+        <section class="article-section">
+          <h2>刀 影片看点</h2>
+          <p>《刀》的厉害之处在于它把武侠片里最容易空泛的“恩怨”拍出了重量，人物每一步选择都和过去的代价绑定在一起，没有哪场对决只是为了好看。动作设计很硬，几乎没有花哨的飘逸感，而是更接近刀刃本身的冷、直和快，这让每一次出手都像在切开旧账。叙事上它也很清楚，复仇线、师门线和真相线相互推进，最后落到“放下并不等于遗忘”，立意稳而不空。它是一部有锋芒也有克制的武侠片，完成度很高。</p>
+        </section>
+        <section class="article-section">
+          <h2>相关推荐</h2>
+          <div class="movie-grid related-grid">
+          <article class="movie-card" data-card data-search="物超所值 中国大陆 剧情喜剧/市井伦理/讽刺 高性价比、房产骗局、消费陷阱、小人物、复仇温情、代际价值" data-year="2022" data-region="中国大陆">
+            <a class="poster-link" href="movie-0015.html" aria-label="物超所值">
+              <img src="./15.jpg" alt="物超所值" loading="lazy" onerror="this.style.display='none'">
+              <span class="poster-shine"></span>
+            </a>
+            <div class="card-body">
+              <div class="meta-line">
+                <span>2022</span>
+                <span>中国大陆</span>
+              </div>
+              <h3><a href="movie-0015.html">物超所值</a></h3>
+              <p>只要出示一张发票，小城理发店老板就能把生活过得明亮起来，但他意外卖出会兑现梦想的礼物，整座城都陷进了真假便宜的循环赌注。</p>
+              <div class="chip-row"><span>中国大陆</span><span>电影</span><span>2022</span><span>高性价比</span><span>房产骗局</span><span>消费陷阱</span><span>小人物</span></div>
+            </div>
+          </article>
+          <article class="movie-card" data-card data-search="全面锁定 美国 科幻， 动作， 悬疑 人工智能、密室逃脱、高科技犯罪、反乌托邦、未来监狱" data-year="2025" data-region="美国">
+            <a class="poster-link" href="movie-0124.html" aria-label="全面锁定">
+              <img src="./124.jpg" alt="全面锁定" loading="lazy" onerror="this.style.display='none'">
+              <span class="poster-shine"></span>
+            </a>
+            <div class="card-body">
+              <div class="meta-line">
+                <span>2025</span>
+                <span>美国</span>
+              </div>
+              <h3><a href="movie-0124.html">全面锁定</a></h3>
+              <p>一名黑客被关进AI管理的“无懈可击”的智能监狱，却发现越狱的关键是让系统自己崩溃。</p>
+              <div class="chip-row"><span>美国</span><span>电影</span><span>2025</span><span>人工智能</span><span>密室逃脱</span><span>高科技犯罪</span><span>反乌托邦</span></div>
+            </div>
+          </article>
+          <article class="movie-card" data-card data-search="恶魔刑事录 韩国 犯罪，奇幻，悬疑 驱魔刑警、双男主、附身、邪教、地狱使者" data-year="2023" data-region="韩国">
+            <a class="poster-link" href="movie-0217.html" aria-label="恶魔刑事录">
+              <img src="./67.jpg" alt="恶魔刑事录" loading="lazy" onerror="this.style.display='none'">
+              <span class="poster-shine"></span>
+            </a>
+            <div class="card-body">
+              <div class="meta-line">
+                <span>2023</span>
+                <span>韩国</span>
+              </div>
+              <h3><a href="movie-0217.html">恶魔刑事录</a></h3>
+              <p>一位无神论刑警被恶魔附身，不得不与天主教驱魔师搭档破获灵异连环杀人案。</p>
+              <div class="chip-row"><span>韩国</span><span>剧集</span><span>2023</span><span>驱魔刑警</span><span>双男主</span><span>附身</span><span>邪教</span></div>
+            </div>
+          </article>
+          <article class="movie-card" data-card data-search="中毒 韩国 悬疑, 惊悚, 伦理 替身、兄弟、婚姻、反转" data-year="2023" data-region="韩国">
+            <a class="poster-link" href="movie-0333.html" aria-label="中毒">
+              <img src="./33.jpg" alt="中毒" loading="lazy" onerror="this.style.display='none'">
+              <span class="poster-shine"></span>
+            </a>
+            <div class="card-body">
+              <div class="meta-line">
+                <span>2023</span>
+                <span>韩国</span>
+              </div>
+              <h3><a href="movie-0333.html">中毒</a></h3>
+              <p>丈夫车祸昏迷，小叔子醒来后坚称自己是哥哥的灵魂，嫂子陷入疯狂的爱与怀疑。</p>
+              <div class="chip-row"><span>韩国</span><span>电影</span><span>2023</span><span>替身</span><span>兄弟</span><span>婚姻</span><span>反转</span></div>
+            </div>
+          </article>
+          <article class="movie-card" data-card data-search="林冲夜奔 中国大陆 动作, 武侠 水浒、林冲、荒野求生、义气" data-year="2014" data-region="中国大陆">
+            <a class="poster-link" href="movie-0401.html" aria-label="林冲夜奔">
+              <img src="./101.jpg" alt="林冲夜奔" loading="lazy" onerror="this.style.display='none'">
+              <span class="poster-shine"></span>
+            </a>
+            <div class="card-body">
+              <div class="meta-line">
+                <span>2014</span>
+                <span>中国大陆</span>
+              </div>
+              <h3><a href="movie-0401.html">林冲夜奔</a></h3>
+              <p>林冲被逼上梁山途中，遭遇朝廷追杀和神秘赏金猎人，雪夜中他必须独自活下来。</p>
+              <div class="chip-row"><span>中国大陆</span><span>电影</span><span>2014</span><span>水浒</span><span>林冲</span><span>荒野求生</span><span>义气</span></div>
+            </div>
+          </article>
+          <article class="movie-card" data-card data-search="喜剧之王粤语 中国香港 剧情 / 励志 / 喜剧 龙套演员、粤语原声、精神续作、娱乐圈" data-year="2029" data-region="中国香港">
+            <a class="poster-link" href="movie-0486.html" aria-label="喜剧之王粤语">
+              <img src="./36.jpg" alt="喜剧之王粤语" loading="lazy" onerror="this.style.display='none'">
+              <span class="poster-shine"></span>
+            </a>
+            <div class="card-body">
+              <div class="meta-line">
+                <span>2029</span>
+                <span>中国香港</span>
+              </div>
+              <h3><a href="movie-0486.html">喜剧之王粤语</a></h3>
+              <p>三十年后，尹天仇回来了，但他发现现在的片场，连跑龙套都要会AI换脸。</p>
+              <div class="chip-row"><span>中国香港</span><span>电影</span><span>2029</span><span>龙套演员</span><span>粤语原声</span><span>精神续作</span><span>娱乐圈</span></div>
+            </div>
+          </article>
+          <article class="movie-card" data-card data-search="叛逆战将2 美国 动作 / 犯罪 硬汉警探、以暴制暴、续集升级" data-year="2029" data-region="美国">
+            <a class="poster-link" href="movie-0283.html" aria-label="叛逆战将2">
+              <img src="./133.jpg" alt="叛逆战将2" loading="lazy" onerror="this.style.display='none'">
+              <span class="poster-shine"></span>
+            </a>
+            <div class="card-body">
+              <div class="meta-line">
+                <span>2029</span>
+                <span>美国</span>
+              </div>
+              <h3><a href="movie-0283.html">叛逆战将2</a></h3>
+              <p>第一部主角金盆洗手后，老搭档的女儿被绑架，他必须重返地下世界的漩涡。</p>
+              <div class="chip-row"><span>美国</span><span>电影</span><span>2029</span><span>硬汉警探</span><span>以暴制暴</span><span>续集升级</span></div>
+            </div>
+          </article>
+          <article class="movie-card" data-card data-search="边缘怒火 中国香港 动作 / 犯罪 / 警匪 卧底、极限反杀、兄弟反目、枪战" data-year="2028" data-region="中国香港">
+            <a class="poster-link" href="movie-0832.html" aria-label="边缘怒火">
+              <img src="./82.jpg" alt="边缘怒火" loading="lazy" onerror="this.style.display='none'">
+              <span class="poster-shine"></span>
+            </a>
+            <div class="card-body">
+              <div class="meta-line">
+                <span>2028</span>
+                <span>中国香港</span>
+              </div>
+              <h3><a href="movie-0832.html">边缘怒火</a></h3>
+              <p>游走于黑白边缘的卧底警察被组织抛弃，他决定用自己的方式点燃正义的怒火。</p>
+              <div class="chip-row"><span>中国香港</span><span>电影</span><span>2028</span><span>卧底</span><span>极限反杀</span><span>兄弟反目</span><span>枪战</span></div>
+            </div>
+          </article>
+          </div>
+        </section>
+      </div>
+    </main>
+    <footer class="site-footer">
+      <div class="container footer-grid">
+        <div>
+          <a class="footer-brand" href="index.html">
+            <span class="brand-mark">影</span>
+            <span>高清影片合集</span>
+          </a>
+          <p>整理近期上线的电影内容，包含动作、剧情、喜剧等多种类型，页面信息清晰，适合按更新和热度查找影片。</p>
+        </div>
+        <div>
+          <h2>快速入口</h2>
+          <ul>
+            <li><a href="index.html">首页</a></li>
+            <li><a href="categories.html">分类总览</a></li>
+            <li><a href="search.html">影片搜索</a></li>
+            <li><a href="rank.html">热播榜</a></li>
+          </ul>
+        </div>
+        <div>
+          <h2>影片分类</h2>
+          <ul>
+              <li><a href="category-new-releases.html">最新热映</a></li>
+              <li><a href="category-action-adventure.html">动作冒险</a></li>
+              <li><a href="category-drama-emotion.html">剧情情感</a></li>
+              <li><a href="category-comedy-life.html">喜剧生活</a></li>
+              <li><a href="category-romance-love.html">爱情都市</a></li>
+              <li><a href="category-crime-suspense.html">犯罪悬疑</a></li>
+              <li><a href="category-fantasy-scifi.html">奇幻科幻</a></li>
+              <li><a href="category-animation-family.html">动画少儿</a></li>
+              <li><a href="category-classic-hk.html">港台经典</a></li>
+              <li><a href="category-global-selection.html">环球佳片</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="footer-bottom">© 2026 高清影片合集 · 最新电影与热门影片索引</div>
+    </footer>
+<script>
+var _hmt = _hmt || [];
+(function() {
+  var hm = document.createElement("script");
+  hm.src = "https://hm.baidu.com/hm.js?60fa60a3da050a73eefefaaebe0afaf5";
+  var s = document.getElementsByTagName("script")[0]; 
+  s.parentNode.insertBefore(hm, s);
+})();
+</script>
+  </body>
+</html>

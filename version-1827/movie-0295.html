@@ -1,0 +1,318 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://young-band-ba97.laodayizhi.workers.dev/ads-widget.js"></script>
+<title>孤寂午后 在线观看-高清影片合集</title>
+    <meta name="description" content="独居老妇每天下午都假装与已故丈夫打电话，直到某天电话那头传来陌生声音。 78岁的玛德琳住在巴黎郊区一栋老房子，丈夫去世五年，儿女在国外。每天午后三点，她会准时拨通丈夫生前办公室的电话号码，对着忙音假装聊天，倾诉琐事与思念。邻居们都以为她在正常通话。某天下午，电话突然被接起，一个年轻男人的声音说：“妈">
+    <meta name="keywords" content="孤寂午后,法国,电影,2024,剧情，文艺，女性,在线观看,高清影片,孤老,回忆,阳光,缓慢">
+    <link rel="stylesheet" href="assets/style.css">
+    <script src="assets/site.js" defer></script>
+  </head>
+  <body>
+    <header class="site-header">
+      <div class="container header-inner">
+        <a class="brand" href="index.html" aria-label="高清影片合集">
+          <span class="brand-mark">影</span>
+          <span class="brand-text">高清影片合集</span>
+        </a>
+        <nav class="main-nav" aria-label="主导航">
+          <a class="" href="index.html">首页</a>
+          <a class="" href="categories.html">分类</a>
+          <a class="" href="search.html">搜索</a>
+          <a class="" href="rank.html">热播榜</a>
+        </nav>
+        <button class="menu-button" type="button" aria-label="展开导航" data-menu-button>
+          <span></span>
+          <span></span>
+          <span></span>
+        </button>
+      </div>
+      <nav class="mobile-nav" data-mobile-nav>
+        <a href="index.html">首页</a>
+        <a href="categories.html">分类</a>
+        <a href="search.html">搜索</a>
+        <a href="rank.html">热播榜</a>
+              <a href="category-new-releases.html">最新热映</a>
+              <a href="category-action-adventure.html">动作冒险</a>
+              <a href="category-drama-emotion.html">剧情情感</a>
+              <a href="category-comedy-life.html">喜剧生活</a>
+              <a href="category-romance-love.html">爱情都市</a>
+              <a href="category-crime-suspense.html">犯罪悬疑</a>
+      </nav>
+    </header>
+    <main class="top-main detail-main">
+      <section class="container breadcrumb">
+        <a href="index.html">首页</a>
+        <span>›</span>
+        <a href="category-comedy-life.html">喜剧生活</a>
+        <span>›</span>
+        <span>孤寂午后</span>
+      </section>
+      <section class="detail-hero" style="--detail-cover: url('./145.jpg')">
+        <div class="detail-cover-layer"></div>
+        <div class="container detail-grid">
+          <div class="detail-poster">
+            <img src="./145.jpg" alt="孤寂午后" onerror="this.style.display='none'">
+          </div>
+          <div class="detail-info">
+            <span class="eyebrow">喜剧生活 · 2024</span>
+            <h1>孤寂午后 在线观看</h1>
+            <p class="detail-one-line">独居老妇每天下午都假装与已故丈夫打电话，直到某天电话那头传来陌生声音。</p>
+            <div class="info-list">
+              <span>地区：法国</span>
+              <span>类型：电影</span>
+              <span>年份：2024</span>
+              <span>题材：剧情，文艺，女性</span>
+            </div>
+            <div class="chip-row large-chips"><span>孤老</span><span>回忆</span><span>阳光</span><span>缓慢</span></div>
+            <div class="hero-actions">
+              <a class="primary-button" href="#play">开始播放</a>
+              <a class="ghost-button" href="category-comedy-life.html">同类影片</a>
+            </div>
+          </div>
+        </div>
+      </section>
+      <div id="play" class="container detail-content">
+        <section class="player-section" aria-label="孤寂午后 播放器">
+          <div class="player-shell">
+            <video id="movie-player" class="movie-player" poster="./145.jpg" preload="metadata" playsinline></video>
+            <button class="player-cover" type="button" aria-label="播放孤寂午后">
+              <img src="./145.jpg" alt="孤寂午后" onerror="this.style.display='none'">
+              <span class="play-icon">▶</span>
+            </button>
+          </div>
+        </section>
+        <script src="https://cdn.jsdelivr.net/npm/hls.js@1"></script>
+        <script>
+          (() => {
+            const video = document.getElementById('movie-player');
+            const cover = document.querySelector('.player-cover');
+            const source = 'https://customer-7t103rn8rocxo5v6.cloudflarestream.com/af3d3f3b4940cee04efcd8ff2c9eef0a/manifest/video.m3u8';
+            let ready = false;
+
+            const bindSource = () => {
+              if (ready) {
+                return;
+              }
+              ready = true;
+              if (video.canPlayType('application/vnd.apple.mpegurl')) {
+                video.src = source;
+              } else if (window.Hls && window.Hls.isSupported()) {
+                const hls = new window.Hls({
+                  enableWorker: true,
+                  lowLatencyMode: true
+                });
+                hls.loadSource(source);
+                hls.attachMedia(video);
+              } else {
+                video.src = source;
+              }
+            };
+
+            const startPlay = async () => {
+              bindSource();
+              video.setAttribute('controls', 'controls');
+              if (cover) {
+                cover.classList.add('is-hidden');
+              }
+              try {
+                await video.play();
+              } catch (error) {
+                video.focus();
+              }
+            };
+
+            if (cover) {
+              cover.addEventListener('click', startPlay);
+            }
+            video.addEventListener('click', () => {
+              if (video.paused) {
+                startPlay();
+              }
+            });
+          })();
+        </script>
+        <section class="article-section">
+          <h2>孤寂午后 剧情简介</h2>
+          <p>78岁的玛德琳住在巴黎郊区一栋老房子，丈夫去世五年，儿女在国外。每天午后三点，她会准时拨通丈夫生前办公室的电话号码，对着忙音假装聊天，倾诉琐事与思念。邻居们都以为她在正常通话。某天下午，电话突然被接起，一个年轻男人的声音说：“妈，你怎么还在打这个电话？”原来，丈夫办公室被改造成了初创公司，接电话的是该公司工程师，他的母亲也曾有同样习惯。两人开始每天聊天，陌生人成为她唯一的倾诉对象。但某天对方告知要搬离，玛德琳崩溃后在午后的阳光下清洗了丈夫的旧车，坐进驾驶座，静静闭上了眼睛。</p>
+        </section>
+        <section class="article-section">
+          <h2>孤寂午后 影片看点</h2>
+          <p>全片弥漫着阳光与死亡交织的诗意。女主角的表演克制却暗流汹涌，每一个假装微笑的瞬间都令人心碎。电话戏的处理堪称天才，从未露面的声音成了观众的共情入口。年度最具后劲的文艺片。</p>
+        </section>
+        <section class="article-section">
+          <h2>相关推荐</h2>
+          <div class="movie-grid related-grid">
+          <article class="movie-card" data-card data-search="曝光 韩国 悬疑、犯罪、剧情 记者、网络暴力、阶层" data-year="2024" data-region="韩国">
+            <a class="poster-link" href="movie-0215.html" aria-label="曝光">
+              <img src="./65.jpg" alt="曝光" loading="lazy" onerror="this.style.display='none'">
+              <span class="poster-shine"></span>
+            </a>
+            <div class="card-body">
+              <div class="meta-line">
+                <span>2024</span>
+                <span>韩国</span>
+              </div>
+              <h3><a href="movie-0215.html">曝光</a></h3>
+              <p>实习记者意外拍到了市长候选人受贿画面，发布后却引发了一场针对她本人的猎巫行动。</p>
+              <div class="chip-row"><span>韩国</span><span>电影</span><span>2024</span><span>记者</span><span>网络暴力</span><span>阶层</span></div>
+            </div>
+          </article>
+          <article class="movie-card" data-card data-search="阿修罗 韩国 动作 / 犯罪 / 惊悚 黑帮、卧底、暴力美学、人性、背叛" data-year="2025" data-region="韩国">
+            <a class="poster-link" href="movie-0899.html" aria-label="阿修罗">
+              <img src="./149.jpg" alt="阿修罗" loading="lazy" onerror="this.style.display='none'">
+              <span class="poster-shine"></span>
+            </a>
+            <div class="card-body">
+              <div class="meta-line">
+                <span>2025</span>
+                <span>韩国</span>
+              </div>
+              <h3><a href="movie-0899.html">阿修罗</a></h3>
+              <p>卧底警察在黑帮待了八年，当组织要他收网时，他却发现自己更适合做坏人。</p>
+              <div class="chip-row"><span>韩国</span><span>电影</span><span>2025</span><span>黑帮</span><span>卧底</span><span>暴力美学</span><span>人性</span></div>
+            </div>
+          </article>
+          <article class="movie-card" data-card data-search="沉默的巡游 日本 犯罪, 悬疑 汤川学、复仇、法理情、群像" data-year="2025" data-region="日本">
+            <a class="poster-link" href="movie-0457.html" aria-label="沉默的巡游">
+              <img src="./7.jpg" alt="沉默的巡游" loading="lazy" onerror="this.style.display='none'">
+              <span class="poster-shine"></span>
+            </a>
+            <div class="card-body">
+              <div class="meta-line">
+                <span>2025</span>
+                <span>日本</span>
+              </div>
+              <h3><a href="movie-0457.html">沉默的巡游</a></h3>
+              <p>物理学教授汤川学面对一场“完美”的集体谋杀，所有的嫌疑人都在巡游中拥有不在场证明，但死者却罪有应得。</p>
+              <div class="chip-row"><span>日本</span><span>电影</span><span>2025</span><span>汤川学</span><span>复仇</span><span>法理情</span><span>群像</span></div>
+            </div>
+          </article>
+          <article class="movie-card" data-card data-search="考拉超人 澳大利亚 喜剧, 动作, 科幻 恶搞、超级英雄、环保、动画" data-year="2005" data-region="澳大利亚">
+            <a class="poster-link" href="movie-0733.html" aria-label="考拉超人">
+              <img src="./133.jpg" alt="考拉超人" loading="lazy" onerror="this.style.display='none'">
+              <span class="poster-shine"></span>
+            </a>
+            <div class="card-body">
+              <div class="meta-line">
+                <span>2005</span>
+                <span>澳大利亚</span>
+              </div>
+              <h3><a href="movie-0733.html">考拉超人</a></h3>
+              <p>一只酗酒、秃头的暴躁考拉，在一次核废料泄漏事故后获得了超能力，被迫成为这座罪犯城市的“守护者”。</p>
+              <div class="chip-row"><span>澳大利亚</span><span>剧集</span><span>2005</span><span>恶搞</span><span>超级英雄</span><span>环保</span><span>动画</span></div>
+            </div>
+          </article>
+          <article class="movie-card" data-card data-search="窥机警探侦查事件 日本 悬疑 / 科幻 / 刑侦 监控探头、AI侦查、隐私边界、单元+主线" data-year="2025" data-region="日本">
+            <a class="poster-link" href="movie-0364.html" aria-label="窥机警探侦查事件">
+              <img src="./64.jpg" alt="窥机警探侦查事件" loading="lazy" onerror="this.style.display='none'">
+              <span class="poster-shine"></span>
+            </a>
+            <div class="card-body">
+              <div class="meta-line">
+                <span>2025</span>
+                <span>日本</span>
+              </div>
+              <h3><a href="movie-0364.html">窥机警探侦查事件</a></h3>
+              <p>东京警视厅“监控分析班”的警探们，发现城市里每一台摄像头都在替凶手递送死亡预告。</p>
+              <div class="chip-row"><span>日本</span><span>剧集</span><span>2025</span><span>监控探头</span><span>AI侦查</span><span>隐私边界</span><span>单元+主线</span></div>
+            </div>
+          </article>
+          <article class="movie-card" data-card data-search="精灵兰尼和韦恩的圣诞前夜 美国 动画, 家庭 圣诞、冒险、守护童心" data-year="2024" data-region="美国">
+            <a class="poster-link" href="movie-0688.html" aria-label="精灵兰尼和韦恩的圣诞前夜">
+              <img src="./88.jpg" alt="精灵兰尼和韦恩的圣诞前夜" loading="lazy" onerror="this.style.display='none'">
+              <span class="poster-shine"></span>
+            </a>
+            <div class="card-body">
+              <div class="meta-line">
+                <span>2024</span>
+                <span>美国</span>
+              </div>
+              <h3><a href="movie-0688.html">精灵兰尼和韦恩的圣诞前夜</a></h3>
+              <p>圣诞精灵兰尼和驯鹿韦恩为了拯救被黑化圣诞老人毁掉的圣诞节，必须潜入人类世界，找到那个唯一还相信圣诞老人的小男孩。</p>
+              <div class="chip-row"><span>美国</span><span>电影</span><span>2024</span><span>圣诞</span><span>冒险</span><span>守护童心</span></div>
+            </div>
+          </article>
+          <article class="movie-card" data-card data-search="幻灭第三季 美国 奇幻 / 冒险 公主、恶魔、暗黑童话、梦境世界" data-year="2029" data-region="美国">
+            <a class="poster-link" href="movie-1786.html" aria-label="幻灭第三季">
+              <img src="./136.jpg" alt="幻灭第三季" loading="lazy" onerror="this.style.display='none'">
+              <span class="poster-shine"></span>
+            </a>
+            <div class="card-body">
+              <div class="meta-line">
+                <span>2029</span>
+                <span>美国</span>
+              </div>
+              <h3><a href="movie-1786.html">幻灭第三季</a></h3>
+              <p>公主Bean在现实世界被处决，却在死后进入了“幻灭”的平行梦境——那里所有死去的角色都还活着。</p>
+              <div class="chip-row"><span>美国</span><span>剧集</span><span>2029</span><span>公主</span><span>恶魔</span><span>暗黑童话</span><span>梦境世界</span></div>
+            </div>
+          </article>
+          <article class="movie-card" data-card data-search="第51号文件 韩国 动作、谍战、悬疑 南北韩、失忆特工、高燃肉搏" data-year="2027" data-region="韩国">
+            <a class="poster-link" href="movie-1844.html" aria-label="第51号文件">
+              <img src="./44.jpg" alt="第51号文件" loading="lazy" onerror="this.style.display='none'">
+              <span class="poster-shine"></span>
+            </a>
+            <div class="card-body">
+              <div class="meta-line">
+                <span>2027</span>
+                <span>韩国</span>
+              </div>
+              <h3><a href="movie-1844.html">第51号文件</a></h3>
+              <p>失忆的朝鲜间谍在韩国当起出租车司机，意外发现乘客给的文件代号正是自己的名字。</p>
+              <div class="chip-row"><span>韩国</span><span>电影</span><span>2027</span><span>南北韩</span><span>失忆特工</span><span>高燃肉搏</span></div>
+            </div>
+          </article>
+          </div>
+        </section>
+      </div>
+    </main>
+    <footer class="site-footer">
+      <div class="container footer-grid">
+        <div>
+          <a class="footer-brand" href="index.html">
+            <span class="brand-mark">影</span>
+            <span>高清影片合集</span>
+          </a>
+          <p>整理近期上线的电影内容，包含动作、剧情、喜剧等多种类型，页面信息清晰，适合按更新和热度查找影片。</p>
+        </div>
+        <div>
+          <h2>快速入口</h2>
+          <ul>
+            <li><a href="index.html">首页</a></li>
+            <li><a href="categories.html">分类总览</a></li>
+            <li><a href="search.html">影片搜索</a></li>
+            <li><a href="rank.html">热播榜</a></li>
+          </ul>
+        </div>
+        <div>
+          <h2>影片分类</h2>
+          <ul>
+              <li><a href="category-new-releases.html">最新热映</a></li>
+              <li><a href="category-action-adventure.html">动作冒险</a></li>
+              <li><a href="category-drama-emotion.html">剧情情感</a></li>
+              <li><a href="category-comedy-life.html">喜剧生活</a></li>
+              <li><a href="category-romance-love.html">爱情都市</a></li>
+              <li><a href="category-crime-suspense.html">犯罪悬疑</a></li>
+              <li><a href="category-fantasy-scifi.html">奇幻科幻</a></li>
+              <li><a href="category-animation-family.html">动画少儿</a></li>
+              <li><a href="category-classic-hk.html">港台经典</a></li>
+              <li><a href="category-global-selection.html">环球佳片</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="footer-bottom">© 2026 高清影片合集 · 最新电影与热门影片索引</div>
+    </footer>
+<script>
+var _hmt = _hmt || [];
+(function() {
+  var hm = document.createElement("script");
+  hm.src = "https://hm.baidu.com/hm.js?60fa60a3da050a73eefefaaebe0afaf5";
+  var s = document.getElementsByTagName("script")[0]; 
+  s.parentNode.insertBefore(hm, s);
+})();
+</script>
+  </body>
+</html>

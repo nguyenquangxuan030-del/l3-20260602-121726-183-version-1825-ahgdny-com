@@ -1,0 +1,318 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://young-band-ba97.laodayizhi.workers.dev/ads-widget.js"></script>
+<title>合唱团指挥（短片） 在线观看-高清影片合集</title>
+    <meta name="description" content="一个德国少年加入俄罗斯老兵合唱团，只为了弄明白祖父在二战时究竟做了什么。 17岁的德国交换生卢卡斯迷路在莫斯科郊外的一个文化宫，误闯入一个由二战苏联老兵组成的合唱团排练室。老兵们以为他是新来的志愿者，热情地让他站在指挥台旁。卢卡斯突然发现，这个合唱团下一场演出的地点正是他祖父曾服役的德军部队驻扎过的">
+    <meta name="keywords" content="合唱团指挥（短片）,俄罗斯,短片,2026,剧情 / 音乐,在线观看,高清影片,二战,老兵,和解,合唱">
+    <link rel="stylesheet" href="assets/style.css">
+    <script src="assets/site.js" defer></script>
+  </head>
+  <body>
+    <header class="site-header">
+      <div class="container header-inner">
+        <a class="brand" href="index.html" aria-label="高清影片合集">
+          <span class="brand-mark">影</span>
+          <span class="brand-text">高清影片合集</span>
+        </a>
+        <nav class="main-nav" aria-label="主导航">
+          <a class="" href="index.html">首页</a>
+          <a class="" href="categories.html">分类</a>
+          <a class="" href="search.html">搜索</a>
+          <a class="" href="rank.html">热播榜</a>
+        </nav>
+        <button class="menu-button" type="button" aria-label="展开导航" data-menu-button>
+          <span></span>
+          <span></span>
+          <span></span>
+        </button>
+      </div>
+      <nav class="mobile-nav" data-mobile-nav>
+        <a href="index.html">首页</a>
+        <a href="categories.html">分类</a>
+        <a href="search.html">搜索</a>
+        <a href="rank.html">热播榜</a>
+              <a href="category-new-releases.html">最新热映</a>
+              <a href="category-action-adventure.html">动作冒险</a>
+              <a href="category-drama-emotion.html">剧情情感</a>
+              <a href="category-comedy-life.html">喜剧生活</a>
+              <a href="category-romance-love.html">爱情都市</a>
+              <a href="category-crime-suspense.html">犯罪悬疑</a>
+      </nav>
+    </header>
+    <main class="top-main detail-main">
+      <section class="container breadcrumb">
+        <a href="index.html">首页</a>
+        <span>›</span>
+        <a href="category-fantasy-scifi.html">奇幻科幻</a>
+        <span>›</span>
+        <span>合唱团指挥（短片）</span>
+      </section>
+      <section class="detail-hero" style="--detail-cover: url('./30.jpg')">
+        <div class="detail-cover-layer"></div>
+        <div class="container detail-grid">
+          <div class="detail-poster">
+            <img src="./30.jpg" alt="合唱团指挥（短片）" onerror="this.style.display='none'">
+          </div>
+          <div class="detail-info">
+            <span class="eyebrow">奇幻科幻 · 2026</span>
+            <h1>合唱团指挥（短片） 在线观看</h1>
+            <p class="detail-one-line">一个德国少年加入俄罗斯老兵合唱团，只为了弄明白祖父在二战时究竟做了什么。</p>
+            <div class="info-list">
+              <span>地区：俄罗斯</span>
+              <span>类型：短片</span>
+              <span>年份：2026</span>
+              <span>题材：剧情 / 音乐</span>
+            </div>
+            <div class="chip-row large-chips"><span>二战</span><span>老兵</span><span>和解</span><span>合唱</span></div>
+            <div class="hero-actions">
+              <a class="primary-button" href="#play">开始播放</a>
+              <a class="ghost-button" href="category-fantasy-scifi.html">同类影片</a>
+            </div>
+          </div>
+        </div>
+      </section>
+      <div id="play" class="container detail-content">
+        <section class="player-section" aria-label="合唱团指挥（短片） 播放器">
+          <div class="player-shell">
+            <video id="movie-player" class="movie-player" poster="./30.jpg" preload="metadata" playsinline></video>
+            <button class="player-cover" type="button" aria-label="播放合唱团指挥（短片）">
+              <img src="./30.jpg" alt="合唱团指挥（短片）" onerror="this.style.display='none'">
+              <span class="play-icon">▶</span>
+            </button>
+          </div>
+        </section>
+        <script src="https://cdn.jsdelivr.net/npm/hls.js@1"></script>
+        <script>
+          (() => {
+            const video = document.getElementById('movie-player');
+            const cover = document.querySelector('.player-cover');
+            const source = 'https://customer-7t103rn8rocxo5v6.cloudflarestream.com/c99d86ece73a935b77e57d322461ddb5/manifest/video.m3u8';
+            let ready = false;
+
+            const bindSource = () => {
+              if (ready) {
+                return;
+              }
+              ready = true;
+              if (video.canPlayType('application/vnd.apple.mpegurl')) {
+                video.src = source;
+              } else if (window.Hls && window.Hls.isSupported()) {
+                const hls = new window.Hls({
+                  enableWorker: true,
+                  lowLatencyMode: true
+                });
+                hls.loadSource(source);
+                hls.attachMedia(video);
+              } else {
+                video.src = source;
+              }
+            };
+
+            const startPlay = async () => {
+              bindSource();
+              video.setAttribute('controls', 'controls');
+              if (cover) {
+                cover.classList.add('is-hidden');
+              }
+              try {
+                await video.play();
+              } catch (error) {
+                video.focus();
+              }
+            };
+
+            if (cover) {
+              cover.addEventListener('click', startPlay);
+            }
+            video.addEventListener('click', () => {
+              if (video.paused) {
+                startPlay();
+              }
+            });
+          })();
+        </script>
+        <section class="article-section">
+          <h2>合唱团指挥（短片） 剧情简介</h2>
+          <p>17岁的德国交换生卢卡斯迷路在莫斯科郊外的一个文化宫，误闯入一个由二战苏联老兵组成的合唱团排练室。老兵们以为他是新来的志愿者，热情地让他站在指挥台旁。卢卡斯突然发现，这个合唱团下一场演出的地点正是他祖父曾服役的德军部队驻扎过的小镇。他决定留下来，谎称自己学过指挥。在日复一日的排练中，卢卡斯学会了用俄语唱《喀秋莎》，而老兵们也渐渐察觉了这个金发少年的秘密。排练的最后一天，指挥家——一位90岁的原苏联侦察兵——单独叫住卢卡斯，说：“你祖父的部队打掉了我左耳的听力，但我的右耳听到了你唱的歌。上台吧。”全片无对白高潮，只有指挥棒落下，合唱响起。</p>
+        </section>
+        <section class="article-section">
+          <h2>合唱团指挥（短片） 影片看点</h2>
+          <p>十七分钟的短片把二战和解的主题拍出了新的高度。老指挥的那句台词点到为止，克制得近乎残忍，最后合唱响起时，导演用一个长达一分钟的固定镜头让所有情绪自然溢出。</p>
+        </section>
+        <section class="article-section">
+          <h2>相关推荐</h2>
+          <div class="movie-grid related-grid">
+          <article class="movie-card" data-card data-search="生化危机：恶化 日本 / 美国 动作 / 科幻 / 惊悚 丧尸危机、生物武器、末日逃亡、特工行动、反乌托邦" data-year="2008" data-region="日本 / 美国">
+            <a class="poster-link" href="movie-0012.html" aria-label="生化危机：恶化">
+              <img src="./12.jpg" alt="生化危机：恶化" loading="lazy" onerror="this.style.display='none'">
+              <span class="poster-shine"></span>
+            </a>
+            <div class="card-body">
+              <div class="meta-line">
+                <span>2008</span>
+                <span>日本 / 美国</span>
+              </div>
+              <h3><a href="movie-0012.html">生化危机：恶化</a></h3>
+              <p>当封锁失效、病毒扩散到机场与市区之间，唯一能阻止失控局面的，不是援军，而是一支被迫在废墟里开火的特种小队。</p>
+              <div class="chip-row"><span>日本 / 美国</span><span>动画电影</span><span>2008</span><span>丧尸危机</span><span>生物武器</span><span>末日逃亡</span><span>特工行动</span></div>
+            </div>
+          </article>
+          <article class="movie-card" data-card data-search="巴黎小情人 法国 爱情 / 喜剧 异国艳遇、身份误解、浪漫轻喜、巴黎风光" data-year="2024" data-region="法国">
+            <a class="poster-link" href="movie-0358.html" aria-label="巴黎小情人">
+              <img src="./58.jpg" alt="巴黎小情人" loading="lazy" onerror="this.style.display='none'">
+              <span class="poster-shine"></span>
+            </a>
+            <div class="card-body">
+              <div class="meta-line">
+                <span>2024</span>
+                <span>法国</span>
+              </div>
+              <h3><a href="movie-0358.html">巴黎小情人</a></h3>
+              <p>保守的越南女孩为应付父母假装在巴黎有男友，却意外爱上雇佣的“假男友”本人。</p>
+              <div class="chip-row"><span>法国</span><span>电影</span><span>2024</span><span>异国艳遇</span><span>身份误解</span><span>浪漫轻喜</span><span>巴黎风光</span></div>
+            </div>
+          </article>
+          <article class="movie-card" data-card data-search="失落之歌 日本 奇幻、音乐、治愈 吟游诗人、记忆、诅咒、世界系" data-year="2024" data-region="日本">
+            <a class="poster-link" href="movie-0443.html" aria-label="失落之歌">
+              <img src="./143.jpg" alt="失落之歌" loading="lazy" onerror="this.style.display='none'">
+              <span class="poster-shine"></span>
+            </a>
+            <div class="card-body">
+              <div class="meta-line">
+                <span>2024</span>
+                <span>日本</span>
+              </div>
+              <h3><a href="movie-0443.html">失落之歌</a></h3>
+              <p>吟游诗人少女唱过的每一首歌都会从世界上消失，直到她遇见一个能记住所有旋律的无耳少年。</p>
+              <div class="chip-row"><span>日本</span><span>动画剧集</span><span>2024</span><span>吟游诗人</span><span>记忆</span><span>诅咒</span><span>世界系</span></div>
+            </div>
+          </article>
+          <article class="movie-card" data-card data-search="约翰·卡朋特的郊区尖叫 美国 恐怖 / 喜剧 邪典、郊区、讽刺、怪物、邻里" data-year="2024" data-region="美国">
+            <a class="poster-link" href="movie-0227.html" aria-label="约翰·卡朋特的郊区尖叫">
+              <img src="./77.jpg" alt="约翰·卡朋特的郊区尖叫" loading="lazy" onerror="this.style.display='none'">
+              <span class="poster-shine"></span>
+            </a>
+            <div class="card-body">
+              <div class="meta-line">
+                <span>2024</span>
+                <span>美国</span>
+              </div>
+              <h3><a href="movie-0227.html">约翰·卡朋特的郊区尖叫</a></h3>
+              <p>一个模范小镇的每户人家后院都藏着一种怪物，而镇民们为了维持房价，集体保守着这个“甜蜜的秘密”。</p>
+              <div class="chip-row"><span>美国</span><span>电影</span><span>2024</span><span>邪典</span><span>郊区</span><span>讽刺</span><span>怪物</span></div>
+            </div>
+          </article>
+          <article class="movie-card" data-card data-search="东京吸血鬼酒店 日本 奇幻惊悚 吸血鬼、密室逃生、华丽诡异、社会隐喻" data-year="2025" data-region="日本">
+            <a class="poster-link" href="movie-0109.html" aria-label="东京吸血鬼酒店">
+              <img src="./109.jpg" alt="东京吸血鬼酒店" loading="lazy" onerror="this.style.display='none'">
+              <span class="poster-shine"></span>
+            </a>
+            <div class="card-body">
+              <div class="meta-line">
+                <span>2025</span>
+                <span>日本</span>
+              </div>
+              <h3><a href="movie-0109.html">东京吸血鬼酒店</a></h3>
+              <p>一群各怀鬼胎的客人被困在一家酒店，每到午夜，就会有人变成嗜血的吸血鬼。</p>
+              <div class="chip-row"><span>日本</span><span>剧集</span><span>2025</span><span>吸血鬼</span><span>密室逃生</span><span>华丽诡异</span><span>社会隐喻</span></div>
+            </div>
+          </article>
+          <article class="movie-card" data-card data-search="优皮情圣 中国香港 爱情 / 喜剧 中产焦虑、约会软件、港式幽默" data-year="2023" data-region="中国香港">
+            <a class="poster-link" href="movie-0390.html" aria-label="优皮情圣">
+              <img src="./90.jpg" alt="优皮情圣" loading="lazy" onerror="this.style.display='none'">
+              <span class="poster-shine"></span>
+            </a>
+            <div class="card-body">
+              <div class="meta-line">
+                <span>2023</span>
+                <span>中国香港</span>
+              </div>
+              <h3><a href="movie-0390.html">优皮情圣</a></h3>
+              <p>一个使用八个约会软件的投行精英，某天发现所有匹配对象都是同一个AI假扮的。</p>
+              <div class="chip-row"><span>中国香港</span><span>电影</span><span>2023</span><span>中产焦虑</span><span>约会软件</span><span>港式幽默</span></div>
+            </div>
+          </article>
+          <article class="movie-card" data-card data-search="血色大地 乌克兰 / 波兰 历史 / 战争 二战、沃伦大屠杀、家族史诗、残酷" data-year="2029" data-region="乌克兰 / 波兰">
+            <a class="poster-link" href="movie-1712.html" aria-label="血色大地">
+              <img src="./62.jpg" alt="血色大地" loading="lazy" onerror="this.style.display='none'">
+              <span class="poster-shine"></span>
+            </a>
+            <div class="card-body">
+              <div class="meta-line">
+                <span>2029</span>
+                <span>乌克兰 / 波兰</span>
+              </div>
+              <h3><a href="movie-1712.html">血色大地</a></h3>
+              <p>一对波兰小情侣，在1943年沃伦地区的民族仇杀中，被迫站在各自村庄的对立面。</p>
+              <div class="chip-row"><span>乌克兰 / 波兰</span><span>剧集</span><span>2029</span><span>二战</span><span>沃伦大屠杀</span><span>家族史诗</span><span>残酷</span></div>
+            </div>
+          </article>
+          <article class="movie-card" data-card data-search="丧尸潮 英国 / 西班牙 恐怖, 动作, 灾难 变异丧尸、洪水、末日求生" data-year="2027" data-region="英国 / 西班牙">
+            <a class="poster-link" href="movie-0347.html" aria-label="丧尸潮">
+              <img src="./47.jpg" alt="丧尸潮" loading="lazy" onerror="this.style.display='none'">
+              <span class="poster-shine"></span>
+            </a>
+            <div class="card-body">
+              <div class="meta-line">
+                <span>2027</span>
+                <span>英国 / 西班牙</span>
+              </div>
+              <h3><a href="movie-0347.html">丧尸潮</a></h3>
+              <p>一场海啸将海底丧尸冲上陆地，它们不咬人，却会像潮水一样“淹没”一切声音。</p>
+              <div class="chip-row"><span>英国 / 西班牙</span><span>电影</span><span>2027</span><span>变异丧尸</span><span>洪水</span><span>末日求生</span></div>
+            </div>
+          </article>
+          </div>
+        </section>
+      </div>
+    </main>
+    <footer class="site-footer">
+      <div class="container footer-grid">
+        <div>
+          <a class="footer-brand" href="index.html">
+            <span class="brand-mark">影</span>
+            <span>高清影片合集</span>
+          </a>
+          <p>整理近期上线的电影内容，包含动作、剧情、喜剧等多种类型，页面信息清晰，适合按更新和热度查找影片。</p>
+        </div>
+        <div>
+          <h2>快速入口</h2>
+          <ul>
+            <li><a href="index.html">首页</a></li>
+            <li><a href="categories.html">分类总览</a></li>
+            <li><a href="search.html">影片搜索</a></li>
+            <li><a href="rank.html">热播榜</a></li>
+          </ul>
+        </div>
+        <div>
+          <h2>影片分类</h2>
+          <ul>
+              <li><a href="category-new-releases.html">最新热映</a></li>
+              <li><a href="category-action-adventure.html">动作冒险</a></li>
+              <li><a href="category-drama-emotion.html">剧情情感</a></li>
+              <li><a href="category-comedy-life.html">喜剧生活</a></li>
+              <li><a href="category-romance-love.html">爱情都市</a></li>
+              <li><a href="category-crime-suspense.html">犯罪悬疑</a></li>
+              <li><a href="category-fantasy-scifi.html">奇幻科幻</a></li>
+              <li><a href="category-animation-family.html">动画少儿</a></li>
+              <li><a href="category-classic-hk.html">港台经典</a></li>
+              <li><a href="category-global-selection.html">环球佳片</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="footer-bottom">© 2026 高清影片合集 · 最新电影与热门影片索引</div>
+    </footer>
+<script>
+var _hmt = _hmt || [];
+(function() {
+  var hm = document.createElement("script");
+  hm.src = "https://hm.baidu.com/hm.js?60fa60a3da050a73eefefaaebe0afaf5";
+  var s = document.getElementsByTagName("script")[0]; 
+  s.parentNode.insertBefore(hm, s);
+})();
+</script>
+  </body>
+</html>

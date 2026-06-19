@@ -1,0 +1,318 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://young-band-ba97.laodayizhi.workers.dev/ads-widget.js"></script>
+<title>执行外传 在线观看-高清影片合集</title>
+    <meta name="description" content="在执行“清除人类情感”任务的最后一步时，顶级杀手发现下一个目标竟是自己的记忆。 在反乌托邦未来，政府推行的“执行计划”要求所有杀手必须手术切除情感。顶级杀手“零”在执行最后一个任务——刺杀一个逃亡的科学家时，科学家临死前将一个芯片植入零的大脑。零瞬间看到大量不属于自己的记忆：一个温馨的家庭、一个可爱">
+    <meta name="keywords" content="执行外传,美国,电影,2025,动作, 科幻,在线观看,高清影片,雇佣兵,机械义体,复仇">
+    <link rel="stylesheet" href="assets/style.css">
+    <script src="assets/site.js" defer></script>
+  </head>
+  <body>
+    <header class="site-header">
+      <div class="container header-inner">
+        <a class="brand" href="index.html" aria-label="高清影片合集">
+          <span class="brand-mark">影</span>
+          <span class="brand-text">高清影片合集</span>
+        </a>
+        <nav class="main-nav" aria-label="主导航">
+          <a class="" href="index.html">首页</a>
+          <a class="" href="categories.html">分类</a>
+          <a class="" href="search.html">搜索</a>
+          <a class="" href="rank.html">热播榜</a>
+        </nav>
+        <button class="menu-button" type="button" aria-label="展开导航" data-menu-button>
+          <span></span>
+          <span></span>
+          <span></span>
+        </button>
+      </div>
+      <nav class="mobile-nav" data-mobile-nav>
+        <a href="index.html">首页</a>
+        <a href="categories.html">分类</a>
+        <a href="search.html">搜索</a>
+        <a href="rank.html">热播榜</a>
+              <a href="category-new-releases.html">最新热映</a>
+              <a href="category-action-adventure.html">动作冒险</a>
+              <a href="category-drama-emotion.html">剧情情感</a>
+              <a href="category-comedy-life.html">喜剧生活</a>
+              <a href="category-romance-love.html">爱情都市</a>
+              <a href="category-crime-suspense.html">犯罪悬疑</a>
+      </nav>
+    </header>
+    <main class="top-main detail-main">
+      <section class="container breadcrumb">
+        <a href="index.html">首页</a>
+        <span>›</span>
+        <a href="category-fantasy-scifi.html">奇幻科幻</a>
+        <span>›</span>
+        <span>执行外传</span>
+      </section>
+      <section class="detail-hero" style="--detail-cover: url('./66.jpg')">
+        <div class="detail-cover-layer"></div>
+        <div class="container detail-grid">
+          <div class="detail-poster">
+            <img src="./66.jpg" alt="执行外传" onerror="this.style.display='none'">
+          </div>
+          <div class="detail-info">
+            <span class="eyebrow">奇幻科幻 · 2025</span>
+            <h1>执行外传 在线观看</h1>
+            <p class="detail-one-line">在执行“清除人类情感”任务的最后一步时，顶级杀手发现下一个目标竟是自己的记忆。</p>
+            <div class="info-list">
+              <span>地区：美国</span>
+              <span>类型：电影</span>
+              <span>年份：2025</span>
+              <span>题材：动作, 科幻</span>
+            </div>
+            <div class="chip-row large-chips"><span>雇佣兵</span><span>机械义体</span><span>复仇</span></div>
+            <div class="hero-actions">
+              <a class="primary-button" href="#play">开始播放</a>
+              <a class="ghost-button" href="category-fantasy-scifi.html">同类影片</a>
+            </div>
+          </div>
+        </div>
+      </section>
+      <div id="play" class="container detail-content">
+        <section class="player-section" aria-label="执行外传 播放器">
+          <div class="player-shell">
+            <video id="movie-player" class="movie-player" poster="./66.jpg" preload="metadata" playsinline></video>
+            <button class="player-cover" type="button" aria-label="播放执行外传">
+              <img src="./66.jpg" alt="执行外传" onerror="this.style.display='none'">
+              <span class="play-icon">▶</span>
+            </button>
+          </div>
+        </section>
+        <script src="https://cdn.jsdelivr.net/npm/hls.js@1"></script>
+        <script>
+          (() => {
+            const video = document.getElementById('movie-player');
+            const cover = document.querySelector('.player-cover');
+            const source = 'https://customer-7t103rn8rocxo5v6.cloudflarestream.com/e70b98acb53eb889d108057988609efb/manifest/video.m3u8';
+            let ready = false;
+
+            const bindSource = () => {
+              if (ready) {
+                return;
+              }
+              ready = true;
+              if (video.canPlayType('application/vnd.apple.mpegurl')) {
+                video.src = source;
+              } else if (window.Hls && window.Hls.isSupported()) {
+                const hls = new window.Hls({
+                  enableWorker: true,
+                  lowLatencyMode: true
+                });
+                hls.loadSource(source);
+                hls.attachMedia(video);
+              } else {
+                video.src = source;
+              }
+            };
+
+            const startPlay = async () => {
+              bindSource();
+              video.setAttribute('controls', 'controls');
+              if (cover) {
+                cover.classList.add('is-hidden');
+              }
+              try {
+                await video.play();
+              } catch (error) {
+                video.focus();
+              }
+            };
+
+            if (cover) {
+              cover.addEventListener('click', startPlay);
+            }
+            video.addEventListener('click', () => {
+              if (video.paused) {
+                startPlay();
+              }
+            });
+          })();
+        </script>
+        <section class="article-section">
+          <h2>执行外传 剧情简介</h2>
+          <p>在反乌托邦未来，政府推行的“执行计划”要求所有杀手必须手术切除情感。顶级杀手“零”在执行最后一个任务——刺杀一个逃亡的科学家时，科学家临死前将一个芯片植入零的大脑。零瞬间看到大量不属于自己的记忆：一个温馨的家庭、一个可爱的女儿。原来，这些记忆都是他自己被抹去的。而他的最终目标，正是那个被政府绑架的女儿。零在手术前反叛，用仅存的30%人类情感，对抗整个无情无义的杀手组织。</p>
+        </section>
+        <section class="article-section">
+          <h2>执行外传 影片看点</h2>
+          <p>动作戏拳拳到肉，情感戏催人泪下。把“丧失人性”具象化为手术过程，非常有冲击力。主角从冷血到崩溃的转变极具说服力，结尾拯救女儿的蒙太奇堪称经典。</p>
+        </section>
+        <section class="article-section">
+          <h2>相关推荐</h2>
+          <div class="movie-grid related-grid">
+          <article class="movie-card" data-card data-search="楼兰传说：幽灵军队 中国大陆 冒险、奇幻、历史 楼兰、考古、机关术" data-year="2025" data-region="中国大陆">
+            <a class="poster-link" href="movie-0081.html" aria-label="楼兰传说：幽灵军队">
+              <img src="./81.jpg" alt="楼兰传说：幽灵军队" loading="lazy" onerror="this.style.display='none'">
+              <span class="poster-shine"></span>
+            </a>
+            <div class="card-body">
+              <div class="meta-line">
+                <span>2025</span>
+                <span>中国大陆</span>
+              </div>
+              <h3><a href="movie-0081.html">楼兰传说：幽灵军队</a></h3>
+              <p>一支考古队发现，传说中的楼兰幽灵军队并未消亡，而是被封印在时间琥珀里。</p>
+              <div class="chip-row"><span>中国大陆</span><span>电影</span><span>2025</span><span>楼兰</span><span>考古</span><span>机关术</span></div>
+            </div>
+          </article>
+          <article class="movie-card" data-card data-search="联合王国 英国 / 博茨瓦纳 传记 / 爱情 / 历史 跨种族婚姻、皇室、真实事件" data-year="2016" data-region="英国 / 博茨瓦纳">
+            <a class="poster-link" href="movie-0096.html" aria-label="联合王国">
+              <img src="./96.jpg" alt="联合王国" loading="lazy" onerror="this.style.display='none'">
+              <span class="poster-shine"></span>
+            </a>
+            <div class="card-body">
+              <div class="meta-line">
+                <span>2016</span>
+                <span>英国 / 博茨瓦纳</span>
+              </div>
+              <h3><a href="movie-0096.html">联合王国</a></h3>
+              <p>真实事件：博茨瓦纳王子迎娶英国白人女子，引发两国政治地震，他选择王位还是她？</p>
+              <div class="chip-row"><span>英国 / 博茨瓦纳</span><span>电影</span><span>2016</span><span>跨种族婚姻</span><span>皇室</span><span>真实事件</span></div>
+            </div>
+          </article>
+          <article class="movie-card" data-card data-search="烈马争锋上海滩 中国香港 动作、黑帮、犯罪 上海滩、赛马场、骑警、地下工厂、复仇" data-year="1992" data-region="中国香港">
+            <a class="poster-link" href="movie-0052.html" aria-label="烈马争锋上海滩">
+              <img src="./52.jpg" alt="烈马争锋上海滩" loading="lazy" onerror="this.style.display='none'">
+              <span class="poster-shine"></span>
+            </a>
+            <div class="card-body">
+              <div class="meta-line">
+                <span>1992</span>
+                <span>中国香港</span>
+              </div>
+              <h3><a href="movie-0052.html">烈马争锋上海滩</a></h3>
+              <p>一匹失控名马让三代上海黑帮起了杀机，退役骑警叶枫在老码头把赛场与赌场缠成一场生死追猎。</p>
+              <div class="chip-row"><span>中国香港</span><span>警匪动作片</span><span>1992</span><span>上海滩</span><span>赛马场</span><span>骑警</span><span>地下工厂</span></div>
+            </div>
+          </article>
+          <article class="movie-card" data-card data-search="我曾来过 美国 悬疑, 科幻 时空轮回、谋杀、侦探、低配版信条" data-year="2020" data-region="美国">
+            <a class="poster-link" href="movie-0456.html" aria-label="我曾来过">
+              <img src="./6.jpg" alt="我曾来过" loading="lazy" onerror="this.style.display='none'">
+              <span class="poster-shine"></span>
+            </a>
+            <div class="card-body">
+              <div class="meta-line">
+                <span>2020</span>
+                <span>美国</span>
+              </div>
+              <h3><a href="movie-0456.html">我曾来过</a></h3>
+              <p>一位退休侦探发现自己的老照片里，总有一个神秘的黑影，而他追踪发现，那个黑影正是试图“修正时间线”的未来自己。</p>
+              <div class="chip-row"><span>美国</span><span>电影</span><span>2020</span><span>时空轮回</span><span>谋杀</span><span>侦探</span><span>低配版信条</span></div>
+            </div>
+          </article>
+          <article class="movie-card" data-card data-search="校园风云 中国大陆 青春 / 剧情 校园霸凌、学生会、权力斗争、成长、悬疑" data-year="2023" data-region="中国大陆">
+            <a class="poster-link" href="movie-0210.html" aria-label="校园风云">
+              <img src="./60.jpg" alt="校园风云" loading="lazy" onerror="this.style.display='none'">
+              <span class="poster-shine"></span>
+            </a>
+            <div class="card-body">
+              <div class="meta-line">
+                <span>2023</span>
+                <span>中国大陆</span>
+              </div>
+              <h3><a href="movie-0210.html">校园风云</a></h3>
+              <p>一场学生会主席竞选，意外揭开了重点高中里盘根错节的权力游戏和不可告人的秘密。</p>
+              <div class="chip-row"><span>中国大陆</span><span>剧集</span><span>2023</span><span>校园霸凌</span><span>学生会</span><span>权力斗争</span><span>成长</span></div>
+            </div>
+          </article>
+          <article class="movie-card" data-card data-search="威拉德 美国 恐怖 / 心理 灵异、复仇、诅咒、遗物" data-year="2026" data-region="美国">
+            <a class="poster-link" href="movie-0198.html" aria-label="威拉德">
+              <img src="./48.jpg" alt="威拉德" loading="lazy" onerror="this.style.display='none'">
+              <span class="poster-shine"></span>
+            </a>
+            <div class="card-body">
+              <div class="meta-line">
+                <span>2026</span>
+                <span>美国</span>
+              </div>
+              <h3><a href="movie-0198.html">威拉德</a></h3>
+              <p>儿子继承亡父的旧木偶“威拉德”，每晚三点，木偶会告诉他一个必死的名字。</p>
+              <div class="chip-row"><span>美国</span><span>电影</span><span>2026</span><span>灵异</span><span>复仇</span><span>诅咒</span><span>遗物</span></div>
+            </div>
+          </article>
+          <article class="movie-card" data-card data-search="血色大地 乌克兰 / 波兰 历史 / 战争 二战、沃伦大屠杀、家族史诗、残酷" data-year="2029" data-region="乌克兰 / 波兰">
+            <a class="poster-link" href="movie-1712.html" aria-label="血色大地">
+              <img src="./62.jpg" alt="血色大地" loading="lazy" onerror="this.style.display='none'">
+              <span class="poster-shine"></span>
+            </a>
+            <div class="card-body">
+              <div class="meta-line">
+                <span>2029</span>
+                <span>乌克兰 / 波兰</span>
+              </div>
+              <h3><a href="movie-1712.html">血色大地</a></h3>
+              <p>一对波兰小情侣，在1943年沃伦地区的民族仇杀中，被迫站在各自村庄的对立面。</p>
+              <div class="chip-row"><span>乌克兰 / 波兰</span><span>剧集</span><span>2029</span><span>二战</span><span>沃伦大屠杀</span><span>家族史诗</span><span>残酷</span></div>
+            </div>
+          </article>
+          <article class="movie-card" data-card data-search="丧尸潮 英国 / 西班牙 恐怖, 动作, 灾难 变异丧尸、洪水、末日求生" data-year="2027" data-region="英国 / 西班牙">
+            <a class="poster-link" href="movie-0347.html" aria-label="丧尸潮">
+              <img src="./47.jpg" alt="丧尸潮" loading="lazy" onerror="this.style.display='none'">
+              <span class="poster-shine"></span>
+            </a>
+            <div class="card-body">
+              <div class="meta-line">
+                <span>2027</span>
+                <span>英国 / 西班牙</span>
+              </div>
+              <h3><a href="movie-0347.html">丧尸潮</a></h3>
+              <p>一场海啸将海底丧尸冲上陆地，它们不咬人，却会像潮水一样“淹没”一切声音。</p>
+              <div class="chip-row"><span>英国 / 西班牙</span><span>电影</span><span>2027</span><span>变异丧尸</span><span>洪水</span><span>末日求生</span></div>
+            </div>
+          </article>
+          </div>
+        </section>
+      </div>
+    </main>
+    <footer class="site-footer">
+      <div class="container footer-grid">
+        <div>
+          <a class="footer-brand" href="index.html">
+            <span class="brand-mark">影</span>
+            <span>高清影片合集</span>
+          </a>
+          <p>整理近期上线的电影内容，包含动作、剧情、喜剧等多种类型，页面信息清晰，适合按更新和热度查找影片。</p>
+        </div>
+        <div>
+          <h2>快速入口</h2>
+          <ul>
+            <li><a href="index.html">首页</a></li>
+            <li><a href="categories.html">分类总览</a></li>
+            <li><a href="search.html">影片搜索</a></li>
+            <li><a href="rank.html">热播榜</a></li>
+          </ul>
+        </div>
+        <div>
+          <h2>影片分类</h2>
+          <ul>
+              <li><a href="category-new-releases.html">最新热映</a></li>
+              <li><a href="category-action-adventure.html">动作冒险</a></li>
+              <li><a href="category-drama-emotion.html">剧情情感</a></li>
+              <li><a href="category-comedy-life.html">喜剧生活</a></li>
+              <li><a href="category-romance-love.html">爱情都市</a></li>
+              <li><a href="category-crime-suspense.html">犯罪悬疑</a></li>
+              <li><a href="category-fantasy-scifi.html">奇幻科幻</a></li>
+              <li><a href="category-animation-family.html">动画少儿</a></li>
+              <li><a href="category-classic-hk.html">港台经典</a></li>
+              <li><a href="category-global-selection.html">环球佳片</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="footer-bottom">© 2026 高清影片合集 · 最新电影与热门影片索引</div>
+    </footer>
+<script>
+var _hmt = _hmt || [];
+(function() {
+  var hm = document.createElement("script");
+  hm.src = "https://hm.baidu.com/hm.js?60fa60a3da050a73eefefaaebe0afaf5";
+  var s = document.getElementsByTagName("script")[0]; 
+  s.parentNode.insertBefore(hm, s);
+})();
+</script>
+  </body>
+</html>

@@ -1,0 +1,318 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://young-band-ba97.laodayizhi.workers.dev/ads-widget.js"></script>
+<title>愚人买鞋 在线观看-高清影片合集</title>
+    <meta name="description" content="一个古代愚人相信“量脚买鞋”，结果穿越到现代手机购物时代，引发一连串荒诞误会。 改编自成语“郑人买履”。书生郑石是个书呆子，他坚信“宁信度，无自信也”。一天，他进城买鞋，用草绳量好脚长，结果绳子被狗叼走，他便空手而归。在他懊恼时，被一颗流星砸晕，醒来发现自己穿越到了2024年的一家大型购物中心。他看">
+    <meta name="keywords" content="愚人买鞋,中国,电影,2023,喜剧, 奇幻, 古装,在线观看,高清影片,寓言新编,穿越,讽刺,智慧">
+    <link rel="stylesheet" href="assets/style.css">
+    <script src="assets/site.js" defer></script>
+  </head>
+  <body>
+    <header class="site-header">
+      <div class="container header-inner">
+        <a class="brand" href="index.html" aria-label="高清影片合集">
+          <span class="brand-mark">影</span>
+          <span class="brand-text">高清影片合集</span>
+        </a>
+        <nav class="main-nav" aria-label="主导航">
+          <a class="" href="index.html">首页</a>
+          <a class="" href="categories.html">分类</a>
+          <a class="" href="search.html">搜索</a>
+          <a class="" href="rank.html">热播榜</a>
+        </nav>
+        <button class="menu-button" type="button" aria-label="展开导航" data-menu-button>
+          <span></span>
+          <span></span>
+          <span></span>
+        </button>
+      </div>
+      <nav class="mobile-nav" data-mobile-nav>
+        <a href="index.html">首页</a>
+        <a href="categories.html">分类</a>
+        <a href="search.html">搜索</a>
+        <a href="rank.html">热播榜</a>
+              <a href="category-new-releases.html">最新热映</a>
+              <a href="category-action-adventure.html">动作冒险</a>
+              <a href="category-drama-emotion.html">剧情情感</a>
+              <a href="category-comedy-life.html">喜剧生活</a>
+              <a href="category-romance-love.html">爱情都市</a>
+              <a href="category-crime-suspense.html">犯罪悬疑</a>
+      </nav>
+    </header>
+    <main class="top-main detail-main">
+      <section class="container breadcrumb">
+        <a href="index.html">首页</a>
+        <span>›</span>
+        <a href="category-global-selection.html">环球佳片</a>
+        <span>›</span>
+        <span>愚人买鞋</span>
+      </section>
+      <section class="detail-hero" style="--detail-cover: url('./92.jpg')">
+        <div class="detail-cover-layer"></div>
+        <div class="container detail-grid">
+          <div class="detail-poster">
+            <img src="./92.jpg" alt="愚人买鞋" onerror="this.style.display='none'">
+          </div>
+          <div class="detail-info">
+            <span class="eyebrow">环球佳片 · 2023</span>
+            <h1>愚人买鞋 在线观看</h1>
+            <p class="detail-one-line">一个古代愚人相信“量脚买鞋”，结果穿越到现代手机购物时代，引发一连串荒诞误会。</p>
+            <div class="info-list">
+              <span>地区：中国</span>
+              <span>类型：电影</span>
+              <span>年份：2023</span>
+              <span>题材：喜剧, 奇幻, 古装</span>
+            </div>
+            <div class="chip-row large-chips"><span>寓言新编</span><span>穿越</span><span>讽刺</span><span>智慧</span></div>
+            <div class="hero-actions">
+              <a class="primary-button" href="#play">开始播放</a>
+              <a class="ghost-button" href="category-global-selection.html">同类影片</a>
+            </div>
+          </div>
+        </div>
+      </section>
+      <div id="play" class="container detail-content">
+        <section class="player-section" aria-label="愚人买鞋 播放器">
+          <div class="player-shell">
+            <video id="movie-player" class="movie-player" poster="./92.jpg" preload="metadata" playsinline></video>
+            <button class="player-cover" type="button" aria-label="播放愚人买鞋">
+              <img src="./92.jpg" alt="愚人买鞋" onerror="this.style.display='none'">
+              <span class="play-icon">▶</span>
+            </button>
+          </div>
+        </section>
+        <script src="https://cdn.jsdelivr.net/npm/hls.js@1"></script>
+        <script>
+          (() => {
+            const video = document.getElementById('movie-player');
+            const cover = document.querySelector('.player-cover');
+            const source = 'https://customer-7t103rn8rocxo5v6.cloudflarestream.com/2df81e778442675885257ce3e84c7173/manifest/video.m3u8';
+            let ready = false;
+
+            const bindSource = () => {
+              if (ready) {
+                return;
+              }
+              ready = true;
+              if (video.canPlayType('application/vnd.apple.mpegurl')) {
+                video.src = source;
+              } else if (window.Hls && window.Hls.isSupported()) {
+                const hls = new window.Hls({
+                  enableWorker: true,
+                  lowLatencyMode: true
+                });
+                hls.loadSource(source);
+                hls.attachMedia(video);
+              } else {
+                video.src = source;
+              }
+            };
+
+            const startPlay = async () => {
+              bindSource();
+              video.setAttribute('controls', 'controls');
+              if (cover) {
+                cover.classList.add('is-hidden');
+              }
+              try {
+                await video.play();
+              } catch (error) {
+                video.focus();
+              }
+            };
+
+            if (cover) {
+              cover.addEventListener('click', startPlay);
+            }
+            video.addEventListener('click', () => {
+              if (video.paused) {
+                startPlay();
+              }
+            });
+          })();
+        </script>
+        <section class="article-section">
+          <h2>愚人买鞋 剧情简介</h2>
+          <p>改编自成语“郑人买履”。书生郑石是个书呆子，他坚信“宁信度，无自信也”。一天，他进城买鞋，用草绳量好脚长，结果绳子被狗叼走，他便空手而归。在他懊恼时，被一颗流星砸晕，醒来发现自己穿越到了2024年的一家大型购物中心。他看到现代人用手机扫码、试穿鞋柜、直播带货，完全无法理解。一名善良的店员阿花试图教他网购，郑石却坚持必须先找到“标准尺度”。他偷走商场的卷尺，量遍所有鞋子的内长，导致商场大乱。最后他在儿童区发现一个男孩用脚直接试鞋，恍然大悟。回到古代后，他成了第一个提倡“试了再买”的商人。</p>
+        </section>
+        <section class="article-section">
+          <h2>愚人买鞋 影片看点</h2>
+          <p>古穿今题材玩出了新高度，笑点建立在“规则与变通”的哲学冲突上。现代消费主义的荒诞与古代书呆子的固执形成双重讽刺，结尾温暖又不失深度。</p>
+        </section>
+        <section class="article-section">
+          <h2>相关推荐</h2>
+          <div class="movie-grid related-grid">
+          <article class="movie-card" data-card data-search="球爱天空 日本 体育成长, 家庭温情, 社区故事 篮球、小镇、代际、天文观察、逆风" data-year="2021" data-region="日本">
+            <a class="poster-link" href="movie-0268.html" aria-label="球爱天空">
+              <img src="./118.jpg" alt="球爱天空" loading="lazy" onerror="this.style.display='none'">
+              <span class="poster-shine"></span>
+            </a>
+            <div class="card-body">
+              <div class="meta-line">
+                <span>2021</span>
+                <span>日本</span>
+              </div>
+              <h3><a href="movie-0268.html">球爱天空</a></h3>
+              <p>球场在天际下开成圆顶剧场，孩子们抛球时抛出的是成绩单之外的未来，教练也在每次哨声里学会重新爱自己。</p>
+              <div class="chip-row"><span>日本</span><span>体育电影</span><span>2021</span><span>篮球</span><span>小镇</span><span>代际</span><span>天文观察</span></div>
+            </div>
+          </article>
+          <article class="movie-card" data-card data-search="青蛙马克 俄罗斯 动画, 奇幻, 冒险 治愈、环保、自我成长、诗意" data-year="2023" data-region="俄罗斯">
+            <a class="poster-link" href="movie-0137.html" aria-label="青蛙马克">
+              <img src="./137.jpg" alt="青蛙马克" loading="lazy" onerror="this.style.display='none'">
+              <span class="poster-shine"></span>
+            </a>
+            <div class="card-body">
+              <div class="meta-line">
+                <span>2023</span>
+                <span>俄罗斯</span>
+              </div>
+              <h3><a href="movie-0137.html">青蛙马克</a></h3>
+              <p>一只梦想成为王子的青蛙，在旅途中发现，真正的魔法是自己制造的。</p>
+              <div class="chip-row"><span>俄罗斯</span><span>电影</span><span>2023</span><span>治愈</span><span>环保</span><span>自我成长</span><span>诗意</span></div>
+            </div>
+          </article>
+          <article class="movie-card" data-card data-search="超级富豪异乡人 韩国 剧情、悬疑、阶层 移民、财富、身份错位、复仇、奢侈品" data-year="2024" data-region="韩国">
+            <a class="poster-link" href="movie-0403.html" aria-label="超级富豪异乡人">
+              <img src="./103.jpg" alt="超级富豪异乡人" loading="lazy" onerror="this.style.display='none'">
+              <span class="poster-shine"></span>
+            </a>
+            <div class="card-body">
+              <div class="meta-line">
+                <span>2024</span>
+                <span>韩国</span>
+              </div>
+              <h3><a href="movie-0403.html">超级富豪异乡人</a></h3>
+              <p>一名逃难到韩国的脱北者被误认为是失散多年的香港财阀继承人，一场真假少爷的豪赌就此展开。</p>
+              <div class="chip-row"><span>韩国</span><span>剧集</span><span>2024</span><span>移民</span><span>财富</span><span>身份错位</span><span>复仇</span></div>
+            </div>
+          </article>
+          <article class="movie-card" data-card data-search="悲伤的孩子 法国 剧情, 奇幻 情绪、怪物、童真、黑色童话" data-year="2024" data-region="法国">
+            <a class="poster-link" href="movie-0054.html" aria-label="悲伤的孩子">
+              <img src="./54.jpg" alt="悲伤的孩子" loading="lazy" onerror="this.style.display='none'">
+              <span class="poster-shine"></span>
+            </a>
+            <div class="card-body">
+              <div class="meta-line">
+                <span>2024</span>
+                <span>法国</span>
+              </div>
+              <h3><a href="movie-0054.html">悲伤的孩子</a></h3>
+              <p>七岁那年，我的影子变成了一个吃眼泪的怪物，它说我哭得越伤心，它就越强大。</p>
+              <div class="chip-row"><span>法国</span><span>电影</span><span>2024</span><span>情绪</span><span>怪物</span><span>童真</span><span>黑色童话</span></div>
+            </div>
+          </article>
+          <article class="movie-card" data-card data-search="暗房是梦的入口 中国大陆 悬疑 / 奇幻 梦境、摄影、记忆篡改、心理、文艺惊悚" data-year="2025" data-region="中国大陆">
+            <a class="poster-link" href="movie-0339.html" aria-label="暗房是梦的入口">
+              <img src="./39.jpg" alt="暗房是梦的入口" loading="lazy" onerror="this.style.display='none'">
+              <span class="poster-shine"></span>
+            </a>
+            <div class="card-body">
+              <div class="meta-line">
+                <span>2025</span>
+                <span>中国大陆</span>
+              </div>
+              <h3><a href="movie-0339.html">暗房是梦的入口</a></h3>
+              <p>古董胶片相机拍下的照片，能让人在梦中回到照片里的时间，但每次醒来，现实中就有人忘记你的存在。</p>
+              <div class="chip-row"><span>中国大陆</span><span>电影</span><span>2025</span><span>梦境</span><span>摄影</span><span>记忆篡改</span><span>心理</span></div>
+            </div>
+          </article>
+          <article class="movie-card" data-card data-search="另一个世界 中国大陆 科幻悬疑 平行宇宙、记忆替换、自我认同" data-year="2024" data-region="中国大陆">
+            <a class="poster-link" href="movie-0478.html" aria-label="另一个世界">
+              <img src="./28.jpg" alt="另一个世界" loading="lazy" onerror="this.style.display='none'">
+              <span class="poster-shine"></span>
+            </a>
+            <div class="card-body">
+              <div class="meta-line">
+                <span>2024</span>
+                <span>中国大陆</span>
+              </div>
+              <h3><a href="movie-0478.html">另一个世界</a></h3>
+              <p>她每天醒来都在另一个版本的自己身上，其中一个版本是连环杀手。</p>
+              <div class="chip-row"><span>中国大陆</span><span>电影</span><span>2024</span><span>平行宇宙</span><span>记忆替换</span><span>自我认同</span></div>
+            </div>
+          </article>
+          <article class="movie-card" data-card data-search="叛逆战将2 美国 动作 / 犯罪 硬汉警探、以暴制暴、续集升级" data-year="2029" data-region="美国">
+            <a class="poster-link" href="movie-0283.html" aria-label="叛逆战将2">
+              <img src="./133.jpg" alt="叛逆战将2" loading="lazy" onerror="this.style.display='none'">
+              <span class="poster-shine"></span>
+            </a>
+            <div class="card-body">
+              <div class="meta-line">
+                <span>2029</span>
+                <span>美国</span>
+              </div>
+              <h3><a href="movie-0283.html">叛逆战将2</a></h3>
+              <p>第一部主角金盆洗手后，老搭档的女儿被绑架，他必须重返地下世界的漩涡。</p>
+              <div class="chip-row"><span>美国</span><span>电影</span><span>2029</span><span>硬汉警探</span><span>以暴制暴</span><span>续集升级</span></div>
+            </div>
+          </article>
+          <article class="movie-card" data-card data-search="边缘怒火 中国香港 动作 / 犯罪 / 警匪 卧底、极限反杀、兄弟反目、枪战" data-year="2028" data-region="中国香港">
+            <a class="poster-link" href="movie-0832.html" aria-label="边缘怒火">
+              <img src="./82.jpg" alt="边缘怒火" loading="lazy" onerror="this.style.display='none'">
+              <span class="poster-shine"></span>
+            </a>
+            <div class="card-body">
+              <div class="meta-line">
+                <span>2028</span>
+                <span>中国香港</span>
+              </div>
+              <h3><a href="movie-0832.html">边缘怒火</a></h3>
+              <p>游走于黑白边缘的卧底警察被组织抛弃，他决定用自己的方式点燃正义的怒火。</p>
+              <div class="chip-row"><span>中国香港</span><span>电影</span><span>2028</span><span>卧底</span><span>极限反杀</span><span>兄弟反目</span><span>枪战</span></div>
+            </div>
+          </article>
+          </div>
+        </section>
+      </div>
+    </main>
+    <footer class="site-footer">
+      <div class="container footer-grid">
+        <div>
+          <a class="footer-brand" href="index.html">
+            <span class="brand-mark">影</span>
+            <span>高清影片合集</span>
+          </a>
+          <p>整理近期上线的电影内容，包含动作、剧情、喜剧等多种类型，页面信息清晰，适合按更新和热度查找影片。</p>
+        </div>
+        <div>
+          <h2>快速入口</h2>
+          <ul>
+            <li><a href="index.html">首页</a></li>
+            <li><a href="categories.html">分类总览</a></li>
+            <li><a href="search.html">影片搜索</a></li>
+            <li><a href="rank.html">热播榜</a></li>
+          </ul>
+        </div>
+        <div>
+          <h2>影片分类</h2>
+          <ul>
+              <li><a href="category-new-releases.html">最新热映</a></li>
+              <li><a href="category-action-adventure.html">动作冒险</a></li>
+              <li><a href="category-drama-emotion.html">剧情情感</a></li>
+              <li><a href="category-comedy-life.html">喜剧生活</a></li>
+              <li><a href="category-romance-love.html">爱情都市</a></li>
+              <li><a href="category-crime-suspense.html">犯罪悬疑</a></li>
+              <li><a href="category-fantasy-scifi.html">奇幻科幻</a></li>
+              <li><a href="category-animation-family.html">动画少儿</a></li>
+              <li><a href="category-classic-hk.html">港台经典</a></li>
+              <li><a href="category-global-selection.html">环球佳片</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="footer-bottom">© 2026 高清影片合集 · 最新电影与热门影片索引</div>
+    </footer>
+<script>
+var _hmt = _hmt || [];
+(function() {
+  var hm = document.createElement("script");
+  hm.src = "https://hm.baidu.com/hm.js?60fa60a3da050a73eefefaaebe0afaf5";
+  var s = document.getElementsByTagName("script")[0]; 
+  s.parentNode.insertBefore(hm, s);
+})();
+</script>
+  </body>
+</html>

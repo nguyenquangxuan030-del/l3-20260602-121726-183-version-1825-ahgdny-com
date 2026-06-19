@@ -1,0 +1,318 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://young-band-ba97.laodayizhi.workers.dev/ads-widget.js"></script>
+<title>彩虹飞仙 在线观看-高清影片合集</title>
+    <meta name="description" content="小女孩误入被工业污染夺去色彩的仙界，她必须用七种不同情感点亮七根彩虹柱，才能召唤最后一只飞仙。 患有色盲症的小学生瑶瑶在梦中被一只七彩蝴蝶带入仙境“云锦界”。曾经的云锦界美如画卷，如今却因人间工业废料的渗透，所有色彩正在逐一褪去，仙人、灵兽也变成了灰白色石像。瑶瑶被告知，她是唯一能进入云锦界的人类，">
+    <meta name="keywords" content="彩虹飞仙,中国大陆,动画电影,2016,奇幻、冒险、国风,在线观看,高清影片,仙侠,少女成长,色彩魔法,环保主题,治愈系">
+    <link rel="stylesheet" href="assets/style.css">
+    <script src="assets/site.js" defer></script>
+  </head>
+  <body>
+    <header class="site-header">
+      <div class="container header-inner">
+        <a class="brand" href="index.html" aria-label="高清影片合集">
+          <span class="brand-mark">影</span>
+          <span class="brand-text">高清影片合集</span>
+        </a>
+        <nav class="main-nav" aria-label="主导航">
+          <a class="" href="index.html">首页</a>
+          <a class="" href="categories.html">分类</a>
+          <a class="" href="search.html">搜索</a>
+          <a class="" href="rank.html">热播榜</a>
+        </nav>
+        <button class="menu-button" type="button" aria-label="展开导航" data-menu-button>
+          <span></span>
+          <span></span>
+          <span></span>
+        </button>
+      </div>
+      <nav class="mobile-nav" data-mobile-nav>
+        <a href="index.html">首页</a>
+        <a href="categories.html">分类</a>
+        <a href="search.html">搜索</a>
+        <a href="rank.html">热播榜</a>
+              <a href="category-new-releases.html">最新热映</a>
+              <a href="category-action-adventure.html">动作冒险</a>
+              <a href="category-drama-emotion.html">剧情情感</a>
+              <a href="category-comedy-life.html">喜剧生活</a>
+              <a href="category-romance-love.html">爱情都市</a>
+              <a href="category-crime-suspense.html">犯罪悬疑</a>
+      </nav>
+    </header>
+    <main class="top-main detail-main">
+      <section class="container breadcrumb">
+        <a href="index.html">首页</a>
+        <span>›</span>
+        <a href="category-fantasy-scifi.html">奇幻科幻</a>
+        <span>›</span>
+        <span>彩虹飞仙</span>
+      </section>
+      <section class="detail-hero" style="--detail-cover: url('./7.jpg')">
+        <div class="detail-cover-layer"></div>
+        <div class="container detail-grid">
+          <div class="detail-poster">
+            <img src="./7.jpg" alt="彩虹飞仙" onerror="this.style.display='none'">
+          </div>
+          <div class="detail-info">
+            <span class="eyebrow">奇幻科幻 · 2016</span>
+            <h1>彩虹飞仙 在线观看</h1>
+            <p class="detail-one-line">小女孩误入被工业污染夺去色彩的仙界，她必须用七种不同情感点亮七根彩虹柱，才能召唤最后一只飞仙。</p>
+            <div class="info-list">
+              <span>地区：中国大陆</span>
+              <span>类型：动画电影</span>
+              <span>年份：2016</span>
+              <span>题材：奇幻、冒险、国风</span>
+            </div>
+            <div class="chip-row large-chips"><span>仙侠</span><span>少女成长</span><span>色彩魔法</span><span>环保主题</span><span>治愈系</span></div>
+            <div class="hero-actions">
+              <a class="primary-button" href="#play">开始播放</a>
+              <a class="ghost-button" href="category-fantasy-scifi.html">同类影片</a>
+            </div>
+          </div>
+        </div>
+      </section>
+      <div id="play" class="container detail-content">
+        <section class="player-section" aria-label="彩虹飞仙 播放器">
+          <div class="player-shell">
+            <video id="movie-player" class="movie-player" poster="./7.jpg" preload="metadata" playsinline></video>
+            <button class="player-cover" type="button" aria-label="播放彩虹飞仙">
+              <img src="./7.jpg" alt="彩虹飞仙" onerror="this.style.display='none'">
+              <span class="play-icon">▶</span>
+            </button>
+          </div>
+        </section>
+        <script src="https://cdn.jsdelivr.net/npm/hls.js@1"></script>
+        <script>
+          (() => {
+            const video = document.getElementById('movie-player');
+            const cover = document.querySelector('.player-cover');
+            const source = 'https://customer-7t103rn8rocxo5v6.cloudflarestream.com/41cb67b47a3668efaea014219666e659/manifest/video.m3u8';
+            let ready = false;
+
+            const bindSource = () => {
+              if (ready) {
+                return;
+              }
+              ready = true;
+              if (video.canPlayType('application/vnd.apple.mpegurl')) {
+                video.src = source;
+              } else if (window.Hls && window.Hls.isSupported()) {
+                const hls = new window.Hls({
+                  enableWorker: true,
+                  lowLatencyMode: true
+                });
+                hls.loadSource(source);
+                hls.attachMedia(video);
+              } else {
+                video.src = source;
+              }
+            };
+
+            const startPlay = async () => {
+              bindSource();
+              video.setAttribute('controls', 'controls');
+              if (cover) {
+                cover.classList.add('is-hidden');
+              }
+              try {
+                await video.play();
+              } catch (error) {
+                video.focus();
+              }
+            };
+
+            if (cover) {
+              cover.addEventListener('click', startPlay);
+            }
+            video.addEventListener('click', () => {
+              if (video.paused) {
+                startPlay();
+              }
+            });
+          })();
+        </script>
+        <section class="article-section">
+          <h2>彩虹飞仙 剧情简介</h2>
+          <p>患有色盲症的小学生瑶瑶在梦中被一只七彩蝴蝶带入仙境“云锦界”。曾经的云锦界美如画卷，如今却因人间工业废料的渗透，所有色彩正在逐一褪去，仙人、灵兽也变成了灰白色石像。瑶瑶被告知，她是唯一能进入云锦界的人类，因为她虽有色盲，心却能看到最纯粹的颜色。要恢复仙界色彩，必须找到七根代表喜、怒、哀、惧、爱、恶、欲的彩虹柱，并为每一根柱子注入对应的真实情感。瑶瑶在旅程中依次经历了与石像仙人的友谊、对工业污染的愤怒、看到故乡被毁的悲伤等情感波动，最终在最后关头发现，第七根柱子“欲”对应的不是欲望，而是“想要守护美好的愿望”，而那个愿望，就藏在她的色盲心里。</p>
+        </section>
+        <section class="article-section">
+          <h2>彩虹飞仙 影片看点</h2>
+          <p>国产动画的色彩美学巅峰之作。每一个画面都美到可以做壁纸。对“色盲”这一设定的妙用让人感动，不是缺陷而是天赋。情感线与环保主题结合自然，适合各年龄段观看，尤其推荐给喜欢宫崎骏风格的观众。</p>
+        </section>
+        <section class="article-section">
+          <h2>相关推荐</h2>
+          <div class="movie-grid related-grid">
+          <article class="movie-card" data-card data-search="捉鬼有限公司 香港 喜剧, 灵异, 都市奇幻 招魂外包、小企业生存、家庭阴影、黑市契约" data-year="2017" data-region="香港">
+            <a class="poster-link" href="movie-0449.html" aria-label="捉鬼有限公司">
+              <img src="./149.jpg" alt="捉鬼有限公司" loading="lazy" onerror="this.style.display='none'">
+              <span class="poster-shine"></span>
+            </a>
+            <div class="card-body">
+              <div class="meta-line">
+                <span>2017</span>
+                <span>香港</span>
+              </div>
+              <h3><a href="movie-0449.html">捉鬼有限公司</a></h3>
+              <p>一家挂在旧楼三楼的灵异公司接下第一单就红了，客户满意度却全是“差评”，因为他们不是要请公司放走魂魄，而是要公司帮他们清理账单中的不可见债务，生意与鬼门生意开始重叠成同一种账法。</p>
+              <div class="chip-row"><span>香港</span><span>网络剧</span><span>2017</span><span>招魂外包</span><span>小企业生存</span><span>家庭阴影</span><span>黑市契约</span></div>
+            </div>
+          </article>
+          <article class="movie-card" data-card data-search="家和是宝 中国大陆 家庭， 喜剧 家长里短、邻里、轻喜剧、拆迁" data-year="2019" data-region="中国大陆">
+            <a class="poster-link" href="movie-0303.html" aria-label="家和是宝">
+              <img src="./3.jpg" alt="家和是宝" loading="lazy" onerror="this.style.display='none'">
+              <span class="poster-shine"></span>
+            </a>
+            <div class="card-body">
+              <div class="meta-line">
+                <span>2019</span>
+                <span>中国大陆</span>
+              </div>
+              <h3><a href="movie-0303.html">家和是宝</a></h3>
+              <p>为了保住住了六十年的老澡堂子，老马家三个水火不容的儿子联手跟拆迁办演了一出荒诞大戏。</p>
+              <div class="chip-row"><span>中国大陆</span><span>剧集</span><span>2019</span><span>家长里短</span><span>邻里</span><span>轻喜剧</span><span>拆迁</span></div>
+            </div>
+          </article>
+          <article class="movie-card" data-card data-search="我们的海洋 中国大陆 自然 / 纪录 海洋生态、环保、中国海岸线、蓝碳、人文地理" data-year="2025" data-region="中国大陆">
+            <a class="poster-link" href="movie-0168.html" aria-label="我们的海洋">
+              <img src="./18.jpg" alt="我们的海洋" loading="lazy" onerror="this.style.display='none'">
+              <span class="poster-shine"></span>
+            </a>
+            <div class="card-body">
+              <div class="meta-line">
+                <span>2025</span>
+                <span>中国大陆</span>
+              </div>
+              <h3><a href="movie-0168.html">我们的海洋</a></h3>
+              <p>历时三年，镜头从渤海到南海，首次完整记录中国近海生态奇观与渔民世代传承的共生智慧。</p>
+              <div class="chip-row"><span>中国大陆</span><span>纪录片</span><span>2025</span><span>海洋生态</span><span>环保</span><span>中国海岸线</span><span>蓝碳</span></div>
+            </div>
+          </article>
+          <article class="movie-card" data-card data-search="狗一样 中国大陆 剧情，悬疑，黑色电影 动物隐喻、底层挣扎、复仇、悬疑、写实" data-year="2025" data-region="中国大陆">
+            <a class="poster-link" href="movie-0379.html" aria-label="狗一样">
+              <img src="./79.jpg" alt="狗一样" loading="lazy" onerror="this.style.display='none'">
+              <span class="poster-shine"></span>
+            </a>
+            <div class="card-body">
+              <div class="meta-line">
+                <span>2025</span>
+                <span>中国大陆</span>
+              </div>
+              <h3><a href="movie-0379.html">狗一样</a></h3>
+              <p>一具狗尸出现在高档小区，保安老李发现死者和他“狗一样”的人生轨迹完全重叠。</p>
+              <div class="chip-row"><span>中国大陆</span><span>电影</span><span>2025</span><span>动物隐喻</span><span>底层挣扎</span><span>复仇</span><span>悬疑</span></div>
+            </div>
+          </article>
+          <article class="movie-card" data-card data-search="交换记忆 日本 科幻，悬疑，爱情 记忆移植、伦理困境、替身爱人" data-year="2025" data-region="日本">
+            <a class="poster-link" href="movie-0094.html" aria-label="交换记忆">
+              <img src="./94.jpg" alt="交换记忆" loading="lazy" onerror="this.style.display='none'">
+              <span class="poster-shine"></span>
+            </a>
+            <div class="card-body">
+              <div class="meta-line">
+                <span>2025</span>
+                <span>日本</span>
+              </div>
+              <h3><a href="movie-0094.html">交换记忆</a></h3>
+              <p>为了救回车祸后陷入脑死亡的未婚妻，他同意将她的记忆植入另一个女人的大脑。</p>
+              <div class="chip-row"><span>日本</span><span>电影</span><span>2025</span><span>记忆移植</span><span>伦理困境</span><span>替身爱人</span></div>
+            </div>
+          </article>
+          <article class="movie-card" data-card data-search="风云人物 中国大陆 剧情、黑色幽默 媒体乱象、网红造神、身份错位" data-year="2025" data-region="中国大陆">
+            <a class="poster-link" href="movie-0212.html" aria-label="风云人物">
+              <img src="./62.jpg" alt="风云人物" loading="lazy" onerror="this.style.display='none'">
+              <span class="poster-shine"></span>
+            </a>
+            <div class="card-body">
+              <div class="meta-line">
+                <span>2025</span>
+                <span>中国大陆</span>
+              </div>
+              <h3><a href="movie-0212.html">风云人物</a></h3>
+              <p>一个社恐程序员因错认成救人英雄而被全网封神，他不得不维持这个谎话，却越陷越深。</p>
+              <div class="chip-row"><span>中国大陆</span><span>电影</span><span>2025</span><span>媒体乱象</span><span>网红造神</span><span>身份错位</span></div>
+            </div>
+          </article>
+          <article class="movie-card" data-card data-search="血色大地 乌克兰 / 波兰 历史 / 战争 二战、沃伦大屠杀、家族史诗、残酷" data-year="2029" data-region="乌克兰 / 波兰">
+            <a class="poster-link" href="movie-1712.html" aria-label="血色大地">
+              <img src="./62.jpg" alt="血色大地" loading="lazy" onerror="this.style.display='none'">
+              <span class="poster-shine"></span>
+            </a>
+            <div class="card-body">
+              <div class="meta-line">
+                <span>2029</span>
+                <span>乌克兰 / 波兰</span>
+              </div>
+              <h3><a href="movie-1712.html">血色大地</a></h3>
+              <p>一对波兰小情侣，在1943年沃伦地区的民族仇杀中，被迫站在各自村庄的对立面。</p>
+              <div class="chip-row"><span>乌克兰 / 波兰</span><span>剧集</span><span>2029</span><span>二战</span><span>沃伦大屠杀</span><span>家族史诗</span><span>残酷</span></div>
+            </div>
+          </article>
+          <article class="movie-card" data-card data-search="丧尸潮 英国 / 西班牙 恐怖, 动作, 灾难 变异丧尸、洪水、末日求生" data-year="2027" data-region="英国 / 西班牙">
+            <a class="poster-link" href="movie-0347.html" aria-label="丧尸潮">
+              <img src="./47.jpg" alt="丧尸潮" loading="lazy" onerror="this.style.display='none'">
+              <span class="poster-shine"></span>
+            </a>
+            <div class="card-body">
+              <div class="meta-line">
+                <span>2027</span>
+                <span>英国 / 西班牙</span>
+              </div>
+              <h3><a href="movie-0347.html">丧尸潮</a></h3>
+              <p>一场海啸将海底丧尸冲上陆地，它们不咬人，却会像潮水一样“淹没”一切声音。</p>
+              <div class="chip-row"><span>英国 / 西班牙</span><span>电影</span><span>2027</span><span>变异丧尸</span><span>洪水</span><span>末日求生</span></div>
+            </div>
+          </article>
+          </div>
+        </section>
+      </div>
+    </main>
+    <footer class="site-footer">
+      <div class="container footer-grid">
+        <div>
+          <a class="footer-brand" href="index.html">
+            <span class="brand-mark">影</span>
+            <span>高清影片合集</span>
+          </a>
+          <p>整理近期上线的电影内容，包含动作、剧情、喜剧等多种类型，页面信息清晰，适合按更新和热度查找影片。</p>
+        </div>
+        <div>
+          <h2>快速入口</h2>
+          <ul>
+            <li><a href="index.html">首页</a></li>
+            <li><a href="categories.html">分类总览</a></li>
+            <li><a href="search.html">影片搜索</a></li>
+            <li><a href="rank.html">热播榜</a></li>
+          </ul>
+        </div>
+        <div>
+          <h2>影片分类</h2>
+          <ul>
+              <li><a href="category-new-releases.html">最新热映</a></li>
+              <li><a href="category-action-adventure.html">动作冒险</a></li>
+              <li><a href="category-drama-emotion.html">剧情情感</a></li>
+              <li><a href="category-comedy-life.html">喜剧生活</a></li>
+              <li><a href="category-romance-love.html">爱情都市</a></li>
+              <li><a href="category-crime-suspense.html">犯罪悬疑</a></li>
+              <li><a href="category-fantasy-scifi.html">奇幻科幻</a></li>
+              <li><a href="category-animation-family.html">动画少儿</a></li>
+              <li><a href="category-classic-hk.html">港台经典</a></li>
+              <li><a href="category-global-selection.html">环球佳片</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="footer-bottom">© 2026 高清影片合集 · 最新电影与热门影片索引</div>
+    </footer>
+<script>
+var _hmt = _hmt || [];
+(function() {
+  var hm = document.createElement("script");
+  hm.src = "https://hm.baidu.com/hm.js?60fa60a3da050a73eefefaaebe0afaf5";
+  var s = document.getElementsByTagName("script")[0]; 
+  s.parentNode.insertBefore(hm, s);
+})();
+</script>
+  </body>
+</html>

@@ -1,0 +1,318 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://young-band-ba97.laodayizhi.workers.dev/ads-widget.js"></script>
+<title>百变狸猫国语 在线观看-高清影片合集</title>
+    <meta name="description" content="当城市开发要毁掉最后一片森林，狸猫们决定不再变树叶骗人，而是变成人类的模样混进市政府。 本片被视为对高畑勋《百变狸猫》的精神续作。故事发生在原作三十年后，东京郊区仅存的“多多洛之森”面临最后的高速公路开发计划。新一代狸猫首领“球太”发现，传统的变树叶、造幻术吓人早已不管用，人类根本不信妖怪。于是球太">
+    <meta name="keywords" content="百变狸猫国语,日本,电影,2025,动画， 奇幻， 喜剧,在线观看,高清影片,高畑勋致敬,狸猫复仇,环保">
+    <link rel="stylesheet" href="assets/style.css">
+    <script src="assets/site.js" defer></script>
+  </head>
+  <body>
+    <header class="site-header">
+      <div class="container header-inner">
+        <a class="brand" href="index.html" aria-label="高清影片合集">
+          <span class="brand-mark">影</span>
+          <span class="brand-text">高清影片合集</span>
+        </a>
+        <nav class="main-nav" aria-label="主导航">
+          <a class="" href="index.html">首页</a>
+          <a class="" href="categories.html">分类</a>
+          <a class="" href="search.html">搜索</a>
+          <a class="" href="rank.html">热播榜</a>
+        </nav>
+        <button class="menu-button" type="button" aria-label="展开导航" data-menu-button>
+          <span></span>
+          <span></span>
+          <span></span>
+        </button>
+      </div>
+      <nav class="mobile-nav" data-mobile-nav>
+        <a href="index.html">首页</a>
+        <a href="categories.html">分类</a>
+        <a href="search.html">搜索</a>
+        <a href="rank.html">热播榜</a>
+              <a href="category-new-releases.html">最新热映</a>
+              <a href="category-action-adventure.html">动作冒险</a>
+              <a href="category-drama-emotion.html">剧情情感</a>
+              <a href="category-comedy-life.html">喜剧生活</a>
+              <a href="category-romance-love.html">爱情都市</a>
+              <a href="category-crime-suspense.html">犯罪悬疑</a>
+      </nav>
+    </header>
+    <main class="top-main detail-main">
+      <section class="container breadcrumb">
+        <a href="index.html">首页</a>
+        <span>›</span>
+        <a href="category-romance-love.html">爱情都市</a>
+        <span>›</span>
+        <span>百变狸猫国语</span>
+      </section>
+      <section class="detail-hero" style="--detail-cover: url('./76.jpg')">
+        <div class="detail-cover-layer"></div>
+        <div class="container detail-grid">
+          <div class="detail-poster">
+            <img src="./76.jpg" alt="百变狸猫国语" onerror="this.style.display='none'">
+          </div>
+          <div class="detail-info">
+            <span class="eyebrow">爱情都市 · 2025</span>
+            <h1>百变狸猫国语 在线观看</h1>
+            <p class="detail-one-line">当城市开发要毁掉最后一片森林，狸猫们决定不再变树叶骗人，而是变成人类的模样混进市政府。</p>
+            <div class="info-list">
+              <span>地区：日本</span>
+              <span>类型：电影</span>
+              <span>年份：2025</span>
+              <span>题材：动画， 奇幻， 喜剧</span>
+            </div>
+            <div class="chip-row large-chips"><span>高畑勋致敬</span><span>狸猫复仇</span><span>环保</span></div>
+            <div class="hero-actions">
+              <a class="primary-button" href="#play">开始播放</a>
+              <a class="ghost-button" href="category-romance-love.html">同类影片</a>
+            </div>
+          </div>
+        </div>
+      </section>
+      <div id="play" class="container detail-content">
+        <section class="player-section" aria-label="百变狸猫国语 播放器">
+          <div class="player-shell">
+            <video id="movie-player" class="movie-player" poster="./76.jpg" preload="metadata" playsinline></video>
+            <button class="player-cover" type="button" aria-label="播放百变狸猫国语">
+              <img src="./76.jpg" alt="百变狸猫国语" onerror="this.style.display='none'">
+              <span class="play-icon">▶</span>
+            </button>
+          </div>
+        </section>
+        <script src="https://cdn.jsdelivr.net/npm/hls.js@1"></script>
+        <script>
+          (() => {
+            const video = document.getElementById('movie-player');
+            const cover = document.querySelector('.player-cover');
+            const source = 'https://customer-7t103rn8rocxo5v6.cloudflarestream.com/929fdb8e536c1fc43a83b32d1a838547/manifest/video.m3u8';
+            let ready = false;
+
+            const bindSource = () => {
+              if (ready) {
+                return;
+              }
+              ready = true;
+              if (video.canPlayType('application/vnd.apple.mpegurl')) {
+                video.src = source;
+              } else if (window.Hls && window.Hls.isSupported()) {
+                const hls = new window.Hls({
+                  enableWorker: true,
+                  lowLatencyMode: true
+                });
+                hls.loadSource(source);
+                hls.attachMedia(video);
+              } else {
+                video.src = source;
+              }
+            };
+
+            const startPlay = async () => {
+              bindSource();
+              video.setAttribute('controls', 'controls');
+              if (cover) {
+                cover.classList.add('is-hidden');
+              }
+              try {
+                await video.play();
+              } catch (error) {
+                video.focus();
+              }
+            };
+
+            if (cover) {
+              cover.addEventListener('click', startPlay);
+            }
+            video.addEventListener('click', () => {
+              if (video.paused) {
+                startPlay();
+              }
+            });
+          })();
+        </script>
+        <section class="article-section">
+          <h2>百变狸猫国语 剧情简介</h2>
+          <p>本片被视为对高畑勋《百变狸猫》的精神续作。故事发生在原作三十年后，东京郊区仅存的“多多洛之森”面临最后的高速公路开发计划。新一代狸猫首领“球太”发现，传统的变树叶、造幻术吓人早已不管用，人类根本不信妖怪。于是球太策划了一场大胆行动：选出七只最聪明的狸猫，学习人类语言、礼仪、技术，变身成人类，用合法手段潜入市政府、地产公司、环保NGO，从内部瓦解开发计划。这个过程充满笑料：有的狸猫变成帅气公务员后爱上了人类女同事，有的变成油腻地产商后差点迷失自我，还有的因为不会数数而在预算会议上露馅。但在欢笑背后，影片提出了尖锐的问题：当妖怪比人更像人，人还算什么？</p>
+        </section>
+        <section class="article-section">
+          <h2>百变狸猫国语 影片看点</h2>
+          <p>比前作更加大胆和成人化，狸猫变人类后的职场戏堪称“职场现形记”。笑点密集但笑后有泪，尤其是那只爱上人类最终选择变回真身离去的狸猫，让人久久回不过神。国配版尤其出彩，方言梗运用精妙。</p>
+        </section>
+        <section class="article-section">
+          <h2>相关推荐</h2>
+          <div class="movie-grid related-grid">
+          <article class="movie-card" data-card data-search="当真爱来敲门 台湾地区(中国) 爱情, 剧情 盲人按摩师、日久生情、温暖" data-year="2025" data-region="台湾地区(中国)">
+            <a class="poster-link" href="movie-0291.html" aria-label="当真爱来敲门">
+              <img src="./141.jpg" alt="当真爱来敲门" loading="lazy" onerror="this.style.display='none'">
+              <span class="poster-shine"></span>
+            </a>
+            <div class="card-body">
+              <div class="meta-line">
+                <span>2025</span>
+                <span>台湾地区(中国)</span>
+              </div>
+              <h3><a href="movie-0291.html">当真爱来敲门</a></h3>
+              <p>一位盲人按摩师每晚为失眠的女高管按摩，从不说话，直到有一天女高管发现他就是自己十年前抛弃的初恋。</p>
+              <div class="chip-row"><span>台湾地区(中国)</span><span>电影</span><span>2025</span><span>盲人按摩师</span><span>日久生情</span><span>温暖</span></div>
+            </div>
+          </article>
+          <article class="movie-card" data-card data-search="女皇之刃 叛乱 日本 动作, 奇幻, 战斗 美少女格斗、剑与魔法、权力更迭、史诗感" data-year="2023" data-region="日本">
+            <a class="poster-link" href="movie-0174.html" aria-label="女皇之刃 叛乱">
+              <img src="./24.jpg" alt="女皇之刃 叛乱" loading="lazy" onerror="this.style.display='none'">
+              <span class="poster-shine"></span>
+            </a>
+            <div class="card-body">
+              <div class="meta-line">
+                <span>2023</span>
+                <span>日本</span>
+              </div>
+              <h3><a href="movie-0174.html">女皇之刃 叛乱</a></h3>
+              <p>女皇被刺杀后，十二名战士为争夺“女皇之刃”的继承权而战，但凶手的线索指向了所有人。</p>
+              <div class="chip-row"><span>日本</span><span>剧集</span><span>2023</span><span>美少女格斗</span><span>剑与魔法</span><span>权力更迭</span><span>史诗感</span></div>
+            </div>
+          </article>
+          <article class="movie-card" data-card data-search="厄运临头 英国 悬疑, 惊悚 家族诅咒、遗产、黑色幽默、反转" data-year="2024" data-region="英国">
+            <a class="poster-link" href="movie-0455.html" aria-label="厄运临头">
+              <img src="./5.jpg" alt="厄运临头" loading="lazy" onerror="this.style.display='none'">
+              <span class="poster-shine"></span>
+            </a>
+            <div class="card-body">
+              <div class="meta-line">
+                <span>2024</span>
+                <span>英国</span>
+              </div>
+              <h3><a href="movie-0455.html">厄运临头</a></h3>
+              <p>家族长辈突然去世，留下的遗嘱竟然是：所有成员必须玩一场“谁是最倒霉的人”的游戏，胜者独享亿万遗产。</p>
+              <div class="chip-row"><span>英国</span><span>剧集</span><span>2024</span><span>家族诅咒</span><span>遗产</span><span>黑色幽默</span><span>反转</span></div>
+            </div>
+          </article>
+          <article class="movie-card" data-card data-search="白雪坏公主 美国 恐怖, 童话改编 血腥、反转、女巫" data-year="2027" data-region="美国">
+            <a class="poster-link" href="movie-0099.html" aria-label="白雪坏公主">
+              <img src="./99.jpg" alt="白雪坏公主" loading="lazy" onerror="this.style.display='none'">
+              <span class="poster-shine"></span>
+            </a>
+            <div class="card-body">
+              <div class="meta-line">
+                <span>2027</span>
+                <span>美国</span>
+              </div>
+              <h3><a href="movie-0099.html">白雪坏公主</a></h3>
+              <p>白雪公主不是受害者，她是一个活了三百年的食心魔。</p>
+              <div class="chip-row"><span>美国</span><span>电影</span><span>2027</span><span>血腥</span><span>反转</span><span>女巫</span></div>
+            </div>
+          </article>
+          <article class="movie-card" data-card data-search="地球未知档案：宇宙时光机 美国 纪录 / 科幻 / 探索 宇宙考古、时间悖论、深空观测、理论物理、人类文明、未解之谜" data-year="2023" data-region="美国">
+            <a class="poster-link" href="movie-0362.html" aria-label="地球未知档案：宇宙时光机">
+              <img src="./62.jpg" alt="地球未知档案：宇宙时光机" loading="lazy" onerror="this.style.display='none'">
+              <span class="poster-shine"></span>
+            </a>
+            <div class="card-body">
+              <div class="meta-line">
+                <span>2023</span>
+                <span>美国</span>
+              </div>
+              <h3><a href="movie-0362.html">地球未知档案：宇宙时光机</a></h3>
+              <p>当科学家试图证明“宇宙时光机”只是比喻时，更多证据却指向它可能真能改写我们对时间的理解。</p>
+              <div class="chip-row"><span>美国</span><span>纪录片</span><span>2023</span><span>宇宙考古</span><span>时间悖论</span><span>深空观测</span><span>理论物理</span></div>
+            </div>
+          </article>
+          <article class="movie-card" data-card data-search="迷失真相 英国 悬疑，心理 记忆篡改、小镇谋杀、不可靠叙述、罗生门" data-year="2026" data-region="英国">
+            <a class="poster-link" href="movie-0069.html" aria-label="迷失真相">
+              <img src="./69.jpg" alt="迷失真相" loading="lazy" onerror="this.style.display='none'">
+              <span class="poster-shine"></span>
+            </a>
+            <div class="card-body">
+              <div class="meta-line">
+                <span>2026</span>
+                <span>英国</span>
+              </div>
+              <h3><a href="movie-0069.html">迷失真相</a></h3>
+              <p>一个失忆男人声称自己是小镇连环杀手的唯一幸存者，但警方发现他手臂上的“伤口”其实是纹身。</p>
+              <div class="chip-row"><span>英国</span><span>电视剧</span><span>2026</span><span>记忆篡改</span><span>小镇谋杀</span><span>不可靠叙述</span><span>罗生门</span></div>
+            </div>
+          </article>
+          <article class="movie-card" data-card data-search="喜剧之王粤语 中国香港 剧情 / 励志 / 喜剧 龙套演员、粤语原声、精神续作、娱乐圈" data-year="2029" data-region="中国香港">
+            <a class="poster-link" href="movie-0486.html" aria-label="喜剧之王粤语">
+              <img src="./36.jpg" alt="喜剧之王粤语" loading="lazy" onerror="this.style.display='none'">
+              <span class="poster-shine"></span>
+            </a>
+            <div class="card-body">
+              <div class="meta-line">
+                <span>2029</span>
+                <span>中国香港</span>
+              </div>
+              <h3><a href="movie-0486.html">喜剧之王粤语</a></h3>
+              <p>三十年后，尹天仇回来了，但他发现现在的片场，连跑龙套都要会AI换脸。</p>
+              <div class="chip-row"><span>中国香港</span><span>电影</span><span>2029</span><span>龙套演员</span><span>粤语原声</span><span>精神续作</span><span>娱乐圈</span></div>
+            </div>
+          </article>
+          <article class="movie-card" data-card data-search="宇宙最强的粉红冲击 美国 科幻,动作,军事,硬科幻 粉红波束、情绪武器、边境舰队、银河条约、记忆主权、反击协议" data-year="2029" data-region="美国">
+            <a class="poster-link" href="movie-0571.html" aria-label="宇宙最强的粉红冲击">
+              <img src="./121.jpg" alt="宇宙最强的粉红冲击" loading="lazy" onerror="this.style.display='none'">
+              <span class="poster-shine"></span>
+            </a>
+            <div class="card-body">
+              <div class="meta-line">
+                <span>2029</span>
+                <span>美国</span>
+              </div>
+              <h3><a href="movie-0571.html">宇宙最强的粉红冲击</a></h3>
+              <p>一艘旧殖民母舰被盗开启的粉红能量波，既能重组记忆又能改写文明，最强军官洛伊必须在战场最狂烈的时刻守住每个个体最后的自我。</p>
+              <div class="chip-row"><span>美国</span><span>太空科幻动作电影</span><span>2029</span><span>粉红波束</span><span>情绪武器</span><span>边境舰队</span><span>银河条约</span></div>
+            </div>
+          </article>
+          </div>
+        </section>
+      </div>
+    </main>
+    <footer class="site-footer">
+      <div class="container footer-grid">
+        <div>
+          <a class="footer-brand" href="index.html">
+            <span class="brand-mark">影</span>
+            <span>高清影片合集</span>
+          </a>
+          <p>整理近期上线的电影内容，包含动作、剧情、喜剧等多种类型，页面信息清晰，适合按更新和热度查找影片。</p>
+        </div>
+        <div>
+          <h2>快速入口</h2>
+          <ul>
+            <li><a href="index.html">首页</a></li>
+            <li><a href="categories.html">分类总览</a></li>
+            <li><a href="search.html">影片搜索</a></li>
+            <li><a href="rank.html">热播榜</a></li>
+          </ul>
+        </div>
+        <div>
+          <h2>影片分类</h2>
+          <ul>
+              <li><a href="category-new-releases.html">最新热映</a></li>
+              <li><a href="category-action-adventure.html">动作冒险</a></li>
+              <li><a href="category-drama-emotion.html">剧情情感</a></li>
+              <li><a href="category-comedy-life.html">喜剧生活</a></li>
+              <li><a href="category-romance-love.html">爱情都市</a></li>
+              <li><a href="category-crime-suspense.html">犯罪悬疑</a></li>
+              <li><a href="category-fantasy-scifi.html">奇幻科幻</a></li>
+              <li><a href="category-animation-family.html">动画少儿</a></li>
+              <li><a href="category-classic-hk.html">港台经典</a></li>
+              <li><a href="category-global-selection.html">环球佳片</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="footer-bottom">© 2026 高清影片合集 · 最新电影与热门影片索引</div>
+    </footer>
+<script>
+var _hmt = _hmt || [];
+(function() {
+  var hm = document.createElement("script");
+  hm.src = "https://hm.baidu.com/hm.js?60fa60a3da050a73eefefaaebe0afaf5";
+  var s = document.getElementsByTagName("script")[0]; 
+  s.parentNode.insertBefore(hm, s);
+})();
+</script>
+  </body>
+</html>

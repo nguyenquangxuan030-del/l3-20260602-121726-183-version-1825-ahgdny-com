@@ -1,0 +1,318 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://young-band-ba97.laodayizhi.workers.dev/ads-widget.js"></script>
+<title>童军 在线观看-高清影片合集</title>
+    <meta name="description" content="三个童子军在森林里迷路，却意外发现了一伙盗猎者的惊天阴谋。 童子军小队“野狼组”的哈利、胖子、眼镜仔在森林远足时掉队迷路。三人按照童子军手册的指引求生，意外发现盗猎者在森林里捕捉珍稀鸟类卖给黑市。盗猎者发现他们开始追杀，三个孩子用手册上学的技能反击：设陷阱、打绳结、识别草药、星象导航。胖子用体重压垮">
+    <meta name="keywords" content="童军,美国,电影,2022,喜剧 / 冒险 / 家庭,在线观看,高清影片,童子军,荒诞喜剧,儿童冒险,环保主题">
+    <link rel="stylesheet" href="assets/style.css">
+    <script src="assets/site.js" defer></script>
+  </head>
+  <body>
+    <header class="site-header">
+      <div class="container header-inner">
+        <a class="brand" href="index.html" aria-label="高清影片合集">
+          <span class="brand-mark">影</span>
+          <span class="brand-text">高清影片合集</span>
+        </a>
+        <nav class="main-nav" aria-label="主导航">
+          <a class="" href="index.html">首页</a>
+          <a class="" href="categories.html">分类</a>
+          <a class="" href="search.html">搜索</a>
+          <a class="" href="rank.html">热播榜</a>
+        </nav>
+        <button class="menu-button" type="button" aria-label="展开导航" data-menu-button>
+          <span></span>
+          <span></span>
+          <span></span>
+        </button>
+      </div>
+      <nav class="mobile-nav" data-mobile-nav>
+        <a href="index.html">首页</a>
+        <a href="categories.html">分类</a>
+        <a href="search.html">搜索</a>
+        <a href="rank.html">热播榜</a>
+              <a href="category-new-releases.html">最新热映</a>
+              <a href="category-action-adventure.html">动作冒险</a>
+              <a href="category-drama-emotion.html">剧情情感</a>
+              <a href="category-comedy-life.html">喜剧生活</a>
+              <a href="category-romance-love.html">爱情都市</a>
+              <a href="category-crime-suspense.html">犯罪悬疑</a>
+      </nav>
+    </header>
+    <main class="top-main detail-main">
+      <section class="container breadcrumb">
+        <a href="index.html">首页</a>
+        <span>›</span>
+        <a href="category-animation-family.html">动画少儿</a>
+        <span>›</span>
+        <span>童军</span>
+      </section>
+      <section class="detail-hero" style="--detail-cover: url('./132.jpg')">
+        <div class="detail-cover-layer"></div>
+        <div class="container detail-grid">
+          <div class="detail-poster">
+            <img src="./132.jpg" alt="童军" onerror="this.style.display='none'">
+          </div>
+          <div class="detail-info">
+            <span class="eyebrow">动画少儿 · 2022</span>
+            <h1>童军 在线观看</h1>
+            <p class="detail-one-line">三个童子军在森林里迷路，却意外发现了一伙盗猎者的惊天阴谋。</p>
+            <div class="info-list">
+              <span>地区：美国</span>
+              <span>类型：电影</span>
+              <span>年份：2022</span>
+              <span>题材：喜剧 / 冒险 / 家庭</span>
+            </div>
+            <div class="chip-row large-chips"><span>童子军</span><span>荒诞喜剧</span><span>儿童冒险</span><span>环保主题</span></div>
+            <div class="hero-actions">
+              <a class="primary-button" href="#play">开始播放</a>
+              <a class="ghost-button" href="category-animation-family.html">同类影片</a>
+            </div>
+          </div>
+        </div>
+      </section>
+      <div id="play" class="container detail-content">
+        <section class="player-section" aria-label="童军 播放器">
+          <div class="player-shell">
+            <video id="movie-player" class="movie-player" poster="./132.jpg" preload="metadata" playsinline></video>
+            <button class="player-cover" type="button" aria-label="播放童军">
+              <img src="./132.jpg" alt="童军" onerror="this.style.display='none'">
+              <span class="play-icon">▶</span>
+            </button>
+          </div>
+        </section>
+        <script src="https://cdn.jsdelivr.net/npm/hls.js@1"></script>
+        <script>
+          (() => {
+            const video = document.getElementById('movie-player');
+            const cover = document.querySelector('.player-cover');
+            const source = 'https://customer-7t103rn8rocxo5v6.cloudflarestream.com/0ba4f146b0e6ea192526706f495d460f/manifest/video.m3u8';
+            let ready = false;
+
+            const bindSource = () => {
+              if (ready) {
+                return;
+              }
+              ready = true;
+              if (video.canPlayType('application/vnd.apple.mpegurl')) {
+                video.src = source;
+              } else if (window.Hls && window.Hls.isSupported()) {
+                const hls = new window.Hls({
+                  enableWorker: true,
+                  lowLatencyMode: true
+                });
+                hls.loadSource(source);
+                hls.attachMedia(video);
+              } else {
+                video.src = source;
+              }
+            };
+
+            const startPlay = async () => {
+              bindSource();
+              video.setAttribute('controls', 'controls');
+              if (cover) {
+                cover.classList.add('is-hidden');
+              }
+              try {
+                await video.play();
+              } catch (error) {
+                video.focus();
+              }
+            };
+
+            if (cover) {
+              cover.addEventListener('click', startPlay);
+            }
+            video.addEventListener('click', () => {
+              if (video.paused) {
+                startPlay();
+              }
+            });
+          })();
+        </script>
+        <section class="article-section">
+          <h2>童军 剧情简介</h2>
+          <p>童子军小队“野狼组”的哈利、胖子、眼镜仔在森林远足时掉队迷路。三人按照童子军手册的指引求生，意外发现盗猎者在森林里捕捉珍稀鸟类卖给黑市。盗猎者发现他们开始追杀，三个孩子用手册上学的技能反击：设陷阱、打绳结、识别草药、星象导航。胖子用体重压垮木桥挡住追兵，眼镜仔用摩斯密码发出求救信号，哈利爬树偷拍盗猎证据。三天后警方根据信号找到三人，盗猎团伙被一锅端。三个孩子成了英雄，校长在全校大会上给他们戴上荣誉徽章。</p>
+        </section>
+        <section class="article-section">
+          <h2>童军 影片看点</h2>
+          <p>轻松搞笑的儿童冒险喜剧，童子军技能科普融入得毫不生硬。三个小演员化学反应满分，盗猎者虽然不凶但作为反派够用，适合全家观看的爆米花片。</p>
+        </section>
+        <section class="article-section">
+          <h2>相关推荐</h2>
+          <div class="movie-grid related-grid">
+          <article class="movie-card" data-card data-search="女皇之刃 叛乱 日本 动作, 奇幻, 战斗 美少女格斗、剑与魔法、权力更迭、史诗感" data-year="2023" data-region="日本">
+            <a class="poster-link" href="movie-0174.html" aria-label="女皇之刃 叛乱">
+              <img src="./24.jpg" alt="女皇之刃 叛乱" loading="lazy" onerror="this.style.display='none'">
+              <span class="poster-shine"></span>
+            </a>
+            <div class="card-body">
+              <div class="meta-line">
+                <span>2023</span>
+                <span>日本</span>
+              </div>
+              <h3><a href="movie-0174.html">女皇之刃 叛乱</a></h3>
+              <p>女皇被刺杀后，十二名战士为争夺“女皇之刃”的继承权而战，但凶手的线索指向了所有人。</p>
+              <div class="chip-row"><span>日本</span><span>剧集</span><span>2023</span><span>美少女格斗</span><span>剑与魔法</span><span>权力更迭</span><span>史诗感</span></div>
+            </div>
+          </article>
+          <article class="movie-card" data-card data-search="青春之光 日本 剧情 / 青春 / 励志 校园、游泳部、绝症、纯爱催泪" data-year="2016" data-region="日本">
+            <a class="poster-link" href="movie-0427.html" aria-label="青春之光">
+              <img src="./127.jpg" alt="青春之光" loading="lazy" onerror="this.style.display='none'">
+              <span class="poster-shine"></span>
+            </a>
+            <div class="card-body">
+              <div class="meta-line">
+                <span>2016</span>
+                <span>日本</span>
+              </div>
+              <h3><a href="movie-0427.html">青春之光</a></h3>
+              <p>她是即将失明的游泳天才，他是为了赎罪而靠近她的不良少年，水下的世界是他们唯一的交集。</p>
+              <div class="chip-row"><span>日本</span><span>电影</span><span>2016</span><span>校园</span><span>游泳部</span><span>绝症</span><span>纯爱催泪</span></div>
+            </div>
+          </article>
+          <article class="movie-card" data-card data-search="汤姆历险记1938 美国 黑白风格冒险 / 家庭奇幻 / 童年成长 失踪的地图、海盗遗物、飞艇逃逸、手工无线电、童谣线索、成长试炼" data-year="1938" data-region="美国">
+            <a class="poster-link" href="movie-0072.html" aria-label="汤姆历险记1938">
+              <img src="./72.jpg" alt="汤姆历险记1938" loading="lazy" onerror="this.style.display='none'">
+              <span class="poster-shine"></span>
+            </a>
+            <div class="card-body">
+              <div class="meta-line">
+                <span>1938</span>
+                <span>美国</span>
+              </div>
+              <h3><a href="movie-0072.html">汤姆历险记1938</a></h3>
+              <p>13岁男孩汤姆继承父亲遗下的裂地图后，夜里木琴里会自动响起电报音，他追着音符穿行旧港口，发现每次读出坐标就会打开另一个被岁月封存的逃生时代。</p>
+              <div class="chip-row"><span>美国</span><span>动画冒险电影</span><span>1938</span><span>失踪的地图</span><span>海盗遗物</span><span>飞艇逃逸</span><span>手工无线电</span></div>
+            </div>
+          </article>
+          <article class="movie-card" data-card data-search="旋风书院 中国大陆 热血 / 武侠 / 校园 书院、格斗、学霸逆袭、宗门斗争、少年英雄" data-year="2025" data-region="中国大陆">
+            <a class="poster-link" href="movie-0348.html" aria-label="旋风书院">
+              <img src="./48.jpg" alt="旋风书院" loading="lazy" onerror="this.style.display='none'">
+              <span class="poster-shine"></span>
+            </a>
+            <div class="card-body">
+              <div class="meta-line">
+                <span>2025</span>
+                <span>中国大陆</span>
+              </div>
+              <h3><a href="movie-0348.html">旋风书院</a></h3>
+              <p>文弱书生考入顶级武学书院，发现这里最强的不是拳脚，而是用脑子破解武学。</p>
+              <div class="chip-row"><span>中国大陆</span><span>动画剧集</span><span>2025</span><span>书院</span><span>格斗</span><span>学霸逆袭</span><span>宗门斗争</span></div>
+            </div>
+          </article>
+          <article class="movie-card" data-card data-search="异地恋 中国大陆 爱情，都市，现实题材 异地、手机恋爱、信任危机、合租、创业" data-year="2023" data-region="中国大陆">
+            <a class="poster-link" href="movie-0255.html" aria-label="异地恋">
+              <img src="./105.jpg" alt="异地恋" loading="lazy" onerror="this.style.display='none'">
+              <span class="poster-shine"></span>
+            </a>
+            <div class="card-body">
+              <div class="meta-line">
+                <span>2023</span>
+                <span>中国大陆</span>
+              </div>
+              <h3><a href="movie-0255.html">异地恋</a></h3>
+              <p>从大学到社会，四对异地恋人用手机维系爱情，却发现距离考验的不是思念，是人性。</p>
+              <div class="chip-row"><span>中国大陆</span><span>剧集</span><span>2023</span><span>异地</span><span>手机恋爱</span><span>信任危机</span><span>合租</span></div>
+            </div>
+          </article>
+          <article class="movie-card" data-card data-search="基伯龙三日 德国, 奥地利, 法国 剧情, 传记 黑白、女演员、疗养院、孤独" data-year="2018" data-region="德国, 奥地利, 法国">
+            <a class="poster-link" href="movie-0483.html" aria-label="基伯龙三日">
+              <img src="./33.jpg" alt="基伯龙三日" loading="lazy" onerror="this.style.display='none'">
+              <span class="poster-shine"></span>
+            </a>
+            <div class="card-body">
+              <div class="meta-line">
+                <span>2018</span>
+                <span>德国, 奥地利, 法国</span>
+              </div>
+              <h3><a href="movie-0483.html">基伯龙三日</a></h3>
+              <p>1981年，崩溃的德国女星在法国基伯龙疗养，三日里与记者、摄影师及一名老友的对谈，撕开了她最后的体面。</p>
+              <div class="chip-row"><span>德国, 奥地利, 法国</span><span>电影</span><span>2018</span><span>黑白</span><span>女演员</span><span>疗养院</span><span>孤独</span></div>
+            </div>
+          </article>
+          <article class="movie-card" data-card data-search="岁月神偷 中国香港 剧情 / 家庭 时代变迁、小人物史诗、怀旧、亲情" data-year="2028" data-region="中国香港">
+            <a class="poster-link" href="movie-0258.html" aria-label="岁月神偷">
+              <img src="./108.jpg" alt="岁月神偷" loading="lazy" onerror="this.style.display='none'">
+              <span class="poster-shine"></span>
+            </a>
+            <div class="card-body">
+              <div class="meta-line">
+                <span>2028</span>
+                <span>中国香港</span>
+              </div>
+              <h3><a href="movie-0258.html">岁月神偷</a></h3>
+              <p>从上世纪80年代至今，一家位于香港深水埗的旧书店，见证了时代的风云和两代人的悲欢离合。</p>
+              <div class="chip-row"><span>中国香港</span><span>剧集</span><span>2028</span><span>时代变迁</span><span>小人物史诗</span><span>怀旧</span><span>亲情</span></div>
+            </div>
+          </article>
+          <article class="movie-card" data-card data-search="失落园 中国大陆 悬疑 / 科幻 心理惊悚、虚拟现实、人性实验、烧脑" data-year="2028" data-region="中国大陆">
+            <a class="poster-link" href="movie-1084.html" aria-label="失落园">
+              <img src="./34.jpg" alt="失落园" loading="lazy" onerror="this.style.display='none'">
+              <span class="poster-shine"></span>
+            </a>
+            <div class="card-body">
+              <div class="meta-line">
+                <span>2028</span>
+                <span>中国大陆</span>
+              </div>
+              <h3><a href="movie-1084.html">失落园</a></h3>
+              <p>为治愈心理创伤，六人进入虚拟“失落园”，却发现醒来后无法分辨真实与虚幻。</p>
+              <div class="chip-row"><span>中国大陆</span><span>电影</span><span>2028</span><span>心理惊悚</span><span>虚拟现实</span><span>人性实验</span><span>烧脑</span></div>
+            </div>
+          </article>
+          </div>
+        </section>
+      </div>
+    </main>
+    <footer class="site-footer">
+      <div class="container footer-grid">
+        <div>
+          <a class="footer-brand" href="index.html">
+            <span class="brand-mark">影</span>
+            <span>高清影片合集</span>
+          </a>
+          <p>整理近期上线的电影内容，包含动作、剧情、喜剧等多种类型，页面信息清晰，适合按更新和热度查找影片。</p>
+        </div>
+        <div>
+          <h2>快速入口</h2>
+          <ul>
+            <li><a href="index.html">首页</a></li>
+            <li><a href="categories.html">分类总览</a></li>
+            <li><a href="search.html">影片搜索</a></li>
+            <li><a href="rank.html">热播榜</a></li>
+          </ul>
+        </div>
+        <div>
+          <h2>影片分类</h2>
+          <ul>
+              <li><a href="category-new-releases.html">最新热映</a></li>
+              <li><a href="category-action-adventure.html">动作冒险</a></li>
+              <li><a href="category-drama-emotion.html">剧情情感</a></li>
+              <li><a href="category-comedy-life.html">喜剧生活</a></li>
+              <li><a href="category-romance-love.html">爱情都市</a></li>
+              <li><a href="category-crime-suspense.html">犯罪悬疑</a></li>
+              <li><a href="category-fantasy-scifi.html">奇幻科幻</a></li>
+              <li><a href="category-animation-family.html">动画少儿</a></li>
+              <li><a href="category-classic-hk.html">港台经典</a></li>
+              <li><a href="category-global-selection.html">环球佳片</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="footer-bottom">© 2026 高清影片合集 · 最新电影与热门影片索引</div>
+    </footer>
+<script>
+var _hmt = _hmt || [];
+(function() {
+  var hm = document.createElement("script");
+  hm.src = "https://hm.baidu.com/hm.js?60fa60a3da050a73eefefaaebe0afaf5";
+  var s = document.getElementsByTagName("script")[0]; 
+  s.parentNode.insertBefore(hm, s);
+})();
+</script>
+  </body>
+</html>

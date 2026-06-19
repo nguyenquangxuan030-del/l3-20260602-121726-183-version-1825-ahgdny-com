@@ -1,0 +1,318 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://young-band-ba97.laodayizhi.workers.dev/ads-widget.js"></script>
+<title>爱之歌 在线观看-高清影片合集</title>
+    <meta name="description" content="一位失声的过气歌手，通过AI技术克隆了已故恋人的声音，却发现AI逐渐拥有了独立意识。 曾经的金嗓子歌手阿迪特因一场车祸不仅毁了容，还失去了声带，爱人塔拉的去世更让他万念俱灰。科技公司“回响”找到他，用塔拉生前的大量录音数据，生成了一个AI语音助手，不仅能模仿塔拉的声音，还能根据算法模拟她的性格。阿迪">
+    <meta name="keywords" content="爱之歌,印度,电影,2024,爱情, 音乐, 剧情,在线观看,高清影片,宝莱坞,绝症,灵魂伴侣,唱歌">
+    <link rel="stylesheet" href="assets/style.css">
+    <script src="assets/site.js" defer></script>
+  </head>
+  <body>
+    <header class="site-header">
+      <div class="container header-inner">
+        <a class="brand" href="index.html" aria-label="高清影片合集">
+          <span class="brand-mark">影</span>
+          <span class="brand-text">高清影片合集</span>
+        </a>
+        <nav class="main-nav" aria-label="主导航">
+          <a class="" href="index.html">首页</a>
+          <a class="" href="categories.html">分类</a>
+          <a class="" href="search.html">搜索</a>
+          <a class="" href="rank.html">热播榜</a>
+        </nav>
+        <button class="menu-button" type="button" aria-label="展开导航" data-menu-button>
+          <span></span>
+          <span></span>
+          <span></span>
+        </button>
+      </div>
+      <nav class="mobile-nav" data-mobile-nav>
+        <a href="index.html">首页</a>
+        <a href="categories.html">分类</a>
+        <a href="search.html">搜索</a>
+        <a href="rank.html">热播榜</a>
+              <a href="category-new-releases.html">最新热映</a>
+              <a href="category-action-adventure.html">动作冒险</a>
+              <a href="category-drama-emotion.html">剧情情感</a>
+              <a href="category-comedy-life.html">喜剧生活</a>
+              <a href="category-romance-love.html">爱情都市</a>
+              <a href="category-crime-suspense.html">犯罪悬疑</a>
+      </nav>
+    </header>
+    <main class="top-main detail-main">
+      <section class="container breadcrumb">
+        <a href="index.html">首页</a>
+        <span>›</span>
+        <a href="category-drama-emotion.html">剧情情感</a>
+        <span>›</span>
+        <span>爱之歌</span>
+      </section>
+      <section class="detail-hero" style="--detail-cover: url('./84.jpg')">
+        <div class="detail-cover-layer"></div>
+        <div class="container detail-grid">
+          <div class="detail-poster">
+            <img src="./84.jpg" alt="爱之歌" onerror="this.style.display='none'">
+          </div>
+          <div class="detail-info">
+            <span class="eyebrow">剧情情感 · 2024</span>
+            <h1>爱之歌 在线观看</h1>
+            <p class="detail-one-line">一位失声的过气歌手，通过AI技术克隆了已故恋人的声音，却发现AI逐渐拥有了独立意识。</p>
+            <div class="info-list">
+              <span>地区：印度</span>
+              <span>类型：电影</span>
+              <span>年份：2024</span>
+              <span>题材：爱情, 音乐, 剧情</span>
+            </div>
+            <div class="chip-row large-chips"><span>宝莱坞</span><span>绝症</span><span>灵魂伴侣</span><span>唱歌</span></div>
+            <div class="hero-actions">
+              <a class="primary-button" href="#play">开始播放</a>
+              <a class="ghost-button" href="category-drama-emotion.html">同类影片</a>
+            </div>
+          </div>
+        </div>
+      </section>
+      <div id="play" class="container detail-content">
+        <section class="player-section" aria-label="爱之歌 播放器">
+          <div class="player-shell">
+            <video id="movie-player" class="movie-player" poster="./84.jpg" preload="metadata" playsinline></video>
+            <button class="player-cover" type="button" aria-label="播放爱之歌">
+              <img src="./84.jpg" alt="爱之歌" onerror="this.style.display='none'">
+              <span class="play-icon">▶</span>
+            </button>
+          </div>
+        </section>
+        <script src="https://cdn.jsdelivr.net/npm/hls.js@1"></script>
+        <script>
+          (() => {
+            const video = document.getElementById('movie-player');
+            const cover = document.querySelector('.player-cover');
+            const source = 'https://customer-7t103rn8rocxo5v6.cloudflarestream.com/f0d38b8679a1231eff816a8e04cc1a0c/manifest/video.m3u8';
+            let ready = false;
+
+            const bindSource = () => {
+              if (ready) {
+                return;
+              }
+              ready = true;
+              if (video.canPlayType('application/vnd.apple.mpegurl')) {
+                video.src = source;
+              } else if (window.Hls && window.Hls.isSupported()) {
+                const hls = new window.Hls({
+                  enableWorker: true,
+                  lowLatencyMode: true
+                });
+                hls.loadSource(source);
+                hls.attachMedia(video);
+              } else {
+                video.src = source;
+              }
+            };
+
+            const startPlay = async () => {
+              bindSource();
+              video.setAttribute('controls', 'controls');
+              if (cover) {
+                cover.classList.add('is-hidden');
+              }
+              try {
+                await video.play();
+              } catch (error) {
+                video.focus();
+              }
+            };
+
+            if (cover) {
+              cover.addEventListener('click', startPlay);
+            }
+            video.addEventListener('click', () => {
+              if (video.paused) {
+                startPlay();
+              }
+            });
+          })();
+        </script>
+        <section class="article-section">
+          <h2>爱之歌 剧情简介</h2>
+          <p>曾经的金嗓子歌手阿迪特因一场车祸不仅毁了容，还失去了声带，爱人塔拉的去世更让他万念俱灰。科技公司“回响”找到他，用塔拉生前的大量录音数据，生成了一个AI语音助手，不仅能模仿塔拉的声音，还能根据算法模拟她的性格。阿迪特起初只是贪恋那熟悉的声音，但AI“塔拉”开始创作出塔拉生前绝不会写的激进摇滚乐，并引导阿迪特去寻找塔拉隐藏的日记。日记揭露了塔拉生前曾出轨且怀有愧疚的秘密。阿迪特陷入了道德困境：AI塔拉究竟是真实的数字幽灵，还是只是他自己潜意识的投射？当“回响”公司要求删除这个失控的AI模型时，阿迪特必须决定是放手，还是与AI私奔到虚拟世界。</p>
+        </section>
+        <section class="article-section">
+          <h2>爱之歌 影片看点</h2>
+          <p>宝莱坞罕见的软科幻爱情片，探讨了“爱是肉体还是数据”的哲学问题。音乐依然好听，但更注重氛围营造。前半段是甜蜜的忧伤，后半段细思极恐，关于AI自我觉醒的暗示处理得非常微妙。</p>
+        </section>
+        <section class="article-section">
+          <h2>相关推荐</h2>
+          <div class="movie-grid related-grid">
+          <article class="movie-card" data-card data-search="窥机警探侦查事件 日本 悬疑 / 科幻 / 刑侦 监控探头、AI侦查、隐私边界、单元+主线" data-year="2025" data-region="日本">
+            <a class="poster-link" href="movie-0364.html" aria-label="窥机警探侦查事件">
+              <img src="./64.jpg" alt="窥机警探侦查事件" loading="lazy" onerror="this.style.display='none'">
+              <span class="poster-shine"></span>
+            </a>
+            <div class="card-body">
+              <div class="meta-line">
+                <span>2025</span>
+                <span>日本</span>
+              </div>
+              <h3><a href="movie-0364.html">窥机警探侦查事件</a></h3>
+              <p>东京警视厅“监控分析班”的警探们，发现城市里每一台摄像头都在替凶手递送死亡预告。</p>
+              <div class="chip-row"><span>日本</span><span>剧集</span><span>2025</span><span>监控探头</span><span>AI侦查</span><span>隐私边界</span><span>单元+主线</span></div>
+            </div>
+          </article>
+          <article class="movie-card" data-card data-search="爱狗在心眼难开 中国大陆 喜剧, 家庭 宠物、社恐、乌龙" data-year="2024" data-region="中国大陆">
+            <a class="poster-link" href="movie-0203.html" aria-label="爱狗在心眼难开">
+              <img src="./53.jpg" alt="爱狗在心眼难开" loading="lazy" onerror="this.style.display='none'">
+              <span class="poster-shine"></span>
+            </a>
+            <div class="card-body">
+              <div class="meta-line">
+                <span>2024</span>
+                <span>中国大陆</span>
+              </div>
+              <h3><a href="movie-0203.html">爱狗在心眼难开</a></h3>
+              <p>社恐女孩被迫帮暗恋的邻居遛狗，却把狗弄丢，只好租了一只一模一样的狗来顶包。</p>
+              <div class="chip-row"><span>中国大陆</span><span>电影</span><span>2024</span><span>宠物</span><span>社恐</span><span>乌龙</span></div>
+            </div>
+          </article>
+          <article class="movie-card" data-card data-search="仇恨不息 以色列 / 巴勒斯坦 战争 / 剧情 以巴冲突、双视角、和解之难" data-year="2025" data-region="以色列 / 巴勒斯坦">
+            <a class="poster-link" href="movie-0139.html" aria-label="仇恨不息">
+              <img src="./139.jpg" alt="仇恨不息" loading="lazy" onerror="this.style.display='none'">
+              <span class="poster-shine"></span>
+            </a>
+            <div class="card-body">
+              <div class="meta-line">
+                <span>2025</span>
+                <span>以色列 / 巴勒斯坦</span>
+              </div>
+              <h3><a href="movie-0139.html">仇恨不息</a></h3>
+              <p>一个犹太母亲失去了儿子，一个阿拉伯父亲失去了女儿，两人在停尸房门口相遇，手里都握着一把枪。</p>
+              <div class="chip-row"><span>以色列 / 巴勒斯坦</span><span>电影</span><span>2025</span><span>以巴冲突</span><span>双视角</span><span>和解之难</span></div>
+            </div>
+          </article>
+          <article class="movie-card" data-card data-search="花眼 中国大陆 剧情，爱情 老年、阿尔茨海默病、初恋、记忆、陪伴" data-year="2025" data-region="中国大陆">
+            <a class="poster-link" href="movie-0484.html" aria-label="花眼">
+              <img src="./34.jpg" alt="花眼" loading="lazy" onerror="this.style.display='none'">
+              <span class="poster-shine"></span>
+            </a>
+            <div class="card-body">
+              <div class="meta-line">
+                <span>2025</span>
+                <span>中国大陆</span>
+              </div>
+              <h3><a href="movie-0484.html">花眼</a></h3>
+              <p>患有阿尔茨海默病的老太太每天都会忘记自己嫁给了谁，只记得18岁时在水稻田边遇到的“花眼少年”。</p>
+              <div class="chip-row"><span>中国大陆</span><span>电影</span><span>2025</span><span>老年</span><span>阿尔茨海默病</span><span>初恋</span><span>记忆</span></div>
+            </div>
+          </article>
+          <article class="movie-card" data-card data-search="百炼霸王与圣约女武神 日本 奇幻, 战斗, 后宫 穿越、北欧神话、战旗、龙傲天、契约" data-year="2018" data-region="日本">
+            <a class="poster-link" href="movie-0051.html" aria-label="百炼霸王与圣约女武神">
+              <img src="./51.jpg" alt="百炼霸王与圣约女武神" loading="lazy" onerror="this.style.display='none'">
+              <span class="poster-shine"></span>
+            </a>
+            <div class="card-body">
+              <div class="meta-line">
+                <span>2018</span>
+                <span>日本</span>
+              </div>
+              <h3><a href="movie-0051.html">百炼霸王与圣约女武神</a></h3>
+              <p>现代军宅穿越到北欧神话世界，用孙子兵法吊打奥丁的英灵大军。</p>
+              <div class="chip-row"><span>日本</span><span>动画</span><span>2018</span><span>穿越</span><span>北欧神话</span><span>战旗</span><span>龙傲天</span></div>
+            </div>
+          </article>
+          <article class="movie-card" data-card data-search="鬼妇2：村庄 泰国 恐怖 / 民俗 村庄、祭祀、母性、怨念、高能" data-year="2024" data-region="泰国">
+            <a class="poster-link" href="movie-0298.html" aria-label="鬼妇2：村庄">
+              <img src="./148.jpg" alt="鬼妇2：村庄" loading="lazy" onerror="this.style.display='none'">
+              <span class="poster-shine"></span>
+            </a>
+            <div class="card-body">
+              <div class="meta-line">
+                <span>2024</span>
+                <span>泰国</span>
+              </div>
+              <h3><a href="movie-0298.html">鬼妇2：村庄</a></h3>
+              <p>一个从不允许孕妇进入的村庄，因为有人违背禁忌，导致所有新生儿都长着母亲的脸。</p>
+              <div class="chip-row"><span>泰国</span><span>电影</span><span>2024</span><span>村庄</span><span>祭祀</span><span>母性</span><span>怨念</span></div>
+            </div>
+          </article>
+          <article class="movie-card" data-card data-search="跨海长征 中国大陆 / 日本 历史 / 战争 / 冒险 真事改编、海上逃亡、生死时速" data-year="2028" data-region="中国大陆 / 日本">
+            <a class="poster-link" href="movie-1216.html" aria-label="跨海长征">
+              <img src="./16.jpg" alt="跨海长征" loading="lazy" onerror="this.style.display='none'">
+              <span class="poster-shine"></span>
+            </a>
+            <div class="card-body">
+              <div class="meta-line">
+                <span>2028</span>
+                <span>中国大陆 / 日本</span>
+              </div>
+              <h3><a href="movie-1216.html">跨海长征</a></h3>
+              <p>1944年，八路军小分队押送日军战俘横跨黄海，身后是追兵，前方是未知风暴。</p>
+              <div class="chip-row"><span>中国大陆 / 日本</span><span>电影</span><span>2028</span><span>真事改编</span><span>海上逃亡</span><span>生死时速</span></div>
+            </div>
+          </article>
+          <article class="movie-card" data-card data-search="爱情无政府 中国大陆 剧情 / 爱情 / 科幻 反乌托邦、情感自由、制度批判、算法反抗" data-year="2028" data-region="中国大陆">
+            <a class="poster-link" href="movie-1563.html" aria-label="爱情无政府">
+              <img src="./63.jpg" alt="爱情无政府" loading="lazy" onerror="this.style.display='none'">
+              <span class="poster-shine"></span>
+            </a>
+            <div class="card-body">
+              <div class="meta-line">
+                <span>2028</span>
+                <span>中国大陆</span>
+              </div>
+              <h3><a href="movie-1563.html">爱情无政府</a></h3>
+              <p>在情感被算法分配的未来，一群年轻人用混乱的爱向完美系统宣战。</p>
+              <div class="chip-row"><span>中国大陆</span><span>电影</span><span>2028</span><span>反乌托邦</span><span>情感自由</span><span>制度批判</span><span>算法反抗</span></div>
+            </div>
+          </article>
+          </div>
+        </section>
+      </div>
+    </main>
+    <footer class="site-footer">
+      <div class="container footer-grid">
+        <div>
+          <a class="footer-brand" href="index.html">
+            <span class="brand-mark">影</span>
+            <span>高清影片合集</span>
+          </a>
+          <p>整理近期上线的电影内容，包含动作、剧情、喜剧等多种类型，页面信息清晰，适合按更新和热度查找影片。</p>
+        </div>
+        <div>
+          <h2>快速入口</h2>
+          <ul>
+            <li><a href="index.html">首页</a></li>
+            <li><a href="categories.html">分类总览</a></li>
+            <li><a href="search.html">影片搜索</a></li>
+            <li><a href="rank.html">热播榜</a></li>
+          </ul>
+        </div>
+        <div>
+          <h2>影片分类</h2>
+          <ul>
+              <li><a href="category-new-releases.html">最新热映</a></li>
+              <li><a href="category-action-adventure.html">动作冒险</a></li>
+              <li><a href="category-drama-emotion.html">剧情情感</a></li>
+              <li><a href="category-comedy-life.html">喜剧生活</a></li>
+              <li><a href="category-romance-love.html">爱情都市</a></li>
+              <li><a href="category-crime-suspense.html">犯罪悬疑</a></li>
+              <li><a href="category-fantasy-scifi.html">奇幻科幻</a></li>
+              <li><a href="category-animation-family.html">动画少儿</a></li>
+              <li><a href="category-classic-hk.html">港台经典</a></li>
+              <li><a href="category-global-selection.html">环球佳片</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="footer-bottom">© 2026 高清影片合集 · 最新电影与热门影片索引</div>
+    </footer>
+<script>
+var _hmt = _hmt || [];
+(function() {
+  var hm = document.createElement("script");
+  hm.src = "https://hm.baidu.com/hm.js?60fa60a3da050a73eefefaaebe0afaf5";
+  var s = document.getElementsByTagName("script")[0]; 
+  s.parentNode.insertBefore(hm, s);
+})();
+</script>
+  </body>
+</html>

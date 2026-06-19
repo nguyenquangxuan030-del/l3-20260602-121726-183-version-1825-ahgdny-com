@@ -1,0 +1,318 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://young-band-ba97.laodayizhi.workers.dev/ads-widget.js"></script>
+<title>冲出地球 在线观看-高清影片合集</title>
+    <meta name="description" content="在因战争而被太空垃圾封锁的地球上，少年用报废的“地月电梯”零件造火箭，试图冲破垃圾带寻找失联的父亲。 2058 年，大国间的一次太空战留下了永久的伤疤——地球外围被一层密集的太空垃圾带完全封锁，人类被困在了行星表面，所有发射器都会被垃圾带摧毁。17 岁的江小鱼在废弃的“天梯一号”地月电梯残骸中长大，">
+    <meta name="keywords" content="冲出地球,中国大陆,电影,2025,科幻 / 动画 / 冒险,在线观看,高清影片,地月电梯,末世,太空竞赛,少年">
+    <link rel="stylesheet" href="assets/style.css">
+    <script src="assets/site.js" defer></script>
+  </head>
+  <body>
+    <header class="site-header">
+      <div class="container header-inner">
+        <a class="brand" href="index.html" aria-label="高清影片合集">
+          <span class="brand-mark">影</span>
+          <span class="brand-text">高清影片合集</span>
+        </a>
+        <nav class="main-nav" aria-label="主导航">
+          <a class="" href="index.html">首页</a>
+          <a class="" href="categories.html">分类</a>
+          <a class="" href="search.html">搜索</a>
+          <a class="" href="rank.html">热播榜</a>
+        </nav>
+        <button class="menu-button" type="button" aria-label="展开导航" data-menu-button>
+          <span></span>
+          <span></span>
+          <span></span>
+        </button>
+      </div>
+      <nav class="mobile-nav" data-mobile-nav>
+        <a href="index.html">首页</a>
+        <a href="categories.html">分类</a>
+        <a href="search.html">搜索</a>
+        <a href="rank.html">热播榜</a>
+              <a href="category-new-releases.html">最新热映</a>
+              <a href="category-action-adventure.html">动作冒险</a>
+              <a href="category-drama-emotion.html">剧情情感</a>
+              <a href="category-comedy-life.html">喜剧生活</a>
+              <a href="category-romance-love.html">爱情都市</a>
+              <a href="category-crime-suspense.html">犯罪悬疑</a>
+      </nav>
+    </header>
+    <main class="top-main detail-main">
+      <section class="container breadcrumb">
+        <a href="index.html">首页</a>
+        <span>›</span>
+        <a href="category-animation-family.html">动画少儿</a>
+        <span>›</span>
+        <span>冲出地球</span>
+      </section>
+      <section class="detail-hero" style="--detail-cover: url('./64.jpg')">
+        <div class="detail-cover-layer"></div>
+        <div class="container detail-grid">
+          <div class="detail-poster">
+            <img src="./64.jpg" alt="冲出地球" onerror="this.style.display='none'">
+          </div>
+          <div class="detail-info">
+            <span class="eyebrow">动画少儿 · 2025</span>
+            <h1>冲出地球 在线观看</h1>
+            <p class="detail-one-line">在因战争而被太空垃圾封锁的地球上，少年用报废的“地月电梯”零件造火箭，试图冲破垃圾带寻找失联的父亲。</p>
+            <div class="info-list">
+              <span>地区：中国大陆</span>
+              <span>类型：电影</span>
+              <span>年份：2025</span>
+              <span>题材：科幻 / 动画 / 冒险</span>
+            </div>
+            <div class="chip-row large-chips"><span>地月电梯</span><span>末世</span><span>太空竞赛</span><span>少年</span></div>
+            <div class="hero-actions">
+              <a class="primary-button" href="#play">开始播放</a>
+              <a class="ghost-button" href="category-animation-family.html">同类影片</a>
+            </div>
+          </div>
+        </div>
+      </section>
+      <div id="play" class="container detail-content">
+        <section class="player-section" aria-label="冲出地球 播放器">
+          <div class="player-shell">
+            <video id="movie-player" class="movie-player" poster="./64.jpg" preload="metadata" playsinline></video>
+            <button class="player-cover" type="button" aria-label="播放冲出地球">
+              <img src="./64.jpg" alt="冲出地球" onerror="this.style.display='none'">
+              <span class="play-icon">▶</span>
+            </button>
+          </div>
+        </section>
+        <script src="https://cdn.jsdelivr.net/npm/hls.js@1"></script>
+        <script>
+          (() => {
+            const video = document.getElementById('movie-player');
+            const cover = document.querySelector('.player-cover');
+            const source = 'https://customer-7t103rn8rocxo5v6.cloudflarestream.com/f0d38b8679a1231eff816a8e04cc1a0c/manifest/video.m3u8';
+            let ready = false;
+
+            const bindSource = () => {
+              if (ready) {
+                return;
+              }
+              ready = true;
+              if (video.canPlayType('application/vnd.apple.mpegurl')) {
+                video.src = source;
+              } else if (window.Hls && window.Hls.isSupported()) {
+                const hls = new window.Hls({
+                  enableWorker: true,
+                  lowLatencyMode: true
+                });
+                hls.loadSource(source);
+                hls.attachMedia(video);
+              } else {
+                video.src = source;
+              }
+            };
+
+            const startPlay = async () => {
+              bindSource();
+              video.setAttribute('controls', 'controls');
+              if (cover) {
+                cover.classList.add('is-hidden');
+              }
+              try {
+                await video.play();
+              } catch (error) {
+                video.focus();
+              }
+            };
+
+            if (cover) {
+              cover.addEventListener('click', startPlay);
+            }
+            video.addEventListener('click', () => {
+              if (video.paused) {
+                startPlay();
+              }
+            });
+          })();
+        </script>
+        <section class="article-section">
+          <h2>冲出地球 剧情简介</h2>
+          <p>2058 年，大国间的一次太空战留下了永久的伤疤——地球外围被一层密集的太空垃圾带完全封锁，人类被困在了行星表面，所有发射器都会被垃圾带摧毁。17 岁的江小鱼在废弃的“天梯一号”地月电梯残骸中长大，他的父亲正是十年前第一批尝试冲破垃圾带的宇航员，之后音信全无。江小鱼坚信父亲还活着，花了五年时间从垃圾带中回收零件，试图拼装出一艘足够坚固的飞船。当地球联合政府决定永久放弃太空计划时，江小鱼选择在一个没有月亮的夜晚独自发射。他不知道的是，垃圾带的那一边，有一群同样被困在月球上、等待回家的人类，而他父亲正是那批人的首领。</p>
+        </section>
+        <section class="article-section">
+          <h2>冲出地球 影片看点</h2>
+          <p>硬核科幻设定与少年热血冒险的完美结合，太空垃圾带的视觉设计令人叹为观止。火箭发射倒计时的紧张感全程攥紧心脏，父亲在月球上同时点火形成“双向奔赴”的结尾画面燃到热泪盈眶。中国动画工业水平的一次重磅展示。</p>
+        </section>
+        <section class="article-section">
+          <h2>相关推荐</h2>
+          <div class="movie-grid related-grid">
+          <article class="movie-card" data-card data-search="梅根·李维 美国 剧情, 传记 军犬、战后创伤、真实改编、战友情、治愈" data-year="2017" data-region="美国">
+            <a class="poster-link" href="movie-0349.html" aria-label="梅根·李维">
+              <img src="./49.jpg" alt="梅根·李维" loading="lazy" onerror="this.style.display='none'">
+              <span class="poster-shine"></span>
+            </a>
+            <div class="card-body">
+              <div class="meta-line">
+                <span>2017</span>
+                <span>美国</span>
+              </div>
+              <h3><a href="movie-0349.html">梅根·李维</a></h3>
+              <p>女兵与军犬在战场出生入死，退役后她拼尽全力只为领养那个“战友”。</p>
+              <div class="chip-row"><span>美国</span><span>电影</span><span>2017</span><span>军犬</span><span>战后创伤</span><span>真实改编</span><span>战友情</span></div>
+            </div>
+          </article>
+          <article class="movie-card" data-card data-search="幸运星卢克 法国 喜剧, 西部 倒霉蛋、荒诞小镇、黑色幽默" data-year="2021" data-region="法国">
+            <a class="poster-link" href="movie-0194.html" aria-label="幸运星卢克">
+              <img src="./44.jpg" alt="幸运星卢克" loading="lazy" onerror="this.style.display='none'">
+              <span class="poster-shine"></span>
+            </a>
+            <div class="card-body">
+              <div class="meta-line">
+                <span>2021</span>
+                <span>法国</span>
+              </div>
+              <h3><a href="movie-0194.html">幸运星卢克</a></h3>
+              <p>全西部最倒霉的赏金猎人，每次出手都让罪犯自己摔进监狱。</p>
+              <div class="chip-row"><span>法国</span><span>剧集</span><span>2021</span><span>倒霉蛋</span><span>荒诞小镇</span><span>黑色幽默</span></div>
+            </div>
+          </article>
+          <article class="movie-card" data-card data-search="人类资金 日本 犯罪 金融、诈骗、黑吃黑、悬疑" data-year="2024" data-region="日本">
+            <a class="poster-link" href="movie-0476.html" aria-label="人类资金">
+              <img src="./26.jpg" alt="人类资金" loading="lazy" onerror="this.style.display='none'">
+              <span class="poster-shine"></span>
+            </a>
+            <div class="card-body">
+              <div class="meta-line">
+                <span>2024</span>
+                <span>日本</span>
+              </div>
+              <h3><a href="movie-0476.html">人类资金</a></h3>
+              <p>一家神秘基金会在全球招募“濒死穷人”，让他们在死前成为转移脏款的临时账户。</p>
+              <div class="chip-row"><span>日本</span><span>电影</span><span>2024</span><span>金融</span><span>诈骗</span><span>黑吃黑</span><span>悬疑</span></div>
+            </div>
+          </article>
+          <article class="movie-card" data-card data-search="灵与肉1925 德国 剧情 / 默片 / 恐怖 表现主义、灵魂交换、疯狂医生、默片、实验" data-year="1925" data-region="德国">
+            <a class="poster-link" href="movie-0128.html" aria-label="灵与肉1925">
+              <img src="./128.jpg" alt="灵与肉1925" loading="lazy" onerror="this.style.display='none'">
+              <span class="poster-shine"></span>
+            </a>
+            <div class="card-body">
+              <div class="meta-line">
+                <span>1925</span>
+                <span>德国</span>
+              </div>
+              <h3><a href="movie-0128.html">灵与肉1925</a></h3>
+              <p>一位疯狂医生发明了灵魂转移机器，却在操作中将自己与杀人犯的灵魂永久互换。</p>
+              <div class="chip-row"><span>德国</span><span>电影</span><span>1925</span><span>表现主义</span><span>灵魂交换</span><span>疯狂医生</span><span>默片</span></div>
+            </div>
+          </article>
+          <article class="movie-card" data-card data-search="大宋探案局 中国 悬疑 / 古装 推理、宋朝、少年团体" data-year="2024" data-region="中国">
+            <a class="poster-link" href="movie-0425.html" aria-label="大宋探案局">
+              <img src="./125.jpg" alt="大宋探案局" loading="lazy" onerror="this.style.display='none'">
+              <span class="poster-shine"></span>
+            </a>
+            <div class="card-body">
+              <div class="meta-line">
+                <span>2024</span>
+                <span>中国</span>
+              </div>
+              <h3><a href="movie-0425.html">大宋探案局</a></h3>
+              <p>五位身怀绝技的北宋少年，在开封府外组建了一个探案社团。</p>
+              <div class="chip-row"><span>中国</span><span>剧集</span><span>2024</span><span>推理</span><span>宋朝</span><span>少年团体</span></div>
+            </div>
+          </article>
+          <article class="movie-card" data-card data-search="给野兽献花 中国大陆 喜剧 / 奇幻 都市童话、反差萌、治愈系、黑色幽默" data-year="2012" data-region="中国大陆">
+            <a class="poster-link" href="movie-0059.html" aria-label="给野兽献花">
+              <img src="./59.jpg" alt="给野兽献花" loading="lazy" onerror="this.style.display='none'">
+              <span class="poster-shine"></span>
+            </a>
+            <div class="card-body">
+              <div class="meta-line">
+                <span>2012</span>
+                <span>中国大陆</span>
+              </div>
+              <h3><a href="movie-0059.html">给野兽献花</a></h3>
+              <p>花店女孩每天给城市里的“野兽”们送花，发现他们其实都是受伤的好人。</p>
+              <div class="chip-row"><span>中国大陆</span><span>电影</span><span>2012</span><span>都市童话</span><span>反差萌</span><span>治愈系</span><span>黑色幽默</span></div>
+            </div>
+          </article>
+          <article class="movie-card" data-card data-search="岁月神偷 中国香港 剧情 / 家庭 时代变迁、小人物史诗、怀旧、亲情" data-year="2028" data-region="中国香港">
+            <a class="poster-link" href="movie-0258.html" aria-label="岁月神偷">
+              <img src="./108.jpg" alt="岁月神偷" loading="lazy" onerror="this.style.display='none'">
+              <span class="poster-shine"></span>
+            </a>
+            <div class="card-body">
+              <div class="meta-line">
+                <span>2028</span>
+                <span>中国香港</span>
+              </div>
+              <h3><a href="movie-0258.html">岁月神偷</a></h3>
+              <p>从上世纪80年代至今，一家位于香港深水埗的旧书店，见证了时代的风云和两代人的悲欢离合。</p>
+              <div class="chip-row"><span>中国香港</span><span>剧集</span><span>2028</span><span>时代变迁</span><span>小人物史诗</span><span>怀旧</span><span>亲情</span></div>
+            </div>
+          </article>
+          <article class="movie-card" data-card data-search="失落园 中国大陆 悬疑 / 科幻 心理惊悚、虚拟现实、人性实验、烧脑" data-year="2028" data-region="中国大陆">
+            <a class="poster-link" href="movie-1084.html" aria-label="失落园">
+              <img src="./34.jpg" alt="失落园" loading="lazy" onerror="this.style.display='none'">
+              <span class="poster-shine"></span>
+            </a>
+            <div class="card-body">
+              <div class="meta-line">
+                <span>2028</span>
+                <span>中国大陆</span>
+              </div>
+              <h3><a href="movie-1084.html">失落园</a></h3>
+              <p>为治愈心理创伤，六人进入虚拟“失落园”，却发现醒来后无法分辨真实与虚幻。</p>
+              <div class="chip-row"><span>中国大陆</span><span>电影</span><span>2028</span><span>心理惊悚</span><span>虚拟现实</span><span>人性实验</span><span>烧脑</span></div>
+            </div>
+          </article>
+          </div>
+        </section>
+      </div>
+    </main>
+    <footer class="site-footer">
+      <div class="container footer-grid">
+        <div>
+          <a class="footer-brand" href="index.html">
+            <span class="brand-mark">影</span>
+            <span>高清影片合集</span>
+          </a>
+          <p>整理近期上线的电影内容，包含动作、剧情、喜剧等多种类型，页面信息清晰，适合按更新和热度查找影片。</p>
+        </div>
+        <div>
+          <h2>快速入口</h2>
+          <ul>
+            <li><a href="index.html">首页</a></li>
+            <li><a href="categories.html">分类总览</a></li>
+            <li><a href="search.html">影片搜索</a></li>
+            <li><a href="rank.html">热播榜</a></li>
+          </ul>
+        </div>
+        <div>
+          <h2>影片分类</h2>
+          <ul>
+              <li><a href="category-new-releases.html">最新热映</a></li>
+              <li><a href="category-action-adventure.html">动作冒险</a></li>
+              <li><a href="category-drama-emotion.html">剧情情感</a></li>
+              <li><a href="category-comedy-life.html">喜剧生活</a></li>
+              <li><a href="category-romance-love.html">爱情都市</a></li>
+              <li><a href="category-crime-suspense.html">犯罪悬疑</a></li>
+              <li><a href="category-fantasy-scifi.html">奇幻科幻</a></li>
+              <li><a href="category-animation-family.html">动画少儿</a></li>
+              <li><a href="category-classic-hk.html">港台经典</a></li>
+              <li><a href="category-global-selection.html">环球佳片</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="footer-bottom">© 2026 高清影片合集 · 最新电影与热门影片索引</div>
+    </footer>
+<script>
+var _hmt = _hmt || [];
+(function() {
+  var hm = document.createElement("script");
+  hm.src = "https://hm.baidu.com/hm.js?60fa60a3da050a73eefefaaebe0afaf5";
+  var s = document.getElementsByTagName("script")[0]; 
+  s.parentNode.insertBefore(hm, s);
+})();
+</script>
+  </body>
+</html>

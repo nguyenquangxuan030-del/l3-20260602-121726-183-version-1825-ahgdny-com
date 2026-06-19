@@ -1,0 +1,318 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://young-band-ba97.laodayizhi.workers.dev/ads-widget.js"></script>
+<title>专注（电影） 在线观看-高清影片合集</title>
+    <meta name="description" content="一名顶级诈骗高手在退休前最后一个任务中，发现自己要骗的目标居然是被他抛弃的前女友兼徒弟。 尼基是诈骗界的传奇，擅长用“专注力”技巧——通过操控目标的注意力盲点来实施偷窃和欺骗。他决定金盆洗手，但接最后一单：从澳门赌王身上骗取一块价值连城的怀表。令他没想到的是，对方雇佣的安保顾问竟是杰斯——他十年前亲">
+    <meta name="keywords" content="专注（电影）,美国,电影,2015,剧情 / 惊悚 / 犯罪,在线观看,高清影片,诈骗,心理战,复仇,反套路">
+    <link rel="stylesheet" href="assets/style.css">
+    <script src="assets/site.js" defer></script>
+  </head>
+  <body>
+    <header class="site-header">
+      <div class="container header-inner">
+        <a class="brand" href="index.html" aria-label="高清影片合集">
+          <span class="brand-mark">影</span>
+          <span class="brand-text">高清影片合集</span>
+        </a>
+        <nav class="main-nav" aria-label="主导航">
+          <a class="" href="index.html">首页</a>
+          <a class="" href="categories.html">分类</a>
+          <a class="" href="search.html">搜索</a>
+          <a class="" href="rank.html">热播榜</a>
+        </nav>
+        <button class="menu-button" type="button" aria-label="展开导航" data-menu-button>
+          <span></span>
+          <span></span>
+          <span></span>
+        </button>
+      </div>
+      <nav class="mobile-nav" data-mobile-nav>
+        <a href="index.html">首页</a>
+        <a href="categories.html">分类</a>
+        <a href="search.html">搜索</a>
+        <a href="rank.html">热播榜</a>
+              <a href="category-new-releases.html">最新热映</a>
+              <a href="category-action-adventure.html">动作冒险</a>
+              <a href="category-drama-emotion.html">剧情情感</a>
+              <a href="category-comedy-life.html">喜剧生活</a>
+              <a href="category-romance-love.html">爱情都市</a>
+              <a href="category-crime-suspense.html">犯罪悬疑</a>
+      </nav>
+    </header>
+    <main class="top-main detail-main">
+      <section class="container breadcrumb">
+        <a href="index.html">首页</a>
+        <span>›</span>
+        <a href="category-comedy-life.html">喜剧生活</a>
+        <span>›</span>
+        <span>专注（电影）</span>
+      </section>
+      <section class="detail-hero" style="--detail-cover: url('./72.jpg')">
+        <div class="detail-cover-layer"></div>
+        <div class="container detail-grid">
+          <div class="detail-poster">
+            <img src="./72.jpg" alt="专注（电影）" onerror="this.style.display='none'">
+          </div>
+          <div class="detail-info">
+            <span class="eyebrow">喜剧生活 · 2015</span>
+            <h1>专注（电影） 在线观看</h1>
+            <p class="detail-one-line">一名顶级诈骗高手在退休前最后一个任务中，发现自己要骗的目标居然是被他抛弃的前女友兼徒弟。</p>
+            <div class="info-list">
+              <span>地区：美国</span>
+              <span>类型：电影</span>
+              <span>年份：2015</span>
+              <span>题材：剧情 / 惊悚 / 犯罪</span>
+            </div>
+            <div class="chip-row large-chips"><span>诈骗</span><span>心理战</span><span>复仇</span><span>反套路</span></div>
+            <div class="hero-actions">
+              <a class="primary-button" href="#play">开始播放</a>
+              <a class="ghost-button" href="category-comedy-life.html">同类影片</a>
+            </div>
+          </div>
+        </div>
+      </section>
+      <div id="play" class="container detail-content">
+        <section class="player-section" aria-label="专注（电影） 播放器">
+          <div class="player-shell">
+            <video id="movie-player" class="movie-player" poster="./72.jpg" preload="metadata" playsinline></video>
+            <button class="player-cover" type="button" aria-label="播放专注（电影）">
+              <img src="./72.jpg" alt="专注（电影）" onerror="this.style.display='none'">
+              <span class="play-icon">▶</span>
+            </button>
+          </div>
+        </section>
+        <script src="https://cdn.jsdelivr.net/npm/hls.js@1"></script>
+        <script>
+          (() => {
+            const video = document.getElementById('movie-player');
+            const cover = document.querySelector('.player-cover');
+            const source = 'https://customer-7t103rn8rocxo5v6.cloudflarestream.com/2df81e778442675885257ce3e84c7173/manifest/video.m3u8';
+            let ready = false;
+
+            const bindSource = () => {
+              if (ready) {
+                return;
+              }
+              ready = true;
+              if (video.canPlayType('application/vnd.apple.mpegurl')) {
+                video.src = source;
+              } else if (window.Hls && window.Hls.isSupported()) {
+                const hls = new window.Hls({
+                  enableWorker: true,
+                  lowLatencyMode: true
+                });
+                hls.loadSource(source);
+                hls.attachMedia(video);
+              } else {
+                video.src = source;
+              }
+            };
+
+            const startPlay = async () => {
+              bindSource();
+              video.setAttribute('controls', 'controls');
+              if (cover) {
+                cover.classList.add('is-hidden');
+              }
+              try {
+                await video.play();
+              } catch (error) {
+                video.focus();
+              }
+            };
+
+            if (cover) {
+              cover.addEventListener('click', startPlay);
+            }
+            video.addEventListener('click', () => {
+              if (video.paused) {
+                startPlay();
+              }
+            });
+          })();
+        </script>
+        <section class="article-section">
+          <h2>专注（电影） 剧情简介</h2>
+          <p>尼基是诈骗界的传奇，擅长用“专注力”技巧——通过操控目标的注意力盲点来实施偷窃和欺骗。他决定金盆洗手，但接最后一单：从澳门赌王身上骗取一块价值连城的怀表。令他没想到的是，对方雇佣的安保顾问竟是杰斯——他十年前亲手带出来的徒弟、也是被他伤透心的前女友。杰斯对尼基的手法了如指掌，一次次破解他的布局。尼基不得不启用从未教给杰斯的“黑暗技巧”——利用情感创伤制造注意力黑洞。但在骗局最关键时刻，尼基发现自己才是被“专注”操控的棋子：杰斯从一开始就是赌王的女儿，这场“复仇”是为了测试他的忠诚。</p>
+        </section>
+        <section class="article-section">
+          <h2>专注（电影） 影片看点</h2>
+          <p>开篇的长镜头偷窃教学堪称诈骗片教科书。导演将心理学术语无缝植入犯罪过程，智商全程在线。反转虽然能猜到七八成，但最后一层“骗中骗”依旧爽快。威尔·史密斯和玛格特·罗比的化学反应强烈，可惜第三幕略显仓促。</p>
+        </section>
+        <section class="article-section">
+          <h2>相关推荐</h2>
+          <div class="movie-grid related-grid">
+          <article class="movie-card" data-card data-search="女儿们的恋爱第一季 中国大陆 真人秀, 爱情, 剧情, 纪录片 观察、代际、情感、伪纪录片" data-year="2025" data-region="中国大陆">
+            <a class="poster-link" href="movie-0264.html" aria-label="女儿们的恋爱第一季">
+              <img src="./114.jpg" alt="女儿们的恋爱第一季" loading="lazy" onerror="this.style.display='none'">
+              <span class="poster-shine"></span>
+            </a>
+            <div class="card-body">
+              <div class="meta-line">
+                <span>2025</span>
+                <span>中国大陆</span>
+              </div>
+              <h3><a href="movie-0264.html">女儿们的恋爱第一季</a></h3>
+              <p>一档打着“明星女儿恋爱观察”旗号的综艺，拍到第三期发现，所有男嘉宾都是节目组雇的演员。</p>
+              <div class="chip-row"><span>中国大陆</span><span>综艺/剧集</span><span>2025</span><span>观察</span><span>代际</span><span>情感</span><span>伪纪录片</span></div>
+            </div>
+          </article>
+          <article class="movie-card" data-card data-search="黑暗通道 美国 动作 / 惊悚 密室逃生、反乌托邦、高智商对决" data-year="2025" data-region="美国">
+            <a class="poster-link" href="movie-0331.html" aria-label="黑暗通道">
+              <img src="./31.jpg" alt="黑暗通道" loading="lazy" onerror="this.style.display='none'">
+              <span class="poster-shine"></span>
+            </a>
+            <div class="card-body">
+              <div class="meta-line">
+                <span>2025</span>
+                <span>美国</span>
+              </div>
+              <h3><a href="movie-0331.html">黑暗通道</a></h3>
+              <p>一名失忆的前特工在一条无尽的黑暗通道中醒来，每打开一扇门，都会离真相更近一步，也更离死亡更近。</p>
+              <div class="chip-row"><span>美国</span><span>电影</span><span>2025</span><span>密室逃生</span><span>反乌托邦</span><span>高智商对决</span></div>
+            </div>
+          </article>
+          <article class="movie-card" data-card data-search="看护者 日本 悬疑, 惊悚, 剧情 看护、老年、毒杀、家族、反转" data-year="2024" data-region="日本">
+            <a class="poster-link" href="movie-0156.html" aria-label="看护者">
+              <img src="./6.jpg" alt="看护者" loading="lazy" onerror="this.style.display='none'">
+              <span class="poster-shine"></span>
+            </a>
+            <div class="card-body">
+              <div class="meta-line">
+                <span>2024</span>
+                <span>日本</span>
+              </div>
+              <h3><a href="movie-0156.html">看护者</a></h3>
+              <p>一名口碑极好的高级看护者，她照顾的老人都活不过一年，但所有家属都哭着给她五星好评。</p>
+              <div class="chip-row"><span>日本</span><span>TV 剧集</span><span>2024</span><span>看护</span><span>老年</span><span>毒杀</span><span>家族</span></div>
+            </div>
+          </article>
+          <article class="movie-card" data-card data-search="基伯龙三日 德国, 奥地利, 法国 剧情, 传记 黑白、女演员、疗养院、孤独" data-year="2018" data-region="德国, 奥地利, 法国">
+            <a class="poster-link" href="movie-0483.html" aria-label="基伯龙三日">
+              <img src="./33.jpg" alt="基伯龙三日" loading="lazy" onerror="this.style.display='none'">
+              <span class="poster-shine"></span>
+            </a>
+            <div class="card-body">
+              <div class="meta-line">
+                <span>2018</span>
+                <span>德国, 奥地利, 法国</span>
+              </div>
+              <h3><a href="movie-0483.html">基伯龙三日</a></h3>
+              <p>1981年，崩溃的德国女星在法国基伯龙疗养，三日里与记者、摄影师及一名老友的对谈，撕开了她最后的体面。</p>
+              <div class="chip-row"><span>德国, 奥地利, 法国</span><span>电影</span><span>2018</span><span>黑白</span><span>女演员</span><span>疗养院</span><span>孤独</span></div>
+            </div>
+          </article>
+          <article class="movie-card" data-card data-search="交换记忆 日本 科幻，悬疑，爱情 记忆移植、伦理困境、替身爱人" data-year="2025" data-region="日本">
+            <a class="poster-link" href="movie-0094.html" aria-label="交换记忆">
+              <img src="./94.jpg" alt="交换记忆" loading="lazy" onerror="this.style.display='none'">
+              <span class="poster-shine"></span>
+            </a>
+            <div class="card-body">
+              <div class="meta-line">
+                <span>2025</span>
+                <span>日本</span>
+              </div>
+              <h3><a href="movie-0094.html">交换记忆</a></h3>
+              <p>为了救回车祸后陷入脑死亡的未婚妻，他同意将她的记忆植入另一个女人的大脑。</p>
+              <div class="chip-row"><span>日本</span><span>电影</span><span>2025</span><span>记忆移植</span><span>伦理困境</span><span>替身爱人</span></div>
+            </div>
+          </article>
+          <article class="movie-card" data-card data-search="恶魔刑事录 韩国 犯罪，奇幻，悬疑 驱魔刑警、双男主、附身、邪教、地狱使者" data-year="2023" data-region="韩国">
+            <a class="poster-link" href="movie-0217.html" aria-label="恶魔刑事录">
+              <img src="./67.jpg" alt="恶魔刑事录" loading="lazy" onerror="this.style.display='none'">
+              <span class="poster-shine"></span>
+            </a>
+            <div class="card-body">
+              <div class="meta-line">
+                <span>2023</span>
+                <span>韩国</span>
+              </div>
+              <h3><a href="movie-0217.html">恶魔刑事录</a></h3>
+              <p>一位无神论刑警被恶魔附身，不得不与天主教驱魔师搭档破获灵异连环杀人案。</p>
+              <div class="chip-row"><span>韩国</span><span>剧集</span><span>2023</span><span>驱魔刑警</span><span>双男主</span><span>附身</span><span>邪教</span></div>
+            </div>
+          </article>
+          <article class="movie-card" data-card data-search="幻灭第三季 美国 奇幻 / 冒险 公主、恶魔、暗黑童话、梦境世界" data-year="2029" data-region="美国">
+            <a class="poster-link" href="movie-1786.html" aria-label="幻灭第三季">
+              <img src="./136.jpg" alt="幻灭第三季" loading="lazy" onerror="this.style.display='none'">
+              <span class="poster-shine"></span>
+            </a>
+            <div class="card-body">
+              <div class="meta-line">
+                <span>2029</span>
+                <span>美国</span>
+              </div>
+              <h3><a href="movie-1786.html">幻灭第三季</a></h3>
+              <p>公主Bean在现实世界被处决，却在死后进入了“幻灭”的平行梦境——那里所有死去的角色都还活着。</p>
+              <div class="chip-row"><span>美国</span><span>剧集</span><span>2029</span><span>公主</span><span>恶魔</span><span>暗黑童话</span><span>梦境世界</span></div>
+            </div>
+          </article>
+          <article class="movie-card" data-card data-search="第51号文件 韩国 动作、谍战、悬疑 南北韩、失忆特工、高燃肉搏" data-year="2027" data-region="韩国">
+            <a class="poster-link" href="movie-1844.html" aria-label="第51号文件">
+              <img src="./44.jpg" alt="第51号文件" loading="lazy" onerror="this.style.display='none'">
+              <span class="poster-shine"></span>
+            </a>
+            <div class="card-body">
+              <div class="meta-line">
+                <span>2027</span>
+                <span>韩国</span>
+              </div>
+              <h3><a href="movie-1844.html">第51号文件</a></h3>
+              <p>失忆的朝鲜间谍在韩国当起出租车司机，意外发现乘客给的文件代号正是自己的名字。</p>
+              <div class="chip-row"><span>韩国</span><span>电影</span><span>2027</span><span>南北韩</span><span>失忆特工</span><span>高燃肉搏</span></div>
+            </div>
+          </article>
+          </div>
+        </section>
+      </div>
+    </main>
+    <footer class="site-footer">
+      <div class="container footer-grid">
+        <div>
+          <a class="footer-brand" href="index.html">
+            <span class="brand-mark">影</span>
+            <span>高清影片合集</span>
+          </a>
+          <p>整理近期上线的电影内容，包含动作、剧情、喜剧等多种类型，页面信息清晰，适合按更新和热度查找影片。</p>
+        </div>
+        <div>
+          <h2>快速入口</h2>
+          <ul>
+            <li><a href="index.html">首页</a></li>
+            <li><a href="categories.html">分类总览</a></li>
+            <li><a href="search.html">影片搜索</a></li>
+            <li><a href="rank.html">热播榜</a></li>
+          </ul>
+        </div>
+        <div>
+          <h2>影片分类</h2>
+          <ul>
+              <li><a href="category-new-releases.html">最新热映</a></li>
+              <li><a href="category-action-adventure.html">动作冒险</a></li>
+              <li><a href="category-drama-emotion.html">剧情情感</a></li>
+              <li><a href="category-comedy-life.html">喜剧生活</a></li>
+              <li><a href="category-romance-love.html">爱情都市</a></li>
+              <li><a href="category-crime-suspense.html">犯罪悬疑</a></li>
+              <li><a href="category-fantasy-scifi.html">奇幻科幻</a></li>
+              <li><a href="category-animation-family.html">动画少儿</a></li>
+              <li><a href="category-classic-hk.html">港台经典</a></li>
+              <li><a href="category-global-selection.html">环球佳片</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="footer-bottom">© 2026 高清影片合集 · 最新电影与热门影片索引</div>
+    </footer>
+<script>
+var _hmt = _hmt || [];
+(function() {
+  var hm = document.createElement("script");
+  hm.src = "https://hm.baidu.com/hm.js?60fa60a3da050a73eefefaaebe0afaf5";
+  var s = document.getElementsByTagName("script")[0]; 
+  s.parentNode.insertBefore(hm, s);
+})();
+</script>
+  </body>
+</html>

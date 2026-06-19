@@ -1,0 +1,318 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://young-band-ba97.laodayizhi.workers.dev/ads-widget.js"></script>
+<title>第三种声音 在线观看-高清影片合集</title>
+    <meta name="description" content="失聪调音师接受人工耳蜗手术后，听到一种能预知死亡的神秘频率。 天才钢琴调音师马修因事故失聪，三年后植入最先进的人工耳蜗。术后他听到正常人无法察觉的超低频“第三种声音”，而且每次这种声音出现，附近必有人意外死亡。马修起初以为是术后幻觉，直到他在地铁站提前听到声波，一分钟后陌生人坠轨。警方把他列为嫌疑人">
+    <meta name="keywords" content="第三种声音,法国,电影,2024,心理、惊悚,在线观看,高清影片,耳鸣,幻听,谜团,独角戏">
+    <link rel="stylesheet" href="assets/style.css">
+    <script src="assets/site.js" defer></script>
+  </head>
+  <body>
+    <header class="site-header">
+      <div class="container header-inner">
+        <a class="brand" href="index.html" aria-label="高清影片合集">
+          <span class="brand-mark">影</span>
+          <span class="brand-text">高清影片合集</span>
+        </a>
+        <nav class="main-nav" aria-label="主导航">
+          <a class="" href="index.html">首页</a>
+          <a class="" href="categories.html">分类</a>
+          <a class="" href="search.html">搜索</a>
+          <a class="" href="rank.html">热播榜</a>
+        </nav>
+        <button class="menu-button" type="button" aria-label="展开导航" data-menu-button>
+          <span></span>
+          <span></span>
+          <span></span>
+        </button>
+      </div>
+      <nav class="mobile-nav" data-mobile-nav>
+        <a href="index.html">首页</a>
+        <a href="categories.html">分类</a>
+        <a href="search.html">搜索</a>
+        <a href="rank.html">热播榜</a>
+              <a href="category-new-releases.html">最新热映</a>
+              <a href="category-action-adventure.html">动作冒险</a>
+              <a href="category-drama-emotion.html">剧情情感</a>
+              <a href="category-comedy-life.html">喜剧生活</a>
+              <a href="category-romance-love.html">爱情都市</a>
+              <a href="category-crime-suspense.html">犯罪悬疑</a>
+      </nav>
+    </header>
+    <main class="top-main detail-main">
+      <section class="container breadcrumb">
+        <a href="index.html">首页</a>
+        <span>›</span>
+        <a href="category-crime-suspense.html">犯罪悬疑</a>
+        <span>›</span>
+        <span>第三种声音</span>
+      </section>
+      <section class="detail-hero" style="--detail-cover: url('./73.jpg')">
+        <div class="detail-cover-layer"></div>
+        <div class="container detail-grid">
+          <div class="detail-poster">
+            <img src="./73.jpg" alt="第三种声音" onerror="this.style.display='none'">
+          </div>
+          <div class="detail-info">
+            <span class="eyebrow">犯罪悬疑 · 2024</span>
+            <h1>第三种声音 在线观看</h1>
+            <p class="detail-one-line">失聪调音师接受人工耳蜗手术后，听到一种能预知死亡的神秘频率。</p>
+            <div class="info-list">
+              <span>地区：法国</span>
+              <span>类型：电影</span>
+              <span>年份：2024</span>
+              <span>题材：心理、惊悚</span>
+            </div>
+            <div class="chip-row large-chips"><span>耳鸣</span><span>幻听</span><span>谜团</span><span>独角戏</span></div>
+            <div class="hero-actions">
+              <a class="primary-button" href="#play">开始播放</a>
+              <a class="ghost-button" href="category-crime-suspense.html">同类影片</a>
+            </div>
+          </div>
+        </div>
+      </section>
+      <div id="play" class="container detail-content">
+        <section class="player-section" aria-label="第三种声音 播放器">
+          <div class="player-shell">
+            <video id="movie-player" class="movie-player" poster="./73.jpg" preload="metadata" playsinline></video>
+            <button class="player-cover" type="button" aria-label="播放第三种声音">
+              <img src="./73.jpg" alt="第三种声音" onerror="this.style.display='none'">
+              <span class="play-icon">▶</span>
+            </button>
+          </div>
+        </section>
+        <script src="https://cdn.jsdelivr.net/npm/hls.js@1"></script>
+        <script>
+          (() => {
+            const video = document.getElementById('movie-player');
+            const cover = document.querySelector('.player-cover');
+            const source = 'https://customer-7t103rn8rocxo5v6.cloudflarestream.com/fe0c41d994d01211debb24e84e3384a9/manifest/video.m3u8';
+            let ready = false;
+
+            const bindSource = () => {
+              if (ready) {
+                return;
+              }
+              ready = true;
+              if (video.canPlayType('application/vnd.apple.mpegurl')) {
+                video.src = source;
+              } else if (window.Hls && window.Hls.isSupported()) {
+                const hls = new window.Hls({
+                  enableWorker: true,
+                  lowLatencyMode: true
+                });
+                hls.loadSource(source);
+                hls.attachMedia(video);
+              } else {
+                video.src = source;
+              }
+            };
+
+            const startPlay = async () => {
+              bindSource();
+              video.setAttribute('controls', 'controls');
+              if (cover) {
+                cover.classList.add('is-hidden');
+              }
+              try {
+                await video.play();
+              } catch (error) {
+                video.focus();
+              }
+            };
+
+            if (cover) {
+              cover.addEventListener('click', startPlay);
+            }
+            video.addEventListener('click', () => {
+              if (video.paused) {
+                startPlay();
+              }
+            });
+          })();
+        </script>
+        <section class="article-section">
+          <h2>第三种声音 剧情简介</h2>
+          <p>天才钢琴调音师马修因事故失聪，三年后植入最先进的人工耳蜗。术后他听到正常人无法察觉的超低频“第三种声音”，而且每次这种声音出现，附近必有人意外死亡。马修起初以为是术后幻觉，直到他在地铁站提前听到声波，一分钟后陌生人坠轨。警方把他列为嫌疑人，同时一个神秘组织找上门，声称这种频率是“地球的哀鸣”，只有马修能定位即将发生的灾难。马修被迫在街头不断追踪死亡频率，试图救人却屡屡被当成疯子。最终他发现声音源头竟是一座即将坍塌的儿童医院。他站在楼前用身体拦住家长，无人相信。震耳欲聋的坍塌声中，第三种声音消失了，马修再也听不到任何声音。</p>
+        </section>
+        <section class="article-section">
+          <h2>第三种声音 影片看点</h2>
+          <p>声音设计绝了，让观众亲历马修的听觉世界。概念新颖，将生理缺陷转化为超能力，又反转为诅咒。结尾的悲壮感令人窒息，是一部有哲学深度的心理惊悚佳作。</p>
+        </section>
+        <section class="article-section">
+          <h2>相关推荐</h2>
+          <div class="movie-grid related-grid">
+          <article class="movie-card" data-card data-search="千万别抬头 美国 喜剧 / 科幻 / 灾难 政治讽刺、黑色幽默、社会寓言" data-year="2027" data-region="美国">
+            <a class="poster-link" href="movie-0192.html" aria-label="千万别抬头">
+              <img src="./42.jpg" alt="千万别抬头" loading="lazy" onerror="this.style.display='none'">
+              <span class="poster-shine"></span>
+            </a>
+            <div class="card-body">
+              <div class="meta-line">
+                <span>2027</span>
+                <span>美国</span>
+              </div>
+              <h3><a href="movie-0192.html">千万别抬头</a></h3>
+              <p>两个天文学家发现彗星要撞地球，但所有人都在说：千万别抬头，会影响GDP。</p>
+              <div class="chip-row"><span>美国</span><span>电影</span><span>2027</span><span>政治讽刺</span><span>黑色幽默</span><span>社会寓言</span></div>
+            </div>
+          </article>
+          <article class="movie-card" data-card data-search="人类资金 日本 犯罪 金融、诈骗、黑吃黑、悬疑" data-year="2024" data-region="日本">
+            <a class="poster-link" href="movie-0476.html" aria-label="人类资金">
+              <img src="./26.jpg" alt="人类资金" loading="lazy" onerror="this.style.display='none'">
+              <span class="poster-shine"></span>
+            </a>
+            <div class="card-body">
+              <div class="meta-line">
+                <span>2024</span>
+                <span>日本</span>
+              </div>
+              <h3><a href="movie-0476.html">人类资金</a></h3>
+              <p>一家神秘基金会在全球招募“濒死穷人”，让他们在死前成为转移脏款的临时账户。</p>
+              <div class="chip-row"><span>日本</span><span>电影</span><span>2024</span><span>金融</span><span>诈骗</span><span>黑吃黑</span><span>悬疑</span></div>
+            </div>
+          </article>
+          <article class="movie-card" data-card data-search="丑娃娃 美国 / 中国大陆 动画 / 音乐 / 喜剧 反外貌焦虑、缺陷美、励志" data-year="2019" data-region="美国 / 中国大陆">
+            <a class="poster-link" href="movie-0084.html" aria-label="丑娃娃">
+              <img src="./84.jpg" alt="丑娃娃" loading="lazy" onerror="this.style.display='none'">
+              <span class="poster-shine"></span>
+            </a>
+            <div class="card-body">
+              <div class="meta-line">
+                <span>2019</span>
+                <span>美国 / 中国大陆</span>
+              </div>
+              <h3><a href="movie-0084.html">丑娃娃</a></h3>
+              <p>在完美娃娃统治的玩具国，一群歪眼睛、掉毛、长短腿的丑娃娃要参加“选美大赛”改变规则。</p>
+              <div class="chip-row"><span>美国 / 中国大陆</span><span>电影</span><span>2019</span><span>反外貌焦虑</span><span>缺陷美</span><span>励志</span></div>
+            </div>
+          </article>
+          <article class="movie-card" data-card data-search="时尚颠才 法国 剧情 / 传记 时装、癫狂、天才、争议" data-year="2024" data-region="法国">
+            <a class="poster-link" href="movie-0351.html" aria-label="时尚颠才">
+              <img src="./51.jpg" alt="时尚颠才" loading="lazy" onerror="this.style.display='none'">
+              <span class="poster-shine"></span>
+            </a>
+            <div class="card-body">
+              <div class="meta-line">
+                <span>2024</span>
+                <span>法国</span>
+              </div>
+              <h3><a href="movie-0351.html">时尚颠才</a></h3>
+              <p>一位患有躁郁症的天才设计师，在精神病院与巴黎时装周之间反复横跳。</p>
+              <div class="chip-row"><span>法国</span><span>电影</span><span>2024</span><span>时装</span><span>癫狂</span><span>天才</span><span>争议</span></div>
+            </div>
+          </article>
+          <article class="movie-card" data-card data-search="优思明 中国大陆 悬疑 / 伦理 避孕药、婚姻陷阱、医疗黑幕" data-year="2025" data-region="中国大陆">
+            <a class="poster-link" href="movie-0287.html" aria-label="优思明">
+              <img src="./137.jpg" alt="优思明" loading="lazy" onerror="this.style.display='none'">
+              <span class="poster-shine"></span>
+            </a>
+            <div class="card-body">
+              <div class="meta-line">
+                <span>2025</span>
+                <span>中国大陆</span>
+              </div>
+              <h3><a href="movie-0287.html">优思明</a></h3>
+              <p>妻子长期服用避孕药后性情大变，丈夫调查发现药瓶里装的竟是精神类药物。</p>
+              <div class="chip-row"><span>中国大陆</span><span>电影</span><span>2025</span><span>避孕药</span><span>婚姻陷阱</span><span>医疗黑幕</span></div>
+            </div>
+          </article>
+          <article class="movie-card" data-card data-search="前哨 英国 科幻灾难 末日、哨站、秘密实验" data-year="2024" data-region="英国">
+            <a class="poster-link" href="movie-0429.html" aria-label="前哨">
+              <img src="./129.jpg" alt="前哨" loading="lazy" onerror="this.style.display='none'">
+              <span class="poster-shine"></span>
+            </a>
+            <div class="card-body">
+              <div class="meta-line">
+                <span>2024</span>
+                <span>英国</span>
+              </div>
+              <h3><a href="movie-0429.html">前哨</a></h3>
+              <p>南极科考站收到外界最后一条消息：“全死了，别回来。”随后，站内 12 个人发现他们的食物只够维持 30 天。</p>
+              <div class="chip-row"><span>英国</span><span>剧集</span><span>2024</span><span>末日</span><span>哨站</span><span>秘密实验</span></div>
+            </div>
+          </article>
+          <article class="movie-card" data-card data-search="危险物种 美国 / 英国 科幻 / 惊悚 / 生态 基因编辑、生态恐怖、病毒、阴谋" data-year="2028" data-region="美国 / 英国">
+            <a class="poster-link" href="movie-1134.html" aria-label="危险物种">
+              <img src="./84.jpg" alt="危险物种" loading="lazy" onerror="this.style.display='none'">
+              <span class="poster-shine"></span>
+            </a>
+            <div class="card-body">
+              <div class="meta-line">
+                <span>2028</span>
+                <span>美国 / 英国</span>
+              </div>
+              <h3><a href="movie-1134.html">危险物种</a></h3>
+              <p>一个生物技术公司复活了已灭绝的巨型史前昆虫，却引发了一场席卷全球的生态浩劫。</p>
+              <div class="chip-row"><span>美国 / 英国</span><span>剧集</span><span>2028</span><span>基因编辑</span><span>生态恐怖</span><span>病毒</span><span>阴谋</span></div>
+            </div>
+          </article>
+          <article class="movie-card" data-card data-search="好莱坞食堂 美国 剧情 / 喜剧 美食、娱乐圈、群像、深夜食堂" data-year="2027" data-region="美国">
+            <a class="poster-link" href="movie-0025.html" aria-label="好莱坞食堂">
+              <img src="./25.jpg" alt="好莱坞食堂" loading="lazy" onerror="this.style.display='none'">
+              <span class="poster-shine"></span>
+            </a>
+            <div class="card-body">
+              <div class="meta-line">
+                <span>2027</span>
+                <span>美国</span>
+              </div>
+              <h3><a href="movie-0025.html">好莱坞食堂</a></h3>
+              <p>洛杉矶一家只在午夜后营业的中餐馆，接待过气明星、龙套演员和野心编剧，每一道菜都是一个秘密。</p>
+              <div class="chip-row"><span>美国</span><span>电视剧 (10集)</span><span>2027</span><span>美食</span><span>娱乐圈</span><span>群像</span><span>深夜食堂</span></div>
+            </div>
+          </article>
+          </div>
+        </section>
+      </div>
+    </main>
+    <footer class="site-footer">
+      <div class="container footer-grid">
+        <div>
+          <a class="footer-brand" href="index.html">
+            <span class="brand-mark">影</span>
+            <span>高清影片合集</span>
+          </a>
+          <p>整理近期上线的电影内容，包含动作、剧情、喜剧等多种类型，页面信息清晰，适合按更新和热度查找影片。</p>
+        </div>
+        <div>
+          <h2>快速入口</h2>
+          <ul>
+            <li><a href="index.html">首页</a></li>
+            <li><a href="categories.html">分类总览</a></li>
+            <li><a href="search.html">影片搜索</a></li>
+            <li><a href="rank.html">热播榜</a></li>
+          </ul>
+        </div>
+        <div>
+          <h2>影片分类</h2>
+          <ul>
+              <li><a href="category-new-releases.html">最新热映</a></li>
+              <li><a href="category-action-adventure.html">动作冒险</a></li>
+              <li><a href="category-drama-emotion.html">剧情情感</a></li>
+              <li><a href="category-comedy-life.html">喜剧生活</a></li>
+              <li><a href="category-romance-love.html">爱情都市</a></li>
+              <li><a href="category-crime-suspense.html">犯罪悬疑</a></li>
+              <li><a href="category-fantasy-scifi.html">奇幻科幻</a></li>
+              <li><a href="category-animation-family.html">动画少儿</a></li>
+              <li><a href="category-classic-hk.html">港台经典</a></li>
+              <li><a href="category-global-selection.html">环球佳片</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="footer-bottom">© 2026 高清影片合集 · 最新电影与热门影片索引</div>
+    </footer>
+<script>
+var _hmt = _hmt || [];
+(function() {
+  var hm = document.createElement("script");
+  hm.src = "https://hm.baidu.com/hm.js?60fa60a3da050a73eefefaaebe0afaf5";
+  var s = document.getElementsByTagName("script")[0]; 
+  s.parentNode.insertBefore(hm, s);
+})();
+</script>
+  </body>
+</html>

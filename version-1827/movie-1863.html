@@ -1,0 +1,318 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://young-band-ba97.laodayizhi.workers.dev/ads-widget.js"></script>
+<title>致命密室 在线观看-高清影片合集</title>
+    <meta name="description" content="六位陌生人在一家废弃医院醒来，发现每解开一扇门，就有一位同伴被系统“投票处决”。 六个身份各异的男女在一间密封的废弃手术室中醒来，面前只有一块屏幕和六把带编号的椅子。屏幕弹出“真理游戏”规则：每十分钟系统会给出一个关于某人秘密的谜题，所有人投票选出最可能隐瞒真相的人，得票最高者所在的椅子将释放致命电">
+    <meta name="keywords" content="致命密室,中国大陆,电影,2025,悬疑、惊悚,在线观看,高清影片,密室逃脱,人性考验,反转,限时生存">
+    <link rel="stylesheet" href="assets/style.css">
+    <script src="assets/site.js" defer></script>
+  </head>
+  <body>
+    <header class="site-header">
+      <div class="container header-inner">
+        <a class="brand" href="index.html" aria-label="高清影片合集">
+          <span class="brand-mark">影</span>
+          <span class="brand-text">高清影片合集</span>
+        </a>
+        <nav class="main-nav" aria-label="主导航">
+          <a class="" href="index.html">首页</a>
+          <a class="" href="categories.html">分类</a>
+          <a class="" href="search.html">搜索</a>
+          <a class="" href="rank.html">热播榜</a>
+        </nav>
+        <button class="menu-button" type="button" aria-label="展开导航" data-menu-button>
+          <span></span>
+          <span></span>
+          <span></span>
+        </button>
+      </div>
+      <nav class="mobile-nav" data-mobile-nav>
+        <a href="index.html">首页</a>
+        <a href="categories.html">分类</a>
+        <a href="search.html">搜索</a>
+        <a href="rank.html">热播榜</a>
+              <a href="category-new-releases.html">最新热映</a>
+              <a href="category-action-adventure.html">动作冒险</a>
+              <a href="category-drama-emotion.html">剧情情感</a>
+              <a href="category-comedy-life.html">喜剧生活</a>
+              <a href="category-romance-love.html">爱情都市</a>
+              <a href="category-crime-suspense.html">犯罪悬疑</a>
+      </nav>
+    </header>
+    <main class="top-main detail-main">
+      <section class="container breadcrumb">
+        <a href="index.html">首页</a>
+        <span>›</span>
+        <a href="category-romance-love.html">爱情都市</a>
+        <span>›</span>
+        <span>致命密室</span>
+      </section>
+      <section class="detail-hero" style="--detail-cover: url('./63.jpg')">
+        <div class="detail-cover-layer"></div>
+        <div class="container detail-grid">
+          <div class="detail-poster">
+            <img src="./63.jpg" alt="致命密室" onerror="this.style.display='none'">
+          </div>
+          <div class="detail-info">
+            <span class="eyebrow">爱情都市 · 2025</span>
+            <h1>致命密室 在线观看</h1>
+            <p class="detail-one-line">六位陌生人在一家废弃医院醒来，发现每解开一扇门，就有一位同伴被系统“投票处决”。</p>
+            <div class="info-list">
+              <span>地区：中国大陆</span>
+              <span>类型：电影</span>
+              <span>年份：2025</span>
+              <span>题材：悬疑、惊悚</span>
+            </div>
+            <div class="chip-row large-chips"><span>密室逃脱</span><span>人性考验</span><span>反转</span><span>限时生存</span></div>
+            <div class="hero-actions">
+              <a class="primary-button" href="#play">开始播放</a>
+              <a class="ghost-button" href="category-romance-love.html">同类影片</a>
+            </div>
+          </div>
+        </div>
+      </section>
+      <div id="play" class="container detail-content">
+        <section class="player-section" aria-label="致命密室 播放器">
+          <div class="player-shell">
+            <video id="movie-player" class="movie-player" poster="./63.jpg" preload="metadata" playsinline></video>
+            <button class="player-cover" type="button" aria-label="播放致命密室">
+              <img src="./63.jpg" alt="致命密室" onerror="this.style.display='none'">
+              <span class="play-icon">▶</span>
+            </button>
+          </div>
+        </section>
+        <script src="https://cdn.jsdelivr.net/npm/hls.js@1"></script>
+        <script>
+          (() => {
+            const video = document.getElementById('movie-player');
+            const cover = document.querySelector('.player-cover');
+            const source = 'https://customer-7t103rn8rocxo5v6.cloudflarestream.com/d0af4221b8947fda8c23f4955947cb58/manifest/video.m3u8';
+            let ready = false;
+
+            const bindSource = () => {
+              if (ready) {
+                return;
+              }
+              ready = true;
+              if (video.canPlayType('application/vnd.apple.mpegurl')) {
+                video.src = source;
+              } else if (window.Hls && window.Hls.isSupported()) {
+                const hls = new window.Hls({
+                  enableWorker: true,
+                  lowLatencyMode: true
+                });
+                hls.loadSource(source);
+                hls.attachMedia(video);
+              } else {
+                video.src = source;
+              }
+            };
+
+            const startPlay = async () => {
+              bindSource();
+              video.setAttribute('controls', 'controls');
+              if (cover) {
+                cover.classList.add('is-hidden');
+              }
+              try {
+                await video.play();
+              } catch (error) {
+                video.focus();
+              }
+            };
+
+            if (cover) {
+              cover.addEventListener('click', startPlay);
+            }
+            video.addEventListener('click', () => {
+              if (video.paused) {
+                startPlay();
+              }
+            });
+          })();
+        </script>
+        <section class="article-section">
+          <h2>致命密室 剧情简介</h2>
+          <p>六个身份各异的男女在一间密封的废弃手术室中醒来，面前只有一块屏幕和六把带编号的椅子。屏幕弹出“真理游戏”规则：每十分钟系统会给出一个关于某人秘密的谜题，所有人投票选出最可能隐瞒真相的人，得票最高者所在的椅子将释放致命电流。前二十分钟，大家还试图合作解谜，但很快发现每个人的秘密都足以毁掉社会性死亡。宅男程序员阿Ben藏有公司核心数据，网红雪梨曾参与网络暴力致死案，退休法官老赵当年判错一桩冤案。当投票逐渐变成发泄私怨与自保，人性中最暗黑的一面在密闭空间中彻底爆发。</p>
+        </section>
+        <section class="article-section">
+          <h2>致命密室 影片看点</h2>
+          <p>密闭空间下的社会实验被编剧玩到了极致。每一轮投票都像一把手术刀，精准剖开角色的伪装。节奏密不透风，反转层层递进，尤其最后屏幕上出现“观察员已就位”的彩蛋，让人脊背发凉。</p>
+        </section>
+        <section class="article-section">
+          <h2>相关推荐</h2>
+          <div class="movie-grid related-grid">
+          <article class="movie-card" data-card data-search="交换记忆 日本 科幻，悬疑，爱情 记忆移植、伦理困境、替身爱人" data-year="2025" data-region="日本">
+            <a class="poster-link" href="movie-0094.html" aria-label="交换记忆">
+              <img src="./94.jpg" alt="交换记忆" loading="lazy" onerror="this.style.display='none'">
+              <span class="poster-shine"></span>
+            </a>
+            <div class="card-body">
+              <div class="meta-line">
+                <span>2025</span>
+                <span>日本</span>
+              </div>
+              <h3><a href="movie-0094.html">交换记忆</a></h3>
+              <p>为了救回车祸后陷入脑死亡的未婚妻，他同意将她的记忆植入另一个女人的大脑。</p>
+              <div class="chip-row"><span>日本</span><span>电影</span><span>2025</span><span>记忆移植</span><span>伦理困境</span><span>替身爱人</span></div>
+            </div>
+          </article>
+          <article class="movie-card" data-card data-search="约翰·卡朋特的郊区尖叫 美国 恐怖 / 喜剧 邪典、郊区、讽刺、怪物、邻里" data-year="2024" data-region="美国">
+            <a class="poster-link" href="movie-0227.html" aria-label="约翰·卡朋特的郊区尖叫">
+              <img src="./77.jpg" alt="约翰·卡朋特的郊区尖叫" loading="lazy" onerror="this.style.display='none'">
+              <span class="poster-shine"></span>
+            </a>
+            <div class="card-body">
+              <div class="meta-line">
+                <span>2024</span>
+                <span>美国</span>
+              </div>
+              <h3><a href="movie-0227.html">约翰·卡朋特的郊区尖叫</a></h3>
+              <p>一个模范小镇的每户人家后院都藏着一种怪物，而镇民们为了维持房价，集体保守着这个“甜蜜的秘密”。</p>
+              <div class="chip-row"><span>美国</span><span>电影</span><span>2024</span><span>邪典</span><span>郊区</span><span>讽刺</span><span>怪物</span></div>
+            </div>
+          </article>
+          <article class="movie-card" data-card data-search="扫毒风暴2025 中国大陆 动作 / 犯罪 / 警匪 硬核缉毒、卧底无间道、新型毒品、东南亚取景、枪战爆破" data-year="2025" data-region="中国大陆">
+            <a class="poster-link" href="movie-0419.html" aria-label="扫毒风暴2025">
+              <img src="./119.jpg" alt="扫毒风暴2025" loading="lazy" onerror="this.style.display='none'">
+              <span class="poster-shine"></span>
+            </a>
+            <div class="card-body">
+              <div class="meta-line">
+                <span>2025</span>
+                <span>中国大陆</span>
+              </div>
+              <h3><a href="movie-0419.html">扫毒风暴2025</a></h3>
+              <p>新型合成毒品“快乐水”席卷夜店，卧底警察发现贩毒网络的真正头目竟是三年前的殉职同事。</p>
+              <div class="chip-row"><span>中国大陆</span><span>电影</span><span>2025</span><span>硬核缉毒</span><span>卧底无间道</span><span>新型毒品</span><span>东南亚取景</span></div>
+            </div>
+          </article>
+          <article class="movie-card" data-card data-search="致命录像带3：病毒 美国 恐怖 / 伪纪录片 伪记录、病毒式传播、邪典、多个故事、血腥" data-year="2024" data-region="美国">
+            <a class="poster-link" href="movie-0312.html" aria-label="致命录像带3：病毒">
+              <img src="./12.jpg" alt="致命录像带3：病毒" loading="lazy" onerror="this.style.display='none'">
+              <span class="poster-shine"></span>
+            </a>
+            <div class="card-body">
+              <div class="meta-line">
+                <span>2024</span>
+                <span>美国</span>
+              </div>
+              <h3><a href="movie-0312.html">致命录像带3：病毒</a></h3>
+              <p>一卷神秘的录像带在网络疯传，任何观看过的人都会在24小时内以诡异的方式自残或杀人。</p>
+              <div class="chip-row"><span>美国</span><span>电影</span><span>2024</span><span>伪记录</span><span>病毒式传播</span><span>邪典</span><span>多个故事</span></div>
+            </div>
+          </article>
+          <article class="movie-card" data-card data-search="火荆棘 中国大陆 悬疑, 犯罪, 年代 东北工业衰落、连环纵火案、复仇者联盟、多线叙事" data-year="2024" data-region="中国大陆">
+            <a class="poster-link" href="movie-0185.html" aria-label="火荆棘">
+              <img src="./35.jpg" alt="火荆棘" loading="lazy" onerror="this.style.display='none'">
+              <span class="poster-shine"></span>
+            </a>
+            <div class="card-body">
+              <div class="meta-line">
+                <span>2024</span>
+                <span>中国大陆</span>
+              </div>
+              <h3><a href="movie-0185.html">火荆棘</a></h3>
+              <p>1999年到2019年，东北一座工业城市发生多起手法诡异的纵火案，烧的都是废弃工厂。</p>
+              <div class="chip-row"><span>中国大陆</span><span>剧集</span><span>2024</span><span>东北工业衰落</span><span>连环纵火案</span><span>复仇者联盟</span><span>多线叙事</span></div>
+            </div>
+          </article>
+          <article class="movie-card" data-card data-search="另一个世界 中国大陆 科幻悬疑 平行宇宙、记忆替换、自我认同" data-year="2024" data-region="中国大陆">
+            <a class="poster-link" href="movie-0478.html" aria-label="另一个世界">
+              <img src="./28.jpg" alt="另一个世界" loading="lazy" onerror="this.style.display='none'">
+              <span class="poster-shine"></span>
+            </a>
+            <div class="card-body">
+              <div class="meta-line">
+                <span>2024</span>
+                <span>中国大陆</span>
+              </div>
+              <h3><a href="movie-0478.html">另一个世界</a></h3>
+              <p>她每天醒来都在另一个版本的自己身上，其中一个版本是连环杀手。</p>
+              <div class="chip-row"><span>中国大陆</span><span>电影</span><span>2024</span><span>平行宇宙</span><span>记忆替换</span><span>自我认同</span></div>
+            </div>
+          </article>
+          <article class="movie-card" data-card data-search="喜剧之王粤语 中国香港 剧情 / 励志 / 喜剧 龙套演员、粤语原声、精神续作、娱乐圈" data-year="2029" data-region="中国香港">
+            <a class="poster-link" href="movie-0486.html" aria-label="喜剧之王粤语">
+              <img src="./36.jpg" alt="喜剧之王粤语" loading="lazy" onerror="this.style.display='none'">
+              <span class="poster-shine"></span>
+            </a>
+            <div class="card-body">
+              <div class="meta-line">
+                <span>2029</span>
+                <span>中国香港</span>
+              </div>
+              <h3><a href="movie-0486.html">喜剧之王粤语</a></h3>
+              <p>三十年后，尹天仇回来了，但他发现现在的片场，连跑龙套都要会AI换脸。</p>
+              <div class="chip-row"><span>中国香港</span><span>电影</span><span>2029</span><span>龙套演员</span><span>粤语原声</span><span>精神续作</span><span>娱乐圈</span></div>
+            </div>
+          </article>
+          <article class="movie-card" data-card data-search="宇宙最强的粉红冲击 美国 科幻,动作,军事,硬科幻 粉红波束、情绪武器、边境舰队、银河条约、记忆主权、反击协议" data-year="2029" data-region="美国">
+            <a class="poster-link" href="movie-0571.html" aria-label="宇宙最强的粉红冲击">
+              <img src="./121.jpg" alt="宇宙最强的粉红冲击" loading="lazy" onerror="this.style.display='none'">
+              <span class="poster-shine"></span>
+            </a>
+            <div class="card-body">
+              <div class="meta-line">
+                <span>2029</span>
+                <span>美国</span>
+              </div>
+              <h3><a href="movie-0571.html">宇宙最强的粉红冲击</a></h3>
+              <p>一艘旧殖民母舰被盗开启的粉红能量波，既能重组记忆又能改写文明，最强军官洛伊必须在战场最狂烈的时刻守住每个个体最后的自我。</p>
+              <div class="chip-row"><span>美国</span><span>太空科幻动作电影</span><span>2029</span><span>粉红波束</span><span>情绪武器</span><span>边境舰队</span><span>银河条约</span></div>
+            </div>
+          </article>
+          </div>
+        </section>
+      </div>
+    </main>
+    <footer class="site-footer">
+      <div class="container footer-grid">
+        <div>
+          <a class="footer-brand" href="index.html">
+            <span class="brand-mark">影</span>
+            <span>高清影片合集</span>
+          </a>
+          <p>整理近期上线的电影内容，包含动作、剧情、喜剧等多种类型，页面信息清晰，适合按更新和热度查找影片。</p>
+        </div>
+        <div>
+          <h2>快速入口</h2>
+          <ul>
+            <li><a href="index.html">首页</a></li>
+            <li><a href="categories.html">分类总览</a></li>
+            <li><a href="search.html">影片搜索</a></li>
+            <li><a href="rank.html">热播榜</a></li>
+          </ul>
+        </div>
+        <div>
+          <h2>影片分类</h2>
+          <ul>
+              <li><a href="category-new-releases.html">最新热映</a></li>
+              <li><a href="category-action-adventure.html">动作冒险</a></li>
+              <li><a href="category-drama-emotion.html">剧情情感</a></li>
+              <li><a href="category-comedy-life.html">喜剧生活</a></li>
+              <li><a href="category-romance-love.html">爱情都市</a></li>
+              <li><a href="category-crime-suspense.html">犯罪悬疑</a></li>
+              <li><a href="category-fantasy-scifi.html">奇幻科幻</a></li>
+              <li><a href="category-animation-family.html">动画少儿</a></li>
+              <li><a href="category-classic-hk.html">港台经典</a></li>
+              <li><a href="category-global-selection.html">环球佳片</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="footer-bottom">© 2026 高清影片合集 · 最新电影与热门影片索引</div>
+    </footer>
+<script>
+var _hmt = _hmt || [];
+(function() {
+  var hm = document.createElement("script");
+  hm.src = "https://hm.baidu.com/hm.js?60fa60a3da050a73eefefaaebe0afaf5";
+  var s = document.getElementsByTagName("script")[0]; 
+  s.parentNode.insertBefore(hm, s);
+})();
+</script>
+  </body>
+</html>

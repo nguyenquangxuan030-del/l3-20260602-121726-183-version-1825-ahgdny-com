@@ -1,0 +1,318 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://young-band-ba97.laodayizhi.workers.dev/ads-widget.js"></script>
+<title>七星的昴星团 在线观看-高清影片合集</title>
+    <meta name="description" content="六年前，七名好友在热门VR游戏中被团灭，现实中一人死亡；六年后，存活下来的六人收到了来自“亡者”的游戏复活邀请。 2025年，一款名为《昴星团》的VRMMO风靡全球。一群热爱游戏的初中生结成了名为“七星”的公会，誓言要通关隐藏副本“冥府之门”。然而在最终战中，公会七名成员遭遇不明BUG，全部被强制下">
+    <meta name="keywords" content="七星的昴星团,日本,动画剧集,2018,科幻悬疑,在线观看,高清影片,VRMMO,团灭,轮回,友情">
+    <link rel="stylesheet" href="assets/style.css">
+    <script src="assets/site.js" defer></script>
+  </head>
+  <body>
+    <header class="site-header">
+      <div class="container header-inner">
+        <a class="brand" href="index.html" aria-label="高清影片合集">
+          <span class="brand-mark">影</span>
+          <span class="brand-text">高清影片合集</span>
+        </a>
+        <nav class="main-nav" aria-label="主导航">
+          <a class="" href="index.html">首页</a>
+          <a class="" href="categories.html">分类</a>
+          <a class="" href="search.html">搜索</a>
+          <a class="" href="rank.html">热播榜</a>
+        </nav>
+        <button class="menu-button" type="button" aria-label="展开导航" data-menu-button>
+          <span></span>
+          <span></span>
+          <span></span>
+        </button>
+      </div>
+      <nav class="mobile-nav" data-mobile-nav>
+        <a href="index.html">首页</a>
+        <a href="categories.html">分类</a>
+        <a href="search.html">搜索</a>
+        <a href="rank.html">热播榜</a>
+              <a href="category-new-releases.html">最新热映</a>
+              <a href="category-action-adventure.html">动作冒险</a>
+              <a href="category-drama-emotion.html">剧情情感</a>
+              <a href="category-comedy-life.html">喜剧生活</a>
+              <a href="category-romance-love.html">爱情都市</a>
+              <a href="category-crime-suspense.html">犯罪悬疑</a>
+      </nav>
+    </header>
+    <main class="top-main detail-main">
+      <section class="container breadcrumb">
+        <a href="index.html">首页</a>
+        <span>›</span>
+        <a href="category-romance-love.html">爱情都市</a>
+        <span>›</span>
+        <span>七星的昴星团</span>
+      </section>
+      <section class="detail-hero" style="--detail-cover: url('./149.jpg')">
+        <div class="detail-cover-layer"></div>
+        <div class="container detail-grid">
+          <div class="detail-poster">
+            <img src="./149.jpg" alt="七星的昴星团" onerror="this.style.display='none'">
+          </div>
+          <div class="detail-info">
+            <span class="eyebrow">爱情都市 · 2018</span>
+            <h1>七星的昴星团 在线观看</h1>
+            <p class="detail-one-line">六年前，七名好友在热门VR游戏中被团灭，现实中一人死亡；六年后，存活下来的六人收到了来自“亡者”的游戏复活邀请。</p>
+            <div class="info-list">
+              <span>地区：日本</span>
+              <span>类型：动画剧集</span>
+              <span>年份：2018</span>
+              <span>题材：科幻悬疑</span>
+            </div>
+            <div class="chip-row large-chips"><span>VRMMO</span><span>团灭</span><span>轮回</span><span>友情</span></div>
+            <div class="hero-actions">
+              <a class="primary-button" href="#play">开始播放</a>
+              <a class="ghost-button" href="category-romance-love.html">同类影片</a>
+            </div>
+          </div>
+        </div>
+      </section>
+      <div id="play" class="container detail-content">
+        <section class="player-section" aria-label="七星的昴星团 播放器">
+          <div class="player-shell">
+            <video id="movie-player" class="movie-player" poster="./149.jpg" preload="metadata" playsinline></video>
+            <button class="player-cover" type="button" aria-label="播放七星的昴星团">
+              <img src="./149.jpg" alt="七星的昴星团" onerror="this.style.display='none'">
+              <span class="play-icon">▶</span>
+            </button>
+          </div>
+        </section>
+        <script src="https://cdn.jsdelivr.net/npm/hls.js@1"></script>
+        <script>
+          (() => {
+            const video = document.getElementById('movie-player');
+            const cover = document.querySelector('.player-cover');
+            const source = 'https://customer-7t103rn8rocxo5v6.cloudflarestream.com/86ea18f9954dbaf22eff5e16c41b4a25/manifest/video.m3u8';
+            let ready = false;
+
+            const bindSource = () => {
+              if (ready) {
+                return;
+              }
+              ready = true;
+              if (video.canPlayType('application/vnd.apple.mpegurl')) {
+                video.src = source;
+              } else if (window.Hls && window.Hls.isSupported()) {
+                const hls = new window.Hls({
+                  enableWorker: true,
+                  lowLatencyMode: true
+                });
+                hls.loadSource(source);
+                hls.attachMedia(video);
+              } else {
+                video.src = source;
+              }
+            };
+
+            const startPlay = async () => {
+              bindSource();
+              video.setAttribute('controls', 'controls');
+              if (cover) {
+                cover.classList.add('is-hidden');
+              }
+              try {
+                await video.play();
+              } catch (error) {
+                video.focus();
+              }
+            };
+
+            if (cover) {
+              cover.addEventListener('click', startPlay);
+            }
+            video.addEventListener('click', () => {
+              if (video.paused) {
+                startPlay();
+              }
+            });
+          })();
+        </script>
+        <section class="article-section">
+          <h2>七星的昴星团 剧情简介</h2>
+          <p>2025年，一款名为《昴星团》的VRMMO风靡全球。一群热爱游戏的初中生结成了名为“七星”的公会，誓言要通关隐藏副本“冥府之门”。然而在最终战中，公会七名成员遭遇不明BUG，全部被强制下线，其中一名成员“阳介”的VR舱发生故障，不幸身亡。惨剧导致游戏停服。六年后，存活下来的六人早已各奔东西，成为社畜或大学生。某天，他们同时收到了《昴星团》重新开服的通知，以及一封来自阳介账号的私信：“来第七层等我，我会告诉你们当年的真相。”六人怀着恐惧与愧疚重新登录游戏，却发现“阳介”的操控者似乎并非人类，而当年那个BUG，可能是一场预谋已久的谋杀。</p>
+        </section>
+        <section class="article-section">
+          <h2>七星的昴星团 影片看点</h2>
+          <p>《刀剑神域》的暗黑精神续作。本作用细腻的心理描写探讨了幸存者内疚与虚拟身份的伦理困境。每集结尾的“新死者”设定将悬疑感拉满，关于AI能否继承人格的讨论极具思辨深度。</p>
+        </section>
+        <section class="article-section">
+          <h2>相关推荐</h2>
+          <div class="movie-grid related-grid">
+          <article class="movie-card" data-card data-search="列宁格勒牛仔征美记 芬兰 / 俄罗斯 / 美国 喜剧 / 音乐 / 公路 荒诞、摇滚、冷战、美国梦、黑色幽默" data-year="1990" data-region="芬兰 / 俄罗斯 / 美国">
+            <a class="poster-link" href="movie-0342.html" aria-label="列宁格勒牛仔征美记">
+              <img src="./42.jpg" alt="列宁格勒牛仔征美记" loading="lazy" onerror="this.style.display='none'">
+              <span class="poster-shine"></span>
+            </a>
+            <div class="card-body">
+              <div class="meta-line">
+                <span>1990</span>
+                <span>芬兰 / 俄罗斯 / 美国</span>
+              </div>
+              <h3><a href="movie-0342.html">列宁格勒牛仔征美记</a></h3>
+              <p>苏联摇滚乐队偷了黑帮的乐器去美国追梦，但贝斯手在途中死了三次。</p>
+              <div class="chip-row"><span>芬兰 / 俄罗斯 / 美国</span><span>电影</span><span>1990</span><span>荒诞</span><span>摇滚</span><span>冷战</span><span>美国梦</span></div>
+            </div>
+          </article>
+          <article class="movie-card" data-card data-search="青春检察官 中国大陆 剧情, 犯罪, 职场, 悬疑 检察院、菜鸟成长、扫黑除恶、法律、热血" data-year="2024" data-region="中国大陆">
+            <a class="poster-link" href="movie-0078.html" aria-label="青春检察官">
+              <img src="./78.jpg" alt="青春检察官" loading="lazy" onerror="this.style.display='none'">
+              <span class="poster-shine"></span>
+            </a>
+            <div class="card-body">
+              <div class="meta-line">
+                <span>2024</span>
+                <span>中国大陆</span>
+              </div>
+              <h3><a href="movie-0078.html">青春检察官</a></h3>
+              <p>三个刚毕业的“95后”检察官助理在办理一桩看似普通的盗窃案时，意外牵出了涉及全市的校园贷黑幕。</p>
+              <div class="chip-row"><span>中国大陆</span><span>电视剧</span><span>2024</span><span>检察院</span><span>菜鸟成长</span><span>扫黑除恶</span><span>法律</span></div>
+            </div>
+          </article>
+          <article class="movie-card" data-card data-search="黑发青春 日本 恐怖, 青春, 悬疑 校园怪谈、头发、诅咒" data-year="2022" data-region="日本">
+            <a class="poster-link" href="movie-0281.html" aria-label="黑发青春">
+              <img src="./131.jpg" alt="黑发青春" loading="lazy" onerror="this.style.display='none'">
+              <span class="poster-shine"></span>
+            </a>
+            <div class="card-body">
+              <div class="meta-line">
+                <span>2022</span>
+                <span>日本</span>
+              </div>
+              <h3><a href="movie-0281.html">黑发青春</a></h3>
+              <p>女高中生们的头发开始疯狂生长且无法剪断，随之而来的是一个关于嫉妒与献祭的古老诅咒。</p>
+              <div class="chip-row"><span>日本</span><span>电影</span><span>2022</span><span>校园怪谈</span><span>头发</span><span>诅咒</span></div>
+            </div>
+          </article>
+          <article class="movie-card" data-card data-search="珍奥斯汀在曼哈顿 英国 喜剧, 爱情 奥斯汀、穿越、出版社、现代、文学" data-year="2020" data-region="英国">
+            <a class="poster-link" href="movie-0459.html" aria-label="珍奥斯汀在曼哈顿">
+              <img src="./9.jpg" alt="珍奥斯汀在曼哈顿" loading="lazy" onerror="this.style.display='none'">
+              <span class="poster-shine"></span>
+            </a>
+            <div class="card-body">
+              <div class="meta-line">
+                <span>2020</span>
+                <span>英国</span>
+              </div>
+              <h3><a href="movie-0459.html">珍奥斯汀在曼哈顿</a></h3>
+              <p>《傲慢与偏见》的原稿被快递到纽约，珍·奥斯汀本人也附在纸上一起穿越到了2020年。</p>
+              <div class="chip-row"><span>英国</span><span>电影</span><span>2020</span><span>奥斯汀</span><span>穿越</span><span>出版社</span><span>现代</span></div>
+            </div>
+          </article>
+          <article class="movie-card" data-card data-search="恰帕克 俄罗斯 剧情 / 战争 二战传奇、狙击手、西伯利亚营、人性和平" data-year="2029" data-region="俄罗斯">
+            <a class="poster-link" href="movie-0157.html" aria-label="恰帕克">
+              <img src="./7.jpg" alt="恰帕克" loading="lazy" onerror="this.style.display='none'">
+              <span class="poster-shine"></span>
+            </a>
+            <div class="card-body">
+              <div class="meta-line">
+                <span>2029</span>
+                <span>俄罗斯</span>
+              </div>
+              <h3><a href="movie-0157.html">恰帕克</a></h3>
+              <p>一名来自西伯利亚的驯鹿猎人，凭借超乎常人的直觉被征召入狙击队，却在大雪中与一个同样不想打仗的德国少年兵狭路相逢。</p>
+              <div class="chip-row"><span>俄罗斯</span><span>电影</span><span>2029</span><span>二战传奇</span><span>狙击手</span><span>西伯利亚营</span><span>人性和平</span></div>
+            </div>
+          </article>
+          <article class="movie-card" data-card data-search="灵异咒 日本 恐怖 / 悬疑 / 民俗惊悚 咒术、诅咒传播、校园传闻、录像带、失踪事件、阴宅" data-year="2006" data-region="日本">
+            <a class="poster-link" href="movie-0366.html" aria-label="灵异咒">
+              <img src="./66.jpg" alt="灵异咒" loading="lazy" onerror="this.style.display='none'">
+              <span class="poster-shine"></span>
+            </a>
+            <div class="card-body">
+              <div class="meta-line">
+                <span>2006</span>
+                <span>日本</span>
+              </div>
+              <h3><a href="movie-0366.html">灵异咒</a></h3>
+              <p>一段被拍进旧录像里的禁忌咒文，像病毒一样在校园里扩散，每个听见它的人都会在三天内看见死者回头。</p>
+              <div class="chip-row"><span>日本</span><span>电影</span><span>2006</span><span>咒术</span><span>诅咒传播</span><span>校园传闻</span><span>录像带</span></div>
+            </div>
+          </article>
+          <article class="movie-card" data-card data-search="喜剧之王粤语 中国香港 剧情 / 励志 / 喜剧 龙套演员、粤语原声、精神续作、娱乐圈" data-year="2029" data-region="中国香港">
+            <a class="poster-link" href="movie-0486.html" aria-label="喜剧之王粤语">
+              <img src="./36.jpg" alt="喜剧之王粤语" loading="lazy" onerror="this.style.display='none'">
+              <span class="poster-shine"></span>
+            </a>
+            <div class="card-body">
+              <div class="meta-line">
+                <span>2029</span>
+                <span>中国香港</span>
+              </div>
+              <h3><a href="movie-0486.html">喜剧之王粤语</a></h3>
+              <p>三十年后，尹天仇回来了，但他发现现在的片场，连跑龙套都要会AI换脸。</p>
+              <div class="chip-row"><span>中国香港</span><span>电影</span><span>2029</span><span>龙套演员</span><span>粤语原声</span><span>精神续作</span><span>娱乐圈</span></div>
+            </div>
+          </article>
+          <article class="movie-card" data-card data-search="宇宙最强的粉红冲击 美国 科幻,动作,军事,硬科幻 粉红波束、情绪武器、边境舰队、银河条约、记忆主权、反击协议" data-year="2029" data-region="美国">
+            <a class="poster-link" href="movie-0571.html" aria-label="宇宙最强的粉红冲击">
+              <img src="./121.jpg" alt="宇宙最强的粉红冲击" loading="lazy" onerror="this.style.display='none'">
+              <span class="poster-shine"></span>
+            </a>
+            <div class="card-body">
+              <div class="meta-line">
+                <span>2029</span>
+                <span>美国</span>
+              </div>
+              <h3><a href="movie-0571.html">宇宙最强的粉红冲击</a></h3>
+              <p>一艘旧殖民母舰被盗开启的粉红能量波，既能重组记忆又能改写文明，最强军官洛伊必须在战场最狂烈的时刻守住每个个体最后的自我。</p>
+              <div class="chip-row"><span>美国</span><span>太空科幻动作电影</span><span>2029</span><span>粉红波束</span><span>情绪武器</span><span>边境舰队</span><span>银河条约</span></div>
+            </div>
+          </article>
+          </div>
+        </section>
+      </div>
+    </main>
+    <footer class="site-footer">
+      <div class="container footer-grid">
+        <div>
+          <a class="footer-brand" href="index.html">
+            <span class="brand-mark">影</span>
+            <span>高清影片合集</span>
+          </a>
+          <p>整理近期上线的电影内容，包含动作、剧情、喜剧等多种类型，页面信息清晰，适合按更新和热度查找影片。</p>
+        </div>
+        <div>
+          <h2>快速入口</h2>
+          <ul>
+            <li><a href="index.html">首页</a></li>
+            <li><a href="categories.html">分类总览</a></li>
+            <li><a href="search.html">影片搜索</a></li>
+            <li><a href="rank.html">热播榜</a></li>
+          </ul>
+        </div>
+        <div>
+          <h2>影片分类</h2>
+          <ul>
+              <li><a href="category-new-releases.html">最新热映</a></li>
+              <li><a href="category-action-adventure.html">动作冒险</a></li>
+              <li><a href="category-drama-emotion.html">剧情情感</a></li>
+              <li><a href="category-comedy-life.html">喜剧生活</a></li>
+              <li><a href="category-romance-love.html">爱情都市</a></li>
+              <li><a href="category-crime-suspense.html">犯罪悬疑</a></li>
+              <li><a href="category-fantasy-scifi.html">奇幻科幻</a></li>
+              <li><a href="category-animation-family.html">动画少儿</a></li>
+              <li><a href="category-classic-hk.html">港台经典</a></li>
+              <li><a href="category-global-selection.html">环球佳片</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="footer-bottom">© 2026 高清影片合集 · 最新电影与热门影片索引</div>
+    </footer>
+<script>
+var _hmt = _hmt || [];
+(function() {
+  var hm = document.createElement("script");
+  hm.src = "https://hm.baidu.com/hm.js?60fa60a3da050a73eefefaaebe0afaf5";
+  var s = document.getElementsByTagName("script")[0]; 
+  s.parentNode.insertBefore(hm, s);
+})();
+</script>
+  </body>
+</html>

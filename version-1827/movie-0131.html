@@ -1,0 +1,318 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://young-band-ba97.laodayizhi.workers.dev/ads-widget.js"></script>
+<title>恐怖假日 在线观看-高清影片合集</title>
+    <meta name="description" content="一对年轻情侣参加“完美假日”沉浸式体验，却发现每个节日主题房间都藏着致命惩罚。 为了给女友惊喜，男主杰森报名了一款评分极高的沉浸式游戏“恐怖假日”。玩家需依次经历复活节、独立日、万圣节和圣诞节四个主题密室，每个密室都对应一种现代人的“原罪”：浪费、虚伪、贪婪和冷漠。起初两人觉得刺激，但很快发现惩罚是">
+    <meta name="keywords" content="恐怖假日,美国,电影,2023,恐怖 / 惊悚,在线观看,高清影片,节日,血腥,密室,反转,社会隐喻">
+    <link rel="stylesheet" href="assets/style.css">
+    <script src="assets/site.js" defer></script>
+  </head>
+  <body>
+    <header class="site-header">
+      <div class="container header-inner">
+        <a class="brand" href="index.html" aria-label="高清影片合集">
+          <span class="brand-mark">影</span>
+          <span class="brand-text">高清影片合集</span>
+        </a>
+        <nav class="main-nav" aria-label="主导航">
+          <a class="" href="index.html">首页</a>
+          <a class="" href="categories.html">分类</a>
+          <a class="" href="search.html">搜索</a>
+          <a class="" href="rank.html">热播榜</a>
+        </nav>
+        <button class="menu-button" type="button" aria-label="展开导航" data-menu-button>
+          <span></span>
+          <span></span>
+          <span></span>
+        </button>
+      </div>
+      <nav class="mobile-nav" data-mobile-nav>
+        <a href="index.html">首页</a>
+        <a href="categories.html">分类</a>
+        <a href="search.html">搜索</a>
+        <a href="rank.html">热播榜</a>
+              <a href="category-new-releases.html">最新热映</a>
+              <a href="category-action-adventure.html">动作冒险</a>
+              <a href="category-drama-emotion.html">剧情情感</a>
+              <a href="category-comedy-life.html">喜剧生活</a>
+              <a href="category-romance-love.html">爱情都市</a>
+              <a href="category-crime-suspense.html">犯罪悬疑</a>
+      </nav>
+    </header>
+    <main class="top-main detail-main">
+      <section class="container breadcrumb">
+        <a href="index.html">首页</a>
+        <span>›</span>
+        <a href="category-comedy-life.html">喜剧生活</a>
+        <span>›</span>
+        <span>恐怖假日</span>
+      </section>
+      <section class="detail-hero" style="--detail-cover: url('./131.jpg')">
+        <div class="detail-cover-layer"></div>
+        <div class="container detail-grid">
+          <div class="detail-poster">
+            <img src="./131.jpg" alt="恐怖假日" onerror="this.style.display='none'">
+          </div>
+          <div class="detail-info">
+            <span class="eyebrow">喜剧生活 · 2023</span>
+            <h1>恐怖假日 在线观看</h1>
+            <p class="detail-one-line">一对年轻情侣参加“完美假日”沉浸式体验，却发现每个节日主题房间都藏着致命惩罚。</p>
+            <div class="info-list">
+              <span>地区：美国</span>
+              <span>类型：电影</span>
+              <span>年份：2023</span>
+              <span>题材：恐怖 / 惊悚</span>
+            </div>
+            <div class="chip-row large-chips"><span>节日</span><span>血腥</span><span>密室</span><span>反转</span><span>社会隐喻</span></div>
+            <div class="hero-actions">
+              <a class="primary-button" href="#play">开始播放</a>
+              <a class="ghost-button" href="category-comedy-life.html">同类影片</a>
+            </div>
+          </div>
+        </div>
+      </section>
+      <div id="play" class="container detail-content">
+        <section class="player-section" aria-label="恐怖假日 播放器">
+          <div class="player-shell">
+            <video id="movie-player" class="movie-player" poster="./131.jpg" preload="metadata" playsinline></video>
+            <button class="player-cover" type="button" aria-label="播放恐怖假日">
+              <img src="./131.jpg" alt="恐怖假日" onerror="this.style.display='none'">
+              <span class="play-icon">▶</span>
+            </button>
+          </div>
+        </section>
+        <script src="https://cdn.jsdelivr.net/npm/hls.js@1"></script>
+        <script>
+          (() => {
+            const video = document.getElementById('movie-player');
+            const cover = document.querySelector('.player-cover');
+            const source = 'https://customer-7t103rn8rocxo5v6.cloudflarestream.com/e398cb38b257828eeedbcaa0ae2856da/manifest/video.m3u8';
+            let ready = false;
+
+            const bindSource = () => {
+              if (ready) {
+                return;
+              }
+              ready = true;
+              if (video.canPlayType('application/vnd.apple.mpegurl')) {
+                video.src = source;
+              } else if (window.Hls && window.Hls.isSupported()) {
+                const hls = new window.Hls({
+                  enableWorker: true,
+                  lowLatencyMode: true
+                });
+                hls.loadSource(source);
+                hls.attachMedia(video);
+              } else {
+                video.src = source;
+              }
+            };
+
+            const startPlay = async () => {
+              bindSource();
+              video.setAttribute('controls', 'controls');
+              if (cover) {
+                cover.classList.add('is-hidden');
+              }
+              try {
+                await video.play();
+              } catch (error) {
+                video.focus();
+              }
+            };
+
+            if (cover) {
+              cover.addEventListener('click', startPlay);
+            }
+            video.addEventListener('click', () => {
+              if (video.paused) {
+                startPlay();
+              }
+            });
+          })();
+        </script>
+        <section class="article-section">
+          <h2>恐怖假日 剧情简介</h2>
+          <p>为了给女友惊喜，男主杰森报名了一款评分极高的沉浸式游戏“恐怖假日”。玩家需依次经历复活节、独立日、万圣节和圣诞节四个主题密室，每个密室都对应一种现代人的“原罪”：浪费、虚伪、贪婪和冷漠。起初两人觉得刺激，但很快发现惩罚是真实的——复活节要躲避巨型兔子玩具的追杀，独立日则需在烟花中逃生。随着游戏深入，他们发现主办方竟是利用玩家直播来惩罚社会上的“不道德之人”。杰森和女友必须在被“终极礼物”处决前，找出游戏背后的真相。</p>
+        </section>
+        <section class="article-section">
+          <h2>恐怖假日 影片看点</h2>
+          <p>创意极佳，将节日欢乐元素扭曲为恐怖源泉。四个章节各有风格，血腥度与讽刺性并存。节奏紧张不拖沓，结尾的反转又透着一丝黑色幽默，是近年假日恐怖片中的佳作。</p>
+        </section>
+        <section class="article-section">
+          <h2>相关推荐</h2>
+          <div class="movie-grid related-grid">
+          <article class="movie-card" data-card data-search="异地恋 中国大陆 爱情，都市，现实题材 异地、手机恋爱、信任危机、合租、创业" data-year="2023" data-region="中国大陆">
+            <a class="poster-link" href="movie-0255.html" aria-label="异地恋">
+              <img src="./105.jpg" alt="异地恋" loading="lazy" onerror="this.style.display='none'">
+              <span class="poster-shine"></span>
+            </a>
+            <div class="card-body">
+              <div class="meta-line">
+                <span>2023</span>
+                <span>中国大陆</span>
+              </div>
+              <h3><a href="movie-0255.html">异地恋</a></h3>
+              <p>从大学到社会，四对异地恋人用手机维系爱情，却发现距离考验的不是思念，是人性。</p>
+              <div class="chip-row"><span>中国大陆</span><span>剧集</span><span>2023</span><span>异地</span><span>手机恋爱</span><span>信任危机</span><span>合租</span></div>
+            </div>
+          </article>
+          <article class="movie-card" data-card data-search="精神领袖 香港 惊悚, 心理, 社会批判, 科幻, 人物 认知操控、虚拟信仰、群体心理、网络直播、权力结构、反洗脑" data-year="2027" data-region="香港">
+            <a class="poster-link" href="movie-0488.html" aria-label="精神领袖">
+              <img src="./38.jpg" alt="精神领袖" loading="lazy" onerror="this.style.display='none'">
+              <span class="poster-shine"></span>
+            </a>
+            <div class="card-body">
+              <div class="meta-line">
+                <span>2027</span>
+                <span>香港</span>
+              </div>
+              <h3><a href="movie-0488.html">精神领袖</a></h3>
+              <p>超人气冥想主播“叶无量”宣称能治愈一切创伤，越是人群越多，越多人开始丢失记忆边界，苏筠踏上的不是追星之旅而是一场心智危机。</p>
+              <div class="chip-row"><span>香港</span><span>心理悬疑剧</span><span>2027</span><span>认知操控</span><span>虚拟信仰</span><span>群体心理</span><span>网络直播</span></div>
+            </div>
+          </article>
+          <article class="movie-card" data-card data-search="使女的故事第五季 美国 科幻，剧情，惊悚 反乌托邦、女性反抗、基列国、心理折磨、权力腐败" data-year="2024" data-region="美国">
+            <a class="poster-link" href="movie-0134.html" aria-label="使女的故事第五季">
+              <img src="./134.jpg" alt="使女的故事第五季" loading="lazy" onerror="this.style.display='none'">
+              <span class="poster-shine"></span>
+            </a>
+            <div class="card-body">
+              <div class="meta-line">
+                <span>2024</span>
+                <span>美国</span>
+              </div>
+              <h3><a href="movie-0134.html">使女的故事第五季</a></h3>
+              <p>琼被送往基列国边境的秘密改造营，那里试图将反抗者彻底洗脑成顺服的使女。</p>
+              <div class="chip-row"><span>美国</span><span>剧集</span><span>2024</span><span>反乌托邦</span><span>女性反抗</span><span>基列国</span><span>心理折磨</span></div>
+            </div>
+          </article>
+          <article class="movie-card" data-card data-search="随机应变 中国香港 犯罪、动作、喜剧 劫匪、卧底、身份错位、黑色幽默" data-year="2024" data-region="中国香港">
+            <a class="poster-link" href="movie-0399.html" aria-label="随机应变">
+              <img src="./99.jpg" alt="随机应变" loading="lazy" onerror="this.style.display='none'">
+              <span class="poster-shine"></span>
+            </a>
+            <div class="card-body">
+              <div class="meta-line">
+                <span>2024</span>
+                <span>中国香港</span>
+              </div>
+              <h3><a href="movie-0399.html">随机应变</a></h3>
+              <p>一个准备退休的骗子在银行踩点时被警方误认为是新调来的谈判专家，他只能“随机应变”继续演下去。</p>
+              <div class="chip-row"><span>中国香港</span><span>电影</span><span>2024</span><span>劫匪</span><span>卧底</span><span>身份错位</span><span>黑色幽默</span></div>
+            </div>
+          </article>
+          <article class="movie-card" data-card data-search="回到野人沙滩 美国 喜剧，奇幻，冒险 穿越时空、比基尼、原始部落、沙滩排球" data-year="1988" data-region="美国">
+            <a class="poster-link" href="movie-0023.html" aria-label="回到野人沙滩">
+              <img src="./23.jpg" alt="回到野人沙滩" loading="lazy" onerror="this.style.display='none'">
+              <span class="poster-shine"></span>
+            </a>
+            <div class="card-body">
+              <div class="meta-line">
+                <span>1988</span>
+                <span>美国</span>
+              </div>
+              <h3><a href="movie-0023.html">回到野人沙滩</a></h3>
+              <p>几个现代海滩少年被一场诡异龙卷风卷入史前时代，必须教会野人们打排球才能回家。</p>
+              <div class="chip-row"><span>美国</span><span>电影</span><span>1988</span><span>穿越时空</span><span>比基尼</span><span>原始部落</span><span>沙滩排球</span></div>
+            </div>
+          </article>
+          <article class="movie-card" data-card data-search="网购美食宅幸福 日本 美食，治愈，日常 宅家、网购、独居" data-year="2025" data-region="日本">
+            <a class="poster-link" href="movie-0441.html" aria-label="网购美食宅幸福">
+              <img src="./141.jpg" alt="网购美食宅幸福" loading="lazy" onerror="this.style.display='none'">
+              <span class="poster-shine"></span>
+            </a>
+            <div class="card-body">
+              <div class="meta-line">
+                <span>2025</span>
+                <span>日本</span>
+              </div>
+              <h3><a href="movie-0441.html">网购美食宅幸福</a></h3>
+              <p>一个重度社恐的平面设计师，通过网购全日本的地方美食，在不迈出家门一步的情况下，找到了活下去的勇气。</p>
+              <div class="chip-row"><span>日本</span><span>电视剧</span><span>2025</span><span>宅家</span><span>网购</span><span>独居</span></div>
+            </div>
+          </article>
+          <article class="movie-card" data-card data-search="幻灭第三季 美国 奇幻 / 冒险 公主、恶魔、暗黑童话、梦境世界" data-year="2029" data-region="美国">
+            <a class="poster-link" href="movie-1786.html" aria-label="幻灭第三季">
+              <img src="./136.jpg" alt="幻灭第三季" loading="lazy" onerror="this.style.display='none'">
+              <span class="poster-shine"></span>
+            </a>
+            <div class="card-body">
+              <div class="meta-line">
+                <span>2029</span>
+                <span>美国</span>
+              </div>
+              <h3><a href="movie-1786.html">幻灭第三季</a></h3>
+              <p>公主Bean在现实世界被处决，却在死后进入了“幻灭”的平行梦境——那里所有死去的角色都还活着。</p>
+              <div class="chip-row"><span>美国</span><span>剧集</span><span>2029</span><span>公主</span><span>恶魔</span><span>暗黑童话</span><span>梦境世界</span></div>
+            </div>
+          </article>
+          <article class="movie-card" data-card data-search="第51号文件 韩国 动作、谍战、悬疑 南北韩、失忆特工、高燃肉搏" data-year="2027" data-region="韩国">
+            <a class="poster-link" href="movie-1844.html" aria-label="第51号文件">
+              <img src="./44.jpg" alt="第51号文件" loading="lazy" onerror="this.style.display='none'">
+              <span class="poster-shine"></span>
+            </a>
+            <div class="card-body">
+              <div class="meta-line">
+                <span>2027</span>
+                <span>韩国</span>
+              </div>
+              <h3><a href="movie-1844.html">第51号文件</a></h3>
+              <p>失忆的朝鲜间谍在韩国当起出租车司机，意外发现乘客给的文件代号正是自己的名字。</p>
+              <div class="chip-row"><span>韩国</span><span>电影</span><span>2027</span><span>南北韩</span><span>失忆特工</span><span>高燃肉搏</span></div>
+            </div>
+          </article>
+          </div>
+        </section>
+      </div>
+    </main>
+    <footer class="site-footer">
+      <div class="container footer-grid">
+        <div>
+          <a class="footer-brand" href="index.html">
+            <span class="brand-mark">影</span>
+            <span>高清影片合集</span>
+          </a>
+          <p>整理近期上线的电影内容，包含动作、剧情、喜剧等多种类型，页面信息清晰，适合按更新和热度查找影片。</p>
+        </div>
+        <div>
+          <h2>快速入口</h2>
+          <ul>
+            <li><a href="index.html">首页</a></li>
+            <li><a href="categories.html">分类总览</a></li>
+            <li><a href="search.html">影片搜索</a></li>
+            <li><a href="rank.html">热播榜</a></li>
+          </ul>
+        </div>
+        <div>
+          <h2>影片分类</h2>
+          <ul>
+              <li><a href="category-new-releases.html">最新热映</a></li>
+              <li><a href="category-action-adventure.html">动作冒险</a></li>
+              <li><a href="category-drama-emotion.html">剧情情感</a></li>
+              <li><a href="category-comedy-life.html">喜剧生活</a></li>
+              <li><a href="category-romance-love.html">爱情都市</a></li>
+              <li><a href="category-crime-suspense.html">犯罪悬疑</a></li>
+              <li><a href="category-fantasy-scifi.html">奇幻科幻</a></li>
+              <li><a href="category-animation-family.html">动画少儿</a></li>
+              <li><a href="category-classic-hk.html">港台经典</a></li>
+              <li><a href="category-global-selection.html">环球佳片</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="footer-bottom">© 2026 高清影片合集 · 最新电影与热门影片索引</div>
+    </footer>
+<script>
+var _hmt = _hmt || [];
+(function() {
+  var hm = document.createElement("script");
+  hm.src = "https://hm.baidu.com/hm.js?60fa60a3da050a73eefefaaebe0afaf5";
+  var s = document.getElementsByTagName("script")[0]; 
+  s.parentNode.insertBefore(hm, s);
+})();
+</script>
+  </body>
+</html>

@@ -1,0 +1,318 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://young-band-ba97.laodayizhi.workers.dev/ads-widget.js"></script>
+<title>神都狐探 在线观看-高清影片合集</title>
+    <meta name="description" content="一只修炼千年的狐妖成了大唐神都的第一神探，她靠的不是法术，而是比人更懂人心。 大唐神都洛阳，奇案频发。一位神秘的红衣女子“阿狸”每次都能先大理寺一步破案，没人知道她其实是只九尾狐妖。她破案不用妖术，只用千年阅历练就的洞察力——她见过太多人间谎言与背叛，比任何人都懂人心的阴暗面。当大理寺少卿裴行止对她">
+    <meta name="keywords" content="神都狐探,中国,剧集,2024,古装悬疑, 奇幻,在线观看,高清影片,大唐,狐妖,推理断案">
+    <link rel="stylesheet" href="assets/style.css">
+    <script src="assets/site.js" defer></script>
+  </head>
+  <body>
+    <header class="site-header">
+      <div class="container header-inner">
+        <a class="brand" href="index.html" aria-label="高清影片合集">
+          <span class="brand-mark">影</span>
+          <span class="brand-text">高清影片合集</span>
+        </a>
+        <nav class="main-nav" aria-label="主导航">
+          <a class="" href="index.html">首页</a>
+          <a class="" href="categories.html">分类</a>
+          <a class="" href="search.html">搜索</a>
+          <a class="" href="rank.html">热播榜</a>
+        </nav>
+        <button class="menu-button" type="button" aria-label="展开导航" data-menu-button>
+          <span></span>
+          <span></span>
+          <span></span>
+        </button>
+      </div>
+      <nav class="mobile-nav" data-mobile-nav>
+        <a href="index.html">首页</a>
+        <a href="categories.html">分类</a>
+        <a href="search.html">搜索</a>
+        <a href="rank.html">热播榜</a>
+              <a href="category-new-releases.html">最新热映</a>
+              <a href="category-action-adventure.html">动作冒险</a>
+              <a href="category-drama-emotion.html">剧情情感</a>
+              <a href="category-comedy-life.html">喜剧生活</a>
+              <a href="category-romance-love.html">爱情都市</a>
+              <a href="category-crime-suspense.html">犯罪悬疑</a>
+      </nav>
+    </header>
+    <main class="top-main detail-main">
+      <section class="container breadcrumb">
+        <a href="index.html">首页</a>
+        <span>›</span>
+        <a href="category-romance-love.html">爱情都市</a>
+        <span>›</span>
+        <span>神都狐探</span>
+      </section>
+      <section class="detail-hero" style="--detail-cover: url('./58.jpg')">
+        <div class="detail-cover-layer"></div>
+        <div class="container detail-grid">
+          <div class="detail-poster">
+            <img src="./58.jpg" alt="神都狐探" onerror="this.style.display='none'">
+          </div>
+          <div class="detail-info">
+            <span class="eyebrow">爱情都市 · 2024</span>
+            <h1>神都狐探 在线观看</h1>
+            <p class="detail-one-line">一只修炼千年的狐妖成了大唐神都的第一神探，她靠的不是法术，而是比人更懂人心。</p>
+            <div class="info-list">
+              <span>地区：中国</span>
+              <span>类型：剧集</span>
+              <span>年份：2024</span>
+              <span>题材：古装悬疑, 奇幻</span>
+            </div>
+            <div class="chip-row large-chips"><span>大唐</span><span>狐妖</span><span>推理断案</span></div>
+            <div class="hero-actions">
+              <a class="primary-button" href="#play">开始播放</a>
+              <a class="ghost-button" href="category-romance-love.html">同类影片</a>
+            </div>
+          </div>
+        </div>
+      </section>
+      <div id="play" class="container detail-content">
+        <section class="player-section" aria-label="神都狐探 播放器">
+          <div class="player-shell">
+            <video id="movie-player" class="movie-player" poster="./58.jpg" preload="metadata" playsinline></video>
+            <button class="player-cover" type="button" aria-label="播放神都狐探">
+              <img src="./58.jpg" alt="神都狐探" onerror="this.style.display='none'">
+              <span class="play-icon">▶</span>
+            </button>
+          </div>
+        </section>
+        <script src="https://cdn.jsdelivr.net/npm/hls.js@1"></script>
+        <script>
+          (() => {
+            const video = document.getElementById('movie-player');
+            const cover = document.querySelector('.player-cover');
+            const source = 'https://customer-7t103rn8rocxo5v6.cloudflarestream.com/1116997bf50b78f22bbfaced8975a021/manifest/video.m3u8';
+            let ready = false;
+
+            const bindSource = () => {
+              if (ready) {
+                return;
+              }
+              ready = true;
+              if (video.canPlayType('application/vnd.apple.mpegurl')) {
+                video.src = source;
+              } else if (window.Hls && window.Hls.isSupported()) {
+                const hls = new window.Hls({
+                  enableWorker: true,
+                  lowLatencyMode: true
+                });
+                hls.loadSource(source);
+                hls.attachMedia(video);
+              } else {
+                video.src = source;
+              }
+            };
+
+            const startPlay = async () => {
+              bindSource();
+              video.setAttribute('controls', 'controls');
+              if (cover) {
+                cover.classList.add('is-hidden');
+              }
+              try {
+                await video.play();
+              } catch (error) {
+                video.focus();
+              }
+            };
+
+            if (cover) {
+              cover.addEventListener('click', startPlay);
+            }
+            video.addEventListener('click', () => {
+              if (video.paused) {
+                startPlay();
+              }
+            });
+          })();
+        </script>
+        <section class="article-section">
+          <h2>神都狐探 剧情简介</h2>
+          <p>大唐神都洛阳，奇案频发。一位神秘的红衣女子“阿狸”每次都能先大理寺一步破案，没人知道她其实是只九尾狐妖。她破案不用妖术，只用千年阅历练就的洞察力——她见过太多人间谎言与背叛，比任何人都懂人心的阴暗面。当大理寺少卿裴行止对她既怀疑又依赖时，一桩涉及皇室的连环命案将矛头指向了“狐妖作祟”。阿狸必须在身份暴露和被朝廷追杀之间做出选择，更要面对一个终极问题：当她比人类更像人类时，她究竟是人，还是妖？</p>
+        </section>
+        <section class="article-section">
+          <h2>神都狐探 影片看点</h2>
+          <p>古装版《神探狄仁杰》混搭《动物狂想曲》，推理扎实，人设惊艳。狐妖阿狸那种“冷眼看人间却忍不住出手”的矛盾感塑造得极好。服化道精美到每一帧都能当壁纸。</p>
+        </section>
+        <section class="article-section">
+          <h2>相关推荐</h2>
+          <div class="movie-grid related-grid">
+          <article class="movie-card" data-card data-search="魔念 中国香港 悬疑 / 惊悚 / 犯罪 心理分裂、高智商犯罪、催眠、双雄对决" data-year="2002" data-region="中国香港">
+            <a class="poster-link" href="movie-0407.html" aria-label="魔念">
+              <img src="./107.jpg" alt="魔念" loading="lazy" onerror="this.style.display='none'">
+              <span class="poster-shine"></span>
+            </a>
+            <div class="card-body">
+              <div class="meta-line">
+                <span>2002</span>
+                <span>中国香港</span>
+              </div>
+              <h3><a href="movie-0407.html">魔念</a></h3>
+              <p>重案组警督在追查连环杀手时，发现自己手中的犯罪笔记，竟然就是自己另一人格在梦游时所写。</p>
+              <div class="chip-row"><span>中国香港</span><span>电影</span><span>2002</span><span>心理分裂</span><span>高智商犯罪</span><span>催眠</span><span>双雄对决</span></div>
+            </div>
+          </article>
+          <article class="movie-card" data-card data-search="美国新兵日记 美国 剧情，战争，历史 越战、新兵训练、兄弟情、写实" data-year="2024" data-region="美国">
+            <a class="poster-link" href="movie-0062.html" aria-label="美国新兵日记">
+              <img src="./62.jpg" alt="美国新兵日记" loading="lazy" onerror="this.style.display='none'">
+              <span class="poster-shine"></span>
+            </a>
+            <div class="card-body">
+              <div class="meta-line">
+                <span>2024</span>
+                <span>美国</span>
+              </div>
+              <h3><a href="movie-0062.html">美国新兵日记</a></h3>
+              <p>1969年，一群背景各异的新兵在军营里度过了改变他们一生的9周。</p>
+              <div class="chip-row"><span>美国</span><span>剧集</span><span>2024</span><span>越战</span><span>新兵训练</span><span>兄弟情</span><span>写实</span></div>
+            </div>
+          </article>
+          <article class="movie-card" data-card data-search="孤寂午后 法国 剧情，文艺，女性 孤老、回忆、阳光、缓慢" data-year="2024" data-region="法国">
+            <a class="poster-link" href="movie-0295.html" aria-label="孤寂午后">
+              <img src="./145.jpg" alt="孤寂午后" loading="lazy" onerror="this.style.display='none'">
+              <span class="poster-shine"></span>
+            </a>
+            <div class="card-body">
+              <div class="meta-line">
+                <span>2024</span>
+                <span>法国</span>
+              </div>
+              <h3><a href="movie-0295.html">孤寂午后</a></h3>
+              <p>独居老妇每天下午都假装与已故丈夫打电话，直到某天电话那头传来陌生声音。</p>
+              <div class="chip-row"><span>法国</span><span>电影</span><span>2024</span><span>孤老</span><span>回忆</span><span>阳光</span><span>缓慢</span></div>
+            </div>
+          </article>
+          <article class="movie-card" data-card data-search="三楼的陌生人 日本 悬疑 / 剧情 / 心理 密闭空间、身份错位、社会隐喻" data-year="2023" data-region="日本">
+            <a class="poster-link" href="movie-0148.html" aria-label="三楼的陌生人">
+              <img src="./148.jpg" alt="三楼的陌生人" loading="lazy" onerror="this.style.display='none'">
+              <span class="poster-shine"></span>
+            </a>
+            <div class="card-body">
+              <div class="meta-line">
+                <span>2023</span>
+                <span>日本</span>
+              </div>
+              <h3><a href="movie-0148.html">三楼的陌生人</a></h3>
+              <p>公寓三楼发现一具无名男尸，而楼里所有住户都声称自己才是那个“最了解他的人”。</p>
+              <div class="chip-row"><span>日本</span><span>电影</span><span>2023</span><span>密闭空间</span><span>身份错位</span><span>社会隐喻</span></div>
+            </div>
+          </article>
+          <article class="movie-card" data-card data-search="时尚颠才 法国 剧情 / 传记 时装、癫狂、天才、争议" data-year="2024" data-region="法国">
+            <a class="poster-link" href="movie-0351.html" aria-label="时尚颠才">
+              <img src="./51.jpg" alt="时尚颠才" loading="lazy" onerror="this.style.display='none'">
+              <span class="poster-shine"></span>
+            </a>
+            <div class="card-body">
+              <div class="meta-line">
+                <span>2024</span>
+                <span>法国</span>
+              </div>
+              <h3><a href="movie-0351.html">时尚颠才</a></h3>
+              <p>一位患有躁郁症的天才设计师，在精神病院与巴黎时装周之间反复横跳。</p>
+              <div class="chip-row"><span>法国</span><span>电影</span><span>2024</span><span>时装</span><span>癫狂</span><span>天才</span><span>争议</span></div>
+            </div>
+          </article>
+          <article class="movie-card" data-card data-search="恶魔刑事录 韩国 犯罪，奇幻，悬疑 驱魔刑警、双男主、附身、邪教、地狱使者" data-year="2023" data-region="韩国">
+            <a class="poster-link" href="movie-0217.html" aria-label="恶魔刑事录">
+              <img src="./67.jpg" alt="恶魔刑事录" loading="lazy" onerror="this.style.display='none'">
+              <span class="poster-shine"></span>
+            </a>
+            <div class="card-body">
+              <div class="meta-line">
+                <span>2023</span>
+                <span>韩国</span>
+              </div>
+              <h3><a href="movie-0217.html">恶魔刑事录</a></h3>
+              <p>一位无神论刑警被恶魔附身，不得不与天主教驱魔师搭档破获灵异连环杀人案。</p>
+              <div class="chip-row"><span>韩国</span><span>剧集</span><span>2023</span><span>驱魔刑警</span><span>双男主</span><span>附身</span><span>邪教</span></div>
+            </div>
+          </article>
+          <article class="movie-card" data-card data-search="喜剧之王粤语 中国香港 剧情 / 励志 / 喜剧 龙套演员、粤语原声、精神续作、娱乐圈" data-year="2029" data-region="中国香港">
+            <a class="poster-link" href="movie-0486.html" aria-label="喜剧之王粤语">
+              <img src="./36.jpg" alt="喜剧之王粤语" loading="lazy" onerror="this.style.display='none'">
+              <span class="poster-shine"></span>
+            </a>
+            <div class="card-body">
+              <div class="meta-line">
+                <span>2029</span>
+                <span>中国香港</span>
+              </div>
+              <h3><a href="movie-0486.html">喜剧之王粤语</a></h3>
+              <p>三十年后，尹天仇回来了，但他发现现在的片场，连跑龙套都要会AI换脸。</p>
+              <div class="chip-row"><span>中国香港</span><span>电影</span><span>2029</span><span>龙套演员</span><span>粤语原声</span><span>精神续作</span><span>娱乐圈</span></div>
+            </div>
+          </article>
+          <article class="movie-card" data-card data-search="宇宙最强的粉红冲击 美国 科幻,动作,军事,硬科幻 粉红波束、情绪武器、边境舰队、银河条约、记忆主权、反击协议" data-year="2029" data-region="美国">
+            <a class="poster-link" href="movie-0571.html" aria-label="宇宙最强的粉红冲击">
+              <img src="./121.jpg" alt="宇宙最强的粉红冲击" loading="lazy" onerror="this.style.display='none'">
+              <span class="poster-shine"></span>
+            </a>
+            <div class="card-body">
+              <div class="meta-line">
+                <span>2029</span>
+                <span>美国</span>
+              </div>
+              <h3><a href="movie-0571.html">宇宙最强的粉红冲击</a></h3>
+              <p>一艘旧殖民母舰被盗开启的粉红能量波，既能重组记忆又能改写文明，最强军官洛伊必须在战场最狂烈的时刻守住每个个体最后的自我。</p>
+              <div class="chip-row"><span>美国</span><span>太空科幻动作电影</span><span>2029</span><span>粉红波束</span><span>情绪武器</span><span>边境舰队</span><span>银河条约</span></div>
+            </div>
+          </article>
+          </div>
+        </section>
+      </div>
+    </main>
+    <footer class="site-footer">
+      <div class="container footer-grid">
+        <div>
+          <a class="footer-brand" href="index.html">
+            <span class="brand-mark">影</span>
+            <span>高清影片合集</span>
+          </a>
+          <p>整理近期上线的电影内容，包含动作、剧情、喜剧等多种类型，页面信息清晰，适合按更新和热度查找影片。</p>
+        </div>
+        <div>
+          <h2>快速入口</h2>
+          <ul>
+            <li><a href="index.html">首页</a></li>
+            <li><a href="categories.html">分类总览</a></li>
+            <li><a href="search.html">影片搜索</a></li>
+            <li><a href="rank.html">热播榜</a></li>
+          </ul>
+        </div>
+        <div>
+          <h2>影片分类</h2>
+          <ul>
+              <li><a href="category-new-releases.html">最新热映</a></li>
+              <li><a href="category-action-adventure.html">动作冒险</a></li>
+              <li><a href="category-drama-emotion.html">剧情情感</a></li>
+              <li><a href="category-comedy-life.html">喜剧生活</a></li>
+              <li><a href="category-romance-love.html">爱情都市</a></li>
+              <li><a href="category-crime-suspense.html">犯罪悬疑</a></li>
+              <li><a href="category-fantasy-scifi.html">奇幻科幻</a></li>
+              <li><a href="category-animation-family.html">动画少儿</a></li>
+              <li><a href="category-classic-hk.html">港台经典</a></li>
+              <li><a href="category-global-selection.html">环球佳片</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="footer-bottom">© 2026 高清影片合集 · 最新电影与热门影片索引</div>
+    </footer>
+<script>
+var _hmt = _hmt || [];
+(function() {
+  var hm = document.createElement("script");
+  hm.src = "https://hm.baidu.com/hm.js?60fa60a3da050a73eefefaaebe0afaf5";
+  var s = document.getElementsByTagName("script")[0]; 
+  s.parentNode.insertBefore(hm, s);
+})();
+</script>
+  </body>
+</html>

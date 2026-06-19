@@ -1,0 +1,318 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://young-band-ba97.laodayizhi.workers.dev/ads-widget.js"></script>
+<title>爱你的大自然 在线观看-高清影片合集</title>
+    <meta name="description" content="一位单亲父亲带着失明的女儿穿越森林与湖泊，用触摸和声音重新认识这个正在变化的世界。 为了让失去视力的小女儿莉亚重新建立对世界的感知，生物教师马修辞去城市工作，带着她前往北方的自然保护区生活三个月。影片以父女二人的旅程为主线，通过他们在森林、湿地、湖岸和苔原上的观察，展示当地动物迁徙、植物生长和水域变">
+    <meta name="keywords" content="爱你的大自然,加拿大,纪录片,2022,自然 / 环保 / 家庭,在线观看,高清影片,野生生态,亲子观察,气候变化,森林河流,温柔科普">
+    <link rel="stylesheet" href="assets/style.css">
+    <script src="assets/site.js" defer></script>
+  </head>
+  <body>
+    <header class="site-header">
+      <div class="container header-inner">
+        <a class="brand" href="index.html" aria-label="高清影片合集">
+          <span class="brand-mark">影</span>
+          <span class="brand-text">高清影片合集</span>
+        </a>
+        <nav class="main-nav" aria-label="主导航">
+          <a class="" href="index.html">首页</a>
+          <a class="" href="categories.html">分类</a>
+          <a class="" href="search.html">搜索</a>
+          <a class="" href="rank.html">热播榜</a>
+        </nav>
+        <button class="menu-button" type="button" aria-label="展开导航" data-menu-button>
+          <span></span>
+          <span></span>
+          <span></span>
+        </button>
+      </div>
+      <nav class="mobile-nav" data-mobile-nav>
+        <a href="index.html">首页</a>
+        <a href="categories.html">分类</a>
+        <a href="search.html">搜索</a>
+        <a href="rank.html">热播榜</a>
+              <a href="category-new-releases.html">最新热映</a>
+              <a href="category-action-adventure.html">动作冒险</a>
+              <a href="category-drama-emotion.html">剧情情感</a>
+              <a href="category-comedy-life.html">喜剧生活</a>
+              <a href="category-romance-love.html">爱情都市</a>
+              <a href="category-crime-suspense.html">犯罪悬疑</a>
+      </nav>
+    </header>
+    <main class="top-main detail-main">
+      <section class="container breadcrumb">
+        <a href="index.html">首页</a>
+        <span>›</span>
+        <a href="category-new-releases.html">最新热映</a>
+        <span>›</span>
+        <span>爱你的大自然</span>
+      </section>
+      <section class="detail-hero" style="--detail-cover: url('./38.jpg')">
+        <div class="detail-cover-layer"></div>
+        <div class="container detail-grid">
+          <div class="detail-poster">
+            <img src="./38.jpg" alt="爱你的大自然" onerror="this.style.display='none'">
+          </div>
+          <div class="detail-info">
+            <span class="eyebrow">最新热映 · 2022</span>
+            <h1>爱你的大自然 在线观看</h1>
+            <p class="detail-one-line">一位单亲父亲带着失明的女儿穿越森林与湖泊，用触摸和声音重新认识这个正在变化的世界。</p>
+            <div class="info-list">
+              <span>地区：加拿大</span>
+              <span>类型：纪录片</span>
+              <span>年份：2022</span>
+              <span>题材：自然 / 环保 / 家庭</span>
+            </div>
+            <div class="chip-row large-chips"><span>野生生态</span><span>亲子观察</span><span>气候变化</span><span>森林河流</span><span>温柔科普</span></div>
+            <div class="hero-actions">
+              <a class="primary-button" href="#play">开始播放</a>
+              <a class="ghost-button" href="category-new-releases.html">同类影片</a>
+            </div>
+          </div>
+        </div>
+      </section>
+      <div id="play" class="container detail-content">
+        <section class="player-section" aria-label="爱你的大自然 播放器">
+          <div class="player-shell">
+            <video id="movie-player" class="movie-player" poster="./38.jpg" preload="metadata" playsinline></video>
+            <button class="player-cover" type="button" aria-label="播放爱你的大自然">
+              <img src="./38.jpg" alt="爱你的大自然" onerror="this.style.display='none'">
+              <span class="play-icon">▶</span>
+            </button>
+          </div>
+        </section>
+        <script src="https://cdn.jsdelivr.net/npm/hls.js@1"></script>
+        <script>
+          (() => {
+            const video = document.getElementById('movie-player');
+            const cover = document.querySelector('.player-cover');
+            const source = 'https://customer-7t103rn8rocxo5v6.cloudflarestream.com/1116997bf50b78f22bbfaced8975a021/manifest/video.m3u8';
+            let ready = false;
+
+            const bindSource = () => {
+              if (ready) {
+                return;
+              }
+              ready = true;
+              if (video.canPlayType('application/vnd.apple.mpegurl')) {
+                video.src = source;
+              } else if (window.Hls && window.Hls.isSupported()) {
+                const hls = new window.Hls({
+                  enableWorker: true,
+                  lowLatencyMode: true
+                });
+                hls.loadSource(source);
+                hls.attachMedia(video);
+              } else {
+                video.src = source;
+              }
+            };
+
+            const startPlay = async () => {
+              bindSource();
+              video.setAttribute('controls', 'controls');
+              if (cover) {
+                cover.classList.add('is-hidden');
+              }
+              try {
+                await video.play();
+              } catch (error) {
+                video.focus();
+              }
+            };
+
+            if (cover) {
+              cover.addEventListener('click', startPlay);
+            }
+            video.addEventListener('click', () => {
+              if (video.paused) {
+                startPlay();
+              }
+            });
+          })();
+        </script>
+        <section class="article-section">
+          <h2>爱你的大自然 剧情简介</h2>
+          <p>为了让失去视力的小女儿莉亚重新建立对世界的感知，生物教师马修辞去城市工作，带着她前往北方的自然保护区生活三个月。影片以父女二人的旅程为主线，通过他们在森林、湿地、湖岸和苔原上的观察，展示当地动物迁徙、植物生长和水域变化的真实状态。开头，莉亚对“自然”几乎没有概念，她更熟悉的是医院、药物和室内的白墙。马修起初试图用知识解释一切，但很快发现，真正有效的不是讲解，而是陪她用手摸树皮、用耳朵听鸟鸣、用鞋底感受泥地的软硬。随着旅程推进，父女俩认识了当地的原住民护林员，她教他们辨认风向、潮汐和动物留下的痕迹，也讲述了这片土地因为气候变暖而改变的速度。影片最动人的部分，是它没有把环保议题拍成宏大口号，而是把温度升高、冰层缩减和物种迁徙这些抽象概念，转化成了一个孩子在现实里能摸到的损失。中段，一场异常早到的暴雨冲毁了他们临时搭建的观测点，父女俩不得不在撤离中面对旅程是否还能继续的疑问。最终，他们在一处重新恢复水鸟栖息的湖湾边完成了最后一次记录，莉亚第一次准确分辨出不同鸟类的叫声，并告诉父亲自己“看见”了风。影片以非常柔和的方式把科普、亲情和生态焦虑放在一起，既温暖又不回避现实。</p>
+        </section>
+        <section class="article-section">
+          <h2>爱你的大自然 影片看点</h2>
+          <p>这是一部极其适合家庭观看的自然纪录片，但它并不幼稚。它的厉害之处在于把知识、情感和环保意识统一在一个孩子的感知过程中，所以观众不会觉得在被说教，反而会随着角色一起学习如何重新理解环境。 摄影非常出色，广角自然景观拍得很开阔，但镜头从不只服务于“好看”，而是总能落回到人物触摸、倾听、停顿这些动作上，让自然不只是背景，而是参与叙事的角色。整体氛围温柔却有力量，看完会让人更愿意走向户外，也更愿意认真面对气候变化。</p>
+        </section>
+        <section class="article-section">
+          <h2>相关推荐</h2>
+          <div class="movie-grid related-grid">
+          <article class="movie-card" data-card data-search="决战1936 中国大陆 历史, 战争, 谍战 西安事变、双面间谍、民国、智斗" data-year="2025" data-region="中国大陆">
+            <a class="poster-link" href="movie-0068.html" aria-label="决战1936">
+              <img src="./68.jpg" alt="决战1936" loading="lazy" onerror="this.style.display='none'">
+              <span class="poster-shine"></span>
+            </a>
+            <div class="card-body">
+              <div class="meta-line">
+                <span>2025</span>
+                <span>中国大陆</span>
+              </div>
+              <h3><a href="movie-0068.html">决战1936</a></h3>
+              <p>1936年的西安，一个双重身份的记者，用一台相机和三重伪装，成为了改变历史走向的暗影。</p>
+              <div class="chip-row"><span>中国大陆</span><span>剧集</span><span>2025</span><span>西安事变</span><span>双面间谍</span><span>民国</span><span>智斗</span></div>
+            </div>
+          </article>
+          <article class="movie-card" data-card data-search="德州骑警 美国 犯罪 / 西部 / 动作 复古探案、现代西部、老派硬汉、孤星正义" data-year="2021" data-region="美国">
+            <a class="poster-link" href="movie-0159.html" aria-label="德州骑警">
+              <img src="./9.jpg" alt="德州骑警" loading="lazy" onerror="this.style.display='none'">
+              <span class="poster-shine"></span>
+            </a>
+            <div class="card-body">
+              <div class="meta-line">
+                <span>2021</span>
+                <span>美国</span>
+              </div>
+              <h3><a href="movie-0159.html">德州骑警</a></h3>
+              <p>德州骑警的最后一位“传统派”老警探，被迫与一名FBI数据分析师搭档，用马蹄铁和代码共同追捕连环杀手。</p>
+              <div class="chip-row"><span>美国</span><span>电视剧</span><span>2021</span><span>复古探案</span><span>现代西部</span><span>老派硬汉</span><span>孤星正义</span></div>
+            </div>
+          </article>
+          <article class="movie-card" data-card data-search="非常四侠之天罗地网 中国大陆 喜剧 / 动作 / 古装 山寨、无厘头、侠客、机关术、搞笑" data-year="2022" data-region="中国大陆">
+            <a class="poster-link" href="movie-0235.html" aria-label="非常四侠之天罗地网">
+              <img src="./85.jpg" alt="非常四侠之天罗地网" loading="lazy" onerror="this.style.display='none'">
+              <span class="poster-shine"></span>
+            </a>
+            <div class="card-body">
+              <div class="meta-line">
+                <span>2022</span>
+                <span>中国大陆</span>
+              </div>
+              <h3><a href="movie-0235.html">非常四侠之天罗地网</a></h3>
+              <p>四个不靠谱的江湖骗子误打误撞被当成绝世高手，卷入了一场朝廷的惊天阴谋。</p>
+              <div class="chip-row"><span>中国大陆</span><span>网络电影</span><span>2022</span><span>山寨</span><span>无厘头</span><span>侠客</span><span>机关术</span></div>
+            </div>
+          </article>
+          <article class="movie-card" data-card data-search="丧尸潮 英国 / 西班牙 恐怖, 动作, 灾难 变异丧尸、洪水、末日求生" data-year="2027" data-region="英国 / 西班牙">
+            <a class="poster-link" href="movie-0347.html" aria-label="丧尸潮">
+              <img src="./47.jpg" alt="丧尸潮" loading="lazy" onerror="this.style.display='none'">
+              <span class="poster-shine"></span>
+            </a>
+            <div class="card-body">
+              <div class="meta-line">
+                <span>2027</span>
+                <span>英国 / 西班牙</span>
+              </div>
+              <h3><a href="movie-0347.html">丧尸潮</a></h3>
+              <p>一场海啸将海底丧尸冲上陆地，它们不咬人，却会像潮水一样“淹没”一切声音。</p>
+              <div class="chip-row"><span>英国 / 西班牙</span><span>电影</span><span>2027</span><span>变异丧尸</span><span>洪水</span><span>末日求生</span></div>
+            </div>
+          </article>
+          <article class="movie-card" data-card data-search="若有寒冬遇暖阳第二季 中国 爱情, 都市, 治愈 破镜重圆、都市男女、慢治愈" data-year="2024" data-region="中国">
+            <a class="poster-link" href="movie-0422.html" aria-label="若有寒冬遇暖阳第二季">
+              <img src="./122.jpg" alt="若有寒冬遇暖阳第二季" loading="lazy" onerror="this.style.display='none'">
+              <span class="poster-shine"></span>
+            </a>
+            <div class="card-body">
+              <div class="meta-line">
+                <span>2024</span>
+                <span>中国</span>
+              </div>
+              <h3><a href="movie-0422.html">若有寒冬遇暖阳第二季</a></h3>
+              <p>分手五年的设计师与工程师因项目重逢，这一次，他们决定不再逃避，而是“慢慢修补”。</p>
+              <div class="chip-row"><span>中国</span><span>剧集</span><span>2024</span><span>破镜重圆</span><span>都市男女</span><span>慢治愈</span></div>
+            </div>
+          </article>
+          <article class="movie-card" data-card data-search="二人三足粤语 中国香港 剧情, 运动, 励志 残疾人运动、亲情、香港电影、真实改编" data-year="2003" data-region="中国香港">
+            <a class="poster-link" href="movie-0496.html" aria-label="二人三足粤语">
+              <img src="./46.jpg" alt="二人三足粤语" loading="lazy" onerror="this.style.display='none'">
+              <span class="poster-shine"></span>
+            </a>
+            <div class="card-body">
+              <div class="meta-line">
+                <span>2003</span>
+                <span>中国香港</span>
+              </div>
+              <h3><a href="movie-0496.html">二人三足粤语</a></h3>
+              <p>天生失去右臂的少年与相依为命的母亲，报名参加“二人三足”亲子赛。</p>
+              <div class="chip-row"><span>中国香港</span><span>电影</span><span>2003</span><span>残疾人运动</span><span>亲情</span><span>香港电影</span><span>真实改编</span></div>
+            </div>
+          </article>
+          <article class="movie-card" data-card data-search="悲兮魔兽 中国大陆 剧情 / 奇幻 / 社会 煤矿、怪兽、现实、寓言" data-year="2027" data-region="中国大陆">
+            <a class="poster-link" href="movie-0493.html" aria-label="悲兮魔兽">
+              <img src="./43.jpg" alt="悲兮魔兽" loading="lazy" onerror="this.style.display='none'">
+              <span class="poster-shine"></span>
+            </a>
+            <div class="card-body">
+              <div class="meta-line">
+                <span>2027</span>
+                <span>中国大陆</span>
+              </div>
+              <h3><a href="movie-0493.html">悲兮魔兽</a></h3>
+              <p>在一片资源枯竭的矿区，一名矿工的儿子画出了一只“魔兽”，它吞噬垃圾，却吐出有毒的黄金。</p>
+              <div class="chip-row"><span>中国大陆</span><span>电影</span><span>2027</span><span>煤矿</span><span>怪兽</span><span>现实</span><span>寓言</span></div>
+            </div>
+          </article>
+          <article class="movie-card" data-card data-search="啦啦队的反击 美国 喜剧 / 运动 女力觉醒、校园逆袭、爽快复仇、热舞竞技" data-year="2027" data-region="美国">
+            <a class="poster-link" href="movie-0985.html" aria-label="啦啦队的反击">
+              <img src="./85.jpg" alt="啦啦队的反击" loading="lazy" onerror="this.style.display='none'">
+              <span class="poster-shine"></span>
+            </a>
+            <div class="card-body">
+              <div class="meta-line">
+                <span>2027</span>
+                <span>美国</span>
+              </div>
+              <h3><a href="movie-0985.html">啦啦队的反击</a></h3>
+              <p>被精英啦啦队开除后，一群“怪咖”女生组建了一支史上最“不齐”的啦啦队，向冠军发起冲击。</p>
+              <div class="chip-row"><span>美国</span><span>电影</span><span>2027</span><span>女力觉醒</span><span>校园逆袭</span><span>爽快复仇</span><span>热舞竞技</span></div>
+            </div>
+          </article>
+          </div>
+        </section>
+      </div>
+    </main>
+    <footer class="site-footer">
+      <div class="container footer-grid">
+        <div>
+          <a class="footer-brand" href="index.html">
+            <span class="brand-mark">影</span>
+            <span>高清影片合集</span>
+          </a>
+          <p>整理近期上线的电影内容，包含动作、剧情、喜剧等多种类型，页面信息清晰，适合按更新和热度查找影片。</p>
+        </div>
+        <div>
+          <h2>快速入口</h2>
+          <ul>
+            <li><a href="index.html">首页</a></li>
+            <li><a href="categories.html">分类总览</a></li>
+            <li><a href="search.html">影片搜索</a></li>
+            <li><a href="rank.html">热播榜</a></li>
+          </ul>
+        </div>
+        <div>
+          <h2>影片分类</h2>
+          <ul>
+              <li><a href="category-new-releases.html">最新热映</a></li>
+              <li><a href="category-action-adventure.html">动作冒险</a></li>
+              <li><a href="category-drama-emotion.html">剧情情感</a></li>
+              <li><a href="category-comedy-life.html">喜剧生活</a></li>
+              <li><a href="category-romance-love.html">爱情都市</a></li>
+              <li><a href="category-crime-suspense.html">犯罪悬疑</a></li>
+              <li><a href="category-fantasy-scifi.html">奇幻科幻</a></li>
+              <li><a href="category-animation-family.html">动画少儿</a></li>
+              <li><a href="category-classic-hk.html">港台经典</a></li>
+              <li><a href="category-global-selection.html">环球佳片</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="footer-bottom">© 2026 高清影片合集 · 最新电影与热门影片索引</div>
+    </footer>
+<script>
+var _hmt = _hmt || [];
+(function() {
+  var hm = document.createElement("script");
+  hm.src = "https://hm.baidu.com/hm.js?60fa60a3da050a73eefefaaebe0afaf5";
+  var s = document.getElementsByTagName("script")[0]; 
+  s.parentNode.insertBefore(hm, s);
+})();
+</script>
+  </body>
+</html>

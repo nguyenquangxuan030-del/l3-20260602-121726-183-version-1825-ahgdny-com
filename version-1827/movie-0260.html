@@ -1,0 +1,318 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://young-band-ba97.laodayizhi.workers.dev/ads-widget.js"></script>
+<title>寻找列侬 在线观看-高清影片合集</title>
+    <meta name="description" content="一个16岁利物浦少年收到一封声称“列侬未死”的匿名信，他踏上了穿越欧洲的公路之旅。 2008年，利物浦男孩查理在整理去世祖母的遗物时，发现一封信中夹着一张柏林墙碎片照片，背后写着：“列侬还活着，他在布拉格等你。”查理是披头士的死忠粉，他不顾家人反对，骑着一辆破摩托车上路。他一路搭车经过曼彻斯特、阿姆">
+    <meta name="keywords" content="寻找列侬,英国,电影,2025,音乐, 传记, 剧情,在线观看,高清影片,披头士,粉丝,青春,追寻,自我认同">
+    <link rel="stylesheet" href="assets/style.css">
+    <script src="assets/site.js" defer></script>
+  </head>
+  <body>
+    <header class="site-header">
+      <div class="container header-inner">
+        <a class="brand" href="index.html" aria-label="高清影片合集">
+          <span class="brand-mark">影</span>
+          <span class="brand-text">高清影片合集</span>
+        </a>
+        <nav class="main-nav" aria-label="主导航">
+          <a class="" href="index.html">首页</a>
+          <a class="" href="categories.html">分类</a>
+          <a class="" href="search.html">搜索</a>
+          <a class="" href="rank.html">热播榜</a>
+        </nav>
+        <button class="menu-button" type="button" aria-label="展开导航" data-menu-button>
+          <span></span>
+          <span></span>
+          <span></span>
+        </button>
+      </div>
+      <nav class="mobile-nav" data-mobile-nav>
+        <a href="index.html">首页</a>
+        <a href="categories.html">分类</a>
+        <a href="search.html">搜索</a>
+        <a href="rank.html">热播榜</a>
+              <a href="category-new-releases.html">最新热映</a>
+              <a href="category-action-adventure.html">动作冒险</a>
+              <a href="category-drama-emotion.html">剧情情感</a>
+              <a href="category-comedy-life.html">喜剧生活</a>
+              <a href="category-romance-love.html">爱情都市</a>
+              <a href="category-crime-suspense.html">犯罪悬疑</a>
+      </nav>
+    </header>
+    <main class="top-main detail-main">
+      <section class="container breadcrumb">
+        <a href="index.html">首页</a>
+        <span>›</span>
+        <a href="category-global-selection.html">环球佳片</a>
+        <span>›</span>
+        <span>寻找列侬</span>
+      </section>
+      <section class="detail-hero" style="--detail-cover: url('./110.jpg')">
+        <div class="detail-cover-layer"></div>
+        <div class="container detail-grid">
+          <div class="detail-poster">
+            <img src="./110.jpg" alt="寻找列侬" onerror="this.style.display='none'">
+          </div>
+          <div class="detail-info">
+            <span class="eyebrow">环球佳片 · 2025</span>
+            <h1>寻找列侬 在线观看</h1>
+            <p class="detail-one-line">一个16岁利物浦少年收到一封声称“列侬未死”的匿名信，他踏上了穿越欧洲的公路之旅。</p>
+            <div class="info-list">
+              <span>地区：英国</span>
+              <span>类型：电影</span>
+              <span>年份：2025</span>
+              <span>题材：音乐, 传记, 剧情</span>
+            </div>
+            <div class="chip-row large-chips"><span>披头士</span><span>粉丝</span><span>青春</span><span>追寻</span><span>自我认同</span></div>
+            <div class="hero-actions">
+              <a class="primary-button" href="#play">开始播放</a>
+              <a class="ghost-button" href="category-global-selection.html">同类影片</a>
+            </div>
+          </div>
+        </div>
+      </section>
+      <div id="play" class="container detail-content">
+        <section class="player-section" aria-label="寻找列侬 播放器">
+          <div class="player-shell">
+            <video id="movie-player" class="movie-player" poster="./110.jpg" preload="metadata" playsinline></video>
+            <button class="player-cover" type="button" aria-label="播放寻找列侬">
+              <img src="./110.jpg" alt="寻找列侬" onerror="this.style.display='none'">
+              <span class="play-icon">▶</span>
+            </button>
+          </div>
+        </section>
+        <script src="https://cdn.jsdelivr.net/npm/hls.js@1"></script>
+        <script>
+          (() => {
+            const video = document.getElementById('movie-player');
+            const cover = document.querySelector('.player-cover');
+            const source = 'https://customer-7t103rn8rocxo5v6.cloudflarestream.com/31227358d3c181b7168e28ad248cfb4e/manifest/video.m3u8';
+            let ready = false;
+
+            const bindSource = () => {
+              if (ready) {
+                return;
+              }
+              ready = true;
+              if (video.canPlayType('application/vnd.apple.mpegurl')) {
+                video.src = source;
+              } else if (window.Hls && window.Hls.isSupported()) {
+                const hls = new window.Hls({
+                  enableWorker: true,
+                  lowLatencyMode: true
+                });
+                hls.loadSource(source);
+                hls.attachMedia(video);
+              } else {
+                video.src = source;
+              }
+            };
+
+            const startPlay = async () => {
+              bindSource();
+              video.setAttribute('controls', 'controls');
+              if (cover) {
+                cover.classList.add('is-hidden');
+              }
+              try {
+                await video.play();
+              } catch (error) {
+                video.focus();
+              }
+            };
+
+            if (cover) {
+              cover.addEventListener('click', startPlay);
+            }
+            video.addEventListener('click', () => {
+              if (video.paused) {
+                startPlay();
+              }
+            });
+          })();
+        </script>
+        <section class="article-section">
+          <h2>寻找列侬 剧情简介</h2>
+          <p>2008年，利物浦男孩查理在整理去世祖母的遗物时，发现一封信中夹着一张柏林墙碎片照片，背后写着：“列侬还活着，他在布拉格等你。”查理是披头士的死忠粉，他不顾家人反对，骑着一辆破摩托车上路。他一路搭车经过曼彻斯特、阿姆斯特丹，最后到达布拉格。在查理大桥上，他遇到一名老吉他手，老人给他弹了一段从未公开的旋律，自称是列侬1977年的录音。查理通过旋律中的隐藏信息，找到一家地下唱片店，店主拿出一盒旧磁带，说这是列侬隐退后录制的私密作品。就在查理以为找到真相时，店主却告诉他：“列侬早就死了，但音乐让他活了30年。你祖母想让你找的不是人，是你自己。”</p>
+        </section>
+        <section class="article-section">
+          <h2>寻找列侬 影片看点</h2>
+          <p>披头士金曲串联起青春与乡愁，公路片节奏舒缓而治愈。结尾那场天台独奏，没有炫技只有真诚，足以让任何乐迷泪崩。年度最佳音乐题材电影的有力竞争者。</p>
+        </section>
+        <section class="article-section">
+          <h2>相关推荐</h2>
+          <div class="movie-grid related-grid">
+          <article class="movie-card" data-card data-search="风流铁将军 中国香港 喜剧, 古装, 动作 军阀、荒诞、女权、恶搞历史" data-year="2026" data-region="中国香港">
+            <a class="poster-link" href="movie-0451.html" aria-label="风流铁将军">
+              <img src="./1.jpg" alt="风流铁将军" loading="lazy" onerror="this.style.display='none'">
+              <span class="poster-shine"></span>
+            </a>
+            <div class="card-body">
+              <div class="meta-line">
+                <span>2026</span>
+                <span>中国香港</span>
+              </div>
+              <h3><a href="movie-0451.html">风流铁将军</a></h3>
+              <p>民国最怕老婆的军阀，为了在青楼找回面子，意外引发了一场女权革命。</p>
+              <div class="chip-row"><span>中国香港</span><span>电影</span><span>2026</span><span>军阀</span><span>荒诞</span><span>女权</span><span>恶搞历史</span></div>
+            </div>
+          </article>
+          <article class="movie-card" data-card data-search="阴阳爱国语 中国台湾 奇幻 / 动作 阴阳师、台语配音、除妖" data-year="2023" data-region="中国台湾">
+            <a class="poster-link" href="movie-0116.html" aria-label="阴阳爱国语">
+              <img src="./116.jpg" alt="阴阳爱国语" loading="lazy" onerror="this.style.display='none'">
+              <span class="poster-shine"></span>
+            </a>
+            <div class="card-body">
+              <div class="meta-line">
+                <span>2023</span>
+                <span>中国台湾</span>
+              </div>
+              <h3><a href="movie-0116.html">阴阳爱国语</a></h3>
+              <p>台语配音版阴阳师故事，落魄法师与通灵少女联手对抗都市百鬼。</p>
+              <div class="chip-row"><span>中国台湾</span><span>剧集</span><span>2023</span><span>阴阳师</span><span>台语配音</span><span>除妖</span></div>
+            </div>
+          </article>
+          <article class="movie-card" data-card data-search="冲天 中国香港 灾难, 动作 航空灾难、高空营救、限时救援" data-year="2024" data-region="中国香港">
+            <a class="poster-link" href="movie-0374.html" aria-label="冲天">
+              <img src="./74.jpg" alt="冲天" loading="lazy" onerror="this.style.display='none'">
+              <span class="poster-shine"></span>
+            </a>
+            <div class="card-body">
+              <div class="meta-line">
+                <span>2024</span>
+                <span>中国香港</span>
+              </div>
+              <h3><a href="movie-0374.html">冲天</a></h3>
+              <p>载满乘客的客机被恐袭挟持，前空军飞行员必须在地面指挥下完成空中迫降。</p>
+              <div class="chip-row"><span>中国香港</span><span>电影</span><span>2024</span><span>航空灾难</span><span>高空营救</span><span>限时救援</span></div>
+            </div>
+          </article>
+          <article class="movie-card" data-card data-search="熊的乔纳森 法国 / 加拿大 剧情、传记、冒险 人熊情缘、真实事件改编、野外求生、文化冲突" data-year="2024" data-region="法国 / 加拿大">
+            <a class="poster-link" href="movie-0028.html" aria-label="熊的乔纳森">
+              <img src="./28.jpg" alt="熊的乔纳森" loading="lazy" onerror="this.style.display='none'">
+              <span class="poster-shine"></span>
+            </a>
+            <div class="card-body">
+              <div class="meta-line">
+                <span>2024</span>
+                <span>法国 / 加拿大</span>
+              </div>
+              <h3><a href="movie-0028.html">熊的乔纳森</a></h3>
+              <p>一个在阿拉斯加野外与棕熊共同生活了13年的男人，当他被迫回到城市，却发现自己听不懂人类的语言了。</p>
+              <div class="chip-row"><span>法国 / 加拿大</span><span>电影</span><span>2024</span><span>人熊情缘</span><span>真实事件改编</span><span>野外求生</span><span>文化冲突</span></div>
+            </div>
+          </article>
+          <article class="movie-card" data-card data-search="天堂的故事 意大利 奇幻剧情 生死、天堂、幽默、温暖、人生回顾" data-year="2025" data-region="意大利">
+            <a class="poster-link" href="movie-0269.html" aria-label="天堂的故事">
+              <img src="./119.jpg" alt="天堂的故事" loading="lazy" onerror="this.style.display='none'">
+              <span class="poster-shine"></span>
+            </a>
+            <div class="card-body">
+              <div class="meta-line">
+                <span>2025</span>
+                <span>意大利</span>
+              </div>
+              <h3><a href="movie-0269.html">天堂的故事</a></h3>
+              <p>一个愤世嫉俗的老头死后发现，“天堂”其实是一家永不打烊的老式电影院，他必须看完自己一生的烂片。</p>
+              <div class="chip-row"><span>意大利</span><span>电影</span><span>2025</span><span>生死</span><span>天堂</span><span>幽默</span><span>温暖</span></div>
+            </div>
+          </article>
+          <article class="movie-card" data-card data-search="基伯龙三日 德国, 奥地利, 法国 剧情, 传记 黑白、女演员、疗养院、孤独" data-year="2018" data-region="德国, 奥地利, 法国">
+            <a class="poster-link" href="movie-0483.html" aria-label="基伯龙三日">
+              <img src="./33.jpg" alt="基伯龙三日" loading="lazy" onerror="this.style.display='none'">
+              <span class="poster-shine"></span>
+            </a>
+            <div class="card-body">
+              <div class="meta-line">
+                <span>2018</span>
+                <span>德国, 奥地利, 法国</span>
+              </div>
+              <h3><a href="movie-0483.html">基伯龙三日</a></h3>
+              <p>1981年，崩溃的德国女星在法国基伯龙疗养，三日里与记者、摄影师及一名老友的对谈，撕开了她最后的体面。</p>
+              <div class="chip-row"><span>德国, 奥地利, 法国</span><span>电影</span><span>2018</span><span>黑白</span><span>女演员</span><span>疗养院</span><span>孤独</span></div>
+            </div>
+          </article>
+          <article class="movie-card" data-card data-search="叛逆战将2 美国 动作 / 犯罪 硬汉警探、以暴制暴、续集升级" data-year="2029" data-region="美国">
+            <a class="poster-link" href="movie-0283.html" aria-label="叛逆战将2">
+              <img src="./133.jpg" alt="叛逆战将2" loading="lazy" onerror="this.style.display='none'">
+              <span class="poster-shine"></span>
+            </a>
+            <div class="card-body">
+              <div class="meta-line">
+                <span>2029</span>
+                <span>美国</span>
+              </div>
+              <h3><a href="movie-0283.html">叛逆战将2</a></h3>
+              <p>第一部主角金盆洗手后，老搭档的女儿被绑架，他必须重返地下世界的漩涡。</p>
+              <div class="chip-row"><span>美国</span><span>电影</span><span>2029</span><span>硬汉警探</span><span>以暴制暴</span><span>续集升级</span></div>
+            </div>
+          </article>
+          <article class="movie-card" data-card data-search="边缘怒火 中国香港 动作 / 犯罪 / 警匪 卧底、极限反杀、兄弟反目、枪战" data-year="2028" data-region="中国香港">
+            <a class="poster-link" href="movie-0832.html" aria-label="边缘怒火">
+              <img src="./82.jpg" alt="边缘怒火" loading="lazy" onerror="this.style.display='none'">
+              <span class="poster-shine"></span>
+            </a>
+            <div class="card-body">
+              <div class="meta-line">
+                <span>2028</span>
+                <span>中国香港</span>
+              </div>
+              <h3><a href="movie-0832.html">边缘怒火</a></h3>
+              <p>游走于黑白边缘的卧底警察被组织抛弃，他决定用自己的方式点燃正义的怒火。</p>
+              <div class="chip-row"><span>中国香港</span><span>电影</span><span>2028</span><span>卧底</span><span>极限反杀</span><span>兄弟反目</span><span>枪战</span></div>
+            </div>
+          </article>
+          </div>
+        </section>
+      </div>
+    </main>
+    <footer class="site-footer">
+      <div class="container footer-grid">
+        <div>
+          <a class="footer-brand" href="index.html">
+            <span class="brand-mark">影</span>
+            <span>高清影片合集</span>
+          </a>
+          <p>整理近期上线的电影内容，包含动作、剧情、喜剧等多种类型，页面信息清晰，适合按更新和热度查找影片。</p>
+        </div>
+        <div>
+          <h2>快速入口</h2>
+          <ul>
+            <li><a href="index.html">首页</a></li>
+            <li><a href="categories.html">分类总览</a></li>
+            <li><a href="search.html">影片搜索</a></li>
+            <li><a href="rank.html">热播榜</a></li>
+          </ul>
+        </div>
+        <div>
+          <h2>影片分类</h2>
+          <ul>
+              <li><a href="category-new-releases.html">最新热映</a></li>
+              <li><a href="category-action-adventure.html">动作冒险</a></li>
+              <li><a href="category-drama-emotion.html">剧情情感</a></li>
+              <li><a href="category-comedy-life.html">喜剧生活</a></li>
+              <li><a href="category-romance-love.html">爱情都市</a></li>
+              <li><a href="category-crime-suspense.html">犯罪悬疑</a></li>
+              <li><a href="category-fantasy-scifi.html">奇幻科幻</a></li>
+              <li><a href="category-animation-family.html">动画少儿</a></li>
+              <li><a href="category-classic-hk.html">港台经典</a></li>
+              <li><a href="category-global-selection.html">环球佳片</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="footer-bottom">© 2026 高清影片合集 · 最新电影与热门影片索引</div>
+    </footer>
+<script>
+var _hmt = _hmt || [];
+(function() {
+  var hm = document.createElement("script");
+  hm.src = "https://hm.baidu.com/hm.js?60fa60a3da050a73eefefaaebe0afaf5";
+  var s = document.getElementsByTagName("script")[0]; 
+  s.parentNode.insertBefore(hm, s);
+})();
+</script>
+  </body>
+</html>

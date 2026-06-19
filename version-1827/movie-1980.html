@@ -1,0 +1,318 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://young-band-ba97.laodayizhi.workers.dev/ads-widget.js"></script>
+<title>查德·鲍尔斯 在线观看-高清影片合集</title>
+    <meta name="description" content="世界上最差的橄榄球四分卫，因为一个恶搞视频意外成了全国偶像。 查德·鲍尔斯是有史以来数据最差的大学橄榄球四分卫：传球成功率7%，达阵次数0，被抄截次数创历史新高。一名体育生为了嘲笑他，剪辑了一个“查德·鲍尔斯失误集锦”上传到网络。没想到，视频因为过于离谱的搞笑效果，一夜爆红。查德被媒体包装成“反精英">
+    <meta name="keywords" content="查德·鲍尔斯,美国,剧集,2023,喜剧,在线观看,高清影片,伪纪录片,讽刺,体育,恶搞">
+    <link rel="stylesheet" href="assets/style.css">
+    <script src="assets/site.js" defer></script>
+  </head>
+  <body>
+    <header class="site-header">
+      <div class="container header-inner">
+        <a class="brand" href="index.html" aria-label="高清影片合集">
+          <span class="brand-mark">影</span>
+          <span class="brand-text">高清影片合集</span>
+        </a>
+        <nav class="main-nav" aria-label="主导航">
+          <a class="" href="index.html">首页</a>
+          <a class="" href="categories.html">分类</a>
+          <a class="" href="search.html">搜索</a>
+          <a class="" href="rank.html">热播榜</a>
+        </nav>
+        <button class="menu-button" type="button" aria-label="展开导航" data-menu-button>
+          <span></span>
+          <span></span>
+          <span></span>
+        </button>
+      </div>
+      <nav class="mobile-nav" data-mobile-nav>
+        <a href="index.html">首页</a>
+        <a href="categories.html">分类</a>
+        <a href="search.html">搜索</a>
+        <a href="rank.html">热播榜</a>
+              <a href="category-new-releases.html">最新热映</a>
+              <a href="category-action-adventure.html">动作冒险</a>
+              <a href="category-drama-emotion.html">剧情情感</a>
+              <a href="category-comedy-life.html">喜剧生活</a>
+              <a href="category-romance-love.html">爱情都市</a>
+              <a href="category-crime-suspense.html">犯罪悬疑</a>
+      </nav>
+    </header>
+    <main class="top-main detail-main">
+      <section class="container breadcrumb">
+        <a href="index.html">首页</a>
+        <span>›</span>
+        <a href="category-romance-love.html">爱情都市</a>
+        <span>›</span>
+        <span>查德·鲍尔斯</span>
+      </section>
+      <section class="detail-hero" style="--detail-cover: url('./30.jpg')">
+        <div class="detail-cover-layer"></div>
+        <div class="container detail-grid">
+          <div class="detail-poster">
+            <img src="./30.jpg" alt="查德·鲍尔斯" onerror="this.style.display='none'">
+          </div>
+          <div class="detail-info">
+            <span class="eyebrow">爱情都市 · 2023</span>
+            <h1>查德·鲍尔斯 在线观看</h1>
+            <p class="detail-one-line">世界上最差的橄榄球四分卫，因为一个恶搞视频意外成了全国偶像。</p>
+            <div class="info-list">
+              <span>地区：美国</span>
+              <span>类型：剧集</span>
+              <span>年份：2023</span>
+              <span>题材：喜剧</span>
+            </div>
+            <div class="chip-row large-chips"><span>伪纪录片</span><span>讽刺</span><span>体育</span><span>恶搞</span></div>
+            <div class="hero-actions">
+              <a class="primary-button" href="#play">开始播放</a>
+              <a class="ghost-button" href="category-romance-love.html">同类影片</a>
+            </div>
+          </div>
+        </div>
+      </section>
+      <div id="play" class="container detail-content">
+        <section class="player-section" aria-label="查德·鲍尔斯 播放器">
+          <div class="player-shell">
+            <video id="movie-player" class="movie-player" poster="./30.jpg" preload="metadata" playsinline></video>
+            <button class="player-cover" type="button" aria-label="播放查德·鲍尔斯">
+              <img src="./30.jpg" alt="查德·鲍尔斯" onerror="this.style.display='none'">
+              <span class="play-icon">▶</span>
+            </button>
+          </div>
+        </section>
+        <script src="https://cdn.jsdelivr.net/npm/hls.js@1"></script>
+        <script>
+          (() => {
+            const video = document.getElementById('movie-player');
+            const cover = document.querySelector('.player-cover');
+            const source = 'https://customer-7t103rn8rocxo5v6.cloudflarestream.com/31227358d3c181b7168e28ad248cfb4e/manifest/video.m3u8';
+            let ready = false;
+
+            const bindSource = () => {
+              if (ready) {
+                return;
+              }
+              ready = true;
+              if (video.canPlayType('application/vnd.apple.mpegurl')) {
+                video.src = source;
+              } else if (window.Hls && window.Hls.isSupported()) {
+                const hls = new window.Hls({
+                  enableWorker: true,
+                  lowLatencyMode: true
+                });
+                hls.loadSource(source);
+                hls.attachMedia(video);
+              } else {
+                video.src = source;
+              }
+            };
+
+            const startPlay = async () => {
+              bindSource();
+              video.setAttribute('controls', 'controls');
+              if (cover) {
+                cover.classList.add('is-hidden');
+              }
+              try {
+                await video.play();
+              } catch (error) {
+                video.focus();
+              }
+            };
+
+            if (cover) {
+              cover.addEventListener('click', startPlay);
+            }
+            video.addEventListener('click', () => {
+              if (video.paused) {
+                startPlay();
+              }
+            });
+          })();
+        </script>
+        <section class="article-section">
+          <h2>查德·鲍尔斯 剧情简介</h2>
+          <p>查德·鲍尔斯是有史以来数据最差的大学橄榄球四分卫：传球成功率7%，达阵次数0，被抄截次数创历史新高。一名体育生为了嘲笑他，剪辑了一个“查德·鲍尔斯失误集锦”上传到网络。没想到，视频因为过于离谱的搞笑效果，一夜爆红。查德被媒体包装成“反精英主义的英雄”“草根精神的代表”，广告代言、脱口秀邀请纷至沓来。所有人都爱他，除了他的教练和队友。查德在巨大的流量漩涡中逐渐迷失，开始相信自己真的是天才。直到一场全国直播的关键比赛，所有人都期待他创造奇迹，他却在第一档进攻中直接把球扔给了裁判。全场安静一秒后，爆发出山呼海啸的掌声。查德摘下头盔，对着镜头说：“你们爱的不是橄榄球，你们爱的是看一个人出丑。”然后转身离场，再也没回来。</p>
+        </section>
+        <section class="article-section">
+          <h2>查德·鲍尔斯 影片看点</h2>
+          <p>对当代流量社会和反智文化的极致嘲讽。查德从“被嘲笑”到“被崇拜”的过程，精准踩中了互联网的每一个荒谬点。最后一集的球场反高潮处理得极其高级，把喜剧内核的悲剧性直接摊开给你看。男主演把“极度自信的蠢货”演得令人又爱又恨。</p>
+        </section>
+        <section class="article-section">
+          <h2>相关推荐</h2>
+          <div class="movie-grid related-grid">
+          <article class="movie-card" data-card data-search="百炼霸王与圣约女武神 日本 奇幻, 战斗, 后宫 穿越、北欧神话、战旗、龙傲天、契约" data-year="2018" data-region="日本">
+            <a class="poster-link" href="movie-0051.html" aria-label="百炼霸王与圣约女武神">
+              <img src="./51.jpg" alt="百炼霸王与圣约女武神" loading="lazy" onerror="this.style.display='none'">
+              <span class="poster-shine"></span>
+            </a>
+            <div class="card-body">
+              <div class="meta-line">
+                <span>2018</span>
+                <span>日本</span>
+              </div>
+              <h3><a href="movie-0051.html">百炼霸王与圣约女武神</a></h3>
+              <p>现代军宅穿越到北欧神话世界，用孙子兵法吊打奥丁的英灵大军。</p>
+              <div class="chip-row"><span>日本</span><span>动画</span><span>2018</span><span>穿越</span><span>北欧神话</span><span>战旗</span><span>龙傲天</span></div>
+            </div>
+          </article>
+          <article class="movie-card" data-card data-search="契×约—危险的搭档— 日本 悬疑, 犯罪 双男主、假结婚、黑道卧底" data-year="2024" data-region="日本">
+            <a class="poster-link" href="movie-0398.html" aria-label="契×约—危险的搭档—">
+              <img src="./98.jpg" alt="契×约—危险的搭档—" loading="lazy" onerror="this.style.display='none'">
+              <span class="poster-shine"></span>
+            </a>
+            <div class="card-body">
+              <div class="meta-line">
+                <span>2024</span>
+                <span>日本</span>
+              </div>
+              <h3><a href="movie-0398.html">契×约—危险的搭档—</a></h3>
+              <p>为了保护妹妹，公安精英与黑道少主签下了一纸“情人契约”，两人被迫同居并追查连环杀人案。</p>
+              <div class="chip-row"><span>日本</span><span>电视剧</span><span>2024</span><span>双男主</span><span>假结婚</span><span>黑道卧底</span></div>
+            </div>
+          </article>
+          <article class="movie-card" data-card data-search="美丽的凯特 美国 剧情 / 悬疑 / 家庭 心理惊悚、人格分裂、母女关系、小镇疑云" data-year="2024" data-region="美国">
+            <a class="poster-link" href="movie-0167.html" aria-label="美丽的凯特">
+              <img src="./17.jpg" alt="美丽的凯特" loading="lazy" onerror="this.style.display='none'">
+              <span class="poster-shine"></span>
+            </a>
+            <div class="card-body">
+              <div class="meta-line">
+                <span>2024</span>
+                <span>美国</span>
+              </div>
+              <h3><a href="movie-0167.html">美丽的凯特</a></h3>
+              <p>一个男人带着未婚妻回到老家，却发现全家人包括自己，都在妄想已死去多年的妹妹“美丽的凯特”还活着。</p>
+              <div class="chip-row"><span>美国</span><span>电影</span><span>2024</span><span>心理惊悚</span><span>人格分裂</span><span>母女关系</span><span>小镇疑云</span></div>
+            </div>
+          </article>
+          <article class="movie-card" data-card data-search="大宋探案局 中国 悬疑 / 古装 推理、宋朝、少年团体" data-year="2024" data-region="中国">
+            <a class="poster-link" href="movie-0425.html" aria-label="大宋探案局">
+              <img src="./125.jpg" alt="大宋探案局" loading="lazy" onerror="this.style.display='none'">
+              <span class="poster-shine"></span>
+            </a>
+            <div class="card-body">
+              <div class="meta-line">
+                <span>2024</span>
+                <span>中国</span>
+              </div>
+              <h3><a href="movie-0425.html">大宋探案局</a></h3>
+              <p>五位身怀绝技的北宋少年，在开封府外组建了一个探案社团。</p>
+              <div class="chip-row"><span>中国</span><span>剧集</span><span>2024</span><span>推理</span><span>宋朝</span><span>少年团体</span></div>
+            </div>
+          </article>
+          <article class="movie-card" data-card data-search="暑期何漫漫 中国大陆 剧情, 儿童 暑假、童年、90年代、成长" data-year="2023" data-region="中国大陆">
+            <a class="poster-link" href="movie-0241.html" aria-label="暑期何漫漫">
+              <img src="./91.jpg" alt="暑期何漫漫" loading="lazy" onerror="this.style.display='none'">
+              <span class="poster-shine"></span>
+            </a>
+            <div class="card-body">
+              <div class="meta-line">
+                <span>2023</span>
+                <span>中国大陆</span>
+              </div>
+              <h3><a href="movie-0241.html">暑期何漫漫</a></h3>
+              <p>1997年夏天，三个小镇男孩在没有手机和空调的暑假里，用尽一切办法“杀死时间”。</p>
+              <div class="chip-row"><span>中国大陆</span><span>电影</span><span>2023</span><span>暑假</span><span>童年</span><span>90年代</span><span>成长</span></div>
+            </div>
+          </article>
+          <article class="movie-card" data-card data-search="手机人生 美国 科幻 / 惊悚 手机、科技恐惧、暗网、绑架、密室" data-year="2024" data-region="美国">
+            <a class="poster-link" href="movie-0482.html" aria-label="手机人生">
+              <img src="./32.jpg" alt="手机人生" loading="lazy" onerror="this.style.display='none'">
+              <span class="poster-shine"></span>
+            </a>
+            <div class="card-body">
+              <div class="meta-line">
+                <span>2024</span>
+                <span>美国</span>
+              </div>
+              <h3><a href="movie-0482.html">手机人生</a></h3>
+              <p>高中生发现自己的新手机不仅能预测未来，还能通过“奖励”系统操控他杀人。</p>
+              <div class="chip-row"><span>美国</span><span>电影</span><span>2024</span><span>手机</span><span>科技恐惧</span><span>暗网</span><span>绑架</span></div>
+            </div>
+          </article>
+          <article class="movie-card" data-card data-search="喜剧之王粤语 中国香港 剧情 / 励志 / 喜剧 龙套演员、粤语原声、精神续作、娱乐圈" data-year="2029" data-region="中国香港">
+            <a class="poster-link" href="movie-0486.html" aria-label="喜剧之王粤语">
+              <img src="./36.jpg" alt="喜剧之王粤语" loading="lazy" onerror="this.style.display='none'">
+              <span class="poster-shine"></span>
+            </a>
+            <div class="card-body">
+              <div class="meta-line">
+                <span>2029</span>
+                <span>中国香港</span>
+              </div>
+              <h3><a href="movie-0486.html">喜剧之王粤语</a></h3>
+              <p>三十年后，尹天仇回来了，但他发现现在的片场，连跑龙套都要会AI换脸。</p>
+              <div class="chip-row"><span>中国香港</span><span>电影</span><span>2029</span><span>龙套演员</span><span>粤语原声</span><span>精神续作</span><span>娱乐圈</span></div>
+            </div>
+          </article>
+          <article class="movie-card" data-card data-search="宇宙最强的粉红冲击 美国 科幻,动作,军事,硬科幻 粉红波束、情绪武器、边境舰队、银河条约、记忆主权、反击协议" data-year="2029" data-region="美国">
+            <a class="poster-link" href="movie-0571.html" aria-label="宇宙最强的粉红冲击">
+              <img src="./121.jpg" alt="宇宙最强的粉红冲击" loading="lazy" onerror="this.style.display='none'">
+              <span class="poster-shine"></span>
+            </a>
+            <div class="card-body">
+              <div class="meta-line">
+                <span>2029</span>
+                <span>美国</span>
+              </div>
+              <h3><a href="movie-0571.html">宇宙最强的粉红冲击</a></h3>
+              <p>一艘旧殖民母舰被盗开启的粉红能量波，既能重组记忆又能改写文明，最强军官洛伊必须在战场最狂烈的时刻守住每个个体最后的自我。</p>
+              <div class="chip-row"><span>美国</span><span>太空科幻动作电影</span><span>2029</span><span>粉红波束</span><span>情绪武器</span><span>边境舰队</span><span>银河条约</span></div>
+            </div>
+          </article>
+          </div>
+        </section>
+      </div>
+    </main>
+    <footer class="site-footer">
+      <div class="container footer-grid">
+        <div>
+          <a class="footer-brand" href="index.html">
+            <span class="brand-mark">影</span>
+            <span>高清影片合集</span>
+          </a>
+          <p>整理近期上线的电影内容，包含动作、剧情、喜剧等多种类型，页面信息清晰，适合按更新和热度查找影片。</p>
+        </div>
+        <div>
+          <h2>快速入口</h2>
+          <ul>
+            <li><a href="index.html">首页</a></li>
+            <li><a href="categories.html">分类总览</a></li>
+            <li><a href="search.html">影片搜索</a></li>
+            <li><a href="rank.html">热播榜</a></li>
+          </ul>
+        </div>
+        <div>
+          <h2>影片分类</h2>
+          <ul>
+              <li><a href="category-new-releases.html">最新热映</a></li>
+              <li><a href="category-action-adventure.html">动作冒险</a></li>
+              <li><a href="category-drama-emotion.html">剧情情感</a></li>
+              <li><a href="category-comedy-life.html">喜剧生活</a></li>
+              <li><a href="category-romance-love.html">爱情都市</a></li>
+              <li><a href="category-crime-suspense.html">犯罪悬疑</a></li>
+              <li><a href="category-fantasy-scifi.html">奇幻科幻</a></li>
+              <li><a href="category-animation-family.html">动画少儿</a></li>
+              <li><a href="category-classic-hk.html">港台经典</a></li>
+              <li><a href="category-global-selection.html">环球佳片</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="footer-bottom">© 2026 高清影片合集 · 最新电影与热门影片索引</div>
+    </footer>
+<script>
+var _hmt = _hmt || [];
+(function() {
+  var hm = document.createElement("script");
+  hm.src = "https://hm.baidu.com/hm.js?60fa60a3da050a73eefefaaebe0afaf5";
+  var s = document.getElementsByTagName("script")[0]; 
+  s.parentNode.insertBefore(hm, s);
+})();
+</script>
+  </body>
+</html>

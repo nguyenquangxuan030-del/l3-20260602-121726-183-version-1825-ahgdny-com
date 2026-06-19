@@ -1,0 +1,318 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://young-band-ba97.laodayizhi.workers.dev/ads-widget.js"></script>
+<title>画魂缠身 在线观看-高清影片合集</title>
+    <meta name="description" content="一名叛逆少女纹了一副神秘的壁画在身上，每当深夜，画中的鬼魂便会从她的皮肤里爬出来。 艺术系学生小念为了气自己的父母，去泰国旅游时找了一位据说是“阿赞”的纹身师，在后背纹了一副精美的古曼童壁画。回国后，她发现自己变得运气奇佳，甚至赢得了国际美术大奖。但每到凌晨三点，她的后背就会剧痛，皮肤上的图案竟然开">
+    <meta name="keywords" content="画魂缠身,泰国,电影,2024,恐怖,在线观看,高清影片,古曼童,人体彩绘,诅咒,纹身,巫术">
+    <link rel="stylesheet" href="assets/style.css">
+    <script src="assets/site.js" defer></script>
+  </head>
+  <body>
+    <header class="site-header">
+      <div class="container header-inner">
+        <a class="brand" href="index.html" aria-label="高清影片合集">
+          <span class="brand-mark">影</span>
+          <span class="brand-text">高清影片合集</span>
+        </a>
+        <nav class="main-nav" aria-label="主导航">
+          <a class="" href="index.html">首页</a>
+          <a class="" href="categories.html">分类</a>
+          <a class="" href="search.html">搜索</a>
+          <a class="" href="rank.html">热播榜</a>
+        </nav>
+        <button class="menu-button" type="button" aria-label="展开导航" data-menu-button>
+          <span></span>
+          <span></span>
+          <span></span>
+        </button>
+      </div>
+      <nav class="mobile-nav" data-mobile-nav>
+        <a href="index.html">首页</a>
+        <a href="categories.html">分类</a>
+        <a href="search.html">搜索</a>
+        <a href="rank.html">热播榜</a>
+              <a href="category-new-releases.html">最新热映</a>
+              <a href="category-action-adventure.html">动作冒险</a>
+              <a href="category-drama-emotion.html">剧情情感</a>
+              <a href="category-comedy-life.html">喜剧生活</a>
+              <a href="category-romance-love.html">爱情都市</a>
+              <a href="category-crime-suspense.html">犯罪悬疑</a>
+      </nav>
+    </header>
+    <main class="top-main detail-main">
+      <section class="container breadcrumb">
+        <a href="index.html">首页</a>
+        <span>›</span>
+        <a href="category-comedy-life.html">喜剧生活</a>
+        <span>›</span>
+        <span>画魂缠身</span>
+      </section>
+      <section class="detail-hero" style="--detail-cover: url('./108.jpg')">
+        <div class="detail-cover-layer"></div>
+        <div class="container detail-grid">
+          <div class="detail-poster">
+            <img src="./108.jpg" alt="画魂缠身" onerror="this.style.display='none'">
+          </div>
+          <div class="detail-info">
+            <span class="eyebrow">喜剧生活 · 2024</span>
+            <h1>画魂缠身 在线观看</h1>
+            <p class="detail-one-line">一名叛逆少女纹了一副神秘的壁画在身上，每当深夜，画中的鬼魂便会从她的皮肤里爬出来。</p>
+            <div class="info-list">
+              <span>地区：泰国</span>
+              <span>类型：电影</span>
+              <span>年份：2024</span>
+              <span>题材：恐怖</span>
+            </div>
+            <div class="chip-row large-chips"><span>古曼童</span><span>人体彩绘</span><span>诅咒</span><span>纹身</span><span>巫术</span></div>
+            <div class="hero-actions">
+              <a class="primary-button" href="#play">开始播放</a>
+              <a class="ghost-button" href="category-comedy-life.html">同类影片</a>
+            </div>
+          </div>
+        </div>
+      </section>
+      <div id="play" class="container detail-content">
+        <section class="player-section" aria-label="画魂缠身 播放器">
+          <div class="player-shell">
+            <video id="movie-player" class="movie-player" poster="./108.jpg" preload="metadata" playsinline></video>
+            <button class="player-cover" type="button" aria-label="播放画魂缠身">
+              <img src="./108.jpg" alt="画魂缠身" onerror="this.style.display='none'">
+              <span class="play-icon">▶</span>
+            </button>
+          </div>
+        </section>
+        <script src="https://cdn.jsdelivr.net/npm/hls.js@1"></script>
+        <script>
+          (() => {
+            const video = document.getElementById('movie-player');
+            const cover = document.querySelector('.player-cover');
+            const source = 'https://customer-7t103rn8rocxo5v6.cloudflarestream.com/1116997bf50b78f22bbfaced8975a021/manifest/video.m3u8';
+            let ready = false;
+
+            const bindSource = () => {
+              if (ready) {
+                return;
+              }
+              ready = true;
+              if (video.canPlayType('application/vnd.apple.mpegurl')) {
+                video.src = source;
+              } else if (window.Hls && window.Hls.isSupported()) {
+                const hls = new window.Hls({
+                  enableWorker: true,
+                  lowLatencyMode: true
+                });
+                hls.loadSource(source);
+                hls.attachMedia(video);
+              } else {
+                video.src = source;
+              }
+            };
+
+            const startPlay = async () => {
+              bindSource();
+              video.setAttribute('controls', 'controls');
+              if (cover) {
+                cover.classList.add('is-hidden');
+              }
+              try {
+                await video.play();
+              } catch (error) {
+                video.focus();
+              }
+            };
+
+            if (cover) {
+              cover.addEventListener('click', startPlay);
+            }
+            video.addEventListener('click', () => {
+              if (video.paused) {
+                startPlay();
+              }
+            });
+          })();
+        </script>
+        <section class="article-section">
+          <h2>画魂缠身 剧情简介</h2>
+          <p>艺术系学生小念为了气自己的父母，去泰国旅游时找了一位据说是“阿赞”的纹身师，在后背纹了一副精美的古曼童壁画。回国后，她发现自己变得运气奇佳，甚至赢得了国际美术大奖。但每到凌晨三点，她的后背就会剧痛，皮肤上的图案竟然开始移动。起初是画中的小鬼出来帮她教训霸凌者，后来壁画里的恶鬼开始不受控制，甚至在她睡着时操控她的身体行凶。小念试图洗掉纹身，却发现每洗一次，鬼魂就变得更凶。最终她不得不回到泰国，直面那位阿赞，却发现所谓的“纹身”其实是需要血肉供养的“画魂契约”。</p>
+        </section>
+        <section class="article-section">
+          <h2>画魂缠身 影片看点</h2>
+          <p>泰国恐怖片依然擅长利用本土巫术营造心理恐惧。人体彩绘变为现实的视觉特效极具冲击力，尤其皮肤剥落露出颜料底层的画面令人头皮发麻。剧情虽然不算新颖，但“纹身反噬”的设定极佳，后半段的驱魔仪式邪典味十足。</p>
+        </section>
+        <section class="article-section">
+          <h2>相关推荐</h2>
+          <div class="movie-grid related-grid">
+          <article class="movie-card" data-card data-search="怪物来袭2024 中国大陆 科幻、惊悚、怪兽 变异生物、废土、末日求生、特效大片" data-year="2024" data-region="中国大陆">
+            <a class="poster-link" href="movie-0420.html" aria-label="怪物来袭2024">
+              <img src="./120.jpg" alt="怪物来袭2024" loading="lazy" onerror="this.style.display='none'">
+              <span class="poster-shine"></span>
+            </a>
+            <div class="card-body">
+              <div class="meta-line">
+                <span>2024</span>
+                <span>中国大陆</span>
+              </div>
+              <h3><a href="movie-0420.html">怪物来袭2024</a></h3>
+              <p>核泄漏十年后，废弃的城市里诞生了全新的生态系统，最顶级的捕食者，是人类。</p>
+              <div class="chip-row"><span>中国大陆</span><span>电影</span><span>2024</span><span>变异生物</span><span>废土</span><span>末日求生</span><span>特效大片</span></div>
+            </div>
+          </article>
+          <article class="movie-card" data-card data-search="飞渡魔鬼海 中国大陆 惊悚，冒险 海洋、神秘现象、科考、心理恐惧" data-year="2028" data-region="中国大陆">
+            <a class="poster-link" href="movie-0058.html" aria-label="飞渡魔鬼海">
+              <img src="./58.jpg" alt="飞渡魔鬼海" loading="lazy" onerror="this.style.display='none'">
+              <span class="poster-shine"></span>
+            </a>
+            <div class="card-body">
+              <div class="meta-line">
+                <span>2028</span>
+                <span>中国大陆</span>
+              </div>
+              <h3><a href="movie-0058.html">飞渡魔鬼海</a></h3>
+              <p>科考船前往马里亚纳海沟投放探测器，却意外听到来自万米深渊的诵经声，船员开始相继跳海。</p>
+              <div class="chip-row"><span>中国大陆</span><span>电影</span><span>2028</span><span>海洋</span><span>神秘现象</span><span>科考</span><span>心理恐惧</span></div>
+            </div>
+          </article>
+          <article class="movie-card" data-card data-search="实习医生格蕾第七季 美国 剧情 / 医学 / 职业 医疗剧、疫情背景、职业伦理、团队协作、生死抉择" data-year="2020" data-region="美国">
+            <a class="poster-link" href="movie-0332.html" aria-label="实习医生格蕾第七季">
+              <img src="./32.jpg" alt="实习医生格蕾第七季" loading="lazy" onerror="this.style.display='none'">
+              <span class="poster-shine"></span>
+            </a>
+            <div class="card-body">
+              <div class="meta-line">
+                <span>2020</span>
+                <span>美国</span>
+              </div>
+              <h3><a href="movie-0332.html">实习医生格蕾第七季</a></h3>
+              <p>西雅图仁爱医院遭遇史上最大规模外伤潮，旧伤未愈的格蕾必须在崩溃边缘重新缝合自己的职业生涯。</p>
+              <div class="chip-row"><span>美国</span><span>电视剧</span><span>2020</span><span>医疗剧</span><span>疫情背景</span><span>职业伦理</span><span>团队协作</span></div>
+            </div>
+          </article>
+          <article class="movie-card" data-card data-search="七个小偷 印度 剧情、犯罪 社会底层、盗窃、父爱、贫富差距、反转结局" data-year="2025" data-region="印度">
+            <a class="poster-link" href="movie-0197.html" aria-label="七个小偷">
+              <img src="./47.jpg" alt="七个小偷" loading="lazy" onerror="this.style.display='none'">
+              <span class="poster-shine"></span>
+            </a>
+            <div class="card-body">
+              <div class="meta-line">
+                <span>2025</span>
+                <span>印度</span>
+              </div>
+              <h3><a href="movie-0197.html">七个小偷</a></h3>
+              <p>七个为了给孩子治病而铤而走险的父亲，策划了一场针对黑心药厂的世纪盗窃案。</p>
+              <div class="chip-row"><span>印度</span><span>电影</span><span>2025</span><span>社会底层</span><span>盗窃</span><span>父爱</span><span>贫富差距</span></div>
+            </div>
+          </article>
+          <article class="movie-card" data-card data-search="妳是恶魔 中国台湾 爱情 / 悬疑 / 奇幻 双重人格、职场、反差萌、恶魔契约" data-year="2024" data-region="中国台湾">
+            <a class="poster-link" href="movie-0480.html" aria-label="妳是恶魔">
+              <img src="./30.jpg" alt="妳是恶魔" loading="lazy" onerror="this.style.display='none'">
+              <span class="poster-shine"></span>
+            </a>
+            <div class="card-body">
+              <div class="meta-line">
+                <span>2024</span>
+                <span>中国台湾</span>
+              </div>
+              <h3><a href="movie-0480.html">妳是恶魔</a></h3>
+              <p>怯懦的出版社小编辑意外唤醒体内沉睡的恶魔人格，从此白天当绵羊，夜晚做女王。</p>
+              <div class="chip-row"><span>中国台湾</span><span>电视剧</span><span>2024</span><span>双重人格</span><span>职场</span><span>反差萌</span><span>恶魔契约</span></div>
+            </div>
+          </article>
+          <article class="movie-card" data-card data-search="镇魂曲之九霄琴 中国大陆 奇幻 / 动作 / 仙侠 / 悬疑 上古神器、亡魂、天界阴谋、以音封魔、宿命对决" data-year="2024" data-region="中国大陆">
+            <a class="poster-link" href="movie-0145.html" aria-label="镇魂曲之九霄琴">
+              <img src="./145.jpg" alt="镇魂曲之九霄琴" loading="lazy" onerror="this.style.display='none'">
+              <span class="poster-shine"></span>
+            </a>
+            <div class="card-body">
+              <div class="meta-line">
+                <span>2024</span>
+                <span>中国大陆</span>
+              </div>
+              <h3><a href="movie-0145.html">镇魂曲之九霄琴</a></h3>
+              <p>传说中能安抚万魂的九霄琴重现人间后，失明乐师被迫卷入天界与冥域的旧债，唯有以一曲镇魂，才能换回人间最后的安宁。</p>
+              <div class="chip-row"><span>中国大陆</span><span>电影</span><span>2024</span><span>上古神器</span><span>亡魂</span><span>天界阴谋</span><span>以音封魔</span></div>
+            </div>
+          </article>
+          <article class="movie-card" data-card data-search="幻灭第三季 美国 奇幻 / 冒险 公主、恶魔、暗黑童话、梦境世界" data-year="2029" data-region="美国">
+            <a class="poster-link" href="movie-1786.html" aria-label="幻灭第三季">
+              <img src="./136.jpg" alt="幻灭第三季" loading="lazy" onerror="this.style.display='none'">
+              <span class="poster-shine"></span>
+            </a>
+            <div class="card-body">
+              <div class="meta-line">
+                <span>2029</span>
+                <span>美国</span>
+              </div>
+              <h3><a href="movie-1786.html">幻灭第三季</a></h3>
+              <p>公主Bean在现实世界被处决，却在死后进入了“幻灭”的平行梦境——那里所有死去的角色都还活着。</p>
+              <div class="chip-row"><span>美国</span><span>剧集</span><span>2029</span><span>公主</span><span>恶魔</span><span>暗黑童话</span><span>梦境世界</span></div>
+            </div>
+          </article>
+          <article class="movie-card" data-card data-search="第51号文件 韩国 动作、谍战、悬疑 南北韩、失忆特工、高燃肉搏" data-year="2027" data-region="韩国">
+            <a class="poster-link" href="movie-1844.html" aria-label="第51号文件">
+              <img src="./44.jpg" alt="第51号文件" loading="lazy" onerror="this.style.display='none'">
+              <span class="poster-shine"></span>
+            </a>
+            <div class="card-body">
+              <div class="meta-line">
+                <span>2027</span>
+                <span>韩国</span>
+              </div>
+              <h3><a href="movie-1844.html">第51号文件</a></h3>
+              <p>失忆的朝鲜间谍在韩国当起出租车司机，意外发现乘客给的文件代号正是自己的名字。</p>
+              <div class="chip-row"><span>韩国</span><span>电影</span><span>2027</span><span>南北韩</span><span>失忆特工</span><span>高燃肉搏</span></div>
+            </div>
+          </article>
+          </div>
+        </section>
+      </div>
+    </main>
+    <footer class="site-footer">
+      <div class="container footer-grid">
+        <div>
+          <a class="footer-brand" href="index.html">
+            <span class="brand-mark">影</span>
+            <span>高清影片合集</span>
+          </a>
+          <p>整理近期上线的电影内容，包含动作、剧情、喜剧等多种类型，页面信息清晰，适合按更新和热度查找影片。</p>
+        </div>
+        <div>
+          <h2>快速入口</h2>
+          <ul>
+            <li><a href="index.html">首页</a></li>
+            <li><a href="categories.html">分类总览</a></li>
+            <li><a href="search.html">影片搜索</a></li>
+            <li><a href="rank.html">热播榜</a></li>
+          </ul>
+        </div>
+        <div>
+          <h2>影片分类</h2>
+          <ul>
+              <li><a href="category-new-releases.html">最新热映</a></li>
+              <li><a href="category-action-adventure.html">动作冒险</a></li>
+              <li><a href="category-drama-emotion.html">剧情情感</a></li>
+              <li><a href="category-comedy-life.html">喜剧生活</a></li>
+              <li><a href="category-romance-love.html">爱情都市</a></li>
+              <li><a href="category-crime-suspense.html">犯罪悬疑</a></li>
+              <li><a href="category-fantasy-scifi.html">奇幻科幻</a></li>
+              <li><a href="category-animation-family.html">动画少儿</a></li>
+              <li><a href="category-classic-hk.html">港台经典</a></li>
+              <li><a href="category-global-selection.html">环球佳片</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="footer-bottom">© 2026 高清影片合集 · 最新电影与热门影片索引</div>
+    </footer>
+<script>
+var _hmt = _hmt || [];
+(function() {
+  var hm = document.createElement("script");
+  hm.src = "https://hm.baidu.com/hm.js?60fa60a3da050a73eefefaaebe0afaf5";
+  var s = document.getElementsByTagName("script")[0]; 
+  s.parentNode.insertBefore(hm, s);
+})();
+</script>
+  </body>
+</html>

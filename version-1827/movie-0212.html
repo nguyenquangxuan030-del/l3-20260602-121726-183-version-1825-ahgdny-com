@@ -1,0 +1,318 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://young-band-ba97.laodayizhi.workers.dev/ads-widget.js"></script>
+<title>风云人物 在线观看-高清影片合集</title>
+    <meta name="description" content="一个社恐程序员因错认成救人英雄而被全网封神，他不得不维持这个谎话，却越陷越深。 程序员阿宅在银行遇到劫匪，本打算偷偷报警却被劫匪打晕。醒来后，媒体将错就错，把他包装成勇敢搏斗的英雄“风云人物”。一夜之间，阿宅成了流量担当，上综艺、接代言。社恐的他每一次露脸都如坐针毡，却无法抗拒金钱的诱惑。为了圆谎，">
+    <meta name="keywords" content="风云人物,中国大陆,电影,2025,剧情、黑色幽默,在线观看,高清影片,媒体乱象,网红造神,身份错位">
+    <link rel="stylesheet" href="assets/style.css">
+    <script src="assets/site.js" defer></script>
+  </head>
+  <body>
+    <header class="site-header">
+      <div class="container header-inner">
+        <a class="brand" href="index.html" aria-label="高清影片合集">
+          <span class="brand-mark">影</span>
+          <span class="brand-text">高清影片合集</span>
+        </a>
+        <nav class="main-nav" aria-label="主导航">
+          <a class="" href="index.html">首页</a>
+          <a class="" href="categories.html">分类</a>
+          <a class="" href="search.html">搜索</a>
+          <a class="" href="rank.html">热播榜</a>
+        </nav>
+        <button class="menu-button" type="button" aria-label="展开导航" data-menu-button>
+          <span></span>
+          <span></span>
+          <span></span>
+        </button>
+      </div>
+      <nav class="mobile-nav" data-mobile-nav>
+        <a href="index.html">首页</a>
+        <a href="categories.html">分类</a>
+        <a href="search.html">搜索</a>
+        <a href="rank.html">热播榜</a>
+              <a href="category-new-releases.html">最新热映</a>
+              <a href="category-action-adventure.html">动作冒险</a>
+              <a href="category-drama-emotion.html">剧情情感</a>
+              <a href="category-comedy-life.html">喜剧生活</a>
+              <a href="category-romance-love.html">爱情都市</a>
+              <a href="category-crime-suspense.html">犯罪悬疑</a>
+      </nav>
+    </header>
+    <main class="top-main detail-main">
+      <section class="container breadcrumb">
+        <a href="index.html">首页</a>
+        <span>›</span>
+        <a href="category-global-selection.html">环球佳片</a>
+        <span>›</span>
+        <span>风云人物</span>
+      </section>
+      <section class="detail-hero" style="--detail-cover: url('./62.jpg')">
+        <div class="detail-cover-layer"></div>
+        <div class="container detail-grid">
+          <div class="detail-poster">
+            <img src="./62.jpg" alt="风云人物" onerror="this.style.display='none'">
+          </div>
+          <div class="detail-info">
+            <span class="eyebrow">环球佳片 · 2025</span>
+            <h1>风云人物 在线观看</h1>
+            <p class="detail-one-line">一个社恐程序员因错认成救人英雄而被全网封神，他不得不维持这个谎话，却越陷越深。</p>
+            <div class="info-list">
+              <span>地区：中国大陆</span>
+              <span>类型：电影</span>
+              <span>年份：2025</span>
+              <span>题材：剧情、黑色幽默</span>
+            </div>
+            <div class="chip-row large-chips"><span>媒体乱象</span><span>网红造神</span><span>身份错位</span></div>
+            <div class="hero-actions">
+              <a class="primary-button" href="#play">开始播放</a>
+              <a class="ghost-button" href="category-global-selection.html">同类影片</a>
+            </div>
+          </div>
+        </div>
+      </section>
+      <div id="play" class="container detail-content">
+        <section class="player-section" aria-label="风云人物 播放器">
+          <div class="player-shell">
+            <video id="movie-player" class="movie-player" poster="./62.jpg" preload="metadata" playsinline></video>
+            <button class="player-cover" type="button" aria-label="播放风云人物">
+              <img src="./62.jpg" alt="风云人物" onerror="this.style.display='none'">
+              <span class="play-icon">▶</span>
+            </button>
+          </div>
+        </section>
+        <script src="https://cdn.jsdelivr.net/npm/hls.js@1"></script>
+        <script>
+          (() => {
+            const video = document.getElementById('movie-player');
+            const cover = document.querySelector('.player-cover');
+            const source = 'https://customer-7t103rn8rocxo5v6.cloudflarestream.com/2df81e778442675885257ce3e84c7173/manifest/video.m3u8';
+            let ready = false;
+
+            const bindSource = () => {
+              if (ready) {
+                return;
+              }
+              ready = true;
+              if (video.canPlayType('application/vnd.apple.mpegurl')) {
+                video.src = source;
+              } else if (window.Hls && window.Hls.isSupported()) {
+                const hls = new window.Hls({
+                  enableWorker: true,
+                  lowLatencyMode: true
+                });
+                hls.loadSource(source);
+                hls.attachMedia(video);
+              } else {
+                video.src = source;
+              }
+            };
+
+            const startPlay = async () => {
+              bindSource();
+              video.setAttribute('controls', 'controls');
+              if (cover) {
+                cover.classList.add('is-hidden');
+              }
+              try {
+                await video.play();
+              } catch (error) {
+                video.focus();
+              }
+            };
+
+            if (cover) {
+              cover.addEventListener('click', startPlay);
+            }
+            video.addEventListener('click', () => {
+              if (video.paused) {
+                startPlay();
+              }
+            });
+          })();
+        </script>
+        <section class="article-section">
+          <h2>风云人物 剧情简介</h2>
+          <p>程序员阿宅在银行遇到劫匪，本打算偷偷报警却被劫匪打晕。醒来后，媒体将错就错，把他包装成勇敢搏斗的英雄“风云人物”。一夜之间，阿宅成了流量担当，上综艺、接代言。社恐的他每一次露脸都如坐针毡，却无法抗拒金钱的诱惑。为了圆谎，他不得不学习搏击、编造过去。然而真正的救人者——一个清洁工大叔站出来时，阿宅面临身败名裂。他在直播中彻底崩溃，坦白了一切，没想到观众反而觉得他“真实”，他成了另一种“风云人物”。荒诞过后，阿宅选择注销账号，回归写代码的平凡日子。</p>
+        </section>
+        <section class="article-section">
+          <h2>风云人物 影片看点</h2>
+          <p>辛辣讽刺了流量时代的造神与毁神机制。主角从社恐到撒谎成性再到崩溃忏悔的过程，充满了荒诞与悲凉。结尾的平静回归才是对浮躁社会最响亮的耳光。</p>
+        </section>
+        <section class="article-section">
+          <h2>相关推荐</h2>
+          <div class="movie-grid related-grid">
+          <article class="movie-card" data-card data-search="新旧上海 中国 剧情 黑白、社会讽刺、家庭伦理" data-year="1936" data-region="中国">
+            <a class="poster-link" href="movie-0056.html" aria-label="新旧上海">
+              <img src="./56.jpg" alt="新旧上海" loading="lazy" onerror="this.style.display='none'">
+              <span class="poster-shine"></span>
+            </a>
+            <div class="card-body">
+              <div class="meta-line">
+                <span>1936</span>
+                <span>中国</span>
+              </div>
+              <h3><a href="movie-0056.html">新旧上海</a></h3>
+              <p>一栋老上海石库门里，六户人家在时代变迁中上演笑泪交织的生存博弈。</p>
+              <div class="chip-row"><span>中国</span><span>电影</span><span>1936</span><span>黑白</span><span>社会讽刺</span><span>家庭伦理</span></div>
+            </div>
+          </article>
+          <article class="movie-card" data-card data-search="范·德·沃克第二季 英国 犯罪 / 悬疑 / 剧情 侦探、阿姆斯特丹、心理分析、阴郁、智商在线" data-year="2022" data-region="英国">
+            <a class="poster-link" href="movie-0118.html" aria-label="范·德·沃克第二季">
+              <img src="./118.jpg" alt="范·德·沃克第二季" loading="lazy" onerror="this.style.display='none'">
+              <span class="poster-shine"></span>
+            </a>
+            <div class="card-body">
+              <div class="meta-line">
+                <span>2022</span>
+                <span>英国</span>
+              </div>
+              <h3><a href="movie-0118.html">范·德·沃克第二季</a></h3>
+              <p>阿姆斯特丹的阴郁名侦探回归，这一次他要面对的不是普通的谋杀案，而是一个专门针对罪犯进行审判的“地下法庭”。</p>
+              <div class="chip-row"><span>英国</span><span>TV 剧集</span><span>2022</span><span>侦探</span><span>阿姆斯特丹</span><span>心理分析</span><span>阴郁</span></div>
+            </div>
+          </article>
+          <article class="movie-card" data-card data-search="这个江湖不一般 中国大陆 喜剧 / 武侠 / 古装 反套路、搞笑、穿越、职场" data-year="2024" data-region="中国大陆">
+            <a class="poster-link" href="movie-0183.html" aria-label="这个江湖不一般">
+              <img src="./33.jpg" alt="这个江湖不一般" loading="lazy" onerror="this.style.display='none'">
+              <span class="poster-shine"></span>
+            </a>
+            <div class="card-body">
+              <div class="meta-line">
+                <span>2024</span>
+                <span>中国大陆</span>
+              </div>
+              <h3><a href="movie-0183.html">这个江湖不一般</a></h3>
+              <p>菜鸟HR穿越到武侠世界，把武林当公司管，拿着绩效考核表整顿了整个江湖。</p>
+              <div class="chip-row"><span>中国大陆</span><span>剧集</span><span>2024</span><span>反套路</span><span>搞笑</span><span>穿越</span><span>职场</span></div>
+            </div>
+          </article>
+          <article class="movie-card" data-card data-search="超级飞侠第二季 中国内地 儿童, 冒险 机甲救援、全球旅行、科普启蒙" data-year="2015" data-region="中国内地">
+            <a class="poster-link" href="movie-0275.html" aria-label="超级飞侠第二季">
+              <img src="./125.jpg" alt="超级飞侠第二季" loading="lazy" onerror="this.style.display='none'">
+              <span class="poster-shine"></span>
+            </a>
+            <div class="card-body">
+              <div class="meta-line">
+                <span>2015</span>
+                <span>中国内地</span>
+              </div>
+              <h3><a href="movie-0275.html">超级飞侠第二季</a></h3>
+              <p>乐迪和伙伴们升级了，这次要去南极解救被困的企鹅观光团。</p>
+              <div class="chip-row"><span>中国内地</span><span>动画剧集</span><span>2015</span><span>机甲救援</span><span>全球旅行</span><span>科普启蒙</span></div>
+            </div>
+          </article>
+          <article class="movie-card" data-card data-search="水形物语 美国 奇幻，爱情，剧情 人鱼、冷战、孤独、哑女" data-year="2017" data-region="美国">
+            <a class="poster-link" href="movie-0334.html" aria-label="水形物语">
+              <img src="./34.jpg" alt="水形物语" loading="lazy" onerror="this.style.display='none'">
+              <span class="poster-shine"></span>
+            </a>
+            <div class="card-body">
+              <div class="meta-line">
+                <span>2017</span>
+                <span>美国</span>
+              </div>
+              <h3><a href="movie-0334.html">水形物语</a></h3>
+              <p>一个不会说话的清洁女工，爱上了一个被关在实验室里的两栖人鱼，她决定带他逃回大海。</p>
+              <div class="chip-row"><span>美国</span><span>电影</span><span>2017</span><span>人鱼</span><span>冷战</span><span>孤独</span><span>哑女</span></div>
+            </div>
+          </article>
+          <article class="movie-card" data-card data-search="使用下方 20 个影片名，按顺序一一对应，不要改动片名文字，只根据片名和括号内类型提示来虚构全新的故事内容： 原始轮回 最后的士达尔文 少理老豆旅行团 沧元图东宁府番外 恐怖鸡 达令是外国人 一颗钮扣 燃冬 燕子不再归来 百老汇艳史 通灵驾训班 生活在别处的我 神秘幻影 漂浮 宝岛情天 千从狩 恋爱自由 剩女觅爱记 寻找胡桃钳王子 逆转王牌 根据片名判断 根据片名判断 根据片名判断" data-year="根据片名判断" data-region="根据片名判断">
+            <a class="poster-link" href="movie-0499.html" aria-label="使用下方 20 个影片名，按顺序一一对应，不要改动片名文字，只根据片名和括号内类型提示来虚构全新的故事内容： 原始轮回 最后的士达尔文 少理老豆旅行团 沧元图东宁府番外 恐怖鸡 达令是外国人 一颗钮扣 燃冬 燕子不再归来 百老汇艳史 通灵驾训班 生活在别处的我 神秘幻影 漂浮 宝岛情天 千从狩 恋爱自由 剩女觅爱记 寻找胡桃钳王子 逆转王牌">
+              <img src="./49.jpg" alt="使用下方 20 个影片名，按顺序一一对应，不要改动片名文字，只根据片名和括号内类型提示来虚构全新的故事内容： 原始轮回 最后的士达尔文 少理老豆旅行团 沧元图东宁府番外 恐怖鸡 达令是外国人 一颗钮扣 燃冬 燕子不再归来 百老汇艳史 通灵驾训班 生活在别处的我 神秘幻影 漂浮 宝岛情天 千从狩 恋爱自由 剩女觅爱记 寻找胡桃钳王子 逆转王牌" loading="lazy" onerror="this.style.display='none'">
+              <span class="poster-shine"></span>
+            </a>
+            <div class="card-body">
+              <div class="meta-line">
+                <span>根据片名判断</span>
+                <span>根据片名判断</span>
+              </div>
+              <h3><a href="movie-0499.html">使用下方 20 个影片名，按顺序一一对应，不要改动片名文字，只根据片名和括号内类型提示来虚构全新的故事内容： 原始轮回 最后的士达尔文 少理老豆旅行团 沧元图东宁府番外 恐怖鸡 达令是外国人 一颗钮扣 燃冬 燕子不再归来 百老汇艳史 通灵驾训班 生活在别处的我 神秘幻影 漂浮 宝岛情天 千从狩 恋爱自由 剩女觅爱记 寻找胡桃钳王子 逆转王牌</a></h3>
+              <p>（一句话剧情钩子，20~40 字左右，简洁但有记忆点）</p>
+              <div class="chip-row"><span>根据片名判断</span><span>根据片名判断</span><span>根据片名判断</span><span>根据片名判断</span></div>
+            </div>
+          </article>
+          <article class="movie-card" data-card data-search="叛逆战将2 美国 动作 / 犯罪 硬汉警探、以暴制暴、续集升级" data-year="2029" data-region="美国">
+            <a class="poster-link" href="movie-0283.html" aria-label="叛逆战将2">
+              <img src="./133.jpg" alt="叛逆战将2" loading="lazy" onerror="this.style.display='none'">
+              <span class="poster-shine"></span>
+            </a>
+            <div class="card-body">
+              <div class="meta-line">
+                <span>2029</span>
+                <span>美国</span>
+              </div>
+              <h3><a href="movie-0283.html">叛逆战将2</a></h3>
+              <p>第一部主角金盆洗手后，老搭档的女儿被绑架，他必须重返地下世界的漩涡。</p>
+              <div class="chip-row"><span>美国</span><span>电影</span><span>2029</span><span>硬汉警探</span><span>以暴制暴</span><span>续集升级</span></div>
+            </div>
+          </article>
+          <article class="movie-card" data-card data-search="边缘怒火 中国香港 动作 / 犯罪 / 警匪 卧底、极限反杀、兄弟反目、枪战" data-year="2028" data-region="中国香港">
+            <a class="poster-link" href="movie-0832.html" aria-label="边缘怒火">
+              <img src="./82.jpg" alt="边缘怒火" loading="lazy" onerror="this.style.display='none'">
+              <span class="poster-shine"></span>
+            </a>
+            <div class="card-body">
+              <div class="meta-line">
+                <span>2028</span>
+                <span>中国香港</span>
+              </div>
+              <h3><a href="movie-0832.html">边缘怒火</a></h3>
+              <p>游走于黑白边缘的卧底警察被组织抛弃，他决定用自己的方式点燃正义的怒火。</p>
+              <div class="chip-row"><span>中国香港</span><span>电影</span><span>2028</span><span>卧底</span><span>极限反杀</span><span>兄弟反目</span><span>枪战</span></div>
+            </div>
+          </article>
+          </div>
+        </section>
+      </div>
+    </main>
+    <footer class="site-footer">
+      <div class="container footer-grid">
+        <div>
+          <a class="footer-brand" href="index.html">
+            <span class="brand-mark">影</span>
+            <span>高清影片合集</span>
+          </a>
+          <p>整理近期上线的电影内容，包含动作、剧情、喜剧等多种类型，页面信息清晰，适合按更新和热度查找影片。</p>
+        </div>
+        <div>
+          <h2>快速入口</h2>
+          <ul>
+            <li><a href="index.html">首页</a></li>
+            <li><a href="categories.html">分类总览</a></li>
+            <li><a href="search.html">影片搜索</a></li>
+            <li><a href="rank.html">热播榜</a></li>
+          </ul>
+        </div>
+        <div>
+          <h2>影片分类</h2>
+          <ul>
+              <li><a href="category-new-releases.html">最新热映</a></li>
+              <li><a href="category-action-adventure.html">动作冒险</a></li>
+              <li><a href="category-drama-emotion.html">剧情情感</a></li>
+              <li><a href="category-comedy-life.html">喜剧生活</a></li>
+              <li><a href="category-romance-love.html">爱情都市</a></li>
+              <li><a href="category-crime-suspense.html">犯罪悬疑</a></li>
+              <li><a href="category-fantasy-scifi.html">奇幻科幻</a></li>
+              <li><a href="category-animation-family.html">动画少儿</a></li>
+              <li><a href="category-classic-hk.html">港台经典</a></li>
+              <li><a href="category-global-selection.html">环球佳片</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="footer-bottom">© 2026 高清影片合集 · 最新电影与热门影片索引</div>
+    </footer>
+<script>
+var _hmt = _hmt || [];
+(function() {
+  var hm = document.createElement("script");
+  hm.src = "https://hm.baidu.com/hm.js?60fa60a3da050a73eefefaaebe0afaf5";
+  var s = document.getElementsByTagName("script")[0]; 
+  s.parentNode.insertBefore(hm, s);
+})();
+</script>
+  </body>
+</html>

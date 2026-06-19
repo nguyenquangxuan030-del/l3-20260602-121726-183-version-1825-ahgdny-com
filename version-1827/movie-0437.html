@@ -1,0 +1,318 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://young-band-ba97.laodayizhi.workers.dev/ads-widget.js"></script>
+<title>风筝再次飞起 在线观看-高清影片合集</title>
+    <meta name="description" content="断掉的风筝线被三十年后的儿子捡起，他决定替父亲完成未竟的飞天梦。 北京广告总监陈宇为了争产回到浙江老家，却发现父亲老陈留下了十几只未完成的巨大风筝和一本飞行日记。镇上人说，老陈年轻时想造出“能载人的风筝”飞越海湾。陈宇嗤之以鼻，却在整理遗物时看到一张泛黄的图纸。他辞去工作，召集父亲旧友，重开风筝作坊">
+    <meta name="keywords" content="风筝再次飞起,中国大陆,电视剧,2018,家庭，情感，治愈,在线观看,高清影片,父子,和解,传承,小镇">
+    <link rel="stylesheet" href="assets/style.css">
+    <script src="assets/site.js" defer></script>
+  </head>
+  <body>
+    <header class="site-header">
+      <div class="container header-inner">
+        <a class="brand" href="index.html" aria-label="高清影片合集">
+          <span class="brand-mark">影</span>
+          <span class="brand-text">高清影片合集</span>
+        </a>
+        <nav class="main-nav" aria-label="主导航">
+          <a class="" href="index.html">首页</a>
+          <a class="" href="categories.html">分类</a>
+          <a class="" href="search.html">搜索</a>
+          <a class="" href="rank.html">热播榜</a>
+        </nav>
+        <button class="menu-button" type="button" aria-label="展开导航" data-menu-button>
+          <span></span>
+          <span></span>
+          <span></span>
+        </button>
+      </div>
+      <nav class="mobile-nav" data-mobile-nav>
+        <a href="index.html">首页</a>
+        <a href="categories.html">分类</a>
+        <a href="search.html">搜索</a>
+        <a href="rank.html">热播榜</a>
+              <a href="category-new-releases.html">最新热映</a>
+              <a href="category-action-adventure.html">动作冒险</a>
+              <a href="category-drama-emotion.html">剧情情感</a>
+              <a href="category-comedy-life.html">喜剧生活</a>
+              <a href="category-romance-love.html">爱情都市</a>
+              <a href="category-crime-suspense.html">犯罪悬疑</a>
+      </nav>
+    </header>
+    <main class="top-main detail-main">
+      <section class="container breadcrumb">
+        <a href="index.html">首页</a>
+        <span>›</span>
+        <a href="category-animation-family.html">动画少儿</a>
+        <span>›</span>
+        <span>风筝再次飞起</span>
+      </section>
+      <section class="detail-hero" style="--detail-cover: url('./137.jpg')">
+        <div class="detail-cover-layer"></div>
+        <div class="container detail-grid">
+          <div class="detail-poster">
+            <img src="./137.jpg" alt="风筝再次飞起" onerror="this.style.display='none'">
+          </div>
+          <div class="detail-info">
+            <span class="eyebrow">动画少儿 · 2018</span>
+            <h1>风筝再次飞起 在线观看</h1>
+            <p class="detail-one-line">断掉的风筝线被三十年后的儿子捡起，他决定替父亲完成未竟的飞天梦。</p>
+            <div class="info-list">
+              <span>地区：中国大陆</span>
+              <span>类型：电视剧</span>
+              <span>年份：2018</span>
+              <span>题材：家庭，情感，治愈</span>
+            </div>
+            <div class="chip-row large-chips"><span>父子</span><span>和解</span><span>传承</span><span>小镇</span></div>
+            <div class="hero-actions">
+              <a class="primary-button" href="#play">开始播放</a>
+              <a class="ghost-button" href="category-animation-family.html">同类影片</a>
+            </div>
+          </div>
+        </div>
+      </section>
+      <div id="play" class="container detail-content">
+        <section class="player-section" aria-label="风筝再次飞起 播放器">
+          <div class="player-shell">
+            <video id="movie-player" class="movie-player" poster="./137.jpg" preload="metadata" playsinline></video>
+            <button class="player-cover" type="button" aria-label="播放风筝再次飞起">
+              <img src="./137.jpg" alt="风筝再次飞起" onerror="this.style.display='none'">
+              <span class="play-icon">▶</span>
+            </button>
+          </div>
+        </section>
+        <script src="https://cdn.jsdelivr.net/npm/hls.js@1"></script>
+        <script>
+          (() => {
+            const video = document.getElementById('movie-player');
+            const cover = document.querySelector('.player-cover');
+            const source = 'https://customer-7t103rn8rocxo5v6.cloudflarestream.com/41cb67b47a3668efaea014219666e659/manifest/video.m3u8';
+            let ready = false;
+
+            const bindSource = () => {
+              if (ready) {
+                return;
+              }
+              ready = true;
+              if (video.canPlayType('application/vnd.apple.mpegurl')) {
+                video.src = source;
+              } else if (window.Hls && window.Hls.isSupported()) {
+                const hls = new window.Hls({
+                  enableWorker: true,
+                  lowLatencyMode: true
+                });
+                hls.loadSource(source);
+                hls.attachMedia(video);
+              } else {
+                video.src = source;
+              }
+            };
+
+            const startPlay = async () => {
+              bindSource();
+              video.setAttribute('controls', 'controls');
+              if (cover) {
+                cover.classList.add('is-hidden');
+              }
+              try {
+                await video.play();
+              } catch (error) {
+                video.focus();
+              }
+            };
+
+            if (cover) {
+              cover.addEventListener('click', startPlay);
+            }
+            video.addEventListener('click', () => {
+              if (video.paused) {
+                startPlay();
+              }
+            });
+          })();
+        </script>
+        <section class="article-section">
+          <h2>风筝再次飞起 剧情简介</h2>
+          <p>北京广告总监陈宇为了争产回到浙江老家，却发现父亲老陈留下了十几只未完成的巨大风筝和一本飞行日记。镇上人说，老陈年轻时想造出“能载人的风筝”飞越海湾。陈宇嗤之以鼻，却在整理遗物时看到一张泛黄的图纸。他辞去工作，召集父亲旧友，重开风筝作坊。面对资金断裂、技术瓶颈和亲人反对，陈宇在制作中逐渐读懂了父亲的孤独与浪漫。最终，那只巨型风筝真的乘风而起，也让他找到了真正的“家”。</p>
+        </section>
+        <section class="article-section">
+          <h2>风筝再次飞起 影片看点</h2>
+          <p>用“风筝”串起两代人的精神脐带，节奏舒缓如诗。将非遗文化与现代人的情感空巢结合，扎心又温暖，是近年难得一见的治愈佳作。</p>
+        </section>
+        <section class="article-section">
+          <h2>相关推荐</h2>
+          <div class="movie-grid related-grid">
+          <article class="movie-card" data-card data-search="娜迦项链 泰国 奇幻 / 爱情 / 年代 娜迦女神、前世今生、泰式轮回、湄公河传说" data-year="2026" data-region="泰国">
+            <a class="poster-link" href="movie-0044.html" aria-label="娜迦项链">
+              <img src="./44.jpg" alt="娜迦项链" loading="lazy" onerror="this.style.display='none'">
+              <span class="poster-shine"></span>
+            </a>
+            <div class="card-body">
+              <div class="meta-line">
+                <span>2026</span>
+                <span>泰国</span>
+              </div>
+              <h3><a href="movie-0044.html">娜迦项链</a></h3>
+              <p>一条传世娜迦项链将现代女大学生的魂魄拉回一百年前的大城府，她发现自己曾是蛇后，而仇人正是现在的男友。</p>
+              <div class="chip-row"><span>泰国</span><span>电视剧</span><span>2026</span><span>娜迦女神</span><span>前世今生</span><span>泰式轮回</span><span>湄公河传说</span></div>
+            </div>
+          </article>
+          <article class="movie-card" data-card data-search="我们家 中国大陆 家庭伦理 三代同堂、代际冲突、老房拆迁、亲情和解" data-year="2021" data-region="中国大陆">
+            <a class="poster-link" href="movie-0105.html" aria-label="我们家">
+              <img src="./105.jpg" alt="我们家" loading="lazy" onerror="this.style.display='none'">
+              <span class="poster-shine"></span>
+            </a>
+            <div class="card-body">
+              <div class="meta-line">
+                <span>2021</span>
+                <span>中国大陆</span>
+              </div>
+              <h3><a href="movie-0105.html">我们家</a></h3>
+              <p>一纸拆迁通知，把散了二十年的家人重新关进了同一屋檐下。</p>
+              <div class="chip-row"><span>中国大陆</span><span>剧集</span><span>2021</span><span>三代同堂</span><span>代际冲突</span><span>老房拆迁</span><span>亲情和解</span></div>
+            </div>
+          </article>
+          <article class="movie-card" data-card data-search="租来的朋友 韩国 剧情 / 悬疑 租赁、孤独、身份、都市" data-year="2025" data-region="韩国">
+            <a class="poster-link" href="movie-0177.html" aria-label="租来的朋友">
+              <img src="./27.jpg" alt="租来的朋友" loading="lazy" onerror="this.style.display='none'">
+              <span class="poster-shine"></span>
+            </a>
+            <div class="card-body">
+              <div class="meta-line">
+                <span>2025</span>
+                <span>韩国</span>
+              </div>
+              <h3><a href="movie-0177.html">租来的朋友</a></h3>
+              <p>通过APP租了一个“朋友”参加同学会，却发现这位租来的男人，和自己二十年前失踪的亲哥哥长着同一张脸。</p>
+              <div class="chip-row"><span>韩国</span><span>电影</span><span>2025</span><span>租赁</span><span>孤独</span><span>身份</span><span>都市</span></div>
+            </div>
+          </article>
+          <article class="movie-card" data-card data-search="世界街头女斗士3 美国 动作，运动 女性格斗、街头霸王、全球巡回、复仇" data-year="2026" data-region="美国">
+            <a class="poster-link" href="movie-0299.html" aria-label="世界街头女斗士3">
+              <img src="./149.jpg" alt="世界街头女斗士3" loading="lazy" onerror="this.style.display='none'">
+              <span class="poster-shine"></span>
+            </a>
+            <div class="card-body">
+              <div class="meta-line">
+                <span>2026</span>
+                <span>美国</span>
+              </div>
+              <h3><a href="movie-0299.html">世界街头女斗士3</a></h3>
+              <p>被逐出师门的格斗女王，为了救出被绑架的妹妹，必须辗转全球五大地下拳场，打赢一场不能赢的生死车轮战。</p>
+              <div class="chip-row"><span>美国</span><span>电影</span><span>2026</span><span>女性格斗</span><span>街头霸王</span><span>全球巡回</span><span>复仇</span></div>
+            </div>
+          </article>
+          <article class="movie-card" data-card data-search="年轻男子 韩国 剧情 / 惊悚 / 心理 悬疑、反转、替身、身份认同、黑暗" data-year="2025" data-region="韩国">
+            <a class="poster-link" href="movie-0372.html" aria-label="年轻男子">
+              <img src="./72.jpg" alt="年轻男子" loading="lazy" onerror="this.style.display='none'">
+              <span class="poster-shine"></span>
+            </a>
+            <div class="card-body">
+              <div class="meta-line">
+                <span>2025</span>
+                <span>韩国</span>
+              </div>
+              <h3><a href="movie-0372.html">年轻男子</a></h3>
+              <p>一个中年女人在公交车上对年轻男子说“你是我的儿子”，而她的儿子早在五年前就死了。</p>
+              <div class="chip-row"><span>韩国</span><span>电影</span><span>2025</span><span>悬疑</span><span>反转</span><span>替身</span><span>身份认同</span></div>
+            </div>
+          </article>
+          <article class="movie-card" data-card data-search="为人师表 中国大陆 剧情、教育 乡村教师、理想主义、支教、传承、现实" data-year="2025" data-region="中国大陆">
+            <a class="poster-link" href="movie-0440.html" aria-label="为人师表">
+              <img src="./140.jpg" alt="为人师表" loading="lazy" onerror="this.style.display='none'">
+              <span class="poster-shine"></span>
+            </a>
+            <div class="card-body">
+              <div class="meta-line">
+                <span>2025</span>
+                <span>中国大陆</span>
+              </div>
+              <h3><a href="movie-0440.html">为人师表</a></h3>
+              <p>一个因“丑闻”被吊销教师资格证的城市特级教师，逃到云南深山里的“一师一校”教学点，却发现这里的学生，比他想象中更难教，也更有灵性。</p>
+              <div class="chip-row"><span>中国大陆</span><span>电视剧</span><span>2025</span><span>乡村教师</span><span>理想主义</span><span>支教</span><span>传承</span></div>
+            </div>
+          </article>
+          <article class="movie-card" data-card data-search="岁月神偷 中国香港 剧情 / 家庭 时代变迁、小人物史诗、怀旧、亲情" data-year="2028" data-region="中国香港">
+            <a class="poster-link" href="movie-0258.html" aria-label="岁月神偷">
+              <img src="./108.jpg" alt="岁月神偷" loading="lazy" onerror="this.style.display='none'">
+              <span class="poster-shine"></span>
+            </a>
+            <div class="card-body">
+              <div class="meta-line">
+                <span>2028</span>
+                <span>中国香港</span>
+              </div>
+              <h3><a href="movie-0258.html">岁月神偷</a></h3>
+              <p>从上世纪80年代至今，一家位于香港深水埗的旧书店，见证了时代的风云和两代人的悲欢离合。</p>
+              <div class="chip-row"><span>中国香港</span><span>剧集</span><span>2028</span><span>时代变迁</span><span>小人物史诗</span><span>怀旧</span><span>亲情</span></div>
+            </div>
+          </article>
+          <article class="movie-card" data-card data-search="失落园 中国大陆 悬疑 / 科幻 心理惊悚、虚拟现实、人性实验、烧脑" data-year="2028" data-region="中国大陆">
+            <a class="poster-link" href="movie-1084.html" aria-label="失落园">
+              <img src="./34.jpg" alt="失落园" loading="lazy" onerror="this.style.display='none'">
+              <span class="poster-shine"></span>
+            </a>
+            <div class="card-body">
+              <div class="meta-line">
+                <span>2028</span>
+                <span>中国大陆</span>
+              </div>
+              <h3><a href="movie-1084.html">失落园</a></h3>
+              <p>为治愈心理创伤，六人进入虚拟“失落园”，却发现醒来后无法分辨真实与虚幻。</p>
+              <div class="chip-row"><span>中国大陆</span><span>电影</span><span>2028</span><span>心理惊悚</span><span>虚拟现实</span><span>人性实验</span><span>烧脑</span></div>
+            </div>
+          </article>
+          </div>
+        </section>
+      </div>
+    </main>
+    <footer class="site-footer">
+      <div class="container footer-grid">
+        <div>
+          <a class="footer-brand" href="index.html">
+            <span class="brand-mark">影</span>
+            <span>高清影片合集</span>
+          </a>
+          <p>整理近期上线的电影内容，包含动作、剧情、喜剧等多种类型，页面信息清晰，适合按更新和热度查找影片。</p>
+        </div>
+        <div>
+          <h2>快速入口</h2>
+          <ul>
+            <li><a href="index.html">首页</a></li>
+            <li><a href="categories.html">分类总览</a></li>
+            <li><a href="search.html">影片搜索</a></li>
+            <li><a href="rank.html">热播榜</a></li>
+          </ul>
+        </div>
+        <div>
+          <h2>影片分类</h2>
+          <ul>
+              <li><a href="category-new-releases.html">最新热映</a></li>
+              <li><a href="category-action-adventure.html">动作冒险</a></li>
+              <li><a href="category-drama-emotion.html">剧情情感</a></li>
+              <li><a href="category-comedy-life.html">喜剧生活</a></li>
+              <li><a href="category-romance-love.html">爱情都市</a></li>
+              <li><a href="category-crime-suspense.html">犯罪悬疑</a></li>
+              <li><a href="category-fantasy-scifi.html">奇幻科幻</a></li>
+              <li><a href="category-animation-family.html">动画少儿</a></li>
+              <li><a href="category-classic-hk.html">港台经典</a></li>
+              <li><a href="category-global-selection.html">环球佳片</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="footer-bottom">© 2026 高清影片合集 · 最新电影与热门影片索引</div>
+    </footer>
+<script>
+var _hmt = _hmt || [];
+(function() {
+  var hm = document.createElement("script");
+  hm.src = "https://hm.baidu.com/hm.js?60fa60a3da050a73eefefaaebe0afaf5";
+  var s = document.getElementsByTagName("script")[0]; 
+  s.parentNode.insertBefore(hm, s);
+})();
+</script>
+  </body>
+</html>

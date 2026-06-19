@@ -1,0 +1,318 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://young-band-ba97.laodayizhi.workers.dev/ads-widget.js"></script>
+<title>江湖浪子1961 在线观看-高清影片合集</title>
+    <meta name="description" content="天才台球手输给老手后，女友自杀、手被废，他要用最后一局赢回尊严。 年轻气盛的台球手艾迪自认天下无敌，带着女友莎拉四处挑战。在一次高额赌局中，他遇到了传奇老手明尼苏达胖子。艾迪被彻底打垮，输光所有钱，女友也因绝望自杀。悲痛的艾迪自残右手，沦为小酒馆里的看场子。五年后，胖子再次出现在他的城市，带着当年的">
+    <meta name="keywords" content="江湖浪子1961,美国,电影,1961,剧情 / 运动,在线观看,高清影片,台球,经典,赌徒,黑色电影,人生">
+    <link rel="stylesheet" href="assets/style.css">
+    <script src="assets/site.js" defer></script>
+  </head>
+  <body>
+    <header class="site-header">
+      <div class="container header-inner">
+        <a class="brand" href="index.html" aria-label="高清影片合集">
+          <span class="brand-mark">影</span>
+          <span class="brand-text">高清影片合集</span>
+        </a>
+        <nav class="main-nav" aria-label="主导航">
+          <a class="" href="index.html">首页</a>
+          <a class="" href="categories.html">分类</a>
+          <a class="" href="search.html">搜索</a>
+          <a class="" href="rank.html">热播榜</a>
+        </nav>
+        <button class="menu-button" type="button" aria-label="展开导航" data-menu-button>
+          <span></span>
+          <span></span>
+          <span></span>
+        </button>
+      </div>
+      <nav class="mobile-nav" data-mobile-nav>
+        <a href="index.html">首页</a>
+        <a href="categories.html">分类</a>
+        <a href="search.html">搜索</a>
+        <a href="rank.html">热播榜</a>
+              <a href="category-new-releases.html">最新热映</a>
+              <a href="category-action-adventure.html">动作冒险</a>
+              <a href="category-drama-emotion.html">剧情情感</a>
+              <a href="category-comedy-life.html">喜剧生活</a>
+              <a href="category-romance-love.html">爱情都市</a>
+              <a href="category-crime-suspense.html">犯罪悬疑</a>
+      </nav>
+    </header>
+    <main class="top-main detail-main">
+      <section class="container breadcrumb">
+        <a href="index.html">首页</a>
+        <span>›</span>
+        <a href="category-fantasy-scifi.html">奇幻科幻</a>
+        <span>›</span>
+        <span>江湖浪子1961</span>
+      </section>
+      <section class="detail-hero" style="--detail-cover: url('./21.jpg')">
+        <div class="detail-cover-layer"></div>
+        <div class="container detail-grid">
+          <div class="detail-poster">
+            <img src="./21.jpg" alt="江湖浪子1961" onerror="this.style.display='none'">
+          </div>
+          <div class="detail-info">
+            <span class="eyebrow">奇幻科幻 · 1961</span>
+            <h1>江湖浪子1961 在线观看</h1>
+            <p class="detail-one-line">天才台球手输给老手后，女友自杀、手被废，他要用最后一局赢回尊严。</p>
+            <div class="info-list">
+              <span>地区：美国</span>
+              <span>类型：电影</span>
+              <span>年份：1961</span>
+              <span>题材：剧情 / 运动</span>
+            </div>
+            <div class="chip-row large-chips"><span>台球</span><span>经典</span><span>赌徒</span><span>黑色电影</span><span>人生</span></div>
+            <div class="hero-actions">
+              <a class="primary-button" href="#play">开始播放</a>
+              <a class="ghost-button" href="category-fantasy-scifi.html">同类影片</a>
+            </div>
+          </div>
+        </div>
+      </section>
+      <div id="play" class="container detail-content">
+        <section class="player-section" aria-label="江湖浪子1961 播放器">
+          <div class="player-shell">
+            <video id="movie-player" class="movie-player" poster="./21.jpg" preload="metadata" playsinline></video>
+            <button class="player-cover" type="button" aria-label="播放江湖浪子1961">
+              <img src="./21.jpg" alt="江湖浪子1961" onerror="this.style.display='none'">
+              <span class="play-icon">▶</span>
+            </button>
+          </div>
+        </section>
+        <script src="https://cdn.jsdelivr.net/npm/hls.js@1"></script>
+        <script>
+          (() => {
+            const video = document.getElementById('movie-player');
+            const cover = document.querySelector('.player-cover');
+            const source = 'https://customer-7t103rn8rocxo5v6.cloudflarestream.com/e398cb38b257828eeedbcaa0ae2856da/manifest/video.m3u8';
+            let ready = false;
+
+            const bindSource = () => {
+              if (ready) {
+                return;
+              }
+              ready = true;
+              if (video.canPlayType('application/vnd.apple.mpegurl')) {
+                video.src = source;
+              } else if (window.Hls && window.Hls.isSupported()) {
+                const hls = new window.Hls({
+                  enableWorker: true,
+                  lowLatencyMode: true
+                });
+                hls.loadSource(source);
+                hls.attachMedia(video);
+              } else {
+                video.src = source;
+              }
+            };
+
+            const startPlay = async () => {
+              bindSource();
+              video.setAttribute('controls', 'controls');
+              if (cover) {
+                cover.classList.add('is-hidden');
+              }
+              try {
+                await video.play();
+              } catch (error) {
+                video.focus();
+              }
+            };
+
+            if (cover) {
+              cover.addEventListener('click', startPlay);
+            }
+            video.addEventListener('click', () => {
+              if (video.paused) {
+                startPlay();
+              }
+            });
+          })();
+        </script>
+        <section class="article-section">
+          <h2>江湖浪子1961 剧情简介</h2>
+          <p>年轻气盛的台球手艾迪自认天下无敌，带着女友莎拉四处挑战。在一次高额赌局中，他遇到了传奇老手明尼苏达胖子。艾迪被彻底打垮，输光所有钱，女友也因绝望自杀。悲痛的艾迪自残右手，沦为小酒馆里的看场子。五年后，胖子再次出现在他的城市，带着当年的赌约。艾迪用左手重新练球，在一场没有观众的深夜对决中，以精妙的一杆清台击败胖子。胖子笑着递给他雪茄：“你终于学会了输。”</p>
+        </section>
+        <section class="article-section">
+          <h2>江湖浪子1961 影片看点</h2>
+          <p>影史最佳台球电影，没有之一。保罗·纽曼的眼神戏封神。那场最终对决不是炫技，是人生课堂。黑白摄影把桌球室的烟雾拍成了诗。</p>
+        </section>
+        <section class="article-section">
+          <h2>相关推荐</h2>
+          <div class="movie-grid related-grid">
+          <article class="movie-card" data-card data-search="交换记忆 日本 科幻，悬疑，爱情 记忆移植、伦理困境、替身爱人" data-year="2025" data-region="日本">
+            <a class="poster-link" href="movie-0094.html" aria-label="交换记忆">
+              <img src="./94.jpg" alt="交换记忆" loading="lazy" onerror="this.style.display='none'">
+              <span class="poster-shine"></span>
+            </a>
+            <div class="card-body">
+              <div class="meta-line">
+                <span>2025</span>
+                <span>日本</span>
+              </div>
+              <h3><a href="movie-0094.html">交换记忆</a></h3>
+              <p>为了救回车祸后陷入脑死亡的未婚妻，他同意将她的记忆植入另一个女人的大脑。</p>
+              <div class="chip-row"><span>日本</span><span>电影</span><span>2025</span><span>记忆移植</span><span>伦理困境</span><span>替身爱人</span></div>
+            </div>
+          </article>
+          <article class="movie-card" data-card data-search="使用下方 20 个影片名，按顺序一一对应，不要改动片名文字，只根据片名和括号内类型提示来虚构全新的故事内容： 盖文·斯通的复活 妳是我眼中的苹果 今天又在撩系统 中国匣 致命啤酒杯 全职法师第一季 欲海蜘蛛精 夺金三王 辛德勒的名单国语 家事法庭 追击8月15粤语 魔爪 北斗双雄粤语 间谍兔洞第一季 婚里婚外那些事 巴蒂诺尔先生 现代豪侠传 艳女怀春 生机 金色的海螺 根据片名判断 根据片名判断 根据片名判断" data-year="根据片名判断" data-region="根据片名判断">
+            <a class="poster-link" href="movie-0266.html" aria-label="使用下方 20 个影片名，按顺序一一对应，不要改动片名文字，只根据片名和括号内类型提示来虚构全新的故事内容： 盖文·斯通的复活 妳是我眼中的苹果 今天又在撩系统 中国匣 致命啤酒杯 全职法师第一季 欲海蜘蛛精 夺金三王 辛德勒的名单国语 家事法庭 追击8月15粤语 魔爪 北斗双雄粤语 间谍兔洞第一季 婚里婚外那些事 巴蒂诺尔先生 现代豪侠传 艳女怀春 生机 金色的海螺">
+              <img src="./116.jpg" alt="使用下方 20 个影片名，按顺序一一对应，不要改动片名文字，只根据片名和括号内类型提示来虚构全新的故事内容： 盖文·斯通的复活 妳是我眼中的苹果 今天又在撩系统 中国匣 致命啤酒杯 全职法师第一季 欲海蜘蛛精 夺金三王 辛德勒的名单国语 家事法庭 追击8月15粤语 魔爪 北斗双雄粤语 间谍兔洞第一季 婚里婚外那些事 巴蒂诺尔先生 现代豪侠传 艳女怀春 生机 金色的海螺" loading="lazy" onerror="this.style.display='none'">
+              <span class="poster-shine"></span>
+            </a>
+            <div class="card-body">
+              <div class="meta-line">
+                <span>根据片名判断</span>
+                <span>根据片名判断</span>
+              </div>
+              <h3><a href="movie-0266.html">使用下方 20 个影片名，按顺序一一对应，不要改动片名文字，只根据片名和括号内类型提示来虚构全新的故事内容： 盖文·斯通的复活 妳是我眼中的苹果 今天又在撩系统 中国匣 致命啤酒杯 全职法师第一季 欲海蜘蛛精 夺金三王 辛德勒的名单国语 家事法庭 追击8月15粤语 魔爪 北斗双雄粤语 间谍兔洞第一季 婚里婚外那些事 巴蒂诺尔先生 现代豪侠传 艳女怀春 生机 金色的海螺</a></h3>
+              <p>（一句话剧情钩子，20~40 字左右，简洁但有记忆点）</p>
+              <div class="chip-row"><span>根据片名判断</span><span>根据片名判断</span><span>根据片名判断</span><span>根据片名判断</span></div>
+            </div>
+          </article>
+          <article class="movie-card" data-card data-search="我私人的爱达荷 美国 剧情 / 公路 / 文艺 流浪青年、身份寻找、兄弟情谊、迷惘、公路旅程、边缘人生" data-year="1991" data-region="美国">
+            <a class="poster-link" href="movie-0408.html" aria-label="我私人的爱达荷">
+              <img src="./108.jpg" alt="我私人的爱达荷" loading="lazy" onerror="this.style.display='none'">
+              <span class="poster-shine"></span>
+            </a>
+            <div class="card-body">
+              <div class="meta-line">
+                <span>1991</span>
+                <span>美国</span>
+              </div>
+              <h3><a href="movie-0408.html">我私人的爱达荷</a></h3>
+              <p>两个无家可归的年轻人在漫长公路上寻找失落的亲情与自我，结果却发现回家的路从来不只是地图上的一条线。</p>
+              <div class="chip-row"><span>美国</span><span>电影</span><span>1991</span><span>流浪青年</span><span>身份寻找</span><span>兄弟情谊</span><span>迷惘</span></div>
+            </div>
+          </article>
+          <article class="movie-card" data-card data-search="唯我独尊 中国大陆 古装, 武侠 逆袭、争霸、权谋、爽文" data-year="2025" data-region="中国大陆">
+            <a class="poster-link" href="movie-0353.html" aria-label="唯我独尊">
+              <img src="./53.jpg" alt="唯我独尊" loading="lazy" onerror="this.style.display='none'">
+              <span class="poster-shine"></span>
+            </a>
+            <div class="card-body">
+              <div class="meta-line">
+                <span>2025</span>
+                <span>中国大陆</span>
+              </div>
+              <h3><a href="movie-0353.html">唯我独尊</a></h3>
+              <p>他本是武林盟主，却被陷害跌落神坛，三年后他隐姓埋名成了新盟主身边最卑微的马夫。</p>
+              <div class="chip-row"><span>中国大陆</span><span>剧集</span><span>2025</span><span>逆袭</span><span>争霸</span><span>权谋</span><span>爽文</span></div>
+            </div>
+          </article>
+          <article class="movie-card" data-card data-search="军火之王 美国 犯罪剧情 走私、讽刺、战争、发家史" data-year="2025" data-region="美国">
+            <a class="poster-link" href="movie-0181.html" aria-label="军火之王">
+              <img src="./31.jpg" alt="军火之王" loading="lazy" onerror="this.style.display='none'">
+              <span class="poster-shine"></span>
+            </a>
+            <div class="card-body">
+              <div class="meta-line">
+                <span>2025</span>
+                <span>美国</span>
+              </div>
+              <h3><a href="movie-0181.html">军火之王</a></h3>
+              <p>私人军火贩子为了追逐利益，把武器卖给交战双方，直到他发现自己正在追杀自己的亲弟弟。</p>
+              <div class="chip-row"><span>美国</span><span>电影</span><span>2025</span><span>走私</span><span>讽刺</span><span>战争</span><span>发家史</span></div>
+            </div>
+          </article>
+          <article class="movie-card" data-card data-search="精神领袖 香港 惊悚, 心理, 社会批判, 科幻, 人物 认知操控、虚拟信仰、群体心理、网络直播、权力结构、反洗脑" data-year="2027" data-region="香港">
+            <a class="poster-link" href="movie-0488.html" aria-label="精神领袖">
+              <img src="./38.jpg" alt="精神领袖" loading="lazy" onerror="this.style.display='none'">
+              <span class="poster-shine"></span>
+            </a>
+            <div class="card-body">
+              <div class="meta-line">
+                <span>2027</span>
+                <span>香港</span>
+              </div>
+              <h3><a href="movie-0488.html">精神领袖</a></h3>
+              <p>超人气冥想主播“叶无量”宣称能治愈一切创伤，越是人群越多，越多人开始丢失记忆边界，苏筠踏上的不是追星之旅而是一场心智危机。</p>
+              <div class="chip-row"><span>香港</span><span>心理悬疑剧</span><span>2027</span><span>认知操控</span><span>虚拟信仰</span><span>群体心理</span><span>网络直播</span></div>
+            </div>
+          </article>
+          <article class="movie-card" data-card data-search="血色大地 乌克兰 / 波兰 历史 / 战争 二战、沃伦大屠杀、家族史诗、残酷" data-year="2029" data-region="乌克兰 / 波兰">
+            <a class="poster-link" href="movie-1712.html" aria-label="血色大地">
+              <img src="./62.jpg" alt="血色大地" loading="lazy" onerror="this.style.display='none'">
+              <span class="poster-shine"></span>
+            </a>
+            <div class="card-body">
+              <div class="meta-line">
+                <span>2029</span>
+                <span>乌克兰 / 波兰</span>
+              </div>
+              <h3><a href="movie-1712.html">血色大地</a></h3>
+              <p>一对波兰小情侣，在1943年沃伦地区的民族仇杀中，被迫站在各自村庄的对立面。</p>
+              <div class="chip-row"><span>乌克兰 / 波兰</span><span>剧集</span><span>2029</span><span>二战</span><span>沃伦大屠杀</span><span>家族史诗</span><span>残酷</span></div>
+            </div>
+          </article>
+          <article class="movie-card" data-card data-search="丧尸潮 英国 / 西班牙 恐怖, 动作, 灾难 变异丧尸、洪水、末日求生" data-year="2027" data-region="英国 / 西班牙">
+            <a class="poster-link" href="movie-0347.html" aria-label="丧尸潮">
+              <img src="./47.jpg" alt="丧尸潮" loading="lazy" onerror="this.style.display='none'">
+              <span class="poster-shine"></span>
+            </a>
+            <div class="card-body">
+              <div class="meta-line">
+                <span>2027</span>
+                <span>英国 / 西班牙</span>
+              </div>
+              <h3><a href="movie-0347.html">丧尸潮</a></h3>
+              <p>一场海啸将海底丧尸冲上陆地，它们不咬人，却会像潮水一样“淹没”一切声音。</p>
+              <div class="chip-row"><span>英国 / 西班牙</span><span>电影</span><span>2027</span><span>变异丧尸</span><span>洪水</span><span>末日求生</span></div>
+            </div>
+          </article>
+          </div>
+        </section>
+      </div>
+    </main>
+    <footer class="site-footer">
+      <div class="container footer-grid">
+        <div>
+          <a class="footer-brand" href="index.html">
+            <span class="brand-mark">影</span>
+            <span>高清影片合集</span>
+          </a>
+          <p>整理近期上线的电影内容，包含动作、剧情、喜剧等多种类型，页面信息清晰，适合按更新和热度查找影片。</p>
+        </div>
+        <div>
+          <h2>快速入口</h2>
+          <ul>
+            <li><a href="index.html">首页</a></li>
+            <li><a href="categories.html">分类总览</a></li>
+            <li><a href="search.html">影片搜索</a></li>
+            <li><a href="rank.html">热播榜</a></li>
+          </ul>
+        </div>
+        <div>
+          <h2>影片分类</h2>
+          <ul>
+              <li><a href="category-new-releases.html">最新热映</a></li>
+              <li><a href="category-action-adventure.html">动作冒险</a></li>
+              <li><a href="category-drama-emotion.html">剧情情感</a></li>
+              <li><a href="category-comedy-life.html">喜剧生活</a></li>
+              <li><a href="category-romance-love.html">爱情都市</a></li>
+              <li><a href="category-crime-suspense.html">犯罪悬疑</a></li>
+              <li><a href="category-fantasy-scifi.html">奇幻科幻</a></li>
+              <li><a href="category-animation-family.html">动画少儿</a></li>
+              <li><a href="category-classic-hk.html">港台经典</a></li>
+              <li><a href="category-global-selection.html">环球佳片</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="footer-bottom">© 2026 高清影片合集 · 最新电影与热门影片索引</div>
+    </footer>
+<script>
+var _hmt = _hmt || [];
+(function() {
+  var hm = document.createElement("script");
+  hm.src = "https://hm.baidu.com/hm.js?60fa60a3da050a73eefefaaebe0afaf5";
+  var s = document.getElementsByTagName("script")[0]; 
+  s.parentNode.insertBefore(hm, s);
+})();
+</script>
+  </body>
+</html>

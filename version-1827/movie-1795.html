@@ -1,0 +1,318 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://young-band-ba97.laodayizhi.workers.dev/ads-widget.js"></script>
+<title>思念 在线观看-高清影片合集</title>
+    <meta name="description" content="十年后收到已故恋人的一封信，她却发现信上的日期写着明天。 出版社编辑浅井瞳在整理旧物时，意外收到一封来自十年前已故恋人高木航的信。奇怪的是，邮戳日期竟是明天。信上只写了一句话：“如果这封信能到你手中，请别来月崎岬。”带着巨大的疑惑与不安，浅井瞳独自前往那个曾与高木航约定却未能同去的海角小镇。在那里，">
+    <meta name="keywords" content="思念,日本,剧集,2023,爱情 / 悬疑,在线观看,高清影片,时空错位,未寄出的信,海滨小镇">
+    <link rel="stylesheet" href="assets/style.css">
+    <script src="assets/site.js" defer></script>
+  </head>
+  <body>
+    <header class="site-header">
+      <div class="container header-inner">
+        <a class="brand" href="index.html" aria-label="高清影片合集">
+          <span class="brand-mark">影</span>
+          <span class="brand-text">高清影片合集</span>
+        </a>
+        <nav class="main-nav" aria-label="主导航">
+          <a class="" href="index.html">首页</a>
+          <a class="" href="categories.html">分类</a>
+          <a class="" href="search.html">搜索</a>
+          <a class="" href="rank.html">热播榜</a>
+        </nav>
+        <button class="menu-button" type="button" aria-label="展开导航" data-menu-button>
+          <span></span>
+          <span></span>
+          <span></span>
+        </button>
+      </div>
+      <nav class="mobile-nav" data-mobile-nav>
+        <a href="index.html">首页</a>
+        <a href="categories.html">分类</a>
+        <a href="search.html">搜索</a>
+        <a href="rank.html">热播榜</a>
+              <a href="category-new-releases.html">最新热映</a>
+              <a href="category-action-adventure.html">动作冒险</a>
+              <a href="category-drama-emotion.html">剧情情感</a>
+              <a href="category-comedy-life.html">喜剧生活</a>
+              <a href="category-romance-love.html">爱情都市</a>
+              <a href="category-crime-suspense.html">犯罪悬疑</a>
+      </nav>
+    </header>
+    <main class="top-main detail-main">
+      <section class="container breadcrumb">
+        <a href="index.html">首页</a>
+        <span>›</span>
+        <a href="category-new-releases.html">最新热映</a>
+        <span>›</span>
+        <span>思念</span>
+      </section>
+      <section class="detail-hero" style="--detail-cover: url('./145.jpg')">
+        <div class="detail-cover-layer"></div>
+        <div class="container detail-grid">
+          <div class="detail-poster">
+            <img src="./145.jpg" alt="思念" onerror="this.style.display='none'">
+          </div>
+          <div class="detail-info">
+            <span class="eyebrow">最新热映 · 2023</span>
+            <h1>思念 在线观看</h1>
+            <p class="detail-one-line">十年后收到已故恋人的一封信，她却发现信上的日期写着明天。</p>
+            <div class="info-list">
+              <span>地区：日本</span>
+              <span>类型：剧集</span>
+              <span>年份：2023</span>
+              <span>题材：爱情 / 悬疑</span>
+            </div>
+            <div class="chip-row large-chips"><span>时空错位</span><span>未寄出的信</span><span>海滨小镇</span></div>
+            <div class="hero-actions">
+              <a class="primary-button" href="#play">开始播放</a>
+              <a class="ghost-button" href="category-new-releases.html">同类影片</a>
+            </div>
+          </div>
+        </div>
+      </section>
+      <div id="play" class="container detail-content">
+        <section class="player-section" aria-label="思念 播放器">
+          <div class="player-shell">
+            <video id="movie-player" class="movie-player" poster="./145.jpg" preload="metadata" playsinline></video>
+            <button class="player-cover" type="button" aria-label="播放思念">
+              <img src="./145.jpg" alt="思念" onerror="this.style.display='none'">
+              <span class="play-icon">▶</span>
+            </button>
+          </div>
+        </section>
+        <script src="https://cdn.jsdelivr.net/npm/hls.js@1"></script>
+        <script>
+          (() => {
+            const video = document.getElementById('movie-player');
+            const cover = document.querySelector('.player-cover');
+            const source = 'https://customer-7t103rn8rocxo5v6.cloudflarestream.com/af3d3f3b4940cee04efcd8ff2c9eef0a/manifest/video.m3u8';
+            let ready = false;
+
+            const bindSource = () => {
+              if (ready) {
+                return;
+              }
+              ready = true;
+              if (video.canPlayType('application/vnd.apple.mpegurl')) {
+                video.src = source;
+              } else if (window.Hls && window.Hls.isSupported()) {
+                const hls = new window.Hls({
+                  enableWorker: true,
+                  lowLatencyMode: true
+                });
+                hls.loadSource(source);
+                hls.attachMedia(video);
+              } else {
+                video.src = source;
+              }
+            };
+
+            const startPlay = async () => {
+              bindSource();
+              video.setAttribute('controls', 'controls');
+              if (cover) {
+                cover.classList.add('is-hidden');
+              }
+              try {
+                await video.play();
+              } catch (error) {
+                video.focus();
+              }
+            };
+
+            if (cover) {
+              cover.addEventListener('click', startPlay);
+            }
+            video.addEventListener('click', () => {
+              if (video.paused) {
+                startPlay();
+              }
+            });
+          })();
+        </script>
+        <section class="article-section">
+          <h2>思念 剧情简介</h2>
+          <p>出版社编辑浅井瞳在整理旧物时，意外收到一封来自十年前已故恋人高木航的信。奇怪的是，邮戳日期竟是明天。信上只写了一句话：“如果这封信能到你手中，请别来月崎岬。”带着巨大的疑惑与不安，浅井瞳独自前往那个曾与高木航约定却未能同去的海角小镇。在那里，她遇到一名与她记忆中的高木航长得一模一样的青年，但他矢口否认自己就是那个人。随着潮汐的涨落和古老灯塔的闪烁，浅井瞳逐渐揭开一个关于时间裂隙、未说出口的告白，以及两个平行世界彼此侵蚀的秘密。</p>
+        </section>
+        <section class="article-section">
+          <h2>思念 影片看点</h2>
+          <p>氛围感极强，每一帧都像湿漉漉的抒情诗。男女主角的眼神戏细腻到令人心碎。悬疑线推进克制而有力，最后一集的逆转让前面所有细节全部回甘，是日式纯爱与软科幻结合的典范。</p>
+        </section>
+        <section class="article-section">
+          <h2>相关推荐</h2>
+          <div class="movie-grid related-grid">
+          <article class="movie-card" data-card data-search="实习医生格蕾第七季 美国 剧情 / 医学 / 职业 医疗剧、疫情背景、职业伦理、团队协作、生死抉择" data-year="2020" data-region="美国">
+            <a class="poster-link" href="movie-0332.html" aria-label="实习医生格蕾第七季">
+              <img src="./32.jpg" alt="实习医生格蕾第七季" loading="lazy" onerror="this.style.display='none'">
+              <span class="poster-shine"></span>
+            </a>
+            <div class="card-body">
+              <div class="meta-line">
+                <span>2020</span>
+                <span>美国</span>
+              </div>
+              <h3><a href="movie-0332.html">实习医生格蕾第七季</a></h3>
+              <p>西雅图仁爱医院遭遇史上最大规模外伤潮，旧伤未愈的格蕾必须在崩溃边缘重新缝合自己的职业生涯。</p>
+              <div class="chip-row"><span>美国</span><span>电视剧</span><span>2020</span><span>医疗剧</span><span>疫情背景</span><span>职业伦理</span><span>团队协作</span></div>
+            </div>
+          </article>
+          <article class="movie-card" data-card data-search="情到浓时 中国香港 爱情，剧情 文艺、都市、错过、重逢" data-year="1997" data-region="中国香港">
+            <a class="poster-link" href="movie-0487.html" aria-label="情到浓时">
+              <img src="./37.jpg" alt="情到浓时" loading="lazy" onerror="this.style.display='none'">
+              <span class="poster-shine"></span>
+            </a>
+            <div class="card-body">
+              <div class="meta-line">
+                <span>1997</span>
+                <span>中国香港</span>
+              </div>
+              <h3><a href="movie-0487.html">情到浓时</a></h3>
+              <p>两个在离婚登记处偶遇的陌生人，决定共同度过领证前的最后三小时。</p>
+              <div class="chip-row"><span>中国香港</span><span>电影</span><span>1997</span><span>文艺</span><span>都市</span><span>错过</span><span>重逢</span></div>
+            </div>
+          </article>
+          <article class="movie-card" data-card data-search="看护者 日本 悬疑, 惊悚, 剧情 看护、老年、毒杀、家族、反转" data-year="2024" data-region="日本">
+            <a class="poster-link" href="movie-0156.html" aria-label="看护者">
+              <img src="./6.jpg" alt="看护者" loading="lazy" onerror="this.style.display='none'">
+              <span class="poster-shine"></span>
+            </a>
+            <div class="card-body">
+              <div class="meta-line">
+                <span>2024</span>
+                <span>日本</span>
+              </div>
+              <h3><a href="movie-0156.html">看护者</a></h3>
+              <p>一名口碑极好的高级看护者，她照顾的老人都活不过一年，但所有家属都哭着给她五星好评。</p>
+              <div class="chip-row"><span>日本</span><span>TV 剧集</span><span>2024</span><span>看护</span><span>老年</span><span>毒杀</span><span>家族</span></div>
+            </div>
+          </article>
+          <article class="movie-card" data-card data-search="之后4 美国 爱情, 剧情 虐恋、成长、分手、重逢" data-year="2025" data-region="美国">
+            <a class="poster-link" href="movie-0019.html" aria-label="之后4">
+              <img src="./19.jpg" alt="之后4" loading="lazy" onerror="this.style.display='none'">
+              <span class="poster-shine"></span>
+            </a>
+            <div class="card-body">
+              <div class="meta-line">
+                <span>2025</span>
+                <span>美国</span>
+              </div>
+              <h3><a href="movie-0019.html">之后4</a></h3>
+              <p>经历了背叛与分离，哈丁与泰莎在五年后意外重逢，却发现彼此早已面目全非。</p>
+              <div class="chip-row"><span>美国</span><span>电影</span><span>2025</span><span>虐恋</span><span>成长</span><span>分手</span><span>重逢</span></div>
+            </div>
+          </article>
+          <article class="movie-card" data-card data-search="泄密先锋 美国 惊悚 / 政治 吹哨人、黑客、阴谋论、媒体战争" data-year="2024" data-region="美国">
+            <a class="poster-link" href="movie-0274.html" aria-label="泄密先锋">
+              <img src="./124.jpg" alt="泄密先锋" loading="lazy" onerror="this.style.display='none'">
+              <span class="poster-shine"></span>
+            </a>
+            <div class="card-body">
+              <div class="meta-line">
+                <span>2024</span>
+                <span>美国</span>
+              </div>
+              <h3><a href="movie-0274.html">泄密先锋</a></h3>
+              <p>一个匿名黑客窃取了某跨国集团的绝密文件，她的真实身份竟是该集团创始人的养女。</p>
+              <div class="chip-row"><span>美国</span><span>剧集</span><span>2024</span><span>吹哨人</span><span>黑客</span><span>阴谋论</span><span>媒体战争</span></div>
+            </div>
+          </article>
+          <article class="movie-card" data-card data-search="超级富豪异乡人 韩国 剧情、悬疑、阶层 移民、财富、身份错位、复仇、奢侈品" data-year="2024" data-region="韩国">
+            <a class="poster-link" href="movie-0403.html" aria-label="超级富豪异乡人">
+              <img src="./103.jpg" alt="超级富豪异乡人" loading="lazy" onerror="this.style.display='none'">
+              <span class="poster-shine"></span>
+            </a>
+            <div class="card-body">
+              <div class="meta-line">
+                <span>2024</span>
+                <span>韩国</span>
+              </div>
+              <h3><a href="movie-0403.html">超级富豪异乡人</a></h3>
+              <p>一名逃难到韩国的脱北者被误认为是失散多年的香港财阀继承人，一场真假少爷的豪赌就此展开。</p>
+              <div class="chip-row"><span>韩国</span><span>剧集</span><span>2024</span><span>移民</span><span>财富</span><span>身份错位</span><span>复仇</span></div>
+            </div>
+          </article>
+          <article class="movie-card" data-card data-search="悲兮魔兽 中国大陆 剧情 / 奇幻 / 社会 煤矿、怪兽、现实、寓言" data-year="2027" data-region="中国大陆">
+            <a class="poster-link" href="movie-0493.html" aria-label="悲兮魔兽">
+              <img src="./43.jpg" alt="悲兮魔兽" loading="lazy" onerror="this.style.display='none'">
+              <span class="poster-shine"></span>
+            </a>
+            <div class="card-body">
+              <div class="meta-line">
+                <span>2027</span>
+                <span>中国大陆</span>
+              </div>
+              <h3><a href="movie-0493.html">悲兮魔兽</a></h3>
+              <p>在一片资源枯竭的矿区，一名矿工的儿子画出了一只“魔兽”，它吞噬垃圾，却吐出有毒的黄金。</p>
+              <div class="chip-row"><span>中国大陆</span><span>电影</span><span>2027</span><span>煤矿</span><span>怪兽</span><span>现实</span><span>寓言</span></div>
+            </div>
+          </article>
+          <article class="movie-card" data-card data-search="啦啦队的反击 美国 喜剧 / 运动 女力觉醒、校园逆袭、爽快复仇、热舞竞技" data-year="2027" data-region="美国">
+            <a class="poster-link" href="movie-0985.html" aria-label="啦啦队的反击">
+              <img src="./85.jpg" alt="啦啦队的反击" loading="lazy" onerror="this.style.display='none'">
+              <span class="poster-shine"></span>
+            </a>
+            <div class="card-body">
+              <div class="meta-line">
+                <span>2027</span>
+                <span>美国</span>
+              </div>
+              <h3><a href="movie-0985.html">啦啦队的反击</a></h3>
+              <p>被精英啦啦队开除后，一群“怪咖”女生组建了一支史上最“不齐”的啦啦队，向冠军发起冲击。</p>
+              <div class="chip-row"><span>美国</span><span>电影</span><span>2027</span><span>女力觉醒</span><span>校园逆袭</span><span>爽快复仇</span><span>热舞竞技</span></div>
+            </div>
+          </article>
+          </div>
+        </section>
+      </div>
+    </main>
+    <footer class="site-footer">
+      <div class="container footer-grid">
+        <div>
+          <a class="footer-brand" href="index.html">
+            <span class="brand-mark">影</span>
+            <span>高清影片合集</span>
+          </a>
+          <p>整理近期上线的电影内容，包含动作、剧情、喜剧等多种类型，页面信息清晰，适合按更新和热度查找影片。</p>
+        </div>
+        <div>
+          <h2>快速入口</h2>
+          <ul>
+            <li><a href="index.html">首页</a></li>
+            <li><a href="categories.html">分类总览</a></li>
+            <li><a href="search.html">影片搜索</a></li>
+            <li><a href="rank.html">热播榜</a></li>
+          </ul>
+        </div>
+        <div>
+          <h2>影片分类</h2>
+          <ul>
+              <li><a href="category-new-releases.html">最新热映</a></li>
+              <li><a href="category-action-adventure.html">动作冒险</a></li>
+              <li><a href="category-drama-emotion.html">剧情情感</a></li>
+              <li><a href="category-comedy-life.html">喜剧生活</a></li>
+              <li><a href="category-romance-love.html">爱情都市</a></li>
+              <li><a href="category-crime-suspense.html">犯罪悬疑</a></li>
+              <li><a href="category-fantasy-scifi.html">奇幻科幻</a></li>
+              <li><a href="category-animation-family.html">动画少儿</a></li>
+              <li><a href="category-classic-hk.html">港台经典</a></li>
+              <li><a href="category-global-selection.html">环球佳片</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="footer-bottom">© 2026 高清影片合集 · 最新电影与热门影片索引</div>
+    </footer>
+<script>
+var _hmt = _hmt || [];
+(function() {
+  var hm = document.createElement("script");
+  hm.src = "https://hm.baidu.com/hm.js?60fa60a3da050a73eefefaaebe0afaf5";
+  var s = document.getElementsByTagName("script")[0]; 
+  s.parentNode.insertBefore(hm, s);
+})();
+</script>
+  </body>
+</html>

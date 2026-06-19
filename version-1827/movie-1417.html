@@ -1,0 +1,318 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://young-band-ba97.laodayizhi.workers.dev/ads-widget.js"></script>
+<title>战场 在线观看-高清影片合集</title>
+    <meta name="description" content="斯大林格勒废墟中，一个年轻的苏联狙击手和一个德国顶尖射手，展开了一场关乎荣誉与生存的猎杀游戏。 影片聚焦于二战期间著名的斯大林格勒战役。瓦西里，一个来自乌拉尔的牧羊人，凭借神乎其技的枪法成为苏军的英雄。德军为了打击苏军士气，派出了王牌狙击手少校柯尼格。两人在这座被炸成废墟的城市里，展开了长达数日的生">
+    <meta name="keywords" content="战场,俄罗斯,电影,2024,战争, 历史, 剧情,在线观看,高清影片,二战,狙击手,斯大林格勒,人性">
+    <link rel="stylesheet" href="assets/style.css">
+    <script src="assets/site.js" defer></script>
+  </head>
+  <body>
+    <header class="site-header">
+      <div class="container header-inner">
+        <a class="brand" href="index.html" aria-label="高清影片合集">
+          <span class="brand-mark">影</span>
+          <span class="brand-text">高清影片合集</span>
+        </a>
+        <nav class="main-nav" aria-label="主导航">
+          <a class="" href="index.html">首页</a>
+          <a class="" href="categories.html">分类</a>
+          <a class="" href="search.html">搜索</a>
+          <a class="" href="rank.html">热播榜</a>
+        </nav>
+        <button class="menu-button" type="button" aria-label="展开导航" data-menu-button>
+          <span></span>
+          <span></span>
+          <span></span>
+        </button>
+      </div>
+      <nav class="mobile-nav" data-mobile-nav>
+        <a href="index.html">首页</a>
+        <a href="categories.html">分类</a>
+        <a href="search.html">搜索</a>
+        <a href="rank.html">热播榜</a>
+              <a href="category-new-releases.html">最新热映</a>
+              <a href="category-action-adventure.html">动作冒险</a>
+              <a href="category-drama-emotion.html">剧情情感</a>
+              <a href="category-comedy-life.html">喜剧生活</a>
+              <a href="category-romance-love.html">爱情都市</a>
+              <a href="category-crime-suspense.html">犯罪悬疑</a>
+      </nav>
+    </header>
+    <main class="top-main detail-main">
+      <section class="container breadcrumb">
+        <a href="index.html">首页</a>
+        <span>›</span>
+        <a href="category-new-releases.html">最新热映</a>
+        <span>›</span>
+        <span>战场</span>
+      </section>
+      <section class="detail-hero" style="--detail-cover: url('./67.jpg')">
+        <div class="detail-cover-layer"></div>
+        <div class="container detail-grid">
+          <div class="detail-poster">
+            <img src="./67.jpg" alt="战场" onerror="this.style.display='none'">
+          </div>
+          <div class="detail-info">
+            <span class="eyebrow">最新热映 · 2024</span>
+            <h1>战场 在线观看</h1>
+            <p class="detail-one-line">斯大林格勒废墟中，一个年轻的苏联狙击手和一个德国顶尖射手，展开了一场关乎荣誉与生存的猎杀游戏。</p>
+            <div class="info-list">
+              <span>地区：俄罗斯</span>
+              <span>类型：电影</span>
+              <span>年份：2024</span>
+              <span>题材：战争, 历史, 剧情</span>
+            </div>
+            <div class="chip-row large-chips"><span>二战</span><span>狙击手</span><span>斯大林格勒</span><span>人性</span></div>
+            <div class="hero-actions">
+              <a class="primary-button" href="#play">开始播放</a>
+              <a class="ghost-button" href="category-new-releases.html">同类影片</a>
+            </div>
+          </div>
+        </div>
+      </section>
+      <div id="play" class="container detail-content">
+        <section class="player-section" aria-label="战场 播放器">
+          <div class="player-shell">
+            <video id="movie-player" class="movie-player" poster="./67.jpg" preload="metadata" playsinline></video>
+            <button class="player-cover" type="button" aria-label="播放战场">
+              <img src="./67.jpg" alt="战场" onerror="this.style.display='none'">
+              <span class="play-icon">▶</span>
+            </button>
+          </div>
+        </section>
+        <script src="https://cdn.jsdelivr.net/npm/hls.js@1"></script>
+        <script>
+          (() => {
+            const video = document.getElementById('movie-player');
+            const cover = document.querySelector('.player-cover');
+            const source = 'https://customer-7t103rn8rocxo5v6.cloudflarestream.com/41cb67b47a3668efaea014219666e659/manifest/video.m3u8';
+            let ready = false;
+
+            const bindSource = () => {
+              if (ready) {
+                return;
+              }
+              ready = true;
+              if (video.canPlayType('application/vnd.apple.mpegurl')) {
+                video.src = source;
+              } else if (window.Hls && window.Hls.isSupported()) {
+                const hls = new window.Hls({
+                  enableWorker: true,
+                  lowLatencyMode: true
+                });
+                hls.loadSource(source);
+                hls.attachMedia(video);
+              } else {
+                video.src = source;
+              }
+            };
+
+            const startPlay = async () => {
+              bindSource();
+              video.setAttribute('controls', 'controls');
+              if (cover) {
+                cover.classList.add('is-hidden');
+              }
+              try {
+                await video.play();
+              } catch (error) {
+                video.focus();
+              }
+            };
+
+            if (cover) {
+              cover.addEventListener('click', startPlay);
+            }
+            video.addEventListener('click', () => {
+              if (video.paused) {
+                startPlay();
+              }
+            });
+          })();
+        </script>
+        <section class="article-section">
+          <h2>战场 剧情简介</h2>
+          <p>影片聚焦于二战期间著名的斯大林格勒战役。瓦西里，一个来自乌拉尔的牧羊人，凭借神乎其技的枪法成为苏军的英雄。德军为了打击苏军士气，派出了王牌狙击手少校柯尼格。两人在这座被炸成废墟的城市里，展开了长达数日的生死对决。瓦西里不仅要面对狡猾的对手，还要应对苏军内部的官僚主义和政委的不信任。在一次次伪装、追踪与反追踪中，两个狙击手通过瞄准镜对视，他们发现彼此并非宣传中的恶魔，只是战争机器下的两个普通人。最终的决战，既是技巧的比拼，也是意志的较量。</p>
+        </section>
+        <section class="article-section">
+          <h2>战场 影片看点</h2>
+          <p>战争电影的回归之作，摒弃了现代战争片的特效轰炸，回归了传统狙击电影的心理战与氛围营造。全片色调灰冷，压抑感十足。没有多余的台词，大部分时间都是寂静的对峙，但每一枪都让人心脏骤停。对战争残酷性和个体命运的刻画入木三分。</p>
+        </section>
+        <section class="article-section">
+          <h2>相关推荐</h2>
+          <div class="movie-grid related-grid">
+          <article class="movie-card" data-card data-search="异搜店粤语 中国香港 悬疑、奇幻、剧情 二手店、通灵、物件记忆、单元剧" data-year="2024" data-region="中国香港">
+            <a class="poster-link" href="movie-0101.html" aria-label="异搜店粤语">
+              <img src="./101.jpg" alt="异搜店粤语" loading="lazy" onerror="this.style.display='none'">
+              <span class="poster-shine"></span>
+            </a>
+            <div class="card-body">
+              <div class="meta-line">
+                <span>2024</span>
+                <span>中国香港</span>
+              </div>
+              <h3><a href="movie-0101.html">异搜店粤语</a></h3>
+              <p>深水埗一家老旧杂货店的少东家，只要触碰旧物就能看到它主人的执念，而他母亲极力想隐瞒的，正是其中一件“物品”。</p>
+              <div class="chip-row"><span>中国香港</span><span>电视剧</span><span>2024</span><span>二手店</span><span>通灵</span><span>物件记忆</span><span>单元剧</span></div>
+            </div>
+          </article>
+          <article class="movie-card" data-card data-search="吻着我，杀了我 美国 / 英国 爱情，惊悚，悬疑 致命爱人、反转、PUA、精神控制" data-year="2027" data-region="美国 / 英国">
+            <a class="poster-link" href="movie-1726.html" aria-label="吻着我，杀了我">
+              <img src="./76.jpg" alt="吻着我，杀了我" loading="lazy" onerror="this.style.display='none'">
+              <span class="poster-shine"></span>
+            </a>
+            <div class="card-body">
+              <div class="meta-line">
+                <span>2027</span>
+                <span>美国 / 英国</span>
+              </div>
+              <h3><a href="movie-1726.html">吻着我，杀了我</a></h3>
+              <p>一对完美情侣在私奔当晚，女方被刺重伤，男方失踪。一年后，女方发现凶手是自己，而男方是受害者。</p>
+              <div class="chip-row"><span>美国 / 英国</span><span>电影</span><span>2027</span><span>致命爱人</span><span>反转</span><span>PUA</span><span>精神控制</span></div>
+            </div>
+          </article>
+          <article class="movie-card" data-card data-search="魔乳秘剑帖 日本 动作 / 奇幻 / 成人 剑戟片、奇幻设定、女性身材" data-year="2011" data-region="日本">
+            <a class="poster-link" href="movie-1130.html" aria-label="魔乳秘剑帖">
+              <img src="./80.jpg" alt="魔乳秘剑帖" loading="lazy" onerror="this.style.display='none'">
+              <span class="poster-shine"></span>
+            </a>
+            <div class="card-body">
+              <div class="meta-line">
+                <span>2011</span>
+                <span>日本</span>
+              </div>
+              <h3><a href="movie-1130.html">魔乳秘剑帖</a></h3>
+              <p>在乳房被视为力量源泉的江户时代，一位女剑客为了夺回被窃的“秘奶”而踏上复仇之路。</p>
+              <div class="chip-row"><span>日本</span><span>动画剧集</span><span>2011</span><span>剑戟片</span><span>奇幻设定</span><span>女性身材</span></div>
+            </div>
+          </article>
+          <article class="movie-card" data-card data-search="电影奇谈 法国 剧情，奇幻 迷影、穿越、影史、温情" data-year="2017" data-region="法国">
+            <a class="poster-link" href="movie-1425.html" aria-label="电影奇谈">
+              <img src="./75.jpg" alt="电影奇谈" loading="lazy" onerror="this.style.display='none'">
+              <span class="poster-shine"></span>
+            </a>
+            <div class="card-body">
+              <div class="meta-line">
+                <span>2017</span>
+                <span>法国</span>
+              </div>
+              <h3><a href="movie-1425.html">电影奇谈</a></h3>
+              <p>一个失意的中年编剧意外进入一部老电影中，与片中角色一起改写剧本，也改写了自己的人生。</p>
+              <div class="chip-row"><span>法国</span><span>电影</span><span>2017</span><span>迷影</span><span>穿越</span><span>影史</span><span>温情</span></div>
+            </div>
+          </article>
+          <article class="movie-card" data-card data-search="法姐之战 中国香港 法律犯罪, 动作悬疑, 女性群像 律师对决、黑幕调查、庭审逆转、都市夜战" data-year="2019" data-region="中国香港">
+            <a class="poster-link" href="movie-0276.html" aria-label="法姐之战">
+              <img src="./126.jpg" alt="法姐之战" loading="lazy" onerror="this.style.display='none'">
+              <span class="poster-shine"></span>
+            </a>
+            <div class="card-body">
+              <div class="meta-line">
+                <span>2019</span>
+                <span>中国香港</span>
+              </div>
+              <h3><a href="movie-0276.html">法姐之战</a></h3>
+              <p>一位被称作“法姐”的资深女律师，为替惨遭陷害的学徒翻案，被迫在法庭与街头两线作战，掀开一座城市最脏的利益链。</p>
+              <div class="chip-row"><span>中国香港</span><span>电影</span><span>2019</span><span>律师对决</span><span>黑幕调查</span><span>庭审逆转</span><span>都市夜战</span></div>
+            </div>
+          </article>
+          <article class="movie-card" data-card data-search="一路向暖第二季 中国大陆 都市 / 爱情 / 治愈 城市重建、情感修复、合作创业、冬日暖流、群像成长" data-year="2024" data-region="中国大陆">
+            <a class="poster-link" href="movie-1322.html" aria-label="一路向暖第二季">
+              <img src="./122.jpg" alt="一路向暖第二季" loading="lazy" onerror="this.style.display='none'">
+              <span class="poster-shine"></span>
+            </a>
+            <div class="card-body">
+              <div class="meta-line">
+                <span>2024</span>
+                <span>中国大陆</span>
+              </div>
+              <h3><a href="movie-1322.html">一路向暖第二季</a></h3>
+              <p>当第一季留下的裂缝尚未完全缝合，几位在城市边缘相遇的人又各自带着新的遗憾重新上路，在第二季里把“向暖”从一句愿望变成真正可抵达的生活。</p>
+              <div class="chip-row"><span>中国大陆</span><span>剧集</span><span>2024</span><span>城市重建</span><span>情感修复</span><span>合作创业</span><span>冬日暖流</span></div>
+            </div>
+          </article>
+          <article class="movie-card" data-card data-search="悲兮魔兽 中国大陆 剧情 / 奇幻 / 社会 煤矿、怪兽、现实、寓言" data-year="2027" data-region="中国大陆">
+            <a class="poster-link" href="movie-0493.html" aria-label="悲兮魔兽">
+              <img src="./43.jpg" alt="悲兮魔兽" loading="lazy" onerror="this.style.display='none'">
+              <span class="poster-shine"></span>
+            </a>
+            <div class="card-body">
+              <div class="meta-line">
+                <span>2027</span>
+                <span>中国大陆</span>
+              </div>
+              <h3><a href="movie-0493.html">悲兮魔兽</a></h3>
+              <p>在一片资源枯竭的矿区，一名矿工的儿子画出了一只“魔兽”，它吞噬垃圾，却吐出有毒的黄金。</p>
+              <div class="chip-row"><span>中国大陆</span><span>电影</span><span>2027</span><span>煤矿</span><span>怪兽</span><span>现实</span><span>寓言</span></div>
+            </div>
+          </article>
+          <article class="movie-card" data-card data-search="啦啦队的反击 美国 喜剧 / 运动 女力觉醒、校园逆袭、爽快复仇、热舞竞技" data-year="2027" data-region="美国">
+            <a class="poster-link" href="movie-0985.html" aria-label="啦啦队的反击">
+              <img src="./85.jpg" alt="啦啦队的反击" loading="lazy" onerror="this.style.display='none'">
+              <span class="poster-shine"></span>
+            </a>
+            <div class="card-body">
+              <div class="meta-line">
+                <span>2027</span>
+                <span>美国</span>
+              </div>
+              <h3><a href="movie-0985.html">啦啦队的反击</a></h3>
+              <p>被精英啦啦队开除后，一群“怪咖”女生组建了一支史上最“不齐”的啦啦队，向冠军发起冲击。</p>
+              <div class="chip-row"><span>美国</span><span>电影</span><span>2027</span><span>女力觉醒</span><span>校园逆袭</span><span>爽快复仇</span><span>热舞竞技</span></div>
+            </div>
+          </article>
+          </div>
+        </section>
+      </div>
+    </main>
+    <footer class="site-footer">
+      <div class="container footer-grid">
+        <div>
+          <a class="footer-brand" href="index.html">
+            <span class="brand-mark">影</span>
+            <span>高清影片合集</span>
+          </a>
+          <p>整理近期上线的电影内容，包含动作、剧情、喜剧等多种类型，页面信息清晰，适合按更新和热度查找影片。</p>
+        </div>
+        <div>
+          <h2>快速入口</h2>
+          <ul>
+            <li><a href="index.html">首页</a></li>
+            <li><a href="categories.html">分类总览</a></li>
+            <li><a href="search.html">影片搜索</a></li>
+            <li><a href="rank.html">热播榜</a></li>
+          </ul>
+        </div>
+        <div>
+          <h2>影片分类</h2>
+          <ul>
+              <li><a href="category-new-releases.html">最新热映</a></li>
+              <li><a href="category-action-adventure.html">动作冒险</a></li>
+              <li><a href="category-drama-emotion.html">剧情情感</a></li>
+              <li><a href="category-comedy-life.html">喜剧生活</a></li>
+              <li><a href="category-romance-love.html">爱情都市</a></li>
+              <li><a href="category-crime-suspense.html">犯罪悬疑</a></li>
+              <li><a href="category-fantasy-scifi.html">奇幻科幻</a></li>
+              <li><a href="category-animation-family.html">动画少儿</a></li>
+              <li><a href="category-classic-hk.html">港台经典</a></li>
+              <li><a href="category-global-selection.html">环球佳片</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="footer-bottom">© 2026 高清影片合集 · 最新电影与热门影片索引</div>
+    </footer>
+<script>
+var _hmt = _hmt || [];
+(function() {
+  var hm = document.createElement("script");
+  hm.src = "https://hm.baidu.com/hm.js?60fa60a3da050a73eefefaaebe0afaf5";
+  var s = document.getElementsByTagName("script")[0]; 
+  s.parentNode.insertBefore(hm, s);
+})();
+</script>
+  </body>
+</html>
